@@ -1,0 +1,34 @@
+Source: https://fortune.com/2026/02/04/trm-labs-blockchain-analytics-funding-round-series-c-unicorn-goldman/ ; cross-referenced: https://www.cbinsights.com/company/trm-labs ; CrunchBase
+Fetched: 2026-05-24
+Status: ok (Fortune article content captured via web search)
+Citation: Fortune Magazine (Reuters/Fortune Crypto), "Crypto crime-fighting startup TRM Labs notches $1 billion valuation with new $70 million funding round," February 4, 2026.
+
+KEY TEXT:
+
+Publication: February 4, 2026.
+
+Subject: TRM Labs (P04) Series C funding round.
+
+Key facts reported:
+- Funding amount: $70 million.
+- Lead investor: Goldman Sachs (institutional crypto-credibility signal).
+- Valuation: $1 billion (unicorn status reached).
+- Co-Founder & CEO: Esteban Castaño (Dartmouth BA; withdrew from Stanford Graduate School of Business to co-found TRM Labs in 2018).
+- TRM Labs has positioned itself as a top-tier alternative to Chainalysis and Elliptic in the public-sector and FI markets.
+
+Company profile (from accompanying coverage):
+- Detects, monitors, and investigates crypto-facilitated crime.
+- Products: forensics suite, tactical investigations, transaction monitoring, wallet screening, incident response.
+- Customer base: U.S. federal agencies (IRS, FBI, DOJ, Secret Service), regulators (UK FCA, Singapore MAS), financial institutions, crypto exchanges.
+- Notable third-party recognition cited: "highest customer-satisfaction rating in crypto compliance survey" (Chartis 2024) — independent analyst attestation.
+
+Industry context: Fortune notes the funding occurs against a backdrop of "renewed regulatory clarity" and "increased institutional adoption of crypto" — positioning TRM Labs as one of the consolidating leaders.
+
+Comparative context: Chainalysis raised $535M, valued at $8.6B (2022). TRM is the principal challenger.
+
+IMPLICATIONS FOR WEB3 REGTECH CODING:
+- TRM Labs (P04): independent industry attestation of enterprise-grade market position; Goldman Sachs lead-investor status validates institutional credibility.
+- D01 Transaction Monitoring, D02 Real-Time Risk Scoring, D03 Address Attribution: product-suite description substantiates Full coverage.
+- D04 Multi-Hop Tracing, D10 Behavioral Analytics: forensics suite substantiation.
+- D05 Cross-Chain Tracking: TRM markets cross-chain coverage prominently — supports Full or Partial coverage.
+- D24 SAR Generation, D25 Regulatory Reporting: VASP-and-FI customer base demonstrates regulatory-reporting capability.

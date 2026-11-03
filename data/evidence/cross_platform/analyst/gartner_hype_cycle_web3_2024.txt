@@ -1,0 +1,40 @@
+Source: https://www.gartner.com/en/documents/5623191 (Hype Cycle for Web3 and Blockchain, 2024); coverage: https://www.ledgerinsights.com/gartner-hype-cycle-stablecoins-to-go-mainstream-within-two-years/
+Fetched: 2026-05-24
+Status: partial (Gartner gates the full report; public summary content captured via web search + LedgerInsights + DigitalAsset blog)
+Citation: Gartner, "Hype Cycle for Web3 and Blockchain, 2024." Published July 2024. Authors include Adrian Leow, Avivah Litan.
+
+KEY FINDINGS (from publicly available Gartner summary content):
+
+Publication: July 2024.
+
+Methodology: Gartner Hype Cycle places technologies along five phases — Innovation Trigger, Peak of Inflated Expectations, Trough of Disillusionment, Slope of Enlightenment, Plateau of Productivity.
+
+Technology positions (2024):
+
+Approaching Slope of Enlightenment / Plateau:
+- Decentralized Finance (DeFi)
+- Blockchain Wallets
+- Consensus Mechanisms
+- Stablecoins (predicted "mainstream adoption within 2 years")
+- Smart Contracts (predicted "mainstream adoption within 2 years")
+
+At Peak of Inflated Expectations:
+- Decentralized Autonomous Organizations (DAOs)
+- Metaverse
+
+In Trough of Disillusionment:
+- Non-Fungible Tokens (NFTs)
+- Smart Contracts (scalability/security growing pains)
+
+Key macro themes:
+- "A major trend in 2024 is the increasing regulatory clarity surrounding blockchain technologies, with governments around the world introducing new frameworks for cryptocurrencies, NFTs, and DeFi to address issues such as money laundering, fraud, and consumer protection."
+- AI-blockchain convergence: "The emergence of AI and collaborative tech partnerships opens new opportunities to combine blockchain and AI, enhancing trust and transparency in distributed networks."
+
+Implied vendor implications:
+- Blockchain analytics / compliance tooling is positioned within the "regulatory clarity" macro-theme — Chainalysis, Elliptic, TRM Labs, CipherTrace operate at the intersection of stablecoin/DeFi maturation and AI-blockchain convergence.
+
+IMPLICATIONS FOR WEB3 REGTECH CODING:
+- Independent (Gartner) third-party industry-analyst attestation that regulatory-clarity-driven compliance tooling is a top-3 macro driver of Web3 industry maturation.
+- D06 DeFi Semantic Analysis: DeFi entering Slope of Enlightenment validates demand for production-grade DeFi-monitoring (Forta P12, Hypernative P14, AnChain.AI P20, Gauntlet P17, Chaos Labs P16).
+- D08 Graph Neural Networks and D09 ML/DL Techniques: AI-blockchain convergence theme supports ML-based analytics across all comprehensive vendors.
+- D11 Travel Rule Support, D12 KYC Integration, D25 Regulatory Reporting: regulatory-clarity emphasis validates the entire RegTech category.

@@ -1,0 +1,23 @@
+URL: https://risk.lexisnexis.com/financial-services/financial-crime-compliance
+Fetched: 2026-05-24
+Status: ok
+
+# Financial Crime Compliance Solutions - Content Summary
+
+## Bridger Insight® XG
+The page describes this product as: **"Automate account and payment screening with real-time insights into AML, ABC and CFT risks"**
+
+## AML Transaction Monitoring
+Listed as "Proactive Monitoring Solutions" with the description: **"Safeguard your organization with ongoing monitoring and financial crime risk management"**
+
+## Key Compliance Capabilities Mentioned
+The page outlines solutions addressing:
+- **"Anti-Money Laundering"** - described as helping organizations "Manage complex Anti-Money Laundering (AML) and Counter-Terrorism Financing (CFT) risks with confidence"
+- **Sanctions and Watchlist Screening** - described to "Stay ahead of compliance requirements with our Watchlist Screening solutions"
+- **Customer Due Diligence** - supporting "Know Your Customer (KYC)" processes
+
+## Global Data Coverage
+The solution references **"over 7 million structured profiles"** covering **"more than 60 risk categories and subcategories"** including sanctions, PEPs, and adverse media.
+
+## Stated Client Base
+The page claims **"45 of the world's top 50 banks"** use their services, with **"over 20 years in the industry."**

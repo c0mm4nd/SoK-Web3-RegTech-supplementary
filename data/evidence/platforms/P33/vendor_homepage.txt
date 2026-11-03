@@ -1,0 +1,26 @@
+URL: https://www.privado.id
+Fetched: 2026-05-24
+Status: ok (Polygon ID was renamed to Privado ID; primary domain is privado.id)
+
+--- Extracted content ---
+
+Privado ID: Key Concepts
+
+Polygon ID / Privado ID:
+The platform is now called Privado ID (formerly Polygon ID). It's described as "middleware infrastructure and tools for applications that implement privacy-preserving digital identity."
+
+Self-Sovereign Identity:
+The core principle emphasizes user control: "empowering users to own their data and share it only with their consent." The system implements "W3C and DIF standards" following "SSI principles."
+
+Zero-Knowledge Proofs:
+The technology serves two functions here:
+1. Privacy preservation: "the user can send a proof of any information inside a credential to the Verifier without revealing the information"
+2. Computation verification: proving "that a computation has been performed correctly without the Verifier having to recompute it"
+
+Key Capabilities:
+- Credential reusability: Users "can reuse their credentials in different applications"
+- Multi-device access: Credentials work "across multiple devices using just an authenticator"
+- Open-source foundation: Available "under MIT/Apache licenses"
+- Interoperability: Works with "any EVM-compatible blockchain"
+
+The system enables "Instant Global Scale" by allowing users to "benefit from an entire ecosystem of providers" rather than choosing a single credential source.

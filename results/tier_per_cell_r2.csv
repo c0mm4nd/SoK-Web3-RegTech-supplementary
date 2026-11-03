@@ -1,0 +1,1026 @@
+platform_id,dim_id,score_R1,score_R2,evidence_tier,citations
+P01,D01,2,2,T2,cross_platform/analyst/chainalysis_2025_crypto_crime_report.txt;cross_platform/papers/wu2023tracerscalablegraphbased.txt;platforms/P01/narrative.md;platforms/P01/vendor_solutions.txt
+P01,D02,2,2,T1,cross_platform/analyst/chainalysis_2024_crypto_crime_report.txt;cross_platform/analyst/chainalysis_2025_crypto_crime_report.txt;platforms/P01/narrative.md;platforms/P01/vendor_homepage.txt;platforms/P01/vendor_solutions.txt
+P01,D03,2,2,T2,cross_platform/analyst/chainalysis_2025_crypto_crime_report.txt;cross_platform/papers/wu2023tracerscalablegraphbased.txt;cross_platform/regulator/ofac_lazarus_ronin_apr2022.txt;platforms/P01/vendor_homepage.txt;platforms/P01/vendor_solutions.txt
+P01,D04,2,2,T2,cross_platform/papers/wu2023tracerscalablegraphbased.txt;platforms/P01/vendor_solutions.txt
+P01,D05,2,2,T1,cross_platform/analyst/chainalysis_2025_crypto_crime_report.txt;cross_platform/regulator/ofac_lazarus_ronin_apr2022.txt;platforms/P01/vendor_solutions.txt
+P01,D06,1,1,T1,platforms/P01/vendor_solutions.txt
+P01,D07,0,1,T1,no evidence in shared dossier;platforms/P01/vendor_homepage.txt
+P01,D08,1,1,T1,platforms/P01/narrative.md;platforms/P01/vendor_homepage.txt
+P01,D09,2,2,T1,cross_platform/analyst/chainalysis_2024_crypto_crime_report.txt;cross_platform/analyst/chainalysis_2025_crypto_crime_report.txt;platforms/P01/narrative.md;platforms/P01/vendor_homepage.txt
+P01,D10,2,2,T1,cross_platform/analyst/chainalysis_2025_crypto_crime_report.txt;platforms/P01/vendor_homepage.txt;platforms/P01/vendor_solutions.txt
+P01,D11,0,0,NA,no evidence in shared dossier
+P01,D12,1,1,T1,platforms/P01/vendor_homepage.txt;platforms/P01/vendor_solutions.txt
+P01,D13,0,0,NA,no evidence in shared dossier
+P01,D14,0,0,NA,no evidence in shared dossier
+P01,D15,1,1,T1,cross_platform/papers/kappos2018empiricalanalysisanonymity.txt;cross_platform/papers/kumar2017traceabilityanalysismoneros.txt;platforms/P01/vendor_homepage.txt
+P01,D16,2,2,T1,cross_platform/regulator/fincen_cvc_mixing_npr_oct2023.txt;cross_platform/regulator/ofac_tornado_cash_aug2022.txt;platforms/P01/vendor_solutions.txt
+P01,D17,0,0,NA,no evidence in shared dossier
+P01,D18,0,0,NA,no evidence in shared dossier
+P01,D19,0,0,NA,no evidence in shared dossier
+P01,D20,0,0,NA,no evidence in shared dossier
+P01,D21,1,1,T1,platforms/P01/vendor_homepage.txt;platforms/P01/vendor_solutions.txt
+P01,D22,1,2,T1,cross_platform/regulator/ofac_lazarus_ronin_apr2022.txt;platforms/P01/vendor_homepage.txt
+P01,D23,2,1,T1,cross_platform/analyst/chainalysis_2025_crypto_crime_report.txt;platforms/P01/vendor_solutions.txt
+P01,D24,1,1,T1,platforms/P01/vendor_homepage.txt
+P01,D25,2,1,T1,cross_platform/regulator/eu_mica_regulation_2023.txt;cross_platform/regulator/fincen_cvc_mixing_npr_oct2023.txt;platforms/P01/vendor_homepage.txt
+P02,D01,2,2,T1,cross_platform/papers/weber2019antimoneylaunderingbitcoin.txt;platforms/P02/narrative.md;platforms/P02/vendor_homepage.txt
+P02,D02,2,2,T1,cross_platform/analyst/elliptic_ibm_mit_elliptic2_may2024.txt;platforms/P02/narrative.md;platforms/P02/vendor_homepage.txt
+P02,D03,2,2,T1,cross_platform/analyst/elliptic_ibm_mit_elliptic2_may2024.txt;cross_platform/papers/weber2019antimoneylaunderingbitcoin.txt;platforms/P02/vendor_homepage.txt
+P02,D04,2,2,T2,cross_platform/papers/wu2023tracerscalablegraphbased.txt;platforms/P02/vendor_homepage.txt
+P02,D05,2,2,T1,cross_platform/papers/yousaf2019tracingtransactionscryptocurrency.txt;platforms/P02/vendor_homepage.txt
+P02,D06,1,1,T1,platforms/P02/vendor_homepage.txt
+P02,D07,0,0,NA,no evidence in shared dossier
+P02,D08,2,2,T1,cross_platform/analyst/elliptic_ibm_mit_elliptic2_may2024.txt;cross_platform/papers/weber2019antimoneylaunderingbitcoin.txt;platforms/P02/narrative.md
+P02,D09,2,2,T2,cross_platform/papers/alarab2020comparativeanalysisusing.txt;cross_platform/papers/weber2019antimoneylaunderingbitcoin.txt;platforms/P02/vendor_homepage.txt
+P02,D10,2,2,T1,cross_platform/analyst/elliptic_ibm_mit_elliptic2_may2024.txt;platforms/P02/narrative.md;platforms/P02/vendor_solutions.txt
+P02,D11,0,0,NA,no evidence in shared dossier
+P02,D12,1,1,T1,platforms/P02/vendor_homepage.txt
+P02,D13,0,0,NA,no evidence in shared dossier
+P02,D14,0,0,NA,no evidence in shared dossier
+P02,D15,1,1,T1,cross_platform/papers/kappos2018empiricalanalysisanonymity.txt;platforms/P02/vendor_homepage.txt
+P02,D16,1,2,T1,cross_platform/papers/wu2021detectingmixingservices.txt;cross_platform/regulator/ofac_tornado_cash_aug2022.txt;platforms/P02/vendor_homepage.txt
+P02,D17,0,0,NA,no evidence in shared dossier
+P02,D18,0,0,NA,no evidence in shared dossier
+P02,D19,0,0,NA,no evidence in shared dossier
+P02,D20,0,0,NA,no evidence in shared dossier
+P02,D21,1,1,T1,platforms/P02/vendor_homepage.txt;platforms/P02/vendor_solutions.txt
+P02,D22,1,1,T1,platforms/P02/vendor_homepage.txt
+P02,D23,1,1,T1,platforms/P02/vendor_homepage.txt
+P02,D24,0,0,NA,no evidence in shared dossier
+P02,D25,1,1,T1,cross_platform/regulator/eu_mica_regulation_2023.txt;platforms/P02/vendor_homepage.txt
+P03,D01,1,1,T1,platforms/P03/narrative.md
+P03,D02,0,1,T1,no evidence in shared dossier;platforms/P03/narrative.md
+P03,D03,1,1,T1,cross_platform/regulator/doj_binance_settlement_nov2023.txt;platforms/P03/narrative.md
+P03,D04,1,1,T1,platforms/P03/narrative.md
+P03,D05,0,0,NA,no evidence in shared dossier
+P03,D06,0,0,NA,no evidence in shared dossier
+P03,D07,0,0,NA,no evidence in shared dossier
+P03,D08,0,0,NA,no evidence in shared dossier
+P03,D09,1,1,T1,platforms/P03/narrative.md
+P03,D10,1,1,T1,cross_platform/papers/meiklejohn2013fistfulbitcoinscharacterizing.txt;platforms/P03/narrative.md
+P03,D11,0,0,NA,no evidence in shared dossier
+P03,D12,0,0,NA,no evidence in shared dossier
+P03,D13,0,0,NA,no evidence in shared dossier
+P03,D14,0,0,NA,no evidence in shared dossier
+P03,D15,1,1,T1,cross_platform/papers/kappos2018empiricalanalysisanonymity.txt;cross_platform/papers/kumar2017traceabilityanalysismoneros.txt;platforms/P03/narrative.md
+P03,D16,1,0,T1,cross_platform/papers/wu2021detectingmixingservices.txt;no evidence in shared dossier
+P03,D17,0,0,NA,no evidence in shared dossier
+P03,D18,0,0,NA,no evidence in shared dossier
+P03,D19,0,0,NA,no evidence in shared dossier
+P03,D20,0,0,NA,no evidence in shared dossier
+P03,D21,0,0,NA,no evidence in shared dossier
+P03,D22,0,0,NA,no evidence in shared dossier
+P03,D23,0,0,NA,no evidence in shared dossier
+P03,D24,0,0,NA,no evidence in shared dossier
+P03,D25,0,0,NA,no evidence in shared dossier
+P04,D01,2,2,T2,cross_platform/analyst/forbes_trm_unicorn_2026.txt;platforms/P04/narrative.md;platforms/P04/vendor_homepage.txt
+P04,D02,2,2,T2,cross_platform/analyst/forbes_trm_unicorn_2026.txt;platforms/P04/vendor_homepage.txt
+P04,D03,2,2,T2,cross_platform/analyst/forbes_trm_unicorn_2026.txt;cross_platform/analyst/trm_labs_2024_crypto_crime_report.txt;platforms/P04/vendor_products.txt
+P04,D04,2,2,T2,cross_platform/analyst/forbes_trm_unicorn_2026.txt;platforms/P04/vendor_homepage.txt
+P04,D05,2,2,T1,cross_platform/analyst/trm_labs_2024_crypto_crime_report.txt;cross_platform/papers/li2025blockchaincrosschainbridge.txt;platforms/P04/vendor_homepage.txt
+P04,D06,1,1,T1,platforms/P04/vendor_homepage.txt
+P04,D07,0,0,NA,no evidence in shared dossier
+P04,D08,1,1,T1,cross_platform/papers/ferretti2025gnnamlframeworks.txt;platforms/P04/narrative.md
+P04,D09,2,2,T2,cross_platform/analyst/forbes_trm_unicorn_2026.txt;cross_platform/analyst/trm_labs_2024_crypto_crime_report.txt;platforms/P04/vendor_homepage.txt;platforms/P04/vendor_products.txt
+P04,D10,2,2,T1,cross_platform/analyst/trm_labs_2024_crypto_crime_report.txt;platforms/P04/vendor_products.txt
+P04,D11,1,1,T1,cross_platform/regulator/fatf_targeted_update_vasp_jun2023.txt;platforms/P04/vendor_homepage.txt
+P04,D12,1,1,T2,cross_platform/analyst/forbes_trm_unicorn_2026.txt;platforms/P04/vendor_homepage.txt;platforms/P04/vendor_products.txt
+P04,D13,0,0,NA,no evidence in shared dossier
+P04,D14,0,0,NA,no evidence in shared dossier
+P04,D15,1,1,T1,cross_platform/analyst/trm_labs_2024_crypto_crime_report.txt;platforms/P04/vendor_homepage.txt
+P04,D16,2,2,T1,cross_platform/analyst/trm_labs_2024_crypto_crime_report.txt;cross_platform/papers/wu2021detectingmixingservices.txt;cross_platform/regulator/fincen_cvc_mixing_npr_oct2023.txt;cross_platform/regulator/ofac_tornado_cash_aug2022.txt;platforms/P04/vendor_homepage.txt
+P04,D17,0,0,NA,no evidence in shared dossier
+P04,D18,0,0,NA,no evidence in shared dossier
+P04,D19,0,0,NA,no evidence in shared dossier
+P04,D20,0,0,NA,no evidence in shared dossier
+P04,D21,1,2,T2,cross_platform/analyst/forbes_trm_unicorn_2026.txt;platforms/P04/vendor_homepage.txt
+P04,D22,1,1,T1,platforms/P04/vendor_homepage.txt
+P04,D23,2,2,T2,cross_platform/analyst/forbes_trm_unicorn_2026.txt;platforms/P04/vendor_homepage.txt
+P04,D24,1,1,T1,platforms/P04/vendor_homepage.txt;platforms/P04/vendor_products.txt
+P04,D25,2,1,T2,cross_platform/analyst/forbes_trm_unicorn_2026.txt;platforms/P04/vendor_homepage.txt
+P05,D01,2,2,T1,cross_platform/analyst/merkle_science_series_a_aug2022.txt;platforms/P05/narrative.md;platforms/P05/vendor_homepage.txt
+P05,D02,2,2,T1,cross_platform/analyst/merkle_science_series_a_aug2022.txt;platforms/P05/vendor_homepage.txt
+P05,D03,2,2,T1,cross_platform/analyst/merkle_science_series_a_aug2022.txt;platforms/P05/narrative.md;platforms/P05/vendor_homepage.txt
+P05,D04,1,2,T1,cross_platform/analyst/merkle_science_series_a_aug2022.txt;platforms/P05/vendor_homepage.txt
+P05,D05,2,2,T1,cross_platform/analyst/merkle_science_series_a_aug2022.txt;platforms/P05/vendor_homepage.txt
+P05,D06,1,1,T1,platforms/P05/vendor_homepage.txt
+P05,D07,0,0,NA,no evidence in shared dossier
+P05,D08,1,1,T1,cross_platform/papers/wu2021detectingmixingservices.txt;platforms/P05/narrative.md
+P05,D09,2,2,T1,cross_platform/analyst/merkle_science_series_a_aug2022.txt;platforms/P05/vendor_homepage.txt
+P05,D10,2,2,T1,cross_platform/analyst/merkle_science_series_a_aug2022.txt;platforms/P05/vendor_homepage.txt
+P05,D11,0,0,NA,no evidence in shared dossier
+P05,D12,1,1,T1,platforms/P05/vendor_homepage.txt
+P05,D13,0,0,NA,no evidence in shared dossier
+P05,D14,0,0,NA,no evidence in shared dossier
+P05,D15,0,1,T1,cross_platform/papers/yousaf2019tracingtransactionscryptocurrency.txt;no evidence in shared dossier;platforms/P05/vendor_homepage.txt
+P05,D16,1,2,T1,cross_platform/papers/wu2021detectingmixingservices.txt;cross_platform/regulator/fincen_cvc_mixing_npr_oct2023.txt;platforms/P05/vendor_homepage.txt
+P05,D17,0,0,NA,no evidence in shared dossier
+P05,D18,0,0,NA,no evidence in shared dossier
+P05,D19,0,0,NA,no evidence in shared dossier
+P05,D20,0,0,NA,no evidence in shared dossier
+P05,D21,1,1,T1,platforms/P05/vendor_homepage.txt
+P05,D22,1,2,T1,cross_platform/analyst/merkle_science_series_a_aug2022.txt;platforms/P05/vendor_homepage.txt
+P05,D23,1,1,T1,platforms/P05/vendor_homepage.txt
+P05,D24,0,1,T1,no evidence in shared dossier;platforms/P05/vendor_homepage.txt
+P05,D25,1,1,T1,cross_platform/regulator/eu_mica_regulation_2023.txt;platforms/P05/vendor_homepage.txt
+P06,D01,1,2,T1,platforms/P06/narrative.md;platforms/P06/vendor_homepage.txt
+P06,D02,2,2,T1,platforms/P06/vendor_homepage.txt
+P06,D03,1,1,T1,platforms/P06/vendor_homepage.txt
+P06,D04,2,2,T1,platforms/P06/vendor_homepage.txt
+P06,D05,1,2,T1,platforms/P06/vendor_homepage.txt
+P06,D06,0,1,T1,no evidence in shared dossier;platforms/P06/vendor_homepage.txt
+P06,D07,0,0,NA,no evidence in shared dossier
+P06,D08,0,0,NA,no evidence in shared dossier
+P06,D09,1,1,T1,platforms/P06/narrative.md;platforms/P06/vendor_homepage.txt
+P06,D10,1,1,T1,platforms/P06/vendor_homepage.txt
+P06,D11,1,2,T1,platforms/P06/vendor_homepage.txt
+P06,D12,1,1,T1,platforms/P06/vendor_homepage.txt
+P06,D13,0,0,NA,no evidence in shared dossier
+P06,D14,0,0,NA,no evidence in shared dossier
+P06,D15,0,0,NA,no evidence in shared dossier
+P06,D16,1,1,T1,platforms/P06/vendor_homepage.txt
+P06,D17,0,0,NA,no evidence in shared dossier
+P06,D18,0,0,NA,no evidence in shared dossier
+P06,D19,0,0,NA,no evidence in shared dossier
+P06,D20,0,0,NA,no evidence in shared dossier
+P06,D21,2,2,T1,platforms/P06/vendor_homepage.txt
+P06,D22,1,2,T1,platforms/P06/vendor_homepage.txt
+P06,D23,1,1,T1,platforms/P06/vendor_homepage.txt
+P06,D24,1,2,T1,platforms/P06/vendor_homepage.txt
+P06,D25,2,2,T1,platforms/P06/vendor_homepage.txt
+P07,D01,1,1,T1,platforms/P07/narrative.md;platforms/P07/vendor_alt_lukka_blockchain_analytics.txt
+P07,D02,1,1,T1,platforms/P07/narrative.md;platforms/P07/vendor_alt_lukka_blockchain_analytics.txt
+P07,D03,1,1,T1,platforms/P07/vendor_alt_lukka_blockchain_analytics.txt
+P07,D04,1,1,T1,platforms/P07/vendor_alt_lukka_blockchain_analytics.txt
+P07,D05,0,0,NA,no evidence in shared dossier
+P07,D06,0,0,NA,no evidence in shared dossier
+P07,D07,0,0,NA,no evidence in shared dossier
+P07,D08,0,0,NA,no evidence in shared dossier
+P07,D09,1,1,T1,platforms/P07/narrative.md
+P07,D10,1,1,T1,platforms/P07/narrative.md;platforms/P07/vendor_alt_lukka_blockchain_analytics.txt
+P07,D11,0,0,NA,no evidence in shared dossier
+P07,D12,1,0,T1,no evidence in shared dossier;platforms/P07/narrative.md
+P07,D13,0,0,NA,no evidence in shared dossier
+P07,D14,0,0,NA,no evidence in shared dossier
+P07,D15,0,0,NA,no evidence in shared dossier
+P07,D16,0,0,NA,no evidence in shared dossier
+P07,D17,0,0,NA,no evidence in shared dossier
+P07,D18,0,0,NA,no evidence in shared dossier
+P07,D19,0,0,NA,no evidence in shared dossier
+P07,D20,0,0,NA,no evidence in shared dossier
+P07,D21,1,1,T1,platforms/P07/vendor_alt_lukka_main.txt
+P07,D22,0,0,NA,no evidence in shared dossier
+P07,D23,1,0,T1,no evidence in shared dossier;platforms/P07/vendor_alt_lukka_blockchain_analytics.txt
+P07,D24,0,0,NA,no evidence in shared dossier
+P07,D25,1,0,T1,no evidence in shared dossier;platforms/P07/vendor_alt_lukka_blockchain_analytics.txt
+P08,D01,2,2,T1,platforms/P08/narrative.md;platforms/P08/vendor_homepage.txt;platforms/P08/vendor_products.txt
+P08,D02,2,2,T1,platforms/P08/vendor_homepage.txt;platforms/P08/vendor_products.txt
+P08,D03,2,2,T1,platforms/P08/vendor_homepage.txt;platforms/P08/vendor_products.txt
+P08,D04,1,2,T1,platforms/P08/vendor_homepage.txt;platforms/P08/vendor_products.txt
+P08,D05,2,2,T1,platforms/P08/vendor_homepage.txt
+P08,D06,0,1,T1,no evidence in shared dossier;platforms/P08/vendor_products.txt
+P08,D07,0,0,NA,no evidence in shared dossier
+P08,D08,1,1,T1,cross_platform/papers/wu2021detectingmixingservices.txt;platforms/P08/narrative.md
+P08,D09,1,1,T1,cross_platform/papers/pocher2023detectinganomalouscryptocurrency.txt;platforms/P08/vendor_homepage.txt
+P08,D10,1,2,T1,cross_platform/papers/meiklejohn2013fistfulbitcoinscharacterizing.txt;platforms/P08/vendor_homepage.txt
+P08,D11,0,0,NA,no evidence in shared dossier
+P08,D12,1,1,T1,platforms/P08/vendor_homepage.txt
+P08,D13,0,0,NA,no evidence in shared dossier
+P08,D14,0,0,NA,no evidence in shared dossier
+P08,D15,0,1,T1,no evidence in shared dossier;platforms/P08/vendor_homepage.txt
+P08,D16,1,2,T1,cross_platform/papers/wu2021detectingmixingservices.txt;cross_platform/regulator/fincen_cvc_mixing_npr_oct2023.txt;platforms/P08/vendor_homepage.txt
+P08,D17,0,0,NA,no evidence in shared dossier
+P08,D18,0,0,NA,no evidence in shared dossier
+P08,D19,0,0,NA,no evidence in shared dossier
+P08,D20,0,0,NA,no evidence in shared dossier
+P08,D21,1,1,T1,platforms/P08/vendor_homepage.txt
+P08,D22,1,2,T1,platforms/P08/vendor_homepage.txt;platforms/P08/vendor_products.txt
+P08,D23,2,2,T1,platforms/P08/vendor_homepage.txt;platforms/P08/vendor_products.txt
+P08,D24,0,0,NA,no evidence in shared dossier
+P08,D25,1,1,T1,cross_platform/regulator/doj_binance_settlement_nov2023.txt;platforms/P08/vendor_homepage.txt
+P09,D01,2,2,T1,cross_platform/analyst/solidus_labs_wash_trading_sep2023.txt;platforms/P09/narrative.md;platforms/P09/vendor_homepage.txt;platforms/P09/vendor_platform.txt
+P09,D02,2,2,T1,cross_platform/analyst/solidus_labs_wash_trading_sep2023.txt;platforms/P09/vendor_homepage.txt;platforms/P09/vendor_platform.txt
+P09,D03,0,0,NA,no evidence in shared dossier
+P09,D04,0,0,NA,no evidence in shared dossier
+P09,D05,0,1,T1,no evidence in shared dossier;platforms/P09/vendor_homepage.txt
+P09,D06,1,2,T1,cross_platform/analyst/solidus_labs_wash_trading_sep2023.txt;platforms/P09/vendor_homepage.txt
+P09,D07,1,1,T1,platforms/P09/vendor_homepage.txt
+P09,D08,0,0,NA,no evidence in shared dossier
+P09,D09,1,2,T1,cross_platform/analyst/solidus_labs_wash_trading_sep2023.txt;platforms/P09/narrative.md;platforms/P09/vendor_platform.txt
+P09,D10,2,2,T1,cross_platform/analyst/solidus_labs_wash_trading_sep2023.txt;cross_platform/papers/victor2021detectingquantifyingwash.txt;platforms/P09/vendor_platform.txt
+P09,D11,0,0,NA,no evidence in shared dossier
+P09,D12,1,1,T1,platforms/P09/vendor_homepage.txt;platforms/P09/vendor_platform.txt
+P09,D13,0,0,NA,no evidence in shared dossier
+P09,D14,0,0,NA,no evidence in shared dossier
+P09,D15,0,0,NA,no evidence in shared dossier
+P09,D16,0,0,NA,no evidence in shared dossier
+P09,D17,0,0,NA,no evidence in shared dossier
+P09,D18,0,0,NA,no evidence in shared dossier
+P09,D19,0,0,NA,no evidence in shared dossier
+P09,D20,0,0,NA,no evidence in shared dossier
+P09,D21,1,1,T1,platforms/P09/vendor_platform.txt
+P09,D22,1,2,T1,platforms/P09/vendor_platform.txt
+P09,D23,2,2,T1,platforms/P09/vendor_homepage.txt;platforms/P09/vendor_platform.txt
+P09,D24,0,1,T1,no evidence in shared dossier;platforms/P09/vendor_platform.txt
+P09,D25,1,1,T1,cross_platform/regulator/eu_mica_regulation_2023.txt;platforms/P09/vendor_platform.txt
+P10,D01,1,1,T1,platforms/P10/narrative.md
+P10,D02,0,1,T1,no evidence in shared dossier;platforms/P10/narrative.md
+P10,D03,1,1,T1,platforms/P10/narrative.md
+P10,D04,1,1,T1,platforms/P10/narrative.md
+P10,D05,0,0,NA,no evidence in shared dossier
+P10,D06,0,0,NA,no evidence in shared dossier
+P10,D07,0,0,NA,no evidence in shared dossier
+P10,D08,0,0,NA,no evidence in shared dossier
+P10,D09,0,0,NA,no evidence in shared dossier
+P10,D10,1,1,T1,platforms/P10/narrative.md
+P10,D11,0,0,NA,no evidence in shared dossier
+P10,D12,0,0,NA,no evidence in shared dossier
+P10,D13,0,0,NA,no evidence in shared dossier
+P10,D14,0,0,NA,no evidence in shared dossier
+P10,D15,0,0,NA,no evidence in shared dossier
+P10,D16,0,0,NA,no evidence in shared dossier
+P10,D17,0,0,NA,no evidence in shared dossier
+P10,D18,0,0,NA,no evidence in shared dossier
+P10,D19,0,0,NA,no evidence in shared dossier
+P10,D20,0,0,NA,no evidence in shared dossier
+P10,D21,0,0,NA,no evidence in shared dossier
+P10,D22,0,0,NA,no evidence in shared dossier
+P10,D23,0,1,T1,no evidence in shared dossier;platforms/P10/narrative.md
+P10,D24,0,0,NA,no evidence in shared dossier
+P10,D25,0,0,NA,no evidence in shared dossier
+P11,D01,2,2,T1,cross_platform/analyst/chainalysis_2025_crypto_crime_report.txt;platforms/P11/narrative.md;platforms/P11/vendor_homepage.txt;platforms/P11/vendor_kyt.txt
+P11,D02,2,2,T1,platforms/P11/narrative.md;platforms/P11/vendor_kyt.txt
+P11,D03,2,1,T2,cross_platform/papers/wu2023tracerscalablegraphbased.txt;cross_platform/regulator/ofac_lazarus_ronin_apr2022.txt;platforms/P11/vendor_kyt.txt
+P11,D04,1,1,T1,platforms/P11/vendor_kyt.txt
+P11,D05,1,1,T1,platforms/P11/vendor_kyt.txt
+P11,D06,0,1,T1,no evidence in shared dossier;platforms/P11/vendor_kyt.txt
+P11,D07,0,0,NA,no evidence in shared dossier
+P11,D08,1,1,T1,platforms/P11/narrative.md
+P11,D09,1,1,T1,platforms/P11/vendor_kyt.txt
+P11,D10,1,1,T1,platforms/P11/vendor_kyt.txt
+P11,D11,0,0,NA,no evidence in shared dossier
+P11,D12,0,1,T1,no evidence in shared dossier;platforms/P11/vendor_kyt.txt
+P11,D13,0,0,NA,no evidence in shared dossier
+P11,D14,0,0,NA,no evidence in shared dossier
+P11,D15,0,0,NA,no evidence in shared dossier
+P11,D16,0,1,T1,cross_platform/regulator/doj_binance_settlement_nov2023.txt;no evidence in shared dossier;platforms/P11/vendor_kyt.txt
+P11,D17,0,0,NA,no evidence in shared dossier
+P11,D18,0,0,NA,no evidence in shared dossier
+P11,D19,0,0,NA,no evidence in shared dossier
+P11,D20,0,0,NA,no evidence in shared dossier
+P11,D21,1,2,T1,platforms/P11/narrative.md;platforms/P11/vendor_kyt.txt
+P11,D22,1,2,T1,platforms/P11/vendor_kyt.txt
+P11,D23,1,1,T1,platforms/P11/vendor_kyt.txt
+P11,D24,0,1,T1,no evidence in shared dossier;platforms/P11/vendor_kyt.txt
+P11,D25,1,1,T1,cross_platform/regulator/doj_binance_settlement_nov2023.txt;platforms/P11/vendor_kyt.txt
+P12,D01,2,2,T1,platforms/P12/narrative.md;platforms/P12/vendor_docs.txt;platforms/P12/vendor_homepage.txt
+P12,D02,1,1,T1,platforms/P12/vendor_homepage.txt
+P12,D03,0,0,NA,no evidence in shared dossier
+P12,D04,0,0,NA,no evidence in shared dossier
+P12,D05,0,1,T1,no evidence in shared dossier;platforms/P12/vendor_homepage.txt
+P12,D06,1,2,T1,cross_platform/papers/qin2021attackingdefiecosystem.txt;platforms/P12/vendor_docs.txt
+P12,D07,2,2,T1,cross_platform/papers/qin2021attackingdefiecosystem.txt;platforms/P12/narrative.md;platforms/P12/vendor_docs.txt;platforms/P12/vendor_homepage.txt
+P12,D08,0,0,NA,no evidence in shared dossier
+P12,D09,1,1,T1,platforms/P12/vendor_homepage.txt
+P12,D10,1,1,T1,platforms/P12/vendor_docs.txt;platforms/P12/vendor_homepage.txt
+P12,D11,0,0,NA,no evidence in shared dossier
+P12,D12,0,0,NA,no evidence in shared dossier
+P12,D13,0,0,NA,no evidence in shared dossier
+P12,D14,0,0,NA,no evidence in shared dossier
+P12,D15,0,0,NA,no evidence in shared dossier
+P12,D16,0,1,T1,cross_platform/regulator/ofac_tornado_cash_aug2022.txt;no evidence in shared dossier;platforms/P12/vendor_homepage.txt
+P12,D17,1,2,T1,cross_platform/papers/daian2020flashboys20.txt;cross_platform/papers/qin2021attackingdefiecosystem.txt;platforms/P12/vendor_docs.txt
+P12,D18,0,0,NA,no evidence in shared dossier
+P12,D19,0,0,NA,no evidence in shared dossier
+P12,D20,0,0,NA,no evidence in shared dossier
+P12,D21,0,2,T1,platforms/P12/narrative.md;platforms/P12/vendor_docs.txt;platforms/P12/vendor_homepage.txt
+P12,D22,2,2,T1,cross_platform/papers/qin2021attackingdefiecosystem.txt;platforms/P12/vendor_docs.txt;platforms/P12/vendor_homepage.txt
+P12,D23,0,0,NA,no evidence in shared dossier
+P12,D24,0,0,NA,no evidence in shared dossier
+P12,D25,0,0,NA,no evidence in shared dossier
+P13,D01,0,1,T1,no evidence in shared dossier;platforms/P13/vendor_homepage.txt
+P13,D02,0,0,NA,no evidence in shared dossier
+P13,D03,0,0,NA,no evidence in shared dossier
+P13,D04,0,0,NA,no evidence in shared dossier
+P13,D05,1,1,T1,platforms/P13/vendor_homepage.txt
+P13,D06,0,0,NA,no evidence in shared dossier
+P13,D07,1,1,T1,platforms/P13/vendor_homepage.txt
+P13,D08,0,0,NA,no evidence in shared dossier
+P13,D09,0,0,NA,no evidence in shared dossier
+P13,D10,0,0,NA,no evidence in shared dossier
+P13,D11,0,0,NA,no evidence in shared dossier
+P13,D12,0,0,NA,no evidence in shared dossier
+P13,D13,0,0,NA,no evidence in shared dossier
+P13,D14,0,0,NA,no evidence in shared dossier
+P13,D15,0,0,NA,no evidence in shared dossier
+P13,D16,0,0,NA,no evidence in shared dossier
+P13,D17,0,0,NA,no evidence in shared dossier
+P13,D18,0,0,NA,no evidence in shared dossier
+P13,D19,0,0,NA,no evidence in shared dossier
+P13,D20,0,0,NA,no evidence in shared dossier
+P13,D21,0,0,NA,no evidence in shared dossier;platforms/P13/narrative.md
+P13,D22,1,1,T1,platforms/P13/vendor_homepage.txt
+P13,D23,0,1,T1,no evidence in shared dossier;platforms/P13/vendor_homepage.txt
+P13,D24,0,0,NA,no evidence in shared dossier
+P13,D25,0,0,NA,no evidence in shared dossier
+P14,D01,2,2,T1,platforms/P14/narrative.md;platforms/P14/vendor_homepage.txt;platforms/P14/vendor_platform.txt
+P14,D02,2,2,T1,platforms/P14/vendor_homepage.txt;platforms/P14/vendor_platform.txt
+P14,D03,1,1,T1,platforms/P14/vendor_homepage.txt
+P14,D04,0,0,NA,no evidence in shared dossier
+P14,D05,1,2,T1,cross_platform/papers/li2025blockchaincrosschainbridge.txt;platforms/P14/vendor_homepage.txt
+P14,D06,1,2,T1,cross_platform/papers/qin2021attackingdefiecosystem.txt;platforms/P14/narrative.md;platforms/P14/vendor_homepage.txt
+P14,D07,2,2,T1,cross_platform/papers/qin2021attackingdefiecosystem.txt;platforms/P14/vendor_homepage.txt;platforms/P14/vendor_platform.txt
+P14,D08,0,0,NA,no evidence in shared dossier
+P14,D09,2,1,T1,platforms/P14/narrative.md;platforms/P14/vendor_homepage.txt;platforms/P14/vendor_platform.txt
+P14,D10,1,1,T1,platforms/P14/vendor_homepage.txt
+P14,D11,0,0,NA,no evidence in shared dossier
+P14,D12,0,0,NA,no evidence in shared dossier
+P14,D13,0,0,NA,no evidence in shared dossier
+P14,D14,0,0,NA,no evidence in shared dossier
+P14,D15,0,0,NA,no evidence in shared dossier
+P14,D16,1,1,T1,cross_platform/regulator/ofac_tornado_cash_aug2022.txt;platforms/P14/narrative.md;platforms/P14/vendor_homepage.txt
+P14,D17,1,2,T1,cross_platform/papers/daian2020flashboys20.txt;platforms/P14/narrative.md;platforms/P14/vendor_homepage.txt
+P14,D18,0,0,NA,no evidence in shared dossier
+P14,D19,0,0,NA,no evidence in shared dossier
+P14,D20,0,0,NA,no evidence in shared dossier
+P14,D21,1,2,T1,platforms/P14/vendor_homepage.txt;platforms/P14/vendor_platform.txt
+P14,D22,2,2,T1,platforms/P14/vendor_homepage.txt
+P14,D23,0,0,NA,no evidence in shared dossier
+P14,D24,0,0,NA,no evidence in shared dossier
+P14,D25,0,0,NA,no evidence in shared dossier
+P15,D01,1,1,T1,platforms/P15/vendor_homepage.txt
+P15,D02,1,1,T1,platforms/P15/vendor_homepage.txt
+P15,D03,0,0,NA,no evidence in shared dossier
+P15,D04,0,0,NA,no evidence in shared dossier
+P15,D05,1,1,T1,platforms/P15/vendor_homepage.txt
+P15,D06,0,1,T1,no evidence in shared dossier;platforms/P15/vendor_homepage.txt
+P15,D07,2,2,T1,platforms/P15/narrative.md;platforms/P15/vendor_homepage.txt
+P15,D08,0,0,NA,no evidence in shared dossier
+P15,D09,1,1,T1,platforms/P15/vendor_homepage.txt
+P15,D10,0,1,T1,no evidence in shared dossier;platforms/P15/vendor_homepage.txt
+P15,D11,0,0,NA,no evidence in shared dossier
+P15,D12,0,0,NA,no evidence in shared dossier
+P15,D13,0,0,NA,no evidence in shared dossier
+P15,D14,0,0,NA,no evidence in shared dossier
+P15,D15,0,0,NA,no evidence in shared dossier
+P15,D16,0,0,NA,no evidence in shared dossier
+P15,D17,1,1,T1,cross_platform/papers/daian2020flashboys20.txt;platforms/P15/vendor_homepage.txt
+P15,D18,0,0,NA,no evidence in shared dossier
+P15,D19,0,0,NA,no evidence in shared dossier
+P15,D20,0,0,NA,no evidence in shared dossier
+P15,D21,1,2,T1,platforms/P15/vendor_homepage.txt
+P15,D22,2,1,T1,platforms/P15/vendor_homepage.txt
+P15,D23,0,0,NA,no evidence in shared dossier
+P15,D24,0,0,NA,no evidence in shared dossier
+P15,D25,0,0,NA,no evidence in shared dossier
+P16,D01,1,1,T1,platforms/P16/vendor_homepage.txt
+P16,D02,2,2,T1,platforms/P16/vendor_homepage.txt
+P16,D03,0,0,NA,no evidence in shared dossier
+P16,D04,0,0,NA,no evidence in shared dossier
+P16,D05,1,1,T1,platforms/P16/vendor_homepage.txt
+P16,D06,2,2,T1,cross_platform/papers/qin2021attackingdefiecosystem.txt;platforms/P16/vendor_homepage.txt
+P16,D07,1,1,T1,platforms/P16/vendor_homepage.txt
+P16,D08,0,0,NA,no evidence in shared dossier
+P16,D09,2,1,T1,platforms/P16/vendor_homepage.txt
+P16,D10,1,1,T1,platforms/P16/vendor_homepage.txt
+P16,D11,0,0,NA,no evidence in shared dossier
+P16,D12,0,0,NA,no evidence in shared dossier
+P16,D13,0,0,NA,no evidence in shared dossier
+P16,D14,0,0,NA,no evidence in shared dossier
+P16,D15,0,0,NA,no evidence in shared dossier
+P16,D16,0,0,NA,no evidence in shared dossier
+P16,D17,0,1,T1,cross_platform/papers/daian2020flashboys20.txt;cross_platform/papers/qin2021attackingdefiecosystem.txt;no evidence in shared dossier;platforms/P16/vendor_homepage.txt
+P16,D18,0,0,NA,no evidence in shared dossier
+P16,D19,0,0,NA,no evidence in shared dossier
+P16,D20,0,0,NA,no evidence in shared dossier
+P16,D21,1,1,T1,platforms/P16/vendor_homepage.txt
+P16,D22,1,1,T1,platforms/P16/vendor_homepage.txt
+P16,D23,0,0,NA,no evidence in shared dossier
+P16,D24,0,0,NA,no evidence in shared dossier
+P16,D25,0,0,NA,no evidence in shared dossier
+P17,D01,0,1,T2,cross_platform/analyst/forbes_fintech_50_2024_crypto.txt;no evidence in shared dossier;platforms/P17/vendor_alt_gauntlet_about.txt
+P17,D02,1,2,T2,cross_platform/analyst/forbes_fintech_50_2024_crypto.txt;platforms/P17/vendor_alt_gauntlet_about.txt;platforms/P17/vendor_alt_gauntlet_xyz.txt
+P17,D03,0,0,NA,no evidence in shared dossier
+P17,D04,0,0,NA,no evidence in shared dossier
+P17,D05,1,1,T1,platforms/P17/vendor_alt_gauntlet_xyz.txt
+P17,D06,2,2,T2,cross_platform/analyst/forbes_fintech_50_2024_crypto.txt;cross_platform/papers/qin2021attackingdefiecosystem.txt;platforms/P17/vendor_alt_gauntlet_about.txt
+P17,D07,1,1,T1,platforms/P17/vendor_alt_gauntlet_about.txt
+P17,D08,0,0,NA,no evidence in shared dossier
+P17,D09,2,1,T2,cross_platform/analyst/forbes_fintech_50_2024_crypto.txt;platforms/P17/vendor_alt_gauntlet_about.txt
+P17,D10,1,1,T1,platforms/P17/vendor_alt_gauntlet_about.txt
+P17,D11,0,0,NA,no evidence in shared dossier
+P17,D12,0,0,NA,no evidence in shared dossier
+P17,D13,0,0,NA,no evidence in shared dossier
+P17,D14,0,0,NA,no evidence in shared dossier
+P17,D15,0,0,NA,no evidence in shared dossier
+P17,D16,0,0,NA,no evidence in shared dossier
+P17,D17,1,1,T2,cross_platform/analyst/forbes_fintech_50_2024_crypto.txt;cross_platform/papers/daian2020flashboys20.txt;platforms/P17/vendor_alt_gauntlet_about.txt
+P17,D18,0,0,NA,no evidence in shared dossier
+P17,D19,0,0,NA,no evidence in shared dossier
+P17,D20,0,0,NA,no evidence in shared dossier
+P17,D21,1,1,T1,platforms/P17/vendor_alt_gauntlet_xyz.txt
+P17,D22,0,1,T1,no evidence in shared dossier;platforms/P17/vendor_alt_gauntlet_about.txt
+P17,D23,0,0,NA,no evidence in shared dossier
+P17,D24,0,0,NA,no evidence in shared dossier
+P17,D25,0,0,NA,no evidence in shared dossier
+P18,D01,1,1,T1,platforms/P18/vendor_homepage.txt
+P18,D02,1,2,T1,platforms/P18/vendor_homepage.txt;platforms/P18/vendor_product.txt
+P18,D03,2,2,T1,platforms/P18/narrative.md;platforms/P18/vendor_homepage.txt;platforms/P18/vendor_product.txt
+P18,D04,0,0,NA,no evidence in shared dossier
+P18,D05,1,1,T1,platforms/P18/vendor_homepage.txt
+P18,D06,1,1,T1,platforms/P18/vendor_homepage.txt
+P18,D07,0,0,NA,no evidence in shared dossier
+P18,D08,0,0,NA,no evidence in shared dossier
+P18,D09,1,1,T1,platforms/P18/vendor_homepage.txt
+P18,D10,2,2,T1,platforms/P18/narrative.md;platforms/P18/vendor_homepage.txt
+P18,D11,0,0,NA,no evidence in shared dossier
+P18,D12,0,0,NA,no evidence in shared dossier
+P18,D13,0,0,NA,no evidence in shared dossier
+P18,D14,0,0,NA,no evidence in shared dossier
+P18,D15,0,0,NA,no evidence in shared dossier
+P18,D16,0,0,NA,no evidence in shared dossier
+P18,D17,0,0,NA,no evidence in shared dossier
+P18,D18,0,0,NA,no evidence in shared dossier
+P18,D19,0,0,NA,no evidence in shared dossier
+P18,D20,0,0,NA,no evidence in shared dossier
+P18,D21,1,1,T1,platforms/P18/vendor_homepage.txt
+P18,D22,1,1,T1,platforms/P18/vendor_homepage.txt
+P18,D23,0,0,NA,no evidence in shared dossier
+P18,D24,0,0,NA,no evidence in shared dossier
+P18,D25,0,0,NA,no evidence in shared dossier
+P19,D01,1,1,T1,platforms/P19/vendor_alt_arkm_info.txt
+P19,D02,0,1,T1,no evidence in shared dossier;platforms/P19/vendor_alt_arkm_info.txt
+P19,D03,2,2,T1,platforms/P19/narrative.md;platforms/P19/vendor_alt_arkm_info.txt
+P19,D04,1,1,T1,platforms/P19/vendor_alt_arkm_info.txt
+P19,D05,1,1,T1,platforms/P19/vendor_alt_arkm_info.txt
+P19,D06,0,0,NA,no evidence in shared dossier
+P19,D07,0,0,NA,no evidence in shared dossier
+P19,D08,0,0,NA,no evidence in shared dossier
+P19,D09,0,1,T1,no evidence in shared dossier;platforms/P19/vendor_alt_arkm_info.txt
+P19,D10,1,1,T1,platforms/P19/narrative.md;platforms/P19/vendor_alt_arkm_info.txt
+P19,D11,0,0,NA,no evidence in shared dossier
+P19,D12,0,0,NA,no evidence in shared dossier
+P19,D13,0,0,NA,no evidence in shared dossier
+P19,D14,0,0,NA,no evidence in shared dossier
+P19,D15,0,0,NA,no evidence in shared dossier
+P19,D16,0,0,NA,no evidence in shared dossier
+P19,D17,0,0,NA,no evidence in shared dossier
+P19,D18,0,0,NA,no evidence in shared dossier
+P19,D19,0,0,NA,no evidence in shared dossier
+P19,D20,0,0,NA,no evidence in shared dossier
+P19,D21,1,1,T1,platforms/P19/vendor_alt_arkm_info.txt
+P19,D22,1,1,T1,platforms/P19/vendor_alt_arkm_info.txt
+P19,D23,0,0,NA,no evidence in shared dossier
+P19,D24,0,0,NA,no evidence in shared dossier
+P19,D25,0,0,NA,no evidence in shared dossier
+P20,D01,2,2,T1,platforms/P20/vendor_homepage.txt;platforms/P20/vendor_products.txt
+P20,D02,2,2,T1,platforms/P20/vendor_homepage.txt
+P20,D03,2,2,T1,platforms/P20/vendor_homepage.txt
+P20,D04,2,2,T1,platforms/P20/narrative.md;platforms/P20/vendor_homepage.txt;platforms/P20/vendor_products.txt
+P20,D05,2,2,T1,cross_platform/papers/li2025blockchaincrosschainbridge.txt;cross_platform/papers/lin2024crosschainabnormaltransaction.txt;platforms/P20/vendor_homepage.txt
+P20,D06,2,2,T1,cross_platform/papers/qin2021attackingdefiecosystem.txt;platforms/P20/vendor_homepage.txt
+P20,D07,2,2,T1,platforms/P20/vendor_homepage.txt;platforms/P20/vendor_products.txt
+P20,D08,1,1,T1,cross_platform/papers/ferretti2025gnnamlframeworks.txt;platforms/P20/narrative.md
+P20,D09,2,2,T1,cross_platform/papers/pocher2023detectinganomalouscryptocurrency.txt;platforms/P20/narrative.md;platforms/P20/vendor_homepage.txt
+P20,D10,2,2,T1,platforms/P20/vendor_homepage.txt
+P20,D11,0,0,NA,no evidence in shared dossier
+P20,D12,1,1,T1,platforms/P20/vendor_homepage.txt
+P20,D13,0,0,NA,no evidence in shared dossier
+P20,D14,0,0,NA,no evidence in shared dossier
+P20,D15,0,1,T1,no evidence in shared dossier;platforms/P20/vendor_homepage.txt
+P20,D16,2,2,T1,cross_platform/regulator/fincen_cvc_mixing_npr_oct2023.txt;cross_platform/regulator/ofac_tornado_cash_aug2022.txt;platforms/P20/vendor_homepage.txt
+P20,D17,0,0,NA,no evidence in shared dossier
+P20,D18,0,0,NA,no evidence in shared dossier
+P20,D19,0,0,NA,no evidence in shared dossier
+P20,D20,0,0,NA,no evidence in shared dossier
+P20,D21,2,2,T1,platforms/P20/vendor_homepage.txt;platforms/P20/vendor_products.txt
+P20,D22,1,2,T1,platforms/P20/vendor_homepage.txt
+P20,D23,2,2,T1,platforms/P20/vendor_homepage.txt;platforms/P20/vendor_products.txt
+P20,D24,0,1,T1,no evidence in shared dossier;platforms/P20/vendor_homepage.txt
+P20,D25,1,1,T1,cross_platform/regulator/eu_mica_regulation_2023.txt;platforms/P20/vendor_homepage.txt
+P21,D01,1,1,T1,platforms/P21/vendor_homepage.txt
+P21,D02,0,0,NA,no evidence in shared dossier
+P21,D03,0,0,NA,no evidence in shared dossier
+P21,D04,1,1,T1,platforms/P21/vendor_homepage.txt
+P21,D05,1,1,T1,platforms/P21/vendor_homepage.txt
+P21,D06,1,2,T1,platforms/P21/vendor_homepage.txt;platforms/P21/vendor_products.txt
+P21,D07,0,0,NA,no evidence in shared dossier
+P21,D08,0,0,NA,no evidence in shared dossier
+P21,D09,0,0,NA,no evidence in shared dossier
+P21,D10,0,0,NA,no evidence in shared dossier
+P21,D11,0,0,NA,no evidence in shared dossier
+P21,D12,0,0,NA,no evidence in shared dossier
+P21,D13,0,0,NA,no evidence in shared dossier
+P21,D14,0,0,NA,no evidence in shared dossier
+P21,D15,0,0,NA,no evidence in shared dossier
+P21,D16,0,0,NA,no evidence in shared dossier
+P21,D17,0,0,NA,no evidence in shared dossier
+P21,D18,0,0,NA,no evidence in shared dossier
+P21,D19,0,0,NA,no evidence in shared dossier
+P21,D20,0,0,NA,no evidence in shared dossier
+P21,D21,2,2,T1,platforms/P21/vendor_homepage.txt;platforms/P21/vendor_products.txt
+P21,D22,2,2,T1,platforms/P21/vendor_homepage.txt
+P21,D23,0,0,NA,no evidence in shared dossier
+P21,D24,0,0,NA,no evidence in shared dossier
+P21,D25,0,0,NA,no evidence in shared dossier
+P22,D01,1,1,T1,platforms/P22/vendor_goldrush.txt
+P22,D02,0,0,NA,no evidence in shared dossier
+P22,D03,0,0,NA,no evidence in shared dossier
+P22,D04,0,0,NA,no evidence in shared dossier
+P22,D05,1,1,T1,platforms/P22/vendor_goldrush.txt
+P22,D06,1,1,T1,platforms/P22/vendor_goldrush.txt
+P22,D07,0,0,NA,no evidence in shared dossier
+P22,D08,0,0,NA,no evidence in shared dossier
+P22,D09,0,0,NA,no evidence in shared dossier
+P22,D10,0,0,NA,no evidence in shared dossier
+P22,D11,0,0,NA,no evidence in shared dossier
+P22,D12,0,0,NA,no evidence in shared dossier
+P22,D13,0,0,NA,no evidence in shared dossier
+P22,D14,0,0,NA,no evidence in shared dossier
+P22,D15,0,0,NA,no evidence in shared dossier
+P22,D16,0,0,NA,no evidence in shared dossier
+P22,D17,0,0,NA,no evidence in shared dossier
+P22,D18,0,0,NA,no evidence in shared dossier
+P22,D19,0,0,NA,no evidence in shared dossier
+P22,D20,0,0,NA,no evidence in shared dossier
+P22,D21,2,2,T1,platforms/P22/vendor_goldrush.txt
+P22,D22,2,1,T1,platforms/P22/vendor_goldrush.txt
+P22,D23,0,0,NA,no evidence in shared dossier
+P22,D24,0,0,NA,no evidence in shared dossier
+P22,D25,0,0,NA,no evidence in shared dossier
+P23,D01,1,2,T1,platforms/P23/narrative.md;platforms/P23/vendor_homepage.txt;platforms/P23/vendor_solutions.txt
+P23,D02,1,2,T1,platforms/P23/vendor_solutions.txt
+P23,D03,2,2,T1,platforms/P23/vendor_homepage.txt
+P23,D04,1,2,T1,platforms/P23/vendor_homepage.txt;platforms/P23/vendor_solutions.txt
+P23,D05,1,2,T1,platforms/P23/vendor_homepage.txt
+P23,D06,0,0,NA,no evidence in shared dossier
+P23,D07,0,0,NA,no evidence in shared dossier
+P23,D08,1,1,T1,platforms/P23/narrative.md
+P23,D09,1,1,T1,platforms/P23/vendor_homepage.txt
+P23,D10,1,1,T1,platforms/P23/vendor_homepage.txt
+P23,D11,0,0,NA,no evidence in shared dossier
+P23,D12,0,0,NA,no evidence in shared dossier
+P23,D13,0,0,NA,no evidence in shared dossier
+P23,D14,0,0,NA,no evidence in shared dossier
+P23,D15,0,0,NA,no evidence in shared dossier
+P23,D16,0,1,T1,no evidence in shared dossier;platforms/P23/vendor_homepage.txt
+P23,D17,0,0,NA,no evidence in shared dossier
+P23,D18,0,0,NA,no evidence in shared dossier
+P23,D19,0,0,NA,no evidence in shared dossier
+P23,D20,0,0,NA,no evidence in shared dossier
+P23,D21,1,2,T1,platforms/P23/vendor_homepage.txt;platforms/P23/vendor_solutions.txt
+P23,D22,1,2,T1,platforms/P23/vendor_homepage.txt
+P23,D23,1,1,T1,platforms/P23/vendor_solutions.txt
+P23,D24,0,1,T1,no evidence in shared dossier;platforms/P23/vendor_homepage.txt
+P23,D25,1,1,T1,platforms/P23/vendor_solutions.txt
+P24,D01,1,0,T1,no evidence in shared dossier;platforms/P24/narrative.md
+P24,D02,0,0,NA,no evidence in shared dossier
+P24,D03,0,0,NA,no evidence in shared dossier
+P24,D04,0,0,NA,no evidence in shared dossier
+P24,D05,1,1,T1,platforms/P24/narrative.md
+P24,D06,0,0,NA,no evidence in shared dossier
+P24,D07,0,0,NA,no evidence in shared dossier
+P24,D08,0,0,NA,no evidence in shared dossier
+P24,D09,0,0,NA,no evidence in shared dossier
+P24,D10,0,0,NA,no evidence in shared dossier
+P24,D11,0,0,NA,no evidence in shared dossier
+P24,D12,0,0,NA,no evidence in shared dossier
+P24,D13,0,0,NA,no evidence in shared dossier
+P24,D14,0,0,NA,no evidence in shared dossier
+P24,D15,0,0,NA,no evidence in shared dossier
+P24,D16,0,0,NA,no evidence in shared dossier
+P24,D17,0,0,NA,no evidence in shared dossier
+P24,D18,0,0,NA,no evidence in shared dossier
+P24,D19,0,0,NA,no evidence in shared dossier
+P24,D20,0,0,NA,no evidence in shared dossier
+P24,D21,0,1,T1,no evidence in shared dossier;platforms/P24/narrative.md
+P24,D22,0,0,NA,no evidence in shared dossier
+P24,D23,0,0,NA,no evidence in shared dossier
+P24,D24,0,0,NA,no evidence in shared dossier
+P24,D25,0,0,NA,no evidence in shared dossier
+P25,D01,0,0,NA,no evidence in shared dossier
+P25,D02,1,1,T1,cross_platform/analyst/notabene_state_of_travel_rule_2024.txt;platforms/P25/narrative.md
+P25,D03,1,1,T1,cross_platform/analyst/notabene_state_of_travel_rule_2024.txt
+P25,D04,0,0,NA,no evidence in shared dossier
+P25,D05,0,0,NA,no evidence in shared dossier
+P25,D06,0,0,NA,no evidence in shared dossier
+P25,D07,0,0,NA,no evidence in shared dossier
+P25,D08,0,0,NA,no evidence in shared dossier
+P25,D09,0,0,NA,no evidence in shared dossier
+P25,D10,0,0,NA,no evidence in shared dossier
+P25,D11,2,2,T1,cross_platform/analyst/notabene_state_of_travel_rule_2024.txt;cross_platform/regulator/fatf_targeted_update_vasp_jun2023.txt;platforms/P25/narrative.md
+P25,D12,2,2,T1,cross_platform/analyst/notabene_state_of_travel_rule_2024.txt;platforms/P25/narrative.md
+P25,D13,0,0,NA,no evidence in shared dossier
+P25,D14,0,1,T1,cross_platform/analyst/notabene_state_of_travel_rule_2024.txt;no evidence in shared dossier
+P25,D15,0,0,NA,no evidence in shared dossier
+P25,D16,0,0,NA,no evidence in shared dossier
+P25,D17,0,0,NA,no evidence in shared dossier
+P25,D18,0,0,NA,no evidence in shared dossier
+P25,D19,0,0,NA,no evidence in shared dossier
+P25,D20,0,0,NA,no evidence in shared dossier
+P25,D21,1,1,T1,cross_platform/analyst/notabene_state_of_travel_rule_2024.txt;platforms/P25/narrative.md
+P25,D22,0,0,NA,no evidence in shared dossier
+P25,D23,0,0,NA,no evidence in shared dossier
+P25,D24,1,0,T1,cross_platform/analyst/notabene_state_of_travel_rule_2024.txt;no evidence in shared dossier
+P25,D25,2,1,T1,cross_platform/analyst/notabene_state_of_travel_rule_2024.txt;cross_platform/regulator/eu_mica_regulation_2023.txt;cross_platform/regulator/fatf_targeted_update_vasp_jun2023.txt;cross_platform/regulator/fatf_updated_guidance_vasp_oct2021.txt
+P26,D01,1,1,T1,platforms/P26/vendor_homepage.txt
+P26,D02,1,0,T1,no evidence in shared dossier;platforms/P26/vendor_homepage.txt
+P26,D03,0,0,NA,no evidence in shared dossier
+P26,D04,0,0,NA,no evidence in shared dossier
+P26,D05,0,0,NA,no evidence in shared dossier
+P26,D06,0,0,NA,no evidence in shared dossier
+P26,D07,0,0,NA,no evidence in shared dossier
+P26,D08,0,0,NA,no evidence in shared dossier
+P26,D09,0,0,NA,no evidence in shared dossier
+P26,D10,0,0,NA,no evidence in shared dossier
+P26,D11,2,2,T1,cross_platform/analyst/notabene_state_of_travel_rule_2024.txt;platforms/P26/narrative.md;platforms/P26/vendor_homepage.txt
+P26,D12,2,2,T1,platforms/P26/narrative.md;platforms/P26/vendor_homepage.txt
+P26,D13,0,0,NA,no evidence in shared dossier
+P26,D14,0,1,T1,no evidence in shared dossier;platforms/P26/vendor_homepage.txt
+P26,D15,0,0,NA,no evidence in shared dossier
+P26,D16,0,0,NA,no evidence in shared dossier
+P26,D17,0,0,NA,no evidence in shared dossier
+P26,D18,0,0,NA,no evidence in shared dossier
+P26,D19,0,0,NA,no evidence in shared dossier
+P26,D20,0,0,NA,no evidence in shared dossier
+P26,D21,2,2,T1,platforms/P26/vendor_homepage.txt
+P26,D22,0,0,NA,no evidence in shared dossier
+P26,D23,0,0,NA,no evidence in shared dossier
+P26,D24,0,0,NA,no evidence in shared dossier
+P26,D25,2,1,T1,cross_platform/regulator/fatf_targeted_update_vasp_jun2023.txt;cross_platform/regulator/fatf_updated_guidance_vasp_oct2021.txt;platforms/P26/vendor_homepage.txt
+P27,D01,0,0,NA,no evidence in shared dossier
+P27,D02,0,0,NA,no evidence in shared dossier
+P27,D03,0,0,NA,no evidence in shared dossier
+P27,D04,0,0,NA,no evidence in shared dossier
+P27,D05,0,0,NA,no evidence in shared dossier
+P27,D06,0,0,NA,no evidence in shared dossier
+P27,D07,0,0,NA,no evidence in shared dossier
+P27,D08,0,0,NA,no evidence in shared dossier
+P27,D09,0,0,NA,no evidence in shared dossier
+P27,D10,0,0,NA,no evidence in shared dossier
+P27,D11,2,2,T1,platforms/P27/narrative.md;platforms/P27/vendor_github.txt;platforms/P27/vendor_homepage.txt
+P27,D12,2,2,T1,platforms/P27/narrative.md;platforms/P27/vendor_github.txt
+P27,D13,0,0,NA,no evidence in shared dossier
+P27,D14,1,1,T1,platforms/P27/vendor_github.txt
+P27,D15,0,0,NA,no evidence in shared dossier
+P27,D16,0,0,NA,no evidence in shared dossier
+P27,D17,0,0,NA,no evidence in shared dossier
+P27,D18,0,0,NA,no evidence in shared dossier
+P27,D19,0,0,NA,no evidence in shared dossier
+P27,D20,0,0,NA,no evidence in shared dossier
+P27,D21,2,2,T1,platforms/P27/vendor_github.txt;platforms/P27/vendor_homepage.txt
+P27,D22,0,0,NA,no evidence in shared dossier
+P27,D23,0,0,NA,no evidence in shared dossier
+P27,D24,0,0,NA,no evidence in shared dossier
+P27,D25,2,1,T1,cross_platform/regulator/fatf_updated_guidance_vasp_oct2021.txt;platforms/P27/vendor_homepage.txt
+P28,D01,1,1,T1,platforms/P28/narrative.md;platforms/P28/vendor_homepage.txt
+P28,D02,0,0,NA,no evidence in shared dossier
+P28,D03,0,0,NA,no evidence in shared dossier
+P28,D04,0,0,NA,no evidence in shared dossier
+P28,D05,0,1,T1,no evidence in shared dossier;platforms/P28/vendor_homepage.txt
+P28,D06,0,0,NA,no evidence in shared dossier
+P28,D07,0,0,NA,no evidence in shared dossier
+P28,D08,0,0,NA,no evidence in shared dossier
+P28,D09,0,0,NA,no evidence in shared dossier
+P28,D10,0,0,NA,no evidence in shared dossier
+P28,D11,2,2,T1,cross_platform/analyst/notabene_state_of_travel_rule_2024.txt;platforms/P28/narrative.md;platforms/P28/vendor_homepage.txt
+P28,D12,2,2,T1,platforms/P28/narrative.md;platforms/P28/vendor_homepage.txt
+P28,D13,0,0,NA,no evidence in shared dossier
+P28,D14,0,1,T1,no evidence in shared dossier;platforms/P28/vendor_homepage.txt
+P28,D15,0,0,NA,no evidence in shared dossier
+P28,D16,0,0,NA,no evidence in shared dossier
+P28,D17,0,0,NA,no evidence in shared dossier
+P28,D18,0,0,NA,no evidence in shared dossier
+P28,D19,0,0,NA,no evidence in shared dossier
+P28,D20,0,0,NA,no evidence in shared dossier
+P28,D21,2,2,T1,platforms/P28/vendor_homepage.txt
+P28,D22,1,0,T1,no evidence in shared dossier;platforms/P28/vendor_homepage.txt
+P28,D23,1,1,T1,platforms/P28/vendor_homepage.txt
+P28,D24,0,0,NA,no evidence in shared dossier
+P28,D25,2,2,T1,cross_platform/regulator/eu_mica_regulation_2023.txt;cross_platform/regulator/uk_fca_crypto_registration_2024.txt;platforms/P28/vendor_homepage.txt
+P29,D01,0,0,NA,no evidence in shared dossier
+P29,D02,0,0,NA,no evidence in shared dossier
+P29,D03,0,0,NA,no evidence in shared dossier
+P29,D04,0,0,NA,no evidence in shared dossier
+P29,D05,0,0,NA,no evidence in shared dossier
+P29,D06,0,0,NA,no evidence in shared dossier
+P29,D07,0,0,NA,no evidence in shared dossier
+P29,D08,0,0,NA,no evidence in shared dossier
+P29,D09,0,0,NA,no evidence in shared dossier
+P29,D10,0,0,NA,no evidence in shared dossier
+P29,D11,2,2,T1,cross_platform/analyst/notabene_state_of_travel_rule_2024.txt;platforms/P29/narrative.md;platforms/P29/vendor_veriscope.txt
+P29,D12,2,2,T1,platforms/P29/narrative.md;platforms/P29/vendor_homepage.txt;platforms/P29/vendor_veriscope.txt
+P29,D13,0,0,NA,no evidence in shared dossier
+P29,D14,1,1,T1,platforms/P29/vendor_homepage.txt;platforms/P29/vendor_veriscope.txt
+P29,D15,0,0,NA,no evidence in shared dossier
+P29,D16,0,0,NA,no evidence in shared dossier
+P29,D17,0,0,NA,no evidence in shared dossier
+P29,D18,0,0,NA,no evidence in shared dossier
+P29,D19,0,0,NA,no evidence in shared dossier
+P29,D20,0,0,NA,no evidence in shared dossier
+P29,D21,1,1,T1,platforms/P29/vendor_homepage.txt;platforms/P29/vendor_veriscope.txt
+P29,D22,0,0,NA,no evidence in shared dossier
+P29,D23,0,0,NA,no evidence in shared dossier
+P29,D24,0,0,NA,no evidence in shared dossier
+P29,D25,1,1,T1,cross_platform/regulator/fatf_targeted_update_vasp_jun2023.txt;platforms/P29/vendor_veriscope.txt
+P30,D01,0,0,NA,no evidence in shared dossier
+P30,D02,0,0,NA,no evidence in shared dossier
+P30,D03,0,0,NA,no evidence in shared dossier
+P30,D04,0,0,NA,no evidence in shared dossier
+P30,D05,0,1,T1,no evidence in shared dossier;platforms/P30/vendor_netki_transactid.txt
+P30,D06,0,0,NA,no evidence in shared dossier
+P30,D07,0,0,NA,no evidence in shared dossier
+P30,D08,0,0,NA,no evidence in shared dossier
+P30,D09,0,0,NA,no evidence in shared dossier
+P30,D10,0,0,NA,no evidence in shared dossier
+P30,D11,2,2,T1,platforms/P30/narrative.md;platforms/P30/vendor_netki_transactid.txt
+P30,D12,2,2,T1,platforms/P30/narrative.md;platforms/P30/vendor_netki_transactid.txt
+P30,D13,0,0,NA,no evidence in shared dossier
+P30,D14,1,1,T1,platforms/P30/vendor_netki_transactid.txt
+P30,D15,1,1,T1,platforms/P30/vendor_netki_transactid.txt
+P30,D16,0,0,NA,no evidence in shared dossier
+P30,D17,0,0,NA,no evidence in shared dossier
+P30,D18,0,0,NA,no evidence in shared dossier
+P30,D19,0,0,NA,no evidence in shared dossier
+P30,D20,0,0,NA,no evidence in shared dossier
+P30,D21,2,2,T1,platforms/P30/vendor_netki_transactid.txt
+P30,D22,0,0,NA,no evidence in shared dossier
+P30,D23,0,0,NA,no evidence in shared dossier
+P30,D24,0,0,NA,no evidence in shared dossier
+P30,D25,2,1,T1,cross_platform/regulator/fatf_updated_guidance_vasp_oct2021.txt;platforms/P30/vendor_netki_transactid.txt
+P31,D01,0,0,NA,no evidence in shared dossier
+P31,D02,0,0,NA,no evidence in shared dossier
+P31,D03,1,1,T1,platforms/P31/narrative.md;platforms/P31/vendor_homepage.txt
+P31,D04,2,2,T1,platforms/P31/narrative.md;platforms/P31/vendor_homepage.txt;platforms/P31/vendor_services.txt
+P31,D05,1,1,T1,platforms/P31/vendor_homepage.txt
+P31,D06,0,0,NA,no evidence in shared dossier
+P31,D07,0,0,NA,no evidence in shared dossier
+P31,D08,0,0,NA,no evidence in shared dossier
+P31,D09,0,0,NA,no evidence in shared dossier
+P31,D10,1,1,T1,platforms/P31/narrative.md;platforms/P31/vendor_services.txt
+P31,D11,0,0,NA,no evidence in shared dossier
+P31,D12,0,0,NA,no evidence in shared dossier
+P31,D13,0,0,NA,no evidence in shared dossier
+P31,D14,0,0,NA,no evidence in shared dossier
+P31,D15,0,0,NA,no evidence in shared dossier
+P31,D16,0,0,NA,no evidence in shared dossier
+P31,D17,0,0,NA,no evidence in shared dossier
+P31,D18,0,0,NA,no evidence in shared dossier
+P31,D19,0,0,NA,no evidence in shared dossier
+P31,D20,0,0,NA,no evidence in shared dossier
+P31,D21,0,0,NA,no evidence in shared dossier
+P31,D22,0,0,NA,no evidence in shared dossier
+P31,D23,1,1,T1,platforms/P31/vendor_homepage.txt
+P31,D24,0,1,T1,no evidence in shared dossier;platforms/P31/vendor_homepage.txt
+P31,D25,1,0,T1,no evidence in shared dossier;platforms/P31/vendor_homepage.txt
+P32,D01,0,0,NA,no evidence in shared dossier
+P32,D02,0,0,NA,no evidence in shared dossier
+P32,D03,0,0,NA,no evidence in shared dossier
+P32,D04,0,0,NA,no evidence in shared dossier
+P32,D05,0,0,NA,no evidence in shared dossier
+P32,D06,0,0,NA,no evidence in shared dossier
+P32,D07,0,0,NA,no evidence in shared dossier
+P32,D08,0,0,NA,no evidence in shared dossier
+P32,D09,0,0,NA,no evidence in shared dossier
+P32,D10,0,0,NA,no evidence in shared dossier
+P32,D11,0,0,NA,no evidence in shared dossier
+P32,D12,1,2,T1,platforms/P32/narrative.md;platforms/P32/vendor_homepage.txt;platforms/P32/vendor_product.txt
+P32,D13,2,2,T1,platforms/P32/narrative.md;platforms/P32/vendor_homepage.txt;platforms/P32/vendor_product.txt
+P32,D14,2,2,T1,platforms/P32/narrative.md;platforms/P32/vendor_homepage.txt;platforms/P32/vendor_product.txt
+P32,D15,0,0,NA,no evidence in shared dossier
+P32,D16,0,0,NA,no evidence in shared dossier
+P32,D17,0,0,NA,no evidence in shared dossier
+P32,D18,0,0,NA,no evidence in shared dossier
+P32,D19,0,0,NA,no evidence in shared dossier
+P32,D20,0,0,NA,no evidence in shared dossier
+P32,D21,2,0,T1,no evidence in shared dossier;platforms/P32/vendor_homepage.txt;platforms/P32/vendor_product.txt
+P32,D22,0,0,NA,no evidence in shared dossier
+P32,D23,0,0,NA,no evidence in shared dossier
+P32,D24,0,0,NA,no evidence in shared dossier
+P32,D25,0,0,NA,no evidence in shared dossier
+P33,D01,0,0,NA,no evidence in shared dossier
+P33,D02,0,0,NA,no evidence in shared dossier
+P33,D03,0,0,NA,no evidence in shared dossier
+P33,D04,0,0,NA,no evidence in shared dossier
+P33,D05,0,1,T1,no evidence in shared dossier;platforms/P33/vendor_homepage.txt
+P33,D06,0,0,NA,no evidence in shared dossier
+P33,D07,0,0,NA,no evidence in shared dossier
+P33,D08,0,0,NA,no evidence in shared dossier
+P33,D09,0,0,NA,no evidence in shared dossier
+P33,D10,0,0,NA,no evidence in shared dossier
+P33,D11,0,0,NA,no evidence in shared dossier
+P33,D12,1,2,T1,platforms/P33/narrative.md;platforms/P33/vendor_homepage.txt
+P33,D13,2,2,T1,platforms/P33/narrative.md;platforms/P33/vendor_homepage.txt
+P33,D14,2,2,T1,platforms/P33/narrative.md;platforms/P33/vendor_homepage.txt
+P33,D15,0,0,NA,no evidence in shared dossier
+P33,D16,0,0,NA,no evidence in shared dossier
+P33,D17,0,0,NA,no evidence in shared dossier
+P33,D18,0,0,NA,no evidence in shared dossier
+P33,D19,0,0,NA,no evidence in shared dossier
+P33,D20,0,0,NA,no evidence in shared dossier
+P33,D21,0,0,NA,no evidence in shared dossier;platforms/P33/narrative.md
+P33,D22,0,0,NA,no evidence in shared dossier
+P33,D23,0,0,NA,no evidence in shared dossier
+P33,D24,0,0,NA,no evidence in shared dossier
+P33,D25,0,0,NA,no evidence in shared dossier
+P34,D01,0,0,NA,no evidence in shared dossier
+P34,D02,0,0,NA,no evidence in shared dossier
+P34,D03,0,0,NA,no evidence in shared dossier
+P34,D04,0,0,NA,no evidence in shared dossier
+P34,D05,0,0,NA,no evidence in shared dossier
+P34,D06,0,0,NA,no evidence in shared dossier
+P34,D07,0,0,NA,no evidence in shared dossier
+P34,D08,0,0,NA,no evidence in shared dossier
+P34,D09,0,0,NA,no evidence in shared dossier
+P34,D10,0,0,NA,no evidence in shared dossier
+P34,D11,0,0,NA,no evidence in shared dossier
+P34,D12,1,1,T1,platforms/P34/narrative.md
+P34,D13,1,1,T1,platforms/P34/narrative.md
+P34,D14,2,2,T1,cross_platform/papers/yang2024researchidentitydata.txt;platforms/P34/narrative.md
+P34,D15,0,0,NA,no evidence in shared dossier
+P34,D16,0,0,NA,no evidence in shared dossier
+P34,D17,0,0,NA,no evidence in shared dossier
+P34,D18,0,0,NA,no evidence in shared dossier
+P34,D19,0,0,NA,no evidence in shared dossier
+P34,D20,0,0,NA,no evidence in shared dossier
+P34,D21,0,0,NA,no evidence in shared dossier;platforms/P34/narrative.md
+P34,D22,0,0,NA,no evidence in shared dossier
+P34,D23,0,0,NA,no evidence in shared dossier
+P34,D24,0,0,NA,no evidence in shared dossier
+P34,D25,0,0,NA,no evidence in shared dossier
+P35,D01,2,2,T1,cross_platform/regulator/uk_fca_crypto_registration_2024.txt;platforms/P35/vendor_homepage.txt;platforms/P35/vendor_products.txt
+P35,D02,2,2,T1,platforms/P35/vendor_homepage.txt;platforms/P35/vendor_products.txt
+P35,D03,2,1,T1,platforms/P35/vendor_homepage.txt;platforms/P35/vendor_products.txt
+P35,D04,0,0,NA,no evidence in shared dossier
+P35,D05,0,1,T1,cross_platform/regulator/eu_mica_regulation_2023.txt;no evidence in shared dossier;platforms/P35/narrative.md
+P35,D06,0,0,NA,no evidence in shared dossier
+P35,D07,0,0,NA,no evidence in shared dossier
+P35,D08,0,0,NA,no evidence in shared dossier
+P35,D09,2,2,T1,cross_platform/papers/pocher2023detectinganomalouscryptocurrency.txt;platforms/P35/narrative.md;platforms/P35/vendor_homepage.txt;platforms/P35/vendor_products.txt
+P35,D10,2,2,T1,platforms/P35/narrative.md;platforms/P35/vendor_homepage.txt;platforms/P35/vendor_products.txt
+P35,D11,1,1,T1,cross_platform/regulator/eu_mica_regulation_2023.txt;platforms/P35/narrative.md;platforms/P35/vendor_homepage.txt
+P35,D12,2,2,T1,cross_platform/regulator/doj_binance_settlement_nov2023.txt;platforms/P35/narrative.md;platforms/P35/vendor_homepage.txt;platforms/P35/vendor_products.txt
+P35,D13,0,0,NA,no evidence in shared dossier
+P35,D14,0,0,NA,no evidence in shared dossier
+P35,D15,0,0,NA,no evidence in shared dossier
+P35,D16,1,1,T1,cross_platform/regulator/fincen_cvc_mixing_npr_oct2023.txt;cross_platform/regulator/ofac_tornado_cash_aug2022.txt;platforms/P35/vendor_homepage.txt
+P35,D17,0,0,NA,no evidence in shared dossier
+P35,D18,0,0,NA,no evidence in shared dossier
+P35,D19,0,0,NA,no evidence in shared dossier
+P35,D20,0,0,NA,no evidence in shared dossier
+P35,D21,1,1,T1,platforms/P35/vendor_homepage.txt;platforms/P35/vendor_products.txt
+P35,D22,1,1,T1,platforms/P35/vendor_homepage.txt
+P35,D23,2,2,T1,platforms/P35/vendor_products.txt
+P35,D24,2,1,T1,cross_platform/regulator/doj_binance_settlement_nov2023.txt;cross_platform/regulator/uk_fca_crypto_registration_2024.txt;platforms/P35/vendor_homepage.txt
+P35,D25,2,1,T1,cross_platform/regulator/eu_mica_regulation_2023.txt;cross_platform/regulator/uk_fca_crypto_registration_2024.txt;platforms/P35/vendor_homepage.txt
+P36,D01,0,1,T1,no evidence in shared dossier;platforms/P36/vendor_homepage.txt
+P36,D02,1,1,T1,platforms/P36/vendor_homepage.txt
+P36,D03,2,2,T1,platforms/P36/vendor_homepage.txt
+P36,D04,0,0,NA,no evidence in shared dossier
+P36,D05,0,0,NA,no evidence in shared dossier
+P36,D06,0,0,NA,no evidence in shared dossier
+P36,D07,0,0,NA,no evidence in shared dossier
+P36,D08,0,0,NA,no evidence in shared dossier
+P36,D09,0,0,NA,no evidence in shared dossier
+P36,D10,0,0,NA,no evidence in shared dossier
+P36,D11,0,0,NA,no evidence in shared dossier
+P36,D12,2,2,T1,platforms/P36/narrative.md;platforms/P36/vendor_homepage.txt
+P36,D13,0,0,NA,no evidence in shared dossier
+P36,D14,0,0,NA,no evidence in shared dossier
+P36,D15,0,0,NA,no evidence in shared dossier
+P36,D16,1,1,T1,cross_platform/regulator/ofac_tornado_cash_aug2022.txt;platforms/P36/vendor_homepage.txt
+P36,D17,0,0,NA,no evidence in shared dossier
+P36,D18,0,0,NA,no evidence in shared dossier
+P36,D19,0,0,NA,no evidence in shared dossier
+P36,D20,0,0,NA,no evidence in shared dossier
+P36,D21,2,2,T1,platforms/P36/vendor_homepage.txt
+P36,D22,1,1,T1,platforms/P36/vendor_homepage.txt
+P36,D23,0,0,NA,no evidence in shared dossier
+P36,D24,0,0,NA,no evidence in shared dossier
+P36,D25,1,1,T1,cross_platform/regulator/eu_mica_regulation_2023.txt;cross_platform/regulator/uk_fca_crypto_registration_2024.txt;platforms/P36/vendor_homepage.txt
+P37,D01,2,2,T1,platforms/P37/vendor_financial_crime.txt;platforms/P37/vendor_homepage.txt
+P37,D02,2,2,T1,platforms/P37/vendor_financial_crime.txt;platforms/P37/vendor_homepage.txt
+P37,D03,2,2,T1,platforms/P37/vendor_financial_crime.txt;platforms/P37/vendor_homepage.txt
+P37,D04,0,0,NA,no evidence in shared dossier
+P37,D05,0,0,NA,no evidence in shared dossier
+P37,D06,0,0,NA,no evidence in shared dossier
+P37,D07,0,0,NA,no evidence in shared dossier
+P37,D08,0,0,NA,no evidence in shared dossier
+P37,D09,1,1,T1,platforms/P37/narrative.md;platforms/P37/vendor_homepage.txt
+P37,D10,1,1,T1,platforms/P37/narrative.md;platforms/P37/vendor_financial_crime.txt
+P37,D11,0,0,NA,no evidence in shared dossier
+P37,D12,2,2,T1,platforms/P37/narrative.md;platforms/P37/vendor_financial_crime.txt;platforms/P37/vendor_homepage.txt
+P37,D13,0,0,NA,no evidence in shared dossier
+P37,D14,0,0,NA,no evidence in shared dossier
+P37,D15,0,0,NA,no evidence in shared dossier
+P37,D16,1,1,T1,cross_platform/regulator/ofac_tornado_cash_aug2022.txt;platforms/P37/vendor_homepage.txt
+P37,D17,0,0,NA,no evidence in shared dossier
+P37,D18,0,0,NA,no evidence in shared dossier
+P37,D19,0,0,NA,no evidence in shared dossier
+P37,D20,0,0,NA,no evidence in shared dossier
+P37,D21,2,2,T1,platforms/P37/vendor_homepage.txt
+P37,D22,1,1,T1,platforms/P37/vendor_homepage.txt
+P37,D23,1,0,T1,no evidence in shared dossier;platforms/P37/vendor_homepage.txt
+P37,D24,0,1,T1,no evidence in shared dossier;platforms/P37/vendor_financial_crime.txt
+P37,D25,1,1,T1,cross_platform/regulator/doj_binance_settlement_nov2023.txt;platforms/P37/vendor_homepage.txt
+P38,D01,2,2,T1,platforms/P38/narrative.md;platforms/P38/vendor_aml.txt;platforms/P38/vendor_homepage.txt
+P38,D02,2,2,T1,platforms/P38/vendor_aml.txt
+P38,D03,1,1,T1,platforms/P38/vendor_aml.txt
+P38,D04,0,0,NA,no evidence in shared dossier
+P38,D05,0,0,NA,no evidence in shared dossier
+P38,D06,0,0,NA,no evidence in shared dossier
+P38,D07,0,0,NA,no evidence in shared dossier
+P38,D08,0,0,NA,no evidence in shared dossier
+P38,D09,2,2,T1,platforms/P38/narrative.md;platforms/P38/vendor_aml.txt
+P38,D10,2,2,T1,platforms/P38/narrative.md;platforms/P38/vendor_aml.txt;platforms/P38/vendor_homepage.txt
+P38,D11,0,0,NA,no evidence in shared dossier
+P38,D12,2,2,T1,platforms/P38/narrative.md;platforms/P38/vendor_aml.txt
+P38,D13,0,0,NA,no evidence in shared dossier
+P38,D14,0,0,NA,no evidence in shared dossier
+P38,D15,0,0,NA,no evidence in shared dossier
+P38,D16,1,1,T1,cross_platform/regulator/fincen_cvc_mixing_npr_oct2023.txt;platforms/P38/vendor_aml.txt
+P38,D17,0,0,NA,no evidence in shared dossier
+P38,D18,0,0,NA,no evidence in shared dossier
+P38,D19,0,0,NA,no evidence in shared dossier
+P38,D20,0,0,NA,no evidence in shared dossier
+P38,D21,1,1,T1,platforms/P38/narrative.md;platforms/P38/vendor_homepage.txt
+P38,D22,1,2,T1,platforms/P38/vendor_aml.txt;platforms/P38/vendor_homepage.txt
+P38,D23,2,2,T1,platforms/P38/vendor_aml.txt;platforms/P38/vendor_homepage.txt
+P38,D24,2,2,T1,cross_platform/regulator/doj_binance_settlement_nov2023.txt;platforms/P38/vendor_aml.txt
+P38,D25,2,2,T1,cross_platform/regulator/fincen_cvc_mixing_npr_oct2023.txt;platforms/P38/vendor_aml.txt
+P39,D01,2,2,T1,platforms/P39/vendor_homepage.txt;platforms/P39/vendor_platform.txt
+P39,D02,1,2,T1,platforms/P39/vendor_homepage.txt;platforms/P39/vendor_platform.txt
+P39,D03,1,1,T1,platforms/P39/vendor_homepage.txt
+P39,D04,0,0,NA,no evidence in shared dossier
+P39,D05,0,0,NA,no evidence in shared dossier
+P39,D06,0,0,NA,no evidence in shared dossier
+P39,D07,0,0,NA,no evidence in shared dossier
+P39,D08,0,0,NA,no evidence in shared dossier
+P39,D09,1,1,T1,platforms/P39/narrative.md;platforms/P39/vendor_homepage.txt;platforms/P39/vendor_platform.txt
+P39,D10,1,1,T1,platforms/P39/vendor_homepage.txt
+P39,D11,0,0,NA,no evidence in shared dossier
+P39,D12,2,2,T1,platforms/P39/narrative.md;platforms/P39/vendor_homepage.txt;platforms/P39/vendor_platform.txt
+P39,D13,0,0,NA,no evidence in shared dossier
+P39,D14,0,0,NA,no evidence in shared dossier
+P39,D15,0,0,NA,no evidence in shared dossier
+P39,D16,0,1,T1,cross_platform/regulator/ofac_tornado_cash_aug2022.txt;no evidence in shared dossier;platforms/P39/vendor_homepage.txt
+P39,D17,0,0,NA,no evidence in shared dossier
+P39,D18,0,0,NA,no evidence in shared dossier
+P39,D19,0,0,NA,no evidence in shared dossier
+P39,D20,0,0,NA,no evidence in shared dossier
+P39,D21,2,2,T1,platforms/P39/vendor_platform.txt
+P39,D22,1,1,T1,platforms/P39/vendor_homepage.txt;platforms/P39/vendor_platform.txt
+P39,D23,2,1,T1,platforms/P39/vendor_homepage.txt;platforms/P39/vendor_platform.txt
+P39,D24,1,1,T1,cross_platform/regulator/doj_binance_settlement_nov2023.txt;platforms/P39/vendor_homepage.txt;platforms/P39/vendor_platform.txt
+P39,D25,2,2,T1,platforms/P39/vendor_homepage.txt;platforms/P39/vendor_platform.txt
+P40,D01,1,2,T1,platforms/P40/vendor_homepage.txt
+P40,D02,1,2,T1,platforms/P40/vendor_homepage.txt
+P40,D03,1,1,T1,platforms/P40/vendor_homepage.txt
+P40,D04,0,0,NA,no evidence in shared dossier
+P40,D05,0,1,T1,no evidence in shared dossier;platforms/P40/vendor_homepage.txt
+P40,D06,0,0,NA,no evidence in shared dossier
+P40,D07,0,0,NA,no evidence in shared dossier
+P40,D08,0,0,NA,no evidence in shared dossier
+P40,D09,0,0,NA,no evidence in shared dossier
+P40,D10,0,1,T1,no evidence in shared dossier;platforms/P40/vendor_homepage.txt
+P40,D11,0,1,T1,no evidence in shared dossier;platforms/P40/vendor_homepage.txt
+P40,D12,2,2,T1,platforms/P40/vendor_homepage.txt
+P40,D13,0,0,NA,no evidence in shared dossier
+P40,D14,0,0,NA,no evidence in shared dossier
+P40,D15,0,0,NA,no evidence in shared dossier
+P40,D16,1,1,T1,cross_platform/regulator/ofac_tornado_cash_aug2022.txt;platforms/P40/vendor_homepage.txt
+P40,D17,0,0,NA,no evidence in shared dossier
+P40,D18,0,0,NA,no evidence in shared dossier
+P40,D19,0,0,NA,no evidence in shared dossier
+P40,D20,0,0,NA,no evidence in shared dossier
+P40,D21,1,2,T1,platforms/P40/vendor_homepage.txt
+P40,D22,1,1,T1,platforms/P40/vendor_homepage.txt
+P40,D23,1,1,T1,platforms/P40/vendor_homepage.txt
+P40,D24,0,0,NA,no evidence in shared dossier
+P40,D25,1,1,T1,cross_platform/regulator/doj_binance_settlement_nov2023.txt;platforms/P40/vendor_homepage.txt
+P41,D01,1,1,T1,platforms/P41/vendor_homepage.txt
+P41,D02,1,1,T1,platforms/P41/narrative.md;platforms/P41/vendor_homepage.txt
+P41,D03,1,0,T1,no evidence in shared dossier;platforms/P41/narrative.md
+P41,D04,0,0,NA,no evidence in shared dossier
+P41,D05,1,1,T1,platforms/P41/narrative.md
+P41,D06,0,0,NA,no evidence in shared dossier
+P41,D07,0,0,NA,no evidence in shared dossier
+P41,D08,0,0,NA,no evidence in shared dossier
+P41,D09,1,1,T1,platforms/P41/narrative.md
+P41,D10,0,1,T1,no evidence in shared dossier;platforms/P41/vendor_homepage.txt
+P41,D11,0,0,NA,no evidence in shared dossier
+P41,D12,1,1,T1,platforms/P41/vendor_homepage.txt
+P41,D13,0,0,NA,no evidence in shared dossier
+P41,D14,0,0,NA,no evidence in shared dossier
+P41,D15,0,0,NA,no evidence in shared dossier
+P41,D16,1,1,T1,cross_platform/regulator/ofac_tornado_cash_aug2022.txt;platforms/P41/vendor_homepage.txt
+P41,D17,0,0,NA,no evidence in shared dossier
+P41,D18,0,0,NA,no evidence in shared dossier
+P41,D19,0,0,NA,no evidence in shared dossier
+P41,D20,0,0,NA,no evidence in shared dossier
+P41,D21,0,1,T1,no evidence in shared dossier;platforms/P41/narrative.md
+P41,D22,0,0,NA,no evidence in shared dossier
+P41,D23,0,1,T1,no evidence in shared dossier;platforms/P41/narrative.md
+P41,D24,0,1,T1,no evidence in shared dossier;platforms/P41/vendor_homepage.txt
+P41,D25,2,2,T1,cross_platform/regulator/eu_mica_regulation_2023.txt;platforms/P41/vendor_homepage.txt

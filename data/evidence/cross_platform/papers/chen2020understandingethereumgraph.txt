@@ -1,0 +1,16 @@
+Source: https://dl.acm.org/doi/10.1145/3381036 ; PDF: https://www4.comp.polyu.edu.hk/~csxluo/EthereumGraphAnalysisJ.pdf
+Fetched: 2026-05-24
+Status: ok (abstract via ACM TOIT + author copy)
+Citation: Chen, T., Li, Z., Zhu, Y., Chen, J., Luo, X., Lui, J.C.S., Lin, X., Zhang, X. (2020). "Understanding Ethereum via Graph Analysis." ACM Transactions on Internet Technology, 20(2), Article 18: 1-32.
+
+ABSTRACT (verbatim from ACM TOIT):
+
+"Being the largest blockchain that supports smart contracts, Ethereum has attracted much attention from both industry and academia. However, little is known about the characteristics of its users, smart contracts, and the relationships among them. To fill the void, in this article, we conduct the first systematic study on Ethereum by leveraging graph analysis to characterize three major activities on Ethereum, namely money transfer, smart contract creation, and smart contract invocation. We collect all transaction data, construct three graphs from the data to characterize major activities, and discover many new observations and insights. Moreover, we propose new approaches based on cross-graph analysis to address two security issues in Ethereum. The evaluation through real cases demonstrates the effectiveness of our new approaches. Our work sheds light on understanding Ethereum, and the data and tools developed are expected to be useful for further investigation. Specifically, we have made the following observations: (1) Money transfer activity is highly concentrated, (2) the Ethereum trading market exhibits strong activeness in trading among exchange markets, (3) most smart contracts are dead with no activities going on after their creation, and (4) attackers tend to use newly created accounts."
+
+NAMED PLATFORMS:
+- Ethereum exchanges identified by clustering analysis. No commercial compliance vendors named in abstract.
+
+Implications for coding:
+- D07 Smart Contract Analysis: validates the academic basis for analyzing smart-contract invocation graphs — relevant to Dedaub (P15), AnChain.AI (P20), Forta (P12), Hypernative (P14).
+- D04 Multi-Hop Tracing on Ethereum: relevant to Arkham (P19), Nansen (P18), Elementus (P23), Bitquery (P21), Covalent (P22) — supports their account-based-chain tracing capabilities.
+- D06 DeFi Semantic Analysis: cross-graph analysis is a precursor methodology for understanding DeFi interactions.

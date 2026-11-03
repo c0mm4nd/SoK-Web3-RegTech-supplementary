@@ -1,0 +1,32 @@
+Source: https://www.businesswire.com/news/home/20230912351705/en/Solidus-Labs-Uncovers-2-Billion-Worth-of-Wash-Trades-on-Decentralized-Exchanges (BusinessWire press release); coverage in Bloomberg, Cointelegraph, CryptoPotato
+Fetched: 2026-05-24
+Status: partial (BusinessWire timed out; substantive content from web search + Bloomberg/Cointelegraph)
+Citation: Solidus Labs, "2023 Crypto Market Manipulation Report Series" (Part 2 on DEX Wash Trading), September 12, 2023.
+
+KEY FINDINGS:
+
+Publication date: September 12, 2023.
+
+Report scope: Sample of approximately 30,000 Ethereum-based DEX liquidity pools, covering activity from September 2020 through August 2023.
+
+Quantified findings (verbatim from Solidus Labs):
+- At minimum $2 billion worth of cryptocurrency wash-traded on Ethereum-based DEXes since 2020.
+- 67% of analyzed pools showed wash-trading manipulation.
+- 16% of total trading volume on those pools was wash trading.
+- Over 20,000 crypto tokens manipulated via DEX wash trading in three years.
+
+Wash-trader categories identified by Solidus:
+- Token deployers preparing rug pulls (artificial price discovery to attract buyers before exit).
+- Speculators gaming airdrops.
+- Exchange and marketplace operators inflating volume to attract investors and users.
+
+Regulatory context (Solidus argues): Wash trading is well-addressed in traditional markets through trade-surveillance and self-trade-prevention systems; on DEXes it is just as detectable but the unresolved question is which regulator-side or market-participant-side actor is responsible for enforcement.
+
+Methodology: Solidus Labs uses its proprietary HALO market-surveillance platform built specifically for crypto. (Note: this is what the SoK Platform Catalog records under P09 Solidus Labs.) The methodology is patterned on traditional-market surveillance (FINRA, SEC market-data analysis) adapted to on-chain transparency.
+
+IMPLICATIONS FOR WEB3 REGTECH CODING:
+- Solidus Labs (P09): Independent industry-coverage attestation of Solidus's market-surveillance capability. Substantiates D01 Transaction Monitoring, D10 Behavioral Analytics on DEX-native wash-trade detection.
+- D06 DeFi Semantic Analysis: detecting wash trades on AMM-style DEXes requires DeFi-aware analytics — supports D06 for Solidus Labs (P09), and by extension Chainalysis (P01), TRM Labs (P04), Elliptic (P02).
+- D17 MEV Analysis context: wash trading is related to MEV bots — supports D17 dimension relevance.
+- D02 Real-Time Risk Scoring: HALO performs real-time wash-trade alerting.
+- Validates that DEX market surveillance is a real, regulator-recognized category — substantiates the niche but important Solidus position.

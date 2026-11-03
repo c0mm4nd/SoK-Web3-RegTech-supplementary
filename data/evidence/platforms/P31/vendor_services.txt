@@ -1,0 +1,32 @@
+URL: https://cipherblade.com/services/
+Fetched: 2026-05-24
+Status: ok
+
+# CipherBlade Services - Raw Text Content
+
+## Core Services
+
+**Blockchain Forensics**
+"We illuminate blockchain transactions" - The team analyzes and visualizes cryptocurrency flow on Bitcoin, Ethereum, and other blockchains to extract actionable intelligence for funds recovery, criminal prosecution, and litigation.
+
+**Cryptocurrency Recovery**
+"We help to recover digital assets" - Services include tracing and monitoring stolen funds, leveraging industry networks to flag and blacklist addresses, and liaising between victims, digital asset services, and law enforcement internationally.
+
+**Expert Testimony**
+"We assist in legal cases" - The firm provides expert support across divorce cases, business disputes, and criminal proceedings, offering testimony before courts on blockchain technology and cryptocurrency transactions.
+
+## Operational Approach
+
+The company emphasizes four methodologies:
+- "Bespoke Services" - Tailored strategies based on case evaluation
+- "Client Focus" - Precision execution meeting specific requirements
+- "Adaptable Methods" - A toolbox matching case complexity and scale
+- "Proportionality" - Flexible approaches managing costs while maximizing results
+
+## Client Base
+
+Services target law firms/litigants, cybercrime victims, crypto businesses, and law enforcement agencies.
+
+## Team Composition
+
+"Our veteran team brings together seasoned professionals with academic, law enforcement, military, and crypto industry backgrounds" with experience spanning the early cryptocurrency forensics era.

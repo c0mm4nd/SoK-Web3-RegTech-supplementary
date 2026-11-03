@@ -1,0 +1,35 @@
+Source: https://www.cftc.gov/PressRoom/PressReleases/8680-23 ; complaint filed N.D. Ill.
+Fetched: 2026-05-24
+Status: ok (substantive content from CFTC press summaries via web search)
+Citation: U.S. Commodity Futures Trading Commission v. Changpeng Zhao, Binance Holdings Ltd., et al., Civil Action No. 23-cv-1887 (N.D. Ill. filed March 27, 2023). CFTC Press Release 8680-23.
+
+KEY TEXT:
+
+Date of action: March 27, 2023.
+
+Filing court: U.S. District Court, Northern District of Illinois.
+
+Defendants: Binance Holdings Limited, Binance Holdings (IE) Limited, Binance (Services) Holdings Limited, Changpeng Zhao (CEO), Samuel Lim (former Chief Compliance Officer).
+
+Counts: 8-count complaint for violations of the Commodity Exchange Act (CEA) and CFTC Regulations including:
+- Offering unregistered derivatives trading to U.S. persons
+- Failure to register as a futures commission merchant (FCM)
+- Failure to implement KYC/AML controls
+- Failure to maintain customer-protection rules
+- Causing employees to circumvent compliance controls (including VIP customer guidance to evade compliance via VPNs)
+
+Substantive allegations (verbatim from complaint):
+- Binance operated as an "unregistered derivatives exchange" offering cryptocurrencies (Bitcoin, Ether, Litecoin, Tether, Binance USD) traded as commodity-futures instruments.
+- "Binance and its CEO routinely broke American derivatives rules as the firm grew to be the world's largest trading platform."
+- Defendants "secretly coached 'VIP' customers within the United States on how to evade compliance controls" and "directed its employees to spoof their locations through the use of virtual private networks."
+- Samuel Lim (CCO) acknowledged in internal communications that Binance had "no choice" but to onboard customers from sanctioned jurisdictions including Iran, Syria, Cuba, Crimea.
+
+Relief sought: Permanent injunction, civil monetary penalties, trading and registration bans, disgorgement.
+
+Outcome: Resolved as part of the November 2023 DOJ global settlement.
+
+IMPLICATIONS FOR WEB3 REGTECH CODING:
+- D12 KYC Integration: failure-to-KYC and CCO complicity drives demand for embedded-KYC products — Fenergo (P39), ComplyAdvantage (P35, P41), Refinitiv (P36), LexisNexis (P37).
+- D01 Transaction Monitoring and D02 Real-Time Risk Scoring: failure to monitor for sanctioned-jurisdiction customers drives demand for Chainalysis (P01), Elliptic (P02), TRM Labs (P04), Crystal (P08).
+- D25 Regulatory Reporting: extensive disclosure failures drive demand for end-to-end RegTech solutions.
+- D10 Behavioral Analytics: VPN-spoofing detection becomes a compliance use case (geographic anomaly detection).

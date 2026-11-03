@@ -1,0 +1,18 @@
+Source: https://arxiv.org/abs/2003.03810 ; FC 2021: https://link.springer.com/chapter/10.1007/978-3-662-64322-8_1
+Fetched: 2026-05-24
+Status: ok (abstract via arXiv)
+Citation: Qin, K., Zhou, L., Livshits, B., Gervais, A. (2021). "Attacking the DeFi Ecosystem with Flash Loans for Fun and Profit." Financial Cryptography and Data Security 2021, Springer LNCS.
+
+ABSTRACT (verbatim from arXiv 2003.03810):
+
+"Credit allows a lender to loan out surplus capital to a borrower. In the traditional economy, credit bears the risk that the borrower may default on its debt, the lender hence requires upfront collateral from the borrower, plus interest fee payments. Due to the atomicity of blockchain transactions, lenders can offer flash loans, i.e., loans that are only valid within one transaction and must be repaid by the end of that transaction. This concept has lead to a number of interesting attack possibilities, some of which were exploited in February 2020. This paper is the first to explore the implication of transaction atomicity and flash loans for the nascent decentralized finance (DeFi) ecosystem. We show quantitatively how transaction atomicity increases the arbitrage revenue. We moreover analyze two existing attacks with ROIs beyond 500k%. We formulate finding the attack parameters as an optimization problem over the state of the underlying Ethereum blockchain and the state of the DeFi ecosystem. We show how malicious adversaries can efficiently maximize an attack profit and hence damage the DeFi ecosystem further. Specifically, we present how two previously executed attacks can be \"boosted\" to result in a profit of 829.5k USD and 1.1M USD, respectively, which is a boost of 2.37x and 1.73x, respectively."
+
+NAMED PLATFORMS:
+- bZx (flash loan protocol attacked February 2020), Compound, MakerDAO, Aave, Uniswap, Kyber Network, Curve (DeFi protocols analyzed in body).
+- No commercial compliance vendor named, but the flash-loan attack scenario is the canonical use case for DeFi-monitoring products: Forta (P12), Hypernative (P14), AnChain.AI (P20), Gauntlet (P17), Chaos Labs (P16), Dedaub (P15).
+
+Implications for coding:
+- D06 DeFi Semantic Analysis: defines the canonical DeFi-attack pattern that vendors must detect — supports D06 coverage for Forta (P12), Hypernative (P14), AnChain.AI (P20), Gauntlet (P17), Chaos Labs (P16), Chainalysis (P01), Elliptic (P02), TRM Labs (P04).
+- D07 Smart Contract Analysis: attacks involve composability vulnerabilities — relevant to Dedaub (P15).
+- D17 MEV Analysis: flash-loan attacks intersect with MEV — supports D17 for monitoring products.
+- D22 Real-Time Alerting: flash loan attacks complete in a single block, demanding mempool-level real-time monitoring.

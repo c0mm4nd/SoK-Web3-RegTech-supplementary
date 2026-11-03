@@ -1,0 +1,17 @@
+URL: https://notabene.id (and variants)
+Fetched: 2026-05-24
+Status: FAILED — HTTP 403 Forbidden on all attempted Notabene paths (bot blocking)
+
+Alternative URLs attempted:
+1. https://notabene.id -> HTTP 403
+2. https://www.notabene.id -> HTTP 403
+3. https://notabene.id/platform -> HTTP 403
+4. https://notabene.id/products -> HTTP 403
+5. https://notabene.id/about -> HTTP 403
+6. https://notabene.id/solutions -> HTTP 403
+7. https://notabene.id/safe-transact -> HTTP 403
+8. https://notabene.id/network -> HTTP 403
+9. https://docs.notabene.id -> HTTP 403
+10. https://notabene.com -> 301 redirect (chain to notabene.com which also blocks)
+
+Notabene's entire domain blocks retrieval with 403 Forbidden across all attempted paths. No vendor primary-source content reachable; capability claims (SafeTransact, Travel Rule network with 200+ VASPs, wallet attribution, FATF compliance) must rely on C2 secondary sources.

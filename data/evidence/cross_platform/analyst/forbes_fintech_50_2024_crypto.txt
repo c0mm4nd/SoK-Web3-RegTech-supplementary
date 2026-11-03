@@ -1,0 +1,40 @@
+Source: https://www.forbes.com/fintech/2024 ; coverage: https://www.coinspeaker.com/forbes-crypto-chainalysis-fireblocks-gauntlet-2024/ ; https://www.coindesk.com/business/2024/02/13/chainalysis-fireblocks-gauntlet-make-forbes-fintech-list
+Fetched: 2026-05-24
+Status: ok (Forbes list content reported via reputable secondary coverage; coindesk fetch blocked but content captured via web search)
+Citation: Forbes, "Fintech 50 2024" annual list, published February 13, 2024. Edited by Jeff Kauflin (Forbes staff).
+
+KEY TEXT:
+
+Publication: Forbes Fintech 50, 2024 edition.
+
+Crypto firms on the 2024 list: Three out of 50 — Chainalysis, Fireblocks, Gauntlet.
+
+Per-company details (Forbes profiles, as reported):
+
+Chainalysis (P01):
+- Blockchain analytics firm specializing in tracking crypto transactions.
+- New York City headquartered.
+- Funding: $535 million raised.
+- Valuation: $8.6 billion (May 2022).
+- Headcount: cut 15% in October 2023, plus 5% earlier in 2023.
+- Forbes recognition rationale: dominant in law-enforcement & financial-institution adoption of crypto analytics.
+
+Fireblocks:
+- Industry leader in crypto safekeeping (digital asset custody, transfer, settlement).
+- New York headquartered.
+- Funding: $1 billion raised.
+- Valuation: $8 billion (January 2022).
+- Forbes recognition rationale: institutional custody platform with bank-grade controls.
+- NOTE: Fireblocks is more of a custody/MPC platform than a RegTech vendor; not directly mapped to a SoK platform but supports adjacent compliance use cases.
+
+Gauntlet (P17):
+- Pioneering platform for risk management and simulation modeling for DeFi protocols.
+- Forbes recognition rationale: simulation-based DeFi risk modeling for major protocols (Aave, Compound, MakerDAO, Uniswap).
+
+Notable absences (from earlier Forbes lists but not 2024): TRM Labs (P04) — was on 2022 Forbes Fintech 50; not selected for 2024. Merkle Science (P05) — not on 2024 list.
+
+IMPLICATIONS FOR WEB3 REGTECH CODING:
+- Independent (Forbes editorial) third-party attestation for Chainalysis (P01): substantiates platform's enterprise market position.
+- Gauntlet (P17): independent third-party attestation for DeFi-risk-simulation product — supports D06 DeFi Semantic Analysis, D17 MEV Analysis context.
+- Forbes coverage establishes that compliance/security platforms (Chainalysis) are mainstream fintech leaders, not niche crypto-only — supports D25 Regulatory Reporting and D01 Transaction Monitoring credibility.
+- Absence of TRM Labs and Merkle Science from 2024 list is itself notable evidence about market positioning relative to Chainalysis.

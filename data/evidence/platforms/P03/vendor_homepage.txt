@@ -1,0 +1,3 @@
+URL: https://ciphertrace.com
+Fetched: 2026-05-24
+Status: FAILED - socket connection closed unexpectedly. Domain appears non-responsive (CipherTrace was acquired by Mastercard; site may be defunct/redirected).

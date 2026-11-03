@@ -1,0 +1,31 @@
+URL: https://soliduslabs.com
+Fetched: 2026-05-24
+
+# Solidus Labs: Market Integrity Platform
+
+## Core Products & Capabilities
+
+Trade Surveillance:
+"multidimensional surveillance to detect and prevent market abuse across any venue, product, or asset class." The platform correlates trading activity, on- and off-chain signals, funding flows, and social sentiment for real-time market abuse detection.
+
+Transaction Monitoring:
+"multidimensional screening of deposits and withdrawals across fiat and crypto," including AML compliance, fraud detection, and suspicious transaction identification.
+
+Additional Solutions:
+- Execution Quality: Quantitative best execution supervision for digital asset markets
+- Stablecoin Monitoring: Full-lifecycle supervision across primary and secondary markets
+- Token Monitoring: Smart contract scam and liquidity analysis
+- Case Management: Unified investigation hub integrating multiple alert types
+- Agentic-AI Workflows: Automated orchestration layer for compliance operations
+
+## Platform Architecture
+
+The HALO Platform serves as "the compliance control center for modern financial markets - unifying trade surveillance, transaction monitoring, KYC intelligence, case management, and agentic workflows."
+
+## Target Markets
+
+Solidus serves retail broker-dealers, global exchanges, institutional broker-dealers, prediction markets, market makers, custodians, stablecoin issuers, OTC desks, and regulators.
+
+## Professional Services
+
+Premium offerings include licensing, regulatory insights, model tuning calibration, and investigative support for digital asset compliance challenges.

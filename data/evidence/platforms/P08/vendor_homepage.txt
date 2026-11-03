@@ -1,0 +1,26 @@
+URL: https://crystalintelligence.com
+Fetched: 2026-05-24
+
+# Crystal Intelligence Platform Overview
+
+## Core Products & Capabilities
+
+Crystal Expert offers real-time transaction monitoring across 330+ blockchains covering 10,000+ digital assets. The platform provides "automated address screening, and sanctions and blocklist checks" for detecting suspicious activity.
+
+Crystal for Compliance enables institutions to "reduce exposure to illicit funds" through entity risk analysis and comprehensive AML/KYC integration.
+
+Crystal for Investigators supports law enforcement with capabilities to "trace funds and suspects, build cases" using interactive network visualization and transaction flow analysis.
+
+Crystal Foresight delivers stablecoin monitoring to "uncover liquidity shifts early."
+
+## Key Features
+
+- Visual Investigation: Trace wallets across chains and "visualize transaction flows" with smart case mapping
+- Entity Risk Analysis: Access verified data on 118,000+ entities with 360-degree risk profiles and sanctions screening
+- Real-Time Monitoring: Instant alerts on suspicious activity with live transaction tracking
+- Multi-Chain Coverage: Analyzes Bitcoin, Ethereum, Tron, Solana, and 326+ additional blockchains
+- Data Scale: 210M+ verified transfers and 30M+ flagged transfers in their database
+
+## Target Markets
+
+Banks, payment providers, crypto exchanges, law enforcement, governments, and virtual asset service providers seeking compliance automation and financial crime detection.

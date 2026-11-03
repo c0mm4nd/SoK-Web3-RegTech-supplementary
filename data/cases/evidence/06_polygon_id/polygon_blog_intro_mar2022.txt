@@ -1,0 +1,31 @@
+Source: https://polygon.technology/blog/introducing-polygon-id-zero-knowledge-own-your-identity-for-web3
+Fetched: 2026-05-25
+Status: ok (Polygon Labs public blog)
+Citation: Polygon Labs, "Introducing Polygon ID, Zero-Knowledge Identity for Web3," announcement blog post, March 29, 2022 (publicly available; mirrored at https://www.privado.id/blog/introducing-polygon-id-zero-knowledge-identity-for-web3 after Polygon ID's spin-out as Privado ID).
+
+KEY TEXT (verbatim / near-verbatim quotes from the blog post):
+
+Announcement date: March 29, 2022.
+
+Positioning: Polygon ID is "the self-sovereign, decentralized and private identity for the next iteration of the Internet" powered by zero-knowledge cryptography.
+
+W3C DIDs / VCs:
+Mentions verifiable credentials (VCs) as an existing standard, noting that "VCs offer some degree of privacy with selective disclosure and ZK add-on, their limitations are in the expressibility and composability."
+
+Iden3 Protocol & Circom:
+"Polygon ID leverages the Iden3 protocol and Circom ZK toolkit." The announcement states both projects will be sponsored by Polygon while maintaining their open-source community character.
+
+ZK-SNARKs:
+The post references "zkSNARKs circuits," describing how Polygon ID leverages expertise to reduce complexity in using Circom 2.0 to compile these cryptographic constructions.
+
+Compliance / KYC Use Cases:
+The platform includes "KYC, KYB, attestation" as part of its organizational and business applications for trust management.
+
+Wallet-to-Identity Binding:
+The roadmap mentions a "Polygon ID Wallet app" and "Polygon ID Connect" as a public service platform to integrate access across user wallets and applications, enabling on-chain verification.
+
+IMPLICATIONS FOR E3 CASE CODING:
+- This is the primary-source Polygon Labs announcement of Polygon ID. Its release date (March 29, 2022; not "March 2023" as v1 stated) is a factual correction that v2 records.
+- The blog explicitly names "KYC, KYB, attestation" as supported use cases — direct evidence for mechanism = KYA (primary, wallet-bound credential) with KYC/KYB as supporting upstream mechanisms used by issuers.
+- The product is presented as an *Ex-Ante* identity substrate: credentials are issued and verified before transactions or pool access. tab:regtech_lifecycle Ex-Ante row names "Decentralized identity protocols (DIDs, VCs), on-chain KYC attestations" as Web3-specific implementations.
+- Paradigm: Web3 (Decentralized). The platform is the canonical artifact for the Web3 column "Identity Foundation" row: "Cryptographic identifiers with optional verifiable credential attestation."

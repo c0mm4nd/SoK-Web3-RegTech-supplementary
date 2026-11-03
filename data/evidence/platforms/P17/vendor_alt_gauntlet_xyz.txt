@@ -1,0 +1,27 @@
+URL: https://www.gauntlet.xyz
+Fetched: 2026-05-24
+Status: ok (current Gauntlet primary domain after migration from gauntlet.network)
+
+--- Extracted content ---
+
+Gauntlet positions itself as providing "Crypto Yield Strategies for Institutions" with a focus on risk-optimized yields across multiple DeFi sectors including lending, restaking, and real-world assets.
+
+Risk Management Expertise:
+"Quantitative, model-driven frameworks with human oversight" protect capital through market cycles, backed by "8+ years of managing risk for the largest DeFi protocols."
+
+Market Position:
+"$1.6B+ Capital allocated to our vaults onchain" with "150+ Integrations with fintechs & institutions" since entering DeFi in 2018.
+
+Yield Optimization:
+The platform offers vaults that "rebalance across 100s of markets, protocols, and chains to deliver risk-adjusted returns at scale."
+
+Infrastructure — Aera:
+Aera is "Onchain vault infrastructure" that delivers "composable and customizable vaults backed by Gauntlet's full-stack risk management."
+
+--- Alternative URLs tried ---
+1. https://gauntlet.network -> HTTP 403
+2. https://www.gauntlet.network -> HTTP 403
+3. https://docs.gauntlet.network -> socket closed
+4. https://www.gauntlet.xyz -> ok (this content)
+5. https://www.gauntlet.xyz/products -> HTTP 404
+6. https://www.gauntlet.xyz/about -> ok (captured separately in alt_gauntlet_about.txt)

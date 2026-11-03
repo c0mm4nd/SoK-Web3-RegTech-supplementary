@@ -1,0 +1,28 @@
+URL: https://crystalintelligence.com/products
+Fetched: 2026-05-24
+Status: ok
+
+--- Extracted content ---
+
+Crystal Intelligence Platform Overview
+
+Core Platform Functions:
+Crystal Intelligence describes its offering as "Advanced blockchain analytics for crypto crime investigation, compliance, and risk management."
+
+The platform enables users to "Trace wallets & visualize transaction flows with interactive network maps" and "Flag risky flows instantly and prioritize threats."
+
+AML & Compliance Capabilities:
+For anti-money laundering requirements, the platform provides "real-time transaction monitoring, automated address screening, and sanctions and blocklist checks."
+
+The system covers extensive blockchain coverage: "330+ blockchains and 10,000+ digital assets, including Bitcoin, Ethereum, Tron, Solana, Litecoin, and Binance Smart Chain."
+
+Data Scale:
+Crystal Intelligence maintains substantial verified data, including:
+- 30M+ flagged transfers
+- 118K+ verified entities
+- 210M+ verified transfers
+
+Primary Use Cases:
+The platform serves "compliance and risk teams at financial institutions, crypto exchanges, and payment companies; law enforcement and government agencies investigating illicit activity."
+
+Key capabilities include entity risk analysis to "Identify risky wallets & entities" and the ability to "Trace suspicious wallets across chains."

@@ -1,0 +1,15 @@
+Source: https://link.springer.com/chapter/10.1007/978-3-662-64331-0_1 ; ePrint: https://eprint.iacr.org/2019/1128
+Fetched: 2026-05-24
+Status: ok (abstract via Springer FC + IACR ePrint)
+Citation: Zamyatin, A., Al-Bassam, M., Zindros, D., Kokoris-Kogias, E., Moreno-Sanchez, P., Kiayias, A., Knottenbelt, W.J. (2021). "SoK: Communication Across Distributed Ledgers." Financial Cryptography and Data Security 2021, Springer LNCS.
+
+ABSTRACT (verbatim from Springer):
+
+"Since the inception of Bitcoin, a plethora of distributed ledgers differing in design and purpose has been created. While by design, blockchains provide no means to securely communicate with external systems, numerous attempts towards trustless cross-chain communication have been proposed over the years. Today, cross-chain communication (CCC) plays a fundamental role in cryptocurrency exchanges, scalability efforts via sharding, extension of existing systems through sidechains, and bootstrapping of new blockchains. Unfortunately, existing proposals are designed ad-hoc for specific use-cases, making it hard to gain confidence in their correctness and composability. We provide the first systematic exposition of cross-chain communication protocols. We formalize the underlying research problem and show that CCC is impossible without a trusted third party, contrary to common beliefs in the blockchain community. With this result in mind, we develop a framework to design new and evaluate existing CCC protocols, focusing on the inherent trust assumptions thereof, and derive a classification covering the field of cross-chain communication to date. We conclude by discussing open challenges for CCC research and the implications of interoperability on the security and privacy of blockchains."
+
+NAMED PLATFORMS:
+- Cross-chain protocols XCLAIM, BTC Relay, Polkadot, Cosmos IBC (in body). No commercial compliance vendor named.
+
+Implications for coding:
+- D05 Cross-Chain Tracking: academic substantiation that cross-chain bridges are fundamentally hard to secure — relevant to all vendors claiming cross-chain coverage: Chainalysis (P01), Elliptic (P02), TRM Labs (P04), Merkle Science (P05), Hypernative (P14), Arkham (P19).
+- Justifies "Partial" rather than "Full" on D05 since the paper shows trustless cross-chain is provably impossible — vendors necessarily rely on heuristics, not provable tracking.

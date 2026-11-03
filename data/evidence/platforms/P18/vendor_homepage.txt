@@ -1,0 +1,26 @@
+URL: https://nansen.ai
+Fetched: 2026-05-24
+
+# Nansen AI - Product Overview
+
+## Core Capabilities
+
+Trading & Execution: Nansen provides "agentic trading with onchain intelligence," enabling users to "execute directly in-app, from signal to action" with "signal to execution in seconds."
+
+Wallet Intelligence: The platform tracks "500M+ labelled addresses" and offers real-time monitoring of labeled wallets to help investors identify patterns before markets react.
+
+Smart Money Tracking: Users can "track 500M+ labeled wallets in real time" and "see what the best onchain investors are doing before the market does."
+
+Portfolio Analytics: The dashboard provides "real-time PnL, risk scores, and Smart Money attribution" across multiple chains and protocols, with cross-chain position monitoring.
+
+Multi-Chain Support: Platform covers Solana and other blockchains, allowing users to "track wallets and spot the next 100x opportunity" across different networks.
+
+Mobile Access: Native mobile app delivers "onchain insights powered by 500M+ labeled addresses" with non-custodial wallet functionality via Privy integration.
+
+Price Optimization: Trading includes "optimized pricing" aggregating across "trusted names Jupiter, OKX, and LI.FI simultaneously."
+
+Low-Cost Onchain Data: "Solana is free to explore" for wallet tracking and analysis.
+
+## Key Features Not Explicitly Detailed
+
+The requested topics (MEV, Travel Rule, KYC, mixer detection, webhooks, NFT analytics) are absent from this webpage content.

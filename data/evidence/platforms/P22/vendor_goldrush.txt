@@ -1,0 +1,31 @@
+URL: https://goldrush.dev
+Fetched: 2026-05-24
+Status: ok
+
+--- Extracted content ---
+
+GoldRush: Multichain Data APIs
+
+Core Offering:
+"Multichain Data APIs for Builders, Traders and Teams" with "Onchain data from 100+ chains. Built for humans and AI agents."
+
+Key Products:
+
+1. Wallet Portfolio - "Get complete token balances and holdings across 100+ chains with a single API call"
+
+2. Activity Feed - Enables users to "Stream real-time wallet activity and transaction history"
+
+3. OHLCV Pricing - "Access historical OHLCV price data for any token"
+
+4. New DEX Pairs - Provides "Real-time notifications for new DEX pair creations via the Streaming API"
+
+Developer Tools:
+The platform offers a "terminal-first interface for blockchain data" with "100+ chains supported out of the box" and "MCP support for Claude and AI agents."
+
+Trust & Scale:
+GoldRush reports being "Trusted by 70K+ Developers" and describes itself as "Battle-Tested Since 2018" with "Production-grade infrastructure."
+
+Security:
+"GoldRush is SOC 2 compliant" and uses "AES-256" encryption alongside "TLS 1.2" for data protection.
+
+Note: GoldRush is the developer-platform brand of Covalent (covalenthq.com); their underlying Unified API service has been rebranded to GoldRush.

@@ -1,0 +1,27 @@
+URL: https://primer.systems
+Fetched: 2026-05-24
+Status: ok
+
+# Primer Systems Homepage Content Summary
+
+Note: KILT Protocol redirected to Primer Systems as its successor/evolution. Primer Systems represents the post-pivot identity for the former KILT decentralized identity protocol.
+
+## Core Products & Services
+
+**x402 Payments**: "Instant, gasless HTTP-based payments for agents and people" via multiple tools including MultiClaw (multi-agent management), Primer Pay (browser extension), SDK, Facilitator (settlement on Base), and Validator.
+
+**ERC-8004 Identity**: Agent identity and reputation system featuring an 8004 Gateway for registration and a Console for portable, encrypted agent management.
+
+**$PR Token**: Community-controlled asset on Base (address: 0x2357...A153) with 294,278,048 circulating supply following April 2026 burn of unclaimed tokens.
+
+## Key System Modules
+
+MultiClaw provides "hard private key separation, spend controls, AP2 compliance" for desktop/USB management. Primer Pay enables "seamless micropayments, full spend controls and security" on Chrome. The x402 SDK offers "complete x402 v2 functionality for payers and payees" in TypeScript and Python.
+
+## Recent Developments
+
+Notable releases include Facilitator v1.3 with batch settlement, Primer Pay v0.4 with design improvements, WordPress plugin integration, and Bittensor integration via x402 SDK v0.7.
+
+## Community
+
+Engagement through X (@primer_systems), Telegram (primer_HQ), YouTube, and GitHub repositories.

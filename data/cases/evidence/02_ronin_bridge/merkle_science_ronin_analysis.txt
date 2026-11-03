@@ -1,0 +1,27 @@
+Source: https://www.merklescience.com/blog/hack-track-analysis-of-ronin-network-exploit
+Fetched: 2026-05-25
+Status: ok (Merkle Science public blog; original URL redirected from blog.merklescience.com)
+Citation: Merkle Science, "Hack Track: Analysis of Ronin Network Exploit," 2022 (post-April 14, 2022).
+
+KEY TEXT (verbatim / near-verbatim from the blog post):
+
+Fund Movement Tracing:
+The stolen funds were transferred to the attacker's wallet 0x098B716B8Aaf21512996dC57EB0615e2383E2f96. Merkle Science documented the following distribution:
+- 3,749.92 ETH (~$12.82M) moved to exchange E2
+- 1,219.961 ETH (~$4.17M) sent to exchange E4
+- 0.99 ETH (~$3,400) transferred to exchange E3
+- ~$5M in remaining crypto sent to unidentified wallets
+
+Approximately "$21 million in ETH has already been moved out of the attacker's wallet."
+
+OFAC Designation:
+On April 14, 2022, the U.S. Treasury's Office of Foreign Assets Control designated the attacker's wallet, which "contains funds stolen in the Ronin security breach." At publication, the wallet held 138,433.136 ETH valued near $402 million.
+
+Attribution and Investigation:
+The FBI linked the breach to Lazarus, the "North Korean state-sponsored" hacking group. The U.S. Treasury stated this group is "controlled by North Korea's primary intelligence agency, the Reconnaissance General Bureau (RGB)."
+
+IMPLICATIONS FOR E3 CASE CODING:
+- Mechanism: KYT primary — the investigation is transaction-level: trace stolen ETH/USDC from the exploiter wallet through CEXes and unidentified addresses. The Merkle Science write-up is a textbook example of the KYT row "real-time risk scoring, taint analysis" applied retrospectively.
+- Mechanism secondary: Address/Wallet Screening — once OFAC SDN-listed 0x098B..., that address became the input to every downstream VASP's address screening control.
+- Lifecycle: Ex-Post (Investigative) primary — graph reconstruction and attribution. In-Medias-Res secondary — once the address was screened, real-time freezes on inbound transfers began (overlap with case 04 logic).
+- Paradigm: Web3 — bridge exploit, network-wide visibility, on-chain address listing.

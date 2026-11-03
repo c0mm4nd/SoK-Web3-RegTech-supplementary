@@ -1,0 +1,34 @@
+URL: https://shyft.network/veriscope (redirected from https://veriscope.network)
+Fetched: 2026-05-24
+Status: ok
+
+--- Extracted content ---
+
+Veriscope by Shyft Network
+
+Core Definition:
+Veriscope is described as "The only frictionless Crypto Travel Rule compliance solution."
+
+Travel Rule Overview:
+The platform addresses the "Crypto Travel Rule and why the Sunrise Issue matters," relating to FATF (Financial Action Task Force) regulatory documentation requirements for virtual asset service provider (VASP) compliance.
+
+Key Capabilities:
+
+Discovery & Sharing:
+- Enables discovery of counterparty VASPs and their addresses without requiring user information
+- Facilitates VASP-to-VASP customer data transfer with security, without storing data on external systems
+
+Transaction Support:
+- Handles historic transaction lookbacks on broadcasts made before integration (addressing the "Sunrise Issue")
+- Transaction broadcasts are immutable records
+
+Identity & Security Features:
+- No personal information is stored by Veriscope itself
+- Secure PII transmission between VASPs prevents data mining of customer information
+- Due diligence follows internationally recognized standards with attestation by DLA Piper
+
+Ecosystem Scale:
+Major crypto platforms already using or evaluating Veriscope include Binance, Bitfinex, Huobi, Gate.io, and others—representing over 60% of global transaction flow.
+
+Business Model:
+The solution operates on a "Pay-As-You-Go Model" with no setup fees, minimum charges, or ongoing licensing—only per-transaction fees.

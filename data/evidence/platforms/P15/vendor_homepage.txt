@@ -1,0 +1,31 @@
+URL: https://dedaub.com
+Fetched: 2026-05-24
+
+# Dedaub: Web3 Security Platform
+
+## Core Services
+
+Smart Contract Audits: Dedaub conducts security reviews combining "automated tooling with adversarial manual review" to test contracts against real-world attack vectors. They report 300+ total audits, 160+ public reports, and 80+ clients across 30+ chains.
+
+Security Suite: A comprehensive onchain technology stack featuring:
+- Decompiler: ~29M smart contracts decompiled; enables analysis of contracts "without verified source or ABI publicly available" in Solidity-like format
+- Vulnerability Detection: ~16M threats detected using formal verification, statistical learning, and static analysis
+- Transaction Analysis: 25B+ transactions analyzed; 2,200+ datapoints and 340 indexed tables per chain
+
+## Security Applications
+
+Tok{In}: Real-time token risk detection analyzing "token behavior, contract logic, and transactional patterns to surface hidden risks before interaction."
+
+Custom Monitoring: Protocol-specific risk models tracking "contract activity, state changes, and transaction flows to detect abnormal or high-risk behavior in real time."
+
+Firewall: "Transaction-level protection driven by contract and behavioral analysis" to prevent exploits and malicious calls.
+
+## Focused Expertise
+
+Advisory services including architectural review, risk mitigation (MEV, oracle dependencies), protocol design guidance, and gas optimization.
+
+## Key Statistics
+
+- $70B in assets managed by audited code
+- 8+ fully supported chains (Ethereum, Arbitrum, Optimism, Base, Binance, Polygon, Avalanche)
+- 17,000+ data points; 2,700+ indexed tables

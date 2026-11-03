@@ -1,0 +1,21 @@
+Source: https://arxiv.org/abs/2409.10949
+Fetched: 2026-05-25
+Status: ok (arXiv landing accessible)
+Citation: Coquidé, C., Cazabet, R., Tovanich, N. (2024). "Inside Alameda Research: A Multi-Token Network Analysis." arXiv:2409.10949. Presented at 13th International Conference on Complex Networks and their Applications (Istanbul, December 2024); proceedings volume 2025.
+
+VERBATIM ABSTRACT (from arXiv landing):
+
+"We analyze the token transfer network on Ethereum, focusing on accounts associated with Alameda Research, a cryptocurrency trading firm implicated in the misuse of FTX customer funds. Using a multi-token network representation, we examine node centralities and the network backbone to identify critical accounts, tokens, and activity groups. The temporal evolution of Alameda accounts reveals shifts in token accumulation and distribution patterns leading up to its bankruptcy in November 2022. Through network analysis, our work offers insights into the activities and dynamics that shape the DeFi ecosystem."
+
+KEY TERMS / TOPICS COVERED:
+- Alameda Research as subject firm
+- FTX customer fund misuse
+- Multi-token Ethereum network representation
+- November 2022 bankruptcy
+- Network analysis as forensic method (centralities, backbone, temporal evolution)
+
+IMPLICATIONS FOR E3 CASE CODING:
+- This is the academic peer-reviewed forensic paper named in the SoK manuscript's discussion of FTX/Alameda asset tracing. The paper applies graph-analytic forensics to ERC-20 token movements after-the-fact — direct alignment with the Ex-Post row of tab:regtech_lifecycle ("transaction graph analysis, pattern recognition").
+- Mechanism: KYT — the verification target is transactions and transaction patterns; the paper's outputs are critical-account identification, multi-token flow attribution, and temporal pattern detection.
+- Paradigm: VASP (Centralized Virtual Asset Regulation) — FTX/Alameda was a centralized VASP whose collapse is being analyzed; the on-chain forensics is the *technical* instrument but the regulatory frame is intermediary-centric.
+- The paper does NOT name Chainalysis/Elliptic in the abstract; it independently reproduces forensic results that VASP-collapse investigations had previously performed.

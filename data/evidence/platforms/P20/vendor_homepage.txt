@@ -1,0 +1,45 @@
+URL: https://anchain.ai
+Fetched: 2026-05-24
+
+# AnChainAI Platform
+
+## Core Products & Capabilities
+
+CISO - AI-powered blockchain forensics platform offering:
+- Auto-Trace feature for "quickly assess cryptocurrency transactions from point of origin/wallet to endpoints"
+- Case management
+- Transaction analysis across UTXO and EVM chains
+
+Data API & MCP - Institution-grade crypto intelligence delivering:
+- Real-time transaction screening
+- AML/CFT and sanctions compliance
+- Cross-chain analytics
+
+SCREEN - Smart contract monitoring for:
+- Due diligence and risk assessment
+- Vulnerability detection
+
+## Technical Capabilities
+
+The platform operates 16+ machine learning models including:
+- Patented Auto-Trace heuristic search (UTXO and EVM)
+- Risk scoring regression models
+- Wallet clustering via cryptographic/behavioral patterns
+- Smart contract bytecode analysis
+- Mixer/Tornado Cash demixing detection
+- NFT wash trading identification
+- Bot behavior detection
+- Peel chain and passthrough behavior analysis
+- Cross-chain bridge transaction demixing
+- DeFi behavior classification
+
+## Key Metrics
+
+- "$870 Million" in asset seizures and recoveries
+- "1 Trillion" fiat and blockchain transactions analyzed
+- "10x Faster" on AML and fraud detection
+- 17,000+ MetaMask Snap installations
+
+## Compliance & Trust
+
+SOC 2 certified, AWS GovCloud compatible, supporting GENIUS ACT and MICA regulatory frameworks.

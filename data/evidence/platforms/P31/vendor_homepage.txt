@@ -1,0 +1,30 @@
+URL: https://cipherblade.com
+Fetched: 2026-05-24
+Status: ok
+
+# CipherBlade Homepage Content Summary
+
+**Main Headline:**
+"We have traced cryptocurrencies in hundreds of cybercrime cases."
+
+**Core Services Offered:**
+
+1. **Blockchain Forensics** - "We illuminate blockchain transactions" using forensics tools to analyze Bitcoin, Ethereum, and other blockchains for intelligence extraction.
+
+2. **Cryptocurrency Recovery** - "We help to recover digital assets" by tracing stolen funds, flagging addresses, and coordinating with victims, services, and law enforcement.
+
+3. **Expert Testimony** - "We assist in legal cases" ranging from divorce to criminal proceedings, providing expert support and court testimony on blockchain matters.
+
+**How They Work:**
+- Bespoke Services: Tailored strategies based on case evaluation
+- Client Focus: Precision execution for specific requirements
+- Adaptable Methods: Tools matched to case complexity
+- Proportionality: Flexible approaches managing costs while maximizing results
+
+**Team Description:**
+They describe their team as "veteran" professionals with "academic, law enforcement, military, and crypto industry backgrounds," positioned globally for round-the-clock support.
+
+**Client Base:**
+Law firms, cybercrime victims, crypto businesses, and law enforcement agencies.
+
+**Contact:** Located in Anchorage, Alaska and Singapore; email inquiries to their @cipherblade.com domain.

@@ -1,0 +1,34 @@
+Source: https://thehackernews.com/2024/05/bitcoin-forensic-analysis-uncovers.html ; https://securityboulevard.com/2024/05/elliptic-shows-how-an-ai-model-can-identify-bitcoin-laundering/ ; https://www.coindesk.com/tech/2024/05/01/blockchain-sleuth-elliptic-explores-ai-and-anti-money-laundering-using-200m-bitcoin-transactions ; underlying paper: https://arxiv.org/abs/2404.19109
+Fetched: 2026-05-24
+Status: partial (TheHackerNews 403; substantive content from secondary coverage + arXiv)
+Citation: Industry analyst coverage of Elliptic / MIT-IBM Watson AI Lab joint research, May 2024. Anchored on Bellei et al. arXiv:2404.19109 ("The Shape of Money Laundering").
+
+KEY FINDINGS (industry analyst summary, distinguishing from primary academic paper):
+
+Publication: May 1, 2024 (CoinDesk Technology section reporting); concurrent industry coverage by Security Boulevard, The Hacker News, Crypto-Talents.
+
+Research collaboration: Elliptic (commercial blockchain analytics vendor, P02) partnered with MIT-IBM Watson AI Lab to publish open peer-reviewed research using:
+- 200 million labeled Bitcoin transactions
+- 49 million node clusters
+- 196 million edge transactions
+- 122,000 labeled subgraphs of Bitcoin clusters linked to illicit activity
+
+Methodology: GNN-based subgraph classification rather than node classification — identifying the "shape" of money-laundering subgraphs (e.g., peeling chains, layering patterns).
+
+Significance noted by independent commentators:
+- "Elliptic2 dataset is orders of magnitude bigger than the one used when the team began using machine learning to detect money laundering with bitcoin back in 2019." (Coindesk 2024)
+- Published at KDD Workshop on Machine Learning in Finance, August 2024, Barcelona.
+- Open-sources the dataset for academic researchers — a notable third-party-relevant contribution.
+
+Industry analyst interpretation (Coindesk, Security Boulevard):
+- Demonstrates that AI/GNN approaches to Bitcoin AML can scale to industrial volumes.
+- Identifies new typologies of money-laundering subgraph structure invisible to traditional heuristic methods.
+- Suggests Elliptic is investing aggressively in ML-based compliance R&D to remain competitive with Chainalysis and TRM Labs.
+
+IMPLICATIONS FOR WEB3 REGTECH CODING:
+- Elliptic (P02): independent industry-analyst attestation supports D08 Graph Neural Networks, D09 ML/DL Techniques at the highest level.
+- D10 Behavioral Analytics: subgraph-shape detection of money-laundering patterns is a textbook behavioral-analytics capability — supports D10 Full coverage for Elliptic.
+- D03 Address Attribution: 49M node clusters labeled — substantiates D03 Full coverage for Elliptic.
+- D04 Multi-Hop Tracing: subgraph approach inherently traces multi-hop patterns.
+- D02 Real-Time Risk Scoring: GNN-subgraph models can be operationalized for real-time scoring once trained.
+- This represents the strongest single independent attestation for Elliptic's ML/AI capabilities in the dossier.

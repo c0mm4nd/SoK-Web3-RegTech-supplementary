@@ -1,0 +1,37 @@
+Source: https://beincrypto.com/circle-pledges-action-after-freezing-75k-tornado-cash-linked-usdc/ ; https://cryptoslate.com/circle-blacklists-all-tornado-cash-eth-addresses-effectively-freezing-usdc/
+Fetched: 2026-05-25
+Status: ok for secondary coverage carrying verbatim Circle/Allaire quotes; Circle's own blog URL (https://www.circle.com/blog/...) returned 404 to direct retrieval in 2026. Substantive Circle quotes are preserved by BeInCrypto and CryptoSlate from the original Circle blog post by Jeremy Allaire dated August 2022.
+Citation: Allaire, Jeremy (Circle CEO), "Circle's response to Tornado Cash sanctions," Circle blog, August 2022 (original URL no longer resolvable); verbatim quotes preserved in BeInCrypto and CryptoSlate coverage cited above.
+
+KEY TEXT (verbatim Circle / Allaire quotes preserved in secondary coverage):
+
+On Compliance:
+"Circle complied with these sanctions and blocked the addresses on our platform, cutting off USDC access from Circle accounts to and from the Tornado Cash sanctioned addresses."
+
+On System Functionality:
+"On Monday, August 8, the systems we have in place to comply with applicable law, and government regulations worked. Centre, the consortium behind USDC, followed the US Treasury sanctions against Tornado Cash and blocked the related addresses."
+
+"The systems we have in place to comply with applicable law and government regulations worked."
+
+On Policy Concerns:
+"the regulatory intervention in this case crossed a major threshold in the history of the internet, and the history of open blockchain finance."
+
+"It raises extraordinary questions about privacy and security on the internet, and the future of public internet digital currency."
+
+On Future Action (commitment to engage policy):
+"While we complied with the Tornado Cash sanctions designation, we will also challenge the flaw as a tenant of our responsibility…"
+"In the coming days, we intend to announce additional steps to garner broader industry support for developing policies that can advance the preservation of openness and privacy on blockchains and modernize the approach to mapping financial integrity to the technical realities of privacy preserving public internet protocols."
+
+On the blacklist mechanic (BeInCrypto / CryptoSlate paraphrase): once an address is "blacklisted," it can "no longer receive USDC and all of the USDC controlled by that address is blocked and cannot be transferred on-chain."
+
+Quantified action (per BeInCrypto / CryptoSlate):
+- Circle froze "over 75,000 USDC worth of funds" linked to "the 44 Tornado Cash addresses sanctioned by OFAC." (Approx. $75,000–$81,000 USDC reported across sources.)
+- Action followed the OFAC designation on August 8, 2022 within hours.
+
+Allaire policy statement (separate piece, Cryptopolitan): "USDC will not be frozen without a court order."
+
+IMPLICATIONS FOR E3 CASE CODING:
+- Paradigm: VASP (Centralized) — Circle is a U.S.-regulated stablecoin issuer responding to traditional OFAC sanctions orders. The "Centralized" column row "Similar to traditional plus blockchain address blacklisting" fits exactly.
+- Mechanism primary: Address/Wallet Screening — the action is address-level (the 44 SDN addresses); the contract action is implemented as a blacklist mapping.
+- Mechanism secondary: KYT — the freeze triggers also fire when a transaction routes illicit funds *through* a USDC-holding address (per Circle's general workflow described in Allaire statements).
+- Lifecycle: Ex-Ante (Preventive). tab:regtech_lifecycle explicitly names "compliant stablecoin blacklists (USDC freeze functions)" as an Ex-Ante Web3-specific implementation. The per-transfer blacklist check is the *implementation* of the Ex-Ante control, not a separate In-Medias-Res activity.

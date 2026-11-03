@@ -1,0 +1,29 @@
+URL: https://lukka.tech/blockchain-analytics-compliance/
+Fetched: 2026-05-24
+Status: ok (successor site after Lukka's acquisition of Coinfirm)
+
+Note: https://www.coinfirm.com/about returned 301 redirect to https://lukka.tech/blockchain-analytics-compliance/.
+
+--- Extracted content (verbatim/summary from page) ---
+
+Lukka's Blockchain Analytics and Compliance Solutions
+
+Current Solutions Mentioned on this page:
+
+Lukka offers "Transaction, wallet and clustering risk monitoring for crypto-assets" through their Blockchain Analytics solution. They also provide "Forensic investigations and asset tracking for crypto assets" via their Blockchain Investigations platform.
+
+The company monitors "46,000+ Blockchain entities" and covers "100+ Blockchain Protocols" across their database of "1.8M+ Crypto Assets."
+
+Lukka emphasizes it provides "institutional-grade products built within an AICPA SOC 1 Type II and SOC 2 Type II infrastructure," with a Trust Center addressing data quality and reliability standards.
+
+Sub-products under "Blockchain Analytics & Compliance SaaS":
+- Blockchain Analytics SaaS - "Explore advanced industry-leading blockchain analytics and investigations solutions"
+- Blockchain Investigator SaaS - mentioned as part of compliance enhancement tools
+- Blockchain Analytics Omni - listed as available tool
+
+The page does not contain Coinfirm-branded references to KYT (Know Your Transaction), AML risk scoring, or transaction monitoring methodologies; these former Coinfirm capabilities now appear folded into Lukka's analytics/investigator/omni SaaS line.
+
+--- Alternative URLs tried ---
+1. https://www.coinfirm.com/about -> 301 to lukka.tech/blockchain-analytics-compliance (this page; saved here)
+2. https://lukka.tech -> ok (see P07/homepage.txt presumed; also captured in alt_lukka_main.txt)
+3. https://web.archive.org/web/2024/https://coinfirm.com -> archive.org blocked by retrieval

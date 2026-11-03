@@ -1,0 +1,32 @@
+URL: https://www.fenergo.com/platform
+Fetched: 2026-05-24
+Status: ok
+
+# Fenergo Platform Page Content Summary
+
+**Platform Overview:**
+"Fenergo's advanced end-to-end Client Lifecycle Management suite of software solutions enables you to deliver business transformation, achieve and maintain regulatory compliance"
+
+**SaaS Architecture:**
+"A highly scalable, cloud-native platform, Fenergo SaaS provides standalone features with full configuration and administration capabilities."
+
+**Key Capabilities:**
+- "No-code configurations and continuous delivery of product updates"
+- "Multi-region support that delivers protection for data privacy, data resiliency and high availability"
+- "Event-Driven, API-First Architecture" using "serverless API layers, containerized services, and cloud native data storage services"
+- "Modular Feature-Based Architecture" enabling "features to be built, released, and upgraded independently"
+
+**Core Solutions Listed:**
+- FinCrime Operating System
+- Agentic AI Agents
+- Client Lifecycle Management (CLM)
+- Know Your Customer (KYC)
+- Client Onboarding
+- Identity Verification (ID&V)
+- Transaction Monitoring
+- Regulatory Compliance
+- CLM for Salesforce
+- Integration Hub & Flows
+
+**Target Segments:**
+Banking (corporate, commercial, retail, private/wealth), Buy-Side (asset management, asset servicing), Fintechs, and Energy & Commodities Trading organizations.

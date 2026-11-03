@@ -1,0 +1,17 @@
+Source: https://link.springer.com/chapter/10.1007/978-3-642-39884-1_2 ; IACR ePrint 2012/584 ; FC 2013 proceedings: https://fc13.ifca.ai/proc/1-1.pdf
+Fetched: 2026-05-24
+Status: partial (PDF binary unreadable via retrieval; abstract assembled from publisher landing snippets + web search returns)
+Citation: Ron, D., and Shamir, A. (2013). "Quantitative Analysis of the Full Bitcoin Transaction Graph." Financial Cryptography and Data Security 2013, LNCS 7859, Springer, pp. 6-24.
+
+ABSTRACT (verbatim from Springer landing / IACR ePrint snippet):
+
+"The Bitcoin scheme is a rare example of a large scale global payment system in which all the transactions are publicly accessible (but in an anonymous way). We downloaded the full history of this scheme, and analyzed many statistical properties of its associated transaction graph. In this paper we answer for the first time a variety of interesting questions about the typical behavior of users, how they acquire and how they spend their bitcoins, the balance of bitcoins they keep in their accounts, and how they move bitcoins between their various accounts in order to better protect their privacy. In addition, we isolated all the large transactions in the system, and discovered that almost all of them are closely related to a single large transaction that took place in November 2010, even though the associated users apparently tried to hide this fact with many strange looking long chains and fork-merge structures."
+
+NAMED PLATFORMS:
+- Mt. Gox (analyzed as the largest 2010-era Bitcoin exchange).
+- Foundational, pre-vendor-era; no modern Web3 RegTech vendors named.
+
+Implications for coding:
+- Provides earliest comprehensive empirical analysis of Bitcoin transaction-graph behavior used to validate modern vendor heuristics (chain-of-custody, fork-merge structures).
+- D03 Address Attribution and D04 Multi-Hop Tracing: substantiates academic foundations for Chainalysis (P01), Elliptic (P02), CipherTrace (P03), TRM Labs (P04), Crystal (P08).
+- D10 Behavioral Analytics: pioneered analysis of bitcoin-movement behavioral patterns including obfuscation via chains and fork-merge — what vendors now market as "money laundering pattern detection".

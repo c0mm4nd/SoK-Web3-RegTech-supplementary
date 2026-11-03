@@ -1,0 +1,15 @@
+Source: https://arxiv.org/abs/2001.05233 ; published IEEE TSMC 2021.
+Fetched: 2026-05-24
+Status: ok (abstract via arXiv + IEEE)
+Citation: Wu, J., Liu, J., Chen, W., Huang, H., Zheng, Z., and Zhang, Y. (2021). "Detecting Mixing Services via Mining Bitcoin Transaction Network With Hybrid Motifs." IEEE Transactions on Systems, Man, and Cybernetics: Systems, 52(4): 2237-2249.
+
+ABSTRACT (verbatim from arXiv 2001.05233):
+
+"As the first decentralized peer-to-peer (P2P) cryptocurrency system allowing people to trade with pseudonymous addresses, Bitcoin has become increasingly popular in recent years. However, the P2P and pseudonymous nature of Bitcoin make transactions on this platform very difficult to track, thus triggering the emergence of various illegal activities in the Bitcoin ecosystem. Particularly, mixing services in Bitcoin, originally designed to enhance transaction anonymity, have been widely employed for money laundry to complicate trailing illicit fund. In this paper, we focus on the detection of the addresses belonging to mixing services, which is an important task for anti-money laundering in Bitcoin. Specifically, we provide a feature-based network analysis framework to identify statistical properties of mixing services from three levels, namely, network level, account level and transaction level. To better characterize the transaction patterns of different types of addresses, we propose hybrid motifs which combine information about transaction direction and account roles to capture transaction patterns more accurately. Then we use the proposed hybrid motifs as features to detect mixing services in Bitcoin via classification methods. Experimental results on the data of real-world Bitcoin transactions demonstrate that our proposed detection model is effective for the detection of mixing services."
+
+NAMED PLATFORMS:
+- Specific Bitcoin mixers analyzed (in body, not abstract): BitcoinFog, Helix, BestMixer, BitLaunder. No modern Web3 compliance vendor is named in the abstract.
+
+Implications for coding:
+- D16 Mixer Detection for Chainalysis (P01), Elliptic (P02), TRM Labs (P04), Crystal Intelligence (P08), Merkle Science (P05): the paper validates motif-based mixer detection — a methodology that vendors operationalize.
+- D03 Address Attribution: confirms that account-level statistical patterns can distinguish mixer addresses from regular users.

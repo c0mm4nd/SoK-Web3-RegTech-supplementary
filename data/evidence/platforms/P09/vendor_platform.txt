@@ -1,0 +1,29 @@
+URL: https://www.soliduslabs.com/platform
+Fetched: 2026-05-24
+Status: ok
+
+--- Extracted content ---
+
+Solidus Labs HALO Platform: Key Capabilities
+
+Core Description:
+"HALO Platform — One Platform, Complete Compliance Coverage" offering "multidimensional, risk-based platform built from the ground up to safeguard modern financial markets."
+
+Primary Functions:
+The platform consolidates "trade surveillance, transaction monitoring, and investigation management within a single platform." It synthesizes information from multiple sources to help institutions detect potential market manipulation and investigate suspicious activity.
+
+Key Capabilities:
+
+Market Surveillance: HALO provides "multi-venue market inspection," enabling users to "visualize, replay, and reconstruct trading activity across multiple venues in a unified interface."
+
+Detection Features: The system detects "spoofing, layering/quote stuffing, and socially amplified coordination" through "real-time detection" that combines order book analysis with behavioral analytics.
+
+Configurable Parameters: Teams can "recalibrate detection thresholds, preview alert impact" via "zero-code interface" without requiring engineering support.
+
+Risk Assessment: The platform builds "holistic, behavior-based profiles" and creates a "Universal Client Risk View" synthesizing cross-market data.
+
+Target Users:
+The platform serves "multi-asset broker-dealers," "crypto exchanges," "regulators," and "compliance teams scaling into digital assets."
+
+Regulatory Focus:
+HALO emphasizes "institutional-grade defensibility" and maintains "full audit trails" to demonstrate operational excellence across global jurisdictions.

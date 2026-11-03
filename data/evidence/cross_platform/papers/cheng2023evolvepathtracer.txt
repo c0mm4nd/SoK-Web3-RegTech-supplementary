@@ -1,0 +1,17 @@
+Source: https://arxiv.org/abs/2301.05412 ; KDD 2023: https://dl.acm.org/doi/10.1145/3580305.3599817
+Fetched: 2026-05-24
+Status: ok (abstract via arXiv)
+Citation: Cheng, L., Zhu, F., Wang, Y., Liang, R., Liu, H. (2023). "Evolve Path Tracer: Early Detection of Malicious Addresses in Cryptocurrency." Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD '23).
+
+ABSTRACT (verbatim from arXiv 2301.05412):
+
+"With the ever-increasing boom of Cryptocurrency, detecting fraudulent behaviors and associated malicious addresses draws significant research effort. However, most existing studies still rely on the full history features or full-fledged address transaction networks, thus cannot meet the requirements of early malicious address detection, which is urgent but seldom discussed by existing studies. To detect fraud behaviors of malicious addresses in the early stage, we present Evolve Path Tracer, which consists of Evolve Path Encoder LSTM, Evolve Path Graph GCN, and Hierarchical Survival Predictor. Specifically, in addition to the general address features, we propose Asset Transfer Paths and corresponding path graphs to characterize early transaction patterns. Further, since transaction patterns are changing rapidly during the early stage, we propose Evolve Path Encoder LSTM and Evolve Path Graph GCN to encode asset transfer path and path graph under an evolving structure setting. Hierarchical Survival Predictor then predicts addresses' labels with high scalability and computation efficiency. We investigate the effectiveness and versatility of Evolve Path Tracer on three real-world illicit bitcoin datasets. Our experimental results demonstrate that Evolve Path Tracer outperforms the state-of-the-art methods. Extensive scalability experiments demonstrate the model's adaptivity under a real-time monitoring setting."
+
+NAMED PLATFORMS:
+- No commercial vendor named in abstract. Datasets used: BABD-13, Elliptic (P02), and a Bitcoin Heist dataset.
+
+Implications for coding:
+- D02 Real-Time Risk Scoring: explicitly demonstrates "real-time monitoring" capability — supports vendors marketing real-time risk scoring (Chainalysis P01, Elliptic P02, TRM Labs P04, Crystal P08).
+- D03 Address Attribution and D04 Multi-Hop Tracing: asset-transfer-path methodology substantiates address-level early-detection capability for AML vendors.
+- D08 Graph Neural Networks: GCN+LSTM combination on bitcoin transaction graphs.
+- D22 Real-Time Alerting: scalability experiments justify real-time alerting capability.

@@ -1,0 +1,16 @@
+Source: https://arxiv.org/abs/2201.05757 ; published as IEEE TIFS 2023.
+Fetched: 2026-05-24
+Status: ok (abstract via arXiv landing)
+Citation: Wu, Z., Liu, J., Wu, J., Zheng, Z., and Chen, T. (2022/2023). "TRacer: Scalable Graph-based Transaction Tracing for Account-based Blockchain Trading Systems." IEEE Transactions on Information Forensics and Security.
+
+ABSTRACT (verbatim from arXiv):
+
+"Security incidents such as scams and hacks, have become a major threat to the health of the blockchain ecosystem, causing billions of dollars in losses each year for blockchain users. To recover the loss caused by security incidents, a common practice is to track stolen money in blockchain transaction networks, which has been done by some forensics services like Chainalysis and Elliptic. However, existing tracing approaches based on heuristics and taint analysis have limitations in terms of universality, effectiveness, and efficiency, especially as the user community continues to grow and the cryptocurrency ecosystem becomes more complex. To address these issues, in this paper, we propose a novel transaction tracing tool TRacer for account-based blockchains. Specifically, we model the blockchain transaction records as a blockchain transaction graph and tackle blockchain transaction tracing as a graph searching task. Then we propose a novel personalized PageRank method in TRacer based on the directed, weighted, temporal, and multi-relationship blockchain transaction graphs. To the best of our knowledge, TRacer is the first intelligent transaction tracing tool in account-based blockchains that can handle complex transaction actions in DeFi. Experimental results show that TRacer can complete the transaction tracing task effectively at a low cost."
+
+NAMED PLATFORMS:
+- Chainalysis (P01) — explicitly named as a "forensics service" performing transaction tracing in blockchain networks.
+- Elliptic (P02) — explicitly named as a "forensics service" alongside Chainalysis.
+
+Implications for coding:
+- Chainalysis (P01) and Elliptic (P02): independent academic third-party attestation that both companies provide stolen-fund tracing services using heuristics and taint analysis — D03 Address Attribution, D04 Multi-Hop Tracing.
+- The paper critiques heuristic/taint approaches and proposes PageRank-based account-tracing; suggests vendor products may have measurable accuracy limits in DeFi contexts (D06 DeFi Semantic Analysis).

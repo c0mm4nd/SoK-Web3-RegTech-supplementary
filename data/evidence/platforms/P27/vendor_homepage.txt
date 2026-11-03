@@ -1,0 +1,22 @@
+URL: https://trisa.dev
+Fetched: 2026-05-24
+Status: ok (trisa.io homepage timed out; trisa.dev served the protocol docs)
+
+--- Extracted content ---
+
+TRISA: Key Definitions
+
+Travel Rule Compliance:
+"The goal of the Travel Rule Information Sharing Architecture (TRISA) is to enable compliance with the FATF and FinCEN Travel Rules for cryptocurrency transaction identity information without modifying core blockchain protocols."
+
+Architectural Approach:
+TRISA avoids increasing transaction costs or altering virtual currency peer-to-peer transaction flows while meeting regulatory requirements.
+
+Technical Foundation:
+The system operates as a gRPC API utilizing protocol buffers for message interchange, enabling language-agnostic communication between Virtual Asset Service Providers (VASPs) that need Travel Rule compliance solutions.
+
+Governance:
+"The TRISA protocol and specification is defined by the TRISA Working Group"; interested parties can consult the TRISA whitepaper for comprehensive technical details.
+
+Implementation:
+Reference implementations exist in Go programming language, with additional library code planned for other languages in the repository's directories.

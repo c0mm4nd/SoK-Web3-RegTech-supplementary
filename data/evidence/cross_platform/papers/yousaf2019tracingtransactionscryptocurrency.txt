@@ -1,0 +1,18 @@
+Source: https://www.usenix.org/conference/usenixsecurity19/presentation/yousaf and https://arxiv.org/abs/1810.12786
+Fetched: 2026-05-24
+Status: ok (abstract via USENIX + arXiv)
+Citation: Yousaf, H., Kappos, G., and Meiklejohn, S. (2019). "Tracing Transactions Across Cryptocurrency Ledgers." 28th USENIX Security Symposium (USENIX Security '19), pp. 837-850.
+
+ABSTRACT (verbatim from USENIX):
+
+"One of the defining features of a cryptocurrency is that its ledger, containing all transactions that have ever taken place, is globally visible. As one consequence of this degree of transparency, a long line of recent research has demonstrated that -- even in cryptocurrencies that are specifically designed to improve anonymity -- it is often possible to track money as it changes hands, and in some cases to de-anonymize users entirely. With the recent proliferation of alternative cryptocurrencies, however, it becomes relevant to ask not only whether or not money can be traced as it moves within the ledger of a single cryptocurrency, but if it can in fact be traced as it moves across ledgers. This paper provides a way to answer this question and demonstrates how to use it on the recently popular service ShapeShift, which supports exchanges across eight different cryptocurrencies. We discover patterns of cross-currency trades and find evidence that ShapeShift is used to launder money, that hackers prefer it for cashing out, and that the service is now also used for trading and even gambling."
+
+NAMED PLATFORMS:
+- ShapeShift (cross-chain exchange) explicitly named throughout — the paper's case study.
+- Eight chains analyzed: Bitcoin, Ethereum, Bitcoin Cash, Litecoin, Dogecoin, Monero, Zcash, Dash.
+- No commercial compliance vendor named, but the paper's cross-chain tracing methodology is foundational to commercial cross-chain analytics products marketed by Chainalysis (P01), Elliptic (P02), TRM Labs (P04), Merkle Science (P05), Crystal (P08).
+
+Implications for coding:
+- D05 Cross-Chain Tracking: direct academic substantiation for cross-chain tracing capability claimed by Chainalysis, Elliptic, TRM Labs, Merkle Science, Crystal Intelligence.
+- D15 Privacy Coin Analysis: the methodology was applied across Monero, Zcash, Dash — supports partial coverage on D15 for vendors offering ShapeShift-like cross-chain tracing.
+- D16 Mixer Detection: ShapeShift is shown to be used to launder funds — substantiates D16 detection of swap-based laundering.

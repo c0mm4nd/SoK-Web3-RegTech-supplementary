@@ -1,0 +1,30 @@
+URL: https://amlbot.com
+Fetched: 2026-05-24
+Status: ok
+
+# AMLBot Homepage Content Extract
+
+**Main Headline:**
+"Crypto compliance software for digital asset companies"
+
+**Tagline:**
+"Detect and manage AML risks with transaction monitoring, wallet screening, and KYC"
+
+**Core Services:**
+
+1. **AML/KYT screening** - "Real-time transaction monitoring and wallet screening with API integration. Assess risk exposure while staying aligned with AML rules and FATF requirements."
+
+2. **KYC for business** - "Verify users through document and biometric checks, sanctions and PEP screening, source-of-funds verification, and ongoing monitoring, including KYB for business clients."
+
+3. **Crypto investigations and recovery** - "In addition to AML tools, we also provide support for investigating and recovering stolen crypto assets."
+
+**Key Claims:**
+- "$100M+" in risky funds detected
+- "60,000+" service providers checked
+- "300+ crypto enterprises" served across 25 jurisdictions
+
+**CEO Statement (Slava Demchuk):**
+"I believe compliance shouldn't slow down business growth, but instead becomes a competitive advantage that protects companies from legal and reputational attacks."
+
+**Positioning:**
+Described as the "#1 choice for SMEs" offering an "Integrated crypto compliance platform" with ISO 9001 and ISO 27001 certifications.

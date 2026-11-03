@@ -1,0 +1,29 @@
+URL: https://info.arkm.com/
+Fetched: 2026-05-24
+Status: ok (redirected from https://www.arkhamintelligence.com via 301)
+
+--- Extracted content ---
+
+Arkham Intelligence Overview
+
+Core Mission:
+Arkham Intelligence focuses on "Deanonymizing The Blockchain" through tools that link cryptocurrency activity to real-world individuals and institutions.
+
+Key Capabilities:
+- Entity Attribution: "See the people and companies behind blockchain activity" through tools for "linking cryptocurrency activity to real world individuals and institutions."
+- Network Visualization: Users can "translate raw blockchain transactions into clear network maps" to visualize activity.
+- Intelligence Database: The platform provides "a searchable database of crypto users and filter their transactions."
+- Alert System: Users can "customize alerts for on chain activity" and monitor targeted address activity.
+
+Backers:
+The company has received backing from notable figures including an undisclosed OpenAI co-founder, Palantir co-founder Joe Lonsdale, Tim Draper, and trading firms Wintermute and GSR.
+
+Partnerships:
+Arkham Intelligence partners with major blockchain networks and platforms including Ethereum, Polygon, Arbitrum, BNB Chain, Base, Sui, Chainlink, and numerous others.
+
+--- Alternative URLs tried ---
+1. https://arkhamintelligence.com -> 302 to arkm.com (per original homepage.txt)
+2. https://arkm.com -> HTTP 403
+3. https://www.arkm.com/about -> socket closed
+4. https://platform.arkhamintelligence.com -> 302 to intel.arkm.com -> HTTP 403
+5. https://www.arkhamintelligence.com -> 301 to info.arkm.com -> ok (this content)

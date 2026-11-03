@@ -1,0 +1,43 @@
+Source: https://finance.yahoo.com/news/blockchain-analytics-platform-merkle-science-130000448.html (Yahoo Finance / CoinDesk coverage); cross-referenced TechCrunch, Bloomberg
+Fetched: 2026-05-24
+Status: ok
+Citation: Yahoo Finance / Coindesk reporting (originally Coindesk), "Blockchain Analytics Platform Merkle Science Raises $19M to Take on Bridge Exploits," August 9, 2022.
+
+KEY TEXT:
+
+Publication: August 9, 2022.
+
+Subject: Merkle Science (P05) Series A extension funding round.
+
+Key facts reported:
+- Funding: $19 million (Series A extension).
+- Total Series A: $24+ million (cumulative across original and extension).
+- Valuation: undisclosed.
+- Lead investors: Beco Capital, Darrow Holdings (Susquehanna affiliate), K3 Ventures co-led.
+- Founded: 2018 in Singapore.
+- CEO: Mriganka Pattnaik.
+
+Product profile (independent reporting):
+- Blockchain-analytics platform with threat detection, risk mitigation, compliance services.
+- Behavior-based ML for suspicious wallet monitoring.
+- Real-time transaction and wallet monitoring (Compass product).
+- Configurable to jurisdiction-specific compliance policies.
+
+Target markets:
+- Crypto enterprises (exchanges, custodians)
+- Financial institutions (banks, payment processors integrating with crypto)
+- Government agencies (law enforcement, FIUs)
+
+Strategic focus (CEO statement): "We're seeing a lot of bridge protocols getting hacked. A large amount of R&D needs to be invested in that area." — Mriganka Pattnaik, CEO.
+
+Geographic footprint: U.S. leadership; regional offices in Singapore, London, U.S.
+
+Market context: Funding announcement followed major bridge exploits including the $200 million Nomad bridge exploit days prior — driving institutional demand for cross-chain forensics.
+
+IMPLICATIONS FOR WEB3 REGTECH CODING:
+- Merkle Science (P05): independent third-party reporting attestation; cross-chain bridge forensics is explicitly a strategic R&D focus.
+- D05 Cross-Chain Tracking: CEO statement explicitly identifies bridge-exploit forensics as core capability — supports Full or Partial coverage.
+- D01 Transaction Monitoring, D02 Real-Time Risk Scoring, D10 Behavioral Analytics: Compass product is behavior-based real-time monitoring.
+- D09 ML/DL Techniques: ML for wallet behavior monitoring.
+- D03 Address Attribution: required for wallet monitoring at scale.
+- D24 SAR Generation and D25 Regulatory Reporting: implied by FI/government customer base.

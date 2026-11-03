@@ -1,0 +1,33 @@
+URL: https://forta.org
+Fetched: 2026-05-24
+
+# Forta: Onchain Security and Compliance Platform
+
+## Core Product: Forta Firewall
+
+Forta offers real-time monitoring and threat prevention for blockchain teams. The platform provides:
+
+Key Capabilities:
+- "Block malicious transactions before execution" (Security)
+- "Screen against sanctions lists (eg. OFAC SDN) and other regulatory requirements" (Compliance)
+- "Get alerts on key events asset depegs, anomalous transactions, oracle malfunctions, etc." (Monitoring)
+
+Performance Metrics:
+- ">99% recall" with "<0.0002% false positive rate"
+- "< 10ms Latency"
+- Uses "AI and simulations to identify malicious transactions"
+
+## Integration & Infrastructure
+
+The platform enables effortless integration "with no dev work needed" through partnerships with Rollups-as-a-Service (RaaS) providers including Gelato, Conduit, Quicknode, and Zeeve. Customers include Plume, Ink, and Celo.
+
+## Network & Governance
+
+Forta operates with a decentralized model powered by the FORT token. The ecosystem includes:
+- Staking and delegation mechanisms
+- Governance forum for community participation
+- Data feeds and documentation
+
+## Integration Partners
+
+Major chains and infrastructure providers use Forta, with backing from prominent venture firms including Coinbase Ventures, a16z, and Blockchain Capital.

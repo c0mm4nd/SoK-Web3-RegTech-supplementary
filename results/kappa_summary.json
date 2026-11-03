@@ -1,0 +1,21 @@
+{
+  "n_cells": 1025,
+  "exact_agreement_pct": 88.0,
+  "kappa_unweighted": 0.7773,
+  "kappa_linear_weighted": 0.8334,
+  "kappa_quadratic_weighted": 0.8875,
+  "kappa_binary_collapsed": 0.8714,
+  "multi_step_disagreements": 2,
+  "joint_distribution": {
+    "R1=0,C2=0": 608,
+    "R1=0,C2=1": 49,
+    "R1=0,C2=2": 1,
+    "R1=1,C2=0": 11,
+    "R1=1,C2=1": 167,
+    "R1=1,C2=2": 44,
+    "R1=2,C2=0": 1,
+    "R1=2,C2=1": 17,
+    "R1=2,C2=2": 127
+  },
+  "populated_3x3_cells": 9
+}

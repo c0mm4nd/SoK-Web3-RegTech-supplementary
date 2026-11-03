@@ -1,0 +1,29 @@
+URL: https://fenergo.com
+Fetched: 2026-05-24
+Status: ok
+
+# Fenergo Homepage Main Content
+
+**Headline & Tagline:**
+"Fight Financial Crime, Deliver Better Client Experience"
+
+**Core Service Descriptions:**
+
+- "Drive Faster Onboarding for Better Client Experience"
+- "Manage Risk & Compliance Across KYC/AML"
+- "Achieve Greater Operational Efficiencies"
+- "Detect Suspicious Activity with Real-Time Transaction Monitoring"
+
+**Primary Solutions Offered:**
+
+1. **Client Onboarding:** "Streamline and automate end-to-end onboarding journeys, including KYC & risk, client outreach, client risk assessment and PEP & sanctions screening."
+
+2. **Know Your Customer:** "Simplify and automate due diligence with pre-packaged KYC rules and workflows, ensuring effective customer due diligence and regulatory compliance."
+
+3. **Transaction Monitoring:** "Detect suspicious activity with our real-time detection engine. Transform transaction monitoring effectiveness, reduce false positives and manage risk exposure."
+
+4. **Regulatory Compliance:** "Simplify compliance with global regulations including ESG, Tax, Investor Protection. Accelerate client & counterparty classifications."
+
+5. **CLM for Salesforce:** "Arm Relationship Managers with real-time visibility over client onboarding directly from Salesforce, leveraging automatic updates & streamlined outreach."
+
+6. **Intelligent Document Processing:** "An AI-driven solution that enables firms to automate the document management process, increasing operational efficiencies and reducing operating costs."

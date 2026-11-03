@@ -1,0 +1,17 @@
+URL: https://www.chainalysis.com/solutions
+Fetched: 2026-05-24
+Status: ok (KYT-specific URLs returned 404; solutions page contains KYT description)
+
+--- Extracted content ---
+
+Chainalysis KYT - Real-Time Transaction Monitoring
+
+According to the Chainalysis Solutions page, Chainalysis KYT is described as:
+
+"Monitor transactions in real-time" - the primary tagline for the product.
+
+KYT enables users to "Ensure compliance and prevent illicit activity with continuous and real-time screening of crypto transactions." Organizations can "Tailor your risk settings, assess deposits and withdrawals, and audit suspicious user activity" through this monitoring capability.
+
+KYT is positioned within Chainalysis's Crypto Compliance solutions suite, designed to help platforms maintain regulatory adherence while detecting potentially problematic activities as they occur on the blockchain.
+
+(See also P01/solutions.txt for the wider Chainalysis solutions portfolio that includes KYT alongside Reactor, Address Screening, VASP Risking, and Sentinel.)

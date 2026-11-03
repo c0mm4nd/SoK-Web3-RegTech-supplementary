@@ -1,0 +1,33 @@
+Source: https://www.sec.gov/newsroom/press-releases/2023-102 (Coinbase); https://www.sec.gov/newsroom/press-releases/2023-101 (Binance)
+Fetched: 2026-05-24
+Status: ok (substantive content from SEC press releases summaries via web search)
+Citation: SEC v. Binance Holdings Ltd. et al., Civil Action No. 23-cv-1599 (D.D.C. filed June 5, 2023). SEC v. Coinbase Inc. et al., Civil Action No. 23-cv-04738 (S.D.N.Y. filed June 6, 2023).
+
+KEY TEXT:
+
+Date of actions: June 5, 2023 (Binance); June 6, 2023 (Coinbase).
+
+SEC v. Binance allegations: 13-count complaint alleging that Binance and Zhao operated unregistered securities exchanges, broker-dealers, and clearing agencies. Specific allegations:
+- Operated unregistered Binance.US platform as a national securities exchange.
+- Failed to register tokens including BNB, BUSD, SOL, ADA, MATIC, FIL, ATOM, SAND, MANA, ALGO, AXS, COTI as securities.
+- Commingled customer funds and engaged in market-manipulative wash trading via Binance-controlled trading firms Sigma Chain and Merit Peak.
+- Allowed high-value U.S. customers to evade restrictions.
+
+SEC v. Coinbase allegations:
+- Operated unregistered national securities exchange, broker, and clearing agency since at least 2019.
+- Coinbase "made billions of dollars unlawfully facilitating the buying and selling of crypto asset securities."
+- Coinbase Staking Program (XTZ, ATOM, ETH, ADA, SOL): unregistered offer/sale of investment contracts.
+- Coinbase's Prime, Wallet, and trading platform conflated multiple regulated functions.
+
+Relief sought (both cases): Injunctive relief, disgorgement, civil monetary penalties.
+
+Outcomes (as of 2025):
+- Binance: resolved as part of November 2023 DOJ global settlement.
+- Coinbase: SEC dropped its case against Coinbase in February 2025 following change in administration policy.
+
+IMPLICATIONS FOR WEB3 REGTECH CODING:
+- D10 Behavioral Analytics and D01 Transaction Monitoring: wash-trading allegations against Binance-related entities substantiate market-surveillance product demand — Solidus Labs (P09), Eventus, Chainalysis (P01).
+- D12 KYC Integration: failures to verify U.S. customer identity drive KYC-vendor demand.
+- D25 Regulatory Reporting: SEC's emphasis on registration drives demand for token-classification and registration-readiness tooling.
+- D24 SAR Generation: SEC enforcement creates indirect pressure on broker-dealer SAR-filing obligations.
+- D03 Address Attribution: tracing Sigma Chain / Merit Peak wash trades requires entity attribution capabilities.

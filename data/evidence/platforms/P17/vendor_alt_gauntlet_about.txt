@@ -1,0 +1,22 @@
+URL: https://www.gauntlet.xyz/about
+Fetched: 2026-05-24
+Status: ok
+
+--- Extracted content ---
+
+Gauntlet's Services and Expertise
+
+Core Services:
+Gauntlet offers "quantitative optimization analysis and simulation" to help protocols understand DeFi's complex economic problems. Their work focuses on "risk management and pattern-matching" using extensive platform data.
+
+Risk Management & Simulation:
+The company employs "quantitative optimization to validate conclusions throughout our simulation, analysis, and recommendation process." Their infrastructure processes over 400 million data points daily across multiple blockchain layers.
+
+DeFi Expertise:
+Gauntlet has "developed robust models for virtually every primitive in DeFi" and specializes in understanding novel risks before they impact clients. They monitor markets continuously and provide recommendations for protocol safety and capital efficiency.
+
+Market Analysis Capabilities:
+The organization maintains "380 billion platform data points" with systems that refresh six times daily, ensuring current market information supports all modeling work.
+
+Client Protection:
+Their expertise has protected "$42 billion client assets" while managing "$1.3 billion+ total value locked" across self-custodial vault strategies spanning multiple protocols and blockchain networks.

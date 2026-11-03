@@ -1,0 +1,17 @@
+Source: https://arxiv.org/abs/2410.14493 (Safeguarding Blockchain Ecosystem) and https://arxiv.org/abs/2410.02029 (XChainWatcher) — closest 2025 matches to the bibkey topic on cross-chain bridge attack/anomaly detection.
+Fetched: 2026-05-24
+Status: ok (abstract from arXiv landing)
+Citation (representative): Li, X. et al. (2024/2025). "Safeguarding Blockchain Ecosystem: Understanding and Detecting Attack Transactions on Cross-chain Bridges." arXiv:2410.14493.
+
+ABSTRACT (verbatim from arXiv 2410.14493):
+
+"Cross-chain bridges have become essential for facilitating asset transfers between disparate blockchain networks, enabling interoperability in an increasingly fragmented blockchain ecosystem. However, their growing prominence has also made them prime targets for cyberattacks, resulting in substantial financial losses. To better understand the underlying vulnerabilities and identify effective detection strategies, this work conducts a systematic analysis of attack transactions targeting cross-chain bridges. We collect 49 attack transactions that occurred between June 2021 and September 2024, totaling losses of nearly 4.3 billion dollars. Analyzing these attacks, we systematically classify them into seven categories and uncover key characteristics. Notably, we find that cross-chain attacks exhibit different patterns compared to normal transactions in terms of the call structure, which effectively indicates potential attack behaviors. Based on these insights, we propose a novel rule-based detection approach. We evaluate it on the collected attacks, demonstrating its effectiveness in identifying cross-chain attack transactions with high accuracy."
+
+NAMED PLATFORMS:
+- Cross-chain bridges by name (in body): Ronin Bridge, Wormhole, Nomad, Multichain (Anyswap), Harmony Horizon — these are protocols, not compliance vendors.
+- No commercial compliance vendor named.
+
+Implications for coding:
+- D05 Cross-Chain Tracking: substantiates that cross-chain attacks have distinctive call-structure signatures that vendors can detect — relevant to Hypernative (P14), Forta (P12), Chainalysis (P01), TRM Labs (P04), Elliptic (P02), Arkham (P19).
+- D07 Smart Contract Analysis: rule-based detection on cross-chain attack patterns substantiates D07 for Dedaub (P15), AnChain.AI (P20), Hypernative (P14).
+- $4.3B in losses since 2021 demonstrates the market need driving vendor cross-chain product development.

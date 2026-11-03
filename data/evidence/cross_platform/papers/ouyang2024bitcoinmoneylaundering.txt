@@ -1,0 +1,17 @@
+Source: https://www.mdpi.com/1099-4300/26/3/211 ; PubMed: https://pubmed.ncbi.nlm.nih.gov/38539723/
+Fetched: 2026-05-24
+Status: ok (abstract via MDPI Entropy open access)
+Citation: Ouyang, S., Bai, Q., Feng, H., and Hu, B. (2024). "Bitcoin Money Laundering Detection via Subgraph Contrastive Learning." Entropy 2024, 26(3): 211.
+
+ABSTRACT (verbatim from MDPI):
+
+"The rapid development of cryptocurrencies has led to an increasing severity of money laundering activities. In recent years, leveraging graph neural networks for cryptocurrency fraud detection has yielded promising results. However, many existing methods predominantly focus on node classification, i.e., detecting individual illicit transactions, rather than uncovering behavioral pattern differences among money laundering groups. To tackle the challenges presented by the organized, heterogeneous, and noisy nature of Bitcoin money laundering, we propose a novel subgraph-based contrastive learning algorithm for heterogeneous graphs named Bit-CHetG. Specifically, we perform supervised contrastive learning by classifying labeled money laundering and normal subgraphs. Subsequently, with the assistance of meta-paths reflecting the heterogeneous semantics among transaction subgraphs, we introduce graph contrastive learning to distinguish different subgraph patterns, enhancing the discriminative ability of subgraph representation. Last but not least, the Bitcoin transaction network is constructed from publicly available real Bitcoin datasets including Elliptic and WalletExplorer, etc. Empirical results demonstrate that our Bit-CHetG outperforms other baselines, with the Micro F1 Score improved by 5% at least."
+
+NAMED PLATFORMS:
+- Elliptic (P02) — Elliptic dataset used as one of the primary data sources.
+- WalletExplorer — third-party Bitcoin wallet labeling service.
+
+Implications for coding:
+- D08 Graph Neural Networks and D09 ML/DL Techniques: validates contrastive subgraph learning approach. Elliptic (P02) substantiated as data source enabling state-of-the-art AML detection.
+- D03 Address Attribution and D04 Multi-Hop Tracing: subgraph-level pattern detection beyond node classification.
+- D10 Behavioral Analytics: distinguishing money-laundering subgraph patterns from normal patterns.

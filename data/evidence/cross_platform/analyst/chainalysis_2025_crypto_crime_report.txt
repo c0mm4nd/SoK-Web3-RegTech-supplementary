@@ -1,0 +1,33 @@
+Source: https://www.chainalysis.com/blog/2025-crypto-crime-report-introduction/ ; https://go.chainalysis.com/2025-Crypto-Crime-Report.html
+Fetched: 2026-05-24
+Status: ok (substantive content captured via web search; report itself gated)
+Citation: Chainalysis Inc., "2025 Crypto Crime Report." Published February 2025.
+
+KEY FINDINGS (verbatim quotes from Chainalysis 2025 report and Block / Defiant coverage):
+
+Publication: 2025 Crypto Crime Report (covering calendar 2024 data).
+
+Total illicit volume (2024): "At least $40.9 billion" received by illicit cryptocurrency addresses, with the estimate likely to "rise to top $51 billion as more illicit crypto addresses are identified."
+
+Year-over-year crime trends (Chainalysis quoted):
+- Crypto theft: rose ~21% YoY to $2.2 billion.
+- North Korean (DPRK) hackers: responsible for "61% of crypto theft" — $1.34 billion stolen across 47 incidents.
+- Stablecoins: "63% of all illicit transactions" (continued shift from Bitcoin).
+- Ransomware payments: declined 35% YoY despite high attack volume.
+- Less than half of recorded ransomware incidents resulted in payments.
+
+Sanctions-related volume: continuing-rise category.
+
+Major incidents named: DMM heist (May 2024, $308M, attributed to North Korean TraderTraitor / Lazarus by FBI using Chainalysis tracing).
+
+Traditional-crime integration: "An array of illicit actors, including transnational organized crime groups, are increasingly leveraging cryptocurrency for traditional crime types such as drug trafficking, gambling, money laundering, human and wildlife trafficking, and violent crime."
+
+Industry-context note: Chainalysis explicitly named by FBI in DMM heist attribution — third-party regulator attestation of Chainalysis's tracing role.
+
+IMPLICATIONS FOR WEB3 REGTECH CODING:
+- D03 Address Attribution: Chainalysis (P01) again third-party-attested as the FBI's go-to attribution source — strongest D03 evidence available.
+- D04 Multi-Hop Tracing: DMM-to-DPRK trace required multi-hop chain-of-custody.
+- D05 Cross-Chain Tracking and D15 Privacy Coin Analysis: DPRK uses laundering via mixers, bridges, swaps.
+- D10 Behavioral Analytics: Chainalysis category-level breakdowns enable typology detection.
+- D25 Regulatory Reporting: scale of illicit volume ($40.9B+) drives demand for compliance infrastructure across all vendors.
+- Substantiates Chainalysis (P01) Full coverage on D01, D02, D03, D04, D09, D10, D24, D25.

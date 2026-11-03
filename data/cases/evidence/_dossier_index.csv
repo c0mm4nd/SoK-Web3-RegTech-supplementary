@@ -1,0 +1,25 @@
+case_id,file,origin,status,note
+01,ofac_tornado_cash_aug2022.txt,copied_from_E1_v4,partial,Primary Treasury press release JY0916; Treasury site 403 to retrieval but content assembled from web search with verbatim quotes in E1 v4.
+01,chainalysis_tornado_cash_sanctions.txt,fetched_2026-05-25,ok,Chainalysis blog on Tornado Cash mixer mechanics and OFAC designation downstream effects.
+01,fincen_cvc_mixing_npr_oct2023.txt,copied_from_E1_v4,ok,FinCEN Notice of Proposed Rulemaking on CVC mixing (Oct 2023) — context for ex-ante mixer-related screening.
+01,wu2021detectingmixingservices.txt,copied_from_E1_v4,ok,Wu et al. 2021 IEEE TSMC paper on mixer detection via hybrid motifs; academic backdrop.
+02,ofac_lazarus_ronin_apr2022.txt,copied_from_E1_v4,partial,OFAC April 14 2022 designation of Lazarus/Ronin exploiter address; content from OFAC recent-actions page.
+02,merkle_science_ronin_analysis.txt,fetched_2026-05-25,ok,Merkle Science Hack Track post with attacker address and exchange flows.
+02,halborn_ronin_postmortem.txt,fetched_2026-05-25,ok,Halborn security firm analysis of the 5/9 validator compromise mechanism.
+02,li2025blockchaincrosschainbridge.txt,copied_from_E1_v4,ok,Li et al. 2024/2025 arXiv paper on cross-chain bridge attack detection (Ronin among 49 attacks studied).
+02,lin2024crosschainabnormaltransaction.txt,copied_from_E1_v4,ok,Lin et al. 2024 cross-chain abnormal transaction paper — methodology context.
+03,coquide_alameda_2024_arxiv.txt,fetched_2026-05-25,ok,Coquidé/Cazabet/Tovanich 2024 arXiv 2409.10949 multi-token network analysis of Alameda Research — the SoK manuscript's named academic source.
+03,doj_sbf_sentencing_mar2024.txt,fetched_2026-05-25,partial,DOJ SDNY justice.gov page 403 to retrieval; content from web search summary plus verbatim CoinDesk sentencing quotes.
+03,chainalysis_2025_crypto_crime_report.txt,copied_from_E1_v4,ok,Chainalysis 2025 report — industry-level context on stolen funds and exchange-collapse forensics.
+04,circle_allaire_tornado_cash_response.txt,fetched_2026-05-25,partial,Circle blog URL 404 in 2026; verbatim Allaire quotes preserved in BeInCrypto and CryptoSlate coverage.
+04,ofac_tornado_cash_aug2022.txt,copied_from_E1_v4,partial,OFAC Treasury press release — the trigger for the Circle freeze workflow.
+05,notabene_state_of_travel_rule_2024.txt,copied_from_E1_v4,ok,Notabene 2024 State of Crypto Travel Rule Compliance report — 70-VASP survey.
+05,fatf_targeted_update_vasp_jun2023.txt,copied_from_E1_v4,partial,FATF June 2023 targeted update on VASP standards / Travel Rule status.
+05,fatf_updated_guidance_vasp_oct2021.txt,copied_from_E1_v4,partial,FATF October 2021 updated guidance with Travel Rule specifics (R.16 threshold).
+06,polygon_blog_intro_mar2022.txt,fetched_2026-05-25,ok,Polygon Labs announcement of Polygon ID on March 29 2022 (NOT March 2023 as v1 stated — v2 correction).
+06,privado_polygon_id_docs_intro.txt,fetched_2026-05-25,ok,Privado ID developer documentation (continuation of Polygon ID docs after rebrand).
+06,yang2024researchidentitydata.txt,copied_from_E1_v4,ok,Lee 2022 arXiv paper on blockchain-based Travel Rule / identity data (E1 v4 substituted this for the yang2024 bibkey).
+07,doj_binance_settlement_nov2023.txt,copied_from_E1_v4,partial,DOJ press release on Binance / CZ guilty plea ($4.3B); justice.gov 403 to direct retrieval; verbatim content from web search.
+07,cftc_v_binance_mar2023.txt,copied_from_E1_v4,ok,CFTC v Binance March 2023 complaint summary — supporting BSA/AML failure narrative.
+08,chainalysis_2024_crypto_crime_report.txt,copied_from_E1_v4,ok,Chainalysis 2024 report on illicit volume; methodology disclosure uses Chainalysis attribution database (i.e., Reactor's underlying graph).
+08,wu2023tracerscalablegraphbased.txt,copied_from_E1_v4,ok,Wu et al. 2023 TRacer IEEE TIFS paper — explicitly names Chainalysis as a forensics service performing transaction tracing.

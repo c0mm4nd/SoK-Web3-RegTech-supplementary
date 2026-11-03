@@ -1,0 +1,16 @@
+Source: https://www.nature.com/articles/s41598-025-08365-9 ; PMC: https://pmc.ncbi.nlm.nih.gov/articles/PMC12216748/
+Fetched: 2026-05-24
+Status: ok (abstract via PMC open access)
+Citation: Li, M., Jia, L., and Su, X. (2025). "Global-local graph attention with cyclic pseudo-labels for bitcoin anti-money laundering detection." Scientific Reports, 15, Article 22668.
+
+ABSTRACT (verbatim from PMC):
+
+"Money laundering is the process of handling the proceeds of crime to conceal their illegal source, while illicit transactions have complex features similar to those of legal transactions. The detection of illicit transactions in the Bitcoin network helps to combat money laundering. Bitcoin transactions can be represented as topological graph structure data, and many GCN-based methods have been developed for Anti-Money Laundering (AML) tasks. However, existing methods have not performed well in dynamically assigning weights to neighboring nodes and extracting information from global nodes in the Bitcoin network. GCNs can be misled by concealed illegal transactions due to uniform node representation weights, and current node-level GCNs cannot handle varied methods of concealing illegal transactions because they fail to extract global information. To address these issues, we propose a Transformer-enhanced Graph Attention Network (TFGAT) for AML in Bitcoin. We further introduce a Deep Cyclic Pseudo-Label Updating Mechanism (DCPLU) to augment data distribution and fortify the model's robustness. Our supervised TFGAT model generates pseudo labels for unlabeled data, and a semi-supervised TFGAT model is then trained using the entire graph to update the pseudo-labels until convergence. Extensive experiments on the Elliptic dataset demonstrate that our methods outperform existing models across various metrics."
+
+NAMED PLATFORMS:
+- Elliptic (P02) — the Elliptic dataset is the primary benchmark used.
+
+Implications for coding:
+- D08 Graph Neural Networks and D09 ML/DL Techniques: Elliptic (P02) substantiated as enabling state-of-the-art Transformer+GAT AML detection.
+- D02 Real-Time Risk Scoring and D03 Address Attribution: pseudo-label cyclic refinement makes node-level illicit-address detection more robust — relevant to Elliptic's risk-scoring product.
+- D10 Behavioral Analytics: identifies concealment patterns in money-laundering transactions.

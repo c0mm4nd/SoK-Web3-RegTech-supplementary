@@ -1,0 +1,25 @@
+URL: https://www.trmlabs.com/products
+Fetched: 2026-05-24
+Status: ok
+
+--- Extracted content ---
+
+TRM Labs Products & Services Summary
+
+Transaction Monitoring:
+"Monitor the risk profile of specific tokens and assets globally."
+
+Wallet Screening:
+"Pre-screen wallet addresses for risk exposure."
+
+Entity Risk Assessment:
+"Screen, assess, and continuously monitor entities and counterparties" through Entity Due Diligence capabilities.
+
+Investigation Tools:
+The platform includes Forensics for tracing crypto linked to criminal activity, plus Triage for accelerating field decision-making and border operations.
+
+AML Compliance:
+Compliance360 helps organizations "mitigate risk before it becomes a regulatory problem" through continuous monitoring and screening solutions designed for financial institutions and crypto businesses.
+
+Additional Intelligence:
+TRM provides behavioral analysis through proprietary Behavioral Signatures(R) that detect patterns across transactions, covering 193+ blockchain chains and tracking 1.9B+ assets with 3.1B+ attributed addresses.

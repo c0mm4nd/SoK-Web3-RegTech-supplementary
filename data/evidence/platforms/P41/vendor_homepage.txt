@@ -1,0 +1,35 @@
+URL: https://complyadvantage.com/crypto
+Fetched: 2026-05-24
+Status: ok
+
+# Crypto-Assets, Wallets, Exchanges and 6AMLD - Main Content
+
+**Headline:** Crypto-Assets, Wallets, Exchanges and 6AMLD
+
+**Categories:** Knowledge & training | Regulation | Crypto
+
+---
+
+## Key Content Sections:
+
+**Opening:**
+"Cryptocurrencies or crypto-assets have gained a lot of popularity over the past few years. In particular, during the latter part of 2017 market capitalizations for many of the more prominent cryptocurrencies reached all-time highs."
+
+The page explains that while cryptocurrencies have become more mainstream, they also "are also an attractive tool for criminals, who view their relative anonymity as a means to making their illicit activity easier to hide."
+
+**Main Topics Covered:**
+
+1. **Crypto-Assets Definition** - Distinguishing cryptocurrencies from e-money, discussing stablecoins, and regulatory classification challenges
+
+2. **Criminal Uses** - "Bitcoin and other popular cryptocurrencies have been subject to a growing number of ransomware attacks" and sanctions evasion through "crypto-cleansing"
+
+3. **5AMLD Impact** - Brought "cryptocurrency exchanges and custodian wallets within the remit of EU money laundering legislation"
+
+4. **6AMLD Changes:**
+   - New predicate offences including cybercrime
+   - Extended liability to legal persons
+   - Tougher penalties (prison sentences increased to four years)
+
+5. **Future Outlook** - EU plans for "comprehensive and very clear" crypto rules by 2024
+
+*Originally published December 16, 2020; updated May 4, 2022*

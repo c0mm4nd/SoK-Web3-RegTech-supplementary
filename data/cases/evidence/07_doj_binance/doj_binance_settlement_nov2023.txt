@@ -1,0 +1,35 @@
+Source: https://www.justice.gov/opa/pr/binance-and-ceo-plead-guilty-federal-charges-4b-resolution ; https://www.justice.gov/criminal/case/united-states-v-binance-holdings-limited-dba-binancecom
+Fetched: 2026-05-24
+Status: partial (justice.gov returned 403 to retrieval; content compiled from web search and primary-source legal coverage)
+Citation: U.S. Department of Justice press release, November 21, 2023, "Binance and CEO Plead Guilty to Federal Charges in $4B Resolution." Statement by Attorney General Merrick Garland and Treasury Secretary Janet Yellen.
+
+KEY TEXT (verbatim/near-verbatim quotes from DOJ release):
+
+Date of action: November 21, 2023.
+
+Defendant entities: Binance Holdings Limited (d/b/a Binance.com); Changpeng Zhao (founder and CEO).
+
+Charges pleaded by Binance:
+- Conspiracy to conduct an unlicensed money transmitting business in violation of 18 U.S.C. Section 1960
+- Conspiracy to violate the Bank Secrecy Act (BSA) by failing to implement and maintain an effective anti-money laundering program (31 U.S.C. Section 5318(h))
+- Failure to register as a money transmitting business
+- Violations of the International Emergency Economic Powers Act (IEEPA) for willful sanctions violations
+
+Charges pleaded by Changpeng Zhao: One count of failing to maintain an effective AML program under the BSA (18 U.S.C. Section 1960 / 31 U.S.C. Section 5318(h)). Personally paid $50 million.
+
+Total penalties: Over $4.3 billion across DOJ, OFAC, FinCEN, and CFTC components — among the largest corporate criminal resolutions in U.S. history.
+
+Compliance remediation:
+- Five-year monitorship by an independent compliance monitor selected by FinCEN and OFAC.
+- Required compliance enhancements including: full transaction monitoring program, customer identification program, BSA/AML compliance officer, complete review of historical transactions for SAR-filing obligations, ongoing engagement with U.S. regulators.
+- Required to exit the U.S. market entirely.
+
+Key AML failures cited:
+- Did not implement KYC for years; allowed customers to register with only an email address.
+- Did not file Suspicious Activity Reports (SARs) on transactions involving sanctioned jurisdictions (Iran, Cuba, Syria, Crimea), known terror-finance entities (Hamas, al-Qaeda, ISIS), or ransomware operators.
+- Knowingly failed to screen transactions with users in OFAC-sanctioned jurisdictions.
+
+IMPLICATIONS FOR WEB3 REGTECH CODING:
+- D01 Transaction Monitoring, D02 Real-Time Risk Scoring, D11 Travel Rule Support, D12 KYC Integration, D22 Real-Time Alerting, D24 SAR Generation, D25 Regulatory Reporting: this settlement is the canonical regulator-driven demand pattern for all comprehensive AML platforms.
+- D03 Address Attribution: regulators expect VASPs to know counterparty identities — drives demand for Chainalysis KYT (P11), Elliptic Navigator/Lens, TRM Wallet Screening.
+- Substantiates the entire RegTech market: Chainalysis (P01), Elliptic (P02), CipherTrace (P03), TRM Labs (P04), Merkle Science (P05), Crystal (P08), Notabene (P25), Sygna (P26), TRISA (P27), 21 Analytics (P28), Shyft (P29), TransactID (P30), ComplyAdvantage (P35, P41), Refinitiv (P36), LexisNexis (P37), NICE Actimize (P38), Fenergo (P39), AML Bot (P40).

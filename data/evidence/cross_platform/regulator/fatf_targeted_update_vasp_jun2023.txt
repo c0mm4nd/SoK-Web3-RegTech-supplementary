@@ -1,0 +1,31 @@
+Source: https://www.fatf-gafi.org/en/publications/Fatfrecommendations/targeted-update-virtual-assets-vasps-2023.html ; PDF: https://www.fatf-gafi.org/content/dam/fatf-gafi/guidance/June2023-Targeted-Update-VA-VASP.pdf.coredownload.inline.pdf
+Fetched: 2026-05-24
+Status: partial (FATF site 403; substantive content from web search + Allen & Overy + TRM commentary)
+Citation: Financial Action Task Force (FATF), "Targeted Update on Implementation of the FATF Standards on Virtual Assets and VASPs," June 27, 2023.
+
+KEY TEXT:
+
+Publication date: 27 June 2023.
+
+Purpose: Update on country compliance with FATF Recommendation 15 (R.15/INR.15) and its Interpretive Note, including the Travel Rule. Updates on emerging risks and market developments.
+
+Sample size: Findings based on 98 FATF mutual evaluation and follow-up reports since the revised R.15/INR.15 was adopted, plus a 2023 survey of 151 jurisdictions.
+
+Key findings (verbatim from FATF report and confirmed by independent legal commentary):
+- "75% of jurisdictions are only partially or not compliant with the FATF's requirements" on R.15.
+- "Of the 151 jurisdictions that responded to FATF's 2023 Survey, more than half still have not taken any steps towards implementing the Travel Rule."
+- Significant divergence between jurisdictions on registration/licensing requirements creates regulatory arbitrage risk.
+- Identifies risks from DeFi, peer-to-peer transactions, NFTs, unhosted wallets, stablecoins.
+
+Specific topics covered:
+- Decentralized Finance (DeFi): FATF expresses concern about regulatory gaps where DeFi services may meet the VASP definition.
+- Peer-to-peer (P2P) transactions: not directly subject to FATF requirements but pose risks via VASP off-ramps.
+- Unhosted wallets: VASPs should apply risk mitigation when transacting with unhosted wallets.
+- Stablecoins: same VASP definitions apply; mass-adoption stablecoins (USDT, USDC) raise systemic AML/CFT concerns.
+- Non-Fungible Tokens (NFTs): scope determination depends on whether they function as payment/investment instruments.
+
+IMPLICATIONS FOR WEB3 REGTECH CODING:
+- D11 Travel Rule Support: continued regulatory pressure on Travel Rule implementation substantiates ongoing market demand — Notabene (P25), Sygna (P26), TRISA (P27), 21 Analytics (P28), Shyft (P29), TransactID (P30).
+- D06 DeFi Semantic Analysis: FATF's continued focus on DeFi VASP-determination drives demand for DeFi-aware analytics — Forta (P12), Hypernative (P14), AnChain.AI (P20), Chainalysis (P01), Elliptic (P02), TRM Labs (P04).
+- D03 Address Attribution: unhosted-wallet risk mitigation requires wallet attribution capability.
+- D05 Cross-Chain Tracking: jurisdictional arbitrage drives cross-chain risk.

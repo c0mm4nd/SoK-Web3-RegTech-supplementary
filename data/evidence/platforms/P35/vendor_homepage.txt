@@ -1,0 +1,32 @@
+URL: https://complyadvantage.com
+Fetched: 2026-05-24
+Status: ok
+
+--- Extracted content ---
+
+ComplyAdvantage Solutions & Capabilities
+
+Core Solutions:
+ComplyAdvantage Mesh is described as an "industry-leading and trusted SaaS-based risk intelligence platform that unites global intelligence to beat financial crime."
+
+AML Products:
+The platform offers several specialized applications:
+- Customer Screening: Part of the unified suite for managing risk across the customer lifecycle
+- Company Screening: AML-focused screening capabilities
+- Ongoing Monitoring: Continuous risk assessment functionality
+- Transaction Monitoring: Software for monitoring transactions
+- Payment Screening: Specialized screening for payment flows
+
+AI-Driven Capabilities:
+The company emphasizes that "AI powers every stage of the financial crime risk management lifecycle, from onboarding and ongoing monitoring to remediation and reporting."
+
+Their Agentic Workflows feature claims to "resolve up to 85% of routine alerts autonomously while maintaining total regulatory defensibility."
+
+Risk Intelligence:
+The platform provides access to:
+- Sanctions & Watchlists screening
+- PEPs & RCAs (Politically Exposed Persons & Related Close Associates)
+- Adverse Media screening
+
+Core Positioning:
+ComplyAdvantage positions itself as delivering "FinCrime compliance re-engineered for the age of AI" through an "AI-native financial crime platform with embedded agents."

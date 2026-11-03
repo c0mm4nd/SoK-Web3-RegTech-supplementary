@@ -1,0 +1,38 @@
+URL: https://merklescience.com
+Fetched: 2026-05-24
+
+# Merkle Science Platform
+
+## Core Products & Capabilities
+
+Compass - Transaction and wallet monitoring for compliance
+- "Stay compliant with AML, KYC, and CFT regulations (predictive risk monitoring)"
+- Prevents sanctions violations and detects scams using "behavior-based insights"
+- Serves exchanges, financial institutes, dApps, wallets, and protocols
+
+Tracker - Forensic investigation and fund tracing
+- "Detect and trace illicit cryptocurrency activity and respond to hacks, scams, exploits"
+- Covers "10,000+ assets and 200 bridges" with crosschain capabilities
+- Targets law enforcement, investigators, and regulators
+
+KYBB/Data Platform - Analytics and research
+- Provides "AI-powered analytics for smarter decisions and deeper research"
+- Enables "custom queries and access key data for large scale investigations"
+
+Onchain Pulse - Ecosystem risk monitoring
+- Delivers "proactive risk intelligence to strengthen compliance, mitigate threats"
+- Flags "sanctions, darknet activity, and CSAM" with "risk scores for tokens"
+- Includes "aggregate risk scores for VASPs"
+
+## Key Features
+
+- Behavioral rule engine for detecting suspicious wallets
+- Crosschain transaction tracing across multiple blockchains
+- Attribution capabilities (notably "best sanctions attribution for Russian and Iranian exchanges")
+- Real-time onchain analytics and threat detection
+- Predictive risk scoring
+- Integration supporting new chains and tokens
+
+## Training Offerings
+
+Certifications in MiCAR compliance, advanced crypto compliance with AML/CFT focus, and crypto investigation.

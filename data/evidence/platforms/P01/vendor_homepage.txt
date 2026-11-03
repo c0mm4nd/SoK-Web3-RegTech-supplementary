@@ -1,0 +1,41 @@
+URL: https://chainalysis.com
+Fetched: 2026-05-24
+
+# Chainalysis Platform: Key Capabilities & Features
+
+## Core Products & Capabilities
+
+Transaction Monitoring & KYT:
+- "Monitor transactions in real-time" via KYT product
+- Real-time screening of crypto transactions with customizable risk settings
+- Audit suspicious user activity and assess deposits/withdrawals
+
+Risk Assessment & Attribution:
+- Address screening to "Assess a wallet's risk exposure"
+- "Understand the risk profile of a VASP" through VASP Risking
+- "Understand a stablecoins's risk profile" via Sentinel
+- On-chain intelligence for entity risk evaluation
+
+Multi-Hop & Cross-Chain Analysis:
+- "Trace funds across blockchains" using Reactor
+- "Cross-chain tracing" simplifies fund flow through bridges, mixers, DEX swaps
+- Visualize illicit networks across chains and web3 infrastructure
+
+AI/ML & Behavioral Analytics:
+- "AI-powered fraud prevention" through Alterya
+- "AI-powered insights" for instant crypto triage via Rapid
+- Sophisticated machine learning with "hundreds of clustering heuristics"
+
+Blockchain Coverage:
+- "Most comprehensive blockchain coverage in the industry"
+- Automatic token standard support with seamless onboarding
+
+Regulatory & Investigation Features:
+- Court-admissible data for evidence in high-profile cases
+- Global services with 24/7 expert support
+- Used by 45+ regulators worldwide
+
+Additional Capabilities:
+- "Check recovery seeds for seizable crypto" (Wallet Scan)
+- Web3 security with exploit/scam prevention (Hexagate)
+- Proactive threat intelligence and alerting via Data Solutions

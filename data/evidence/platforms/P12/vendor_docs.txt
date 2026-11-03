@@ -1,0 +1,29 @@
+URL: https://docs.forta.network/en/latest/quickstart/
+Fetched: 2026-05-24
+Status: ok
+
+--- Extracted content ---
+
+Forta Detection Bots - Key Information
+
+Bot Development Overview:
+"This guide will explore the basics of creating a Forta detection bot."
+
+Real-Time Monitoring Focus:
+The documentation emphasizes creating bots to identify specific on-chain activities, such as "Detect admin functions," "Detect high gas transactions," and "Detect ownership transfers of contracts."
+
+Detection Capabilities:
+Users can develop bots targeting various threat scenarios including "flash loan attacks," "sandwich attacks," and "Detect when an oracle is returning bad values."
+
+Community Innovation:
+The platform invites developers to build monitoring solutions, noting: "We're excited to see what sort of innovative bots the community comes up with!"
+
+Practical Implementation:
+The guide provides initialization tools and references "example implementations of Forta bots" available in their public repository for developers learning best practices.
+
+--- Additional Forta docs landing page (https://docs.forta.network) ---
+Mentions:
+- "Forta Firewall"
+- "Forta Overview" discussing the protocol, governance, and FORT token
+- "Staking on Forta" for delegating tokens to Scanner Pools
+- "Monitoring Network" describing data feeds and bot operations

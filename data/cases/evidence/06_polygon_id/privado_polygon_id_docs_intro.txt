@@ -1,0 +1,34 @@
+Source: https://docs.privado.id/docs/introduction/ (redirected from https://devs.polygonid.com/docs/introduction/, then https://devs.privado.id/docs/introduction/)
+Fetched: 2026-05-25
+Status: ok (Privado.id developer documentation, which is the rebranded continuation of the Polygon ID developer docs hosted by Polygon Labs since March 2023)
+Citation: Privado ID (formerly Polygon ID), "Introduction," developer documentation, accessed May 25, 2026.
+
+KEY TEXT (verbatim quotes from the Privado/Polygon ID introduction):
+
+What is Privado ID / Polygon ID:
+"Privado ID's identity infrastructure facilitates trusted and secure relationships between apps and users, following the principles of self-sovereign identity and privacy by default."
+
+The system enables organizations to issue verifiable credentials and verify claims through specialized tools.
+
+Decentralized Identifiers and Verifiable Credentials:
+"Every identity uses a unique DID (Decentralized Identifier) following W3C standards." "Every identity-based information is represented via Verifiable Credentials (VCs)." These can represent various claims — from age to educational degrees to DAO membership certificates.
+
+Zero-Knowledge Proofs:
+The platform leverages zero-knowledge cryptography to enable users to "prove their identity without the need of exposing their private information." This ensures privacy while maintaining verifiability, as demonstrated by the age-verification example: proving someone is over 18 without revealing their actual age.
+
+The Triangle of Trust — three core roles:
+1. Identity Holder: "An entity that holds claims in its Wallet." Holders generate zero-knowledge proofs of their credentials for presentation.
+2. Issuer: "An entity (person, organization, or thing) that issues VCs to the Holders. VCs are cryptographically signed by the Issuer."
+3. Verifier: "A Verifier verifies the proof presented by a Holder," performing checks on issuer authenticity and credential criteria.
+
+Wallet's Role:
+The wallet "stores the private key of a user, fetch VCs from the Issuer, and create zero-knowledge proofs to be presented to the Verifier."
+
+Technical Foundation:
+Privado ID builds upon the Iden3 open-source protocol, which "defines on a low-level how the parties listed above communicate and interact with each other." (Implementation uses Circom-based ZK circuits.)
+
+IMPLICATIONS FOR E3 CASE CODING:
+- Paradigm: Web3 (Decentralized). Polygon ID is precisely the "Cryptographic identifiers with optional verifiable credential attestation" Identity Foundation row of tab:regulatory_evolution; verification is by zero-knowledge proof, not document review.
+- Mechanism primary: KYA — the product binds a Verifiable Credential to a DID/wallet ("Identity Holder holds claims in its Wallet"), exactly matching the KYA row "Verified ownership or custody of a blockchain address by a known person or entity."
+- Mechanism secondary: KYC — issuers are typically KYC-licensed entities whose underlying process is classical document-based KYC; Polygon ID provides the *attestation substrate* on top of that KYC.
+- Lifecycle: Ex-Ante. Credentials are issued and verified before a transaction or gated access. tab:regtech_lifecycle names "Decentralized identity protocols (DIDs, VCs), on-chain KYC attestations, permissioned DeFi pools" as Ex-Ante Web3-specific implementations.

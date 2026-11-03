@@ -1,0 +1,3 @@
+URL: https://gauntlet.network (and https://www.gauntlet.network)
+Fetched: 2026-05-24
+Status: HTTP 403 Forbidden - server blocks retrieval. Page not accessible.

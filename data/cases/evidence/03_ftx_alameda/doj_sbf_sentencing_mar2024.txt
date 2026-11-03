@@ -1,0 +1,37 @@
+Source: https://www.justice.gov/usao-sdny/pr/samuel-bankman-fried-sentenced-25-years-prison ; secondary: https://www.coindesk.com/policy/2024/03/28/sam-bankman-fried-ftx-sentencing
+Fetched: 2026-05-25
+Status: partial (justice.gov returned 403 to retrieval on the press release URL; substantive content assembled from web search summary of the DOJ release and verbatim quotes from CoinDesk coverage of the sentencing hearing)
+Citation: U.S. Department of Justice, Office of the U.S. Attorney for the Southern District of New York, "Samuel Bankman-Fried Sentenced to 25 Years in Prison," March 28, 2024. Statement by U.S. Attorney Damian Williams, Attorney General Merrick B. Garland, and FBI Assistant Director James Smith.
+
+KEY TEXT (from DOJ release summary and CoinDesk verbatim coverage):
+
+Sentence and Financial Penalty:
+- Prison term: 25 years
+- $11 billion in forfeiture, including assets like a private jet
+- Plus 3 years of supervised release
+
+Charges Pleaded (per DOJ release summary):
+Bankman-Fried was previously found guilty after a one-month trial on:
+- Two counts of wire fraud
+- Two counts of conspiracy to commit wire fraud
+- One count of conspiracy to commit securities fraud
+- One count of conspiracy to commit commodities fraud
+- One count of conspiracy to commit money laundering
+
+Underlying conduct described in DOJ release:
+"Bankman-Fried, founder of cryptocurrency exchange FTX and trading firm Alameda Research, misappropriated billions of dollars of customer funds deposited with FTX, defrauded investors in FTX of more than $1.7 billion, and defrauded lenders to Alameda of more than $1.3 billion."
+
+Verbatim from sentencing hearing (CoinDesk):
+- Judge Kaplan: "Mr. Bankman-Fried never offered 'a word of remorse for commission of terrible crimes.'"
+- Judge Kaplan: "When he wasn't outright lying, he was evasive, hair-splitting [and] dodging questions."
+
+Victim impact:
+Prosecutors alleged Bankman-Fried "stole $8 billion of customer money to fund venture-capital investments, real-estate purchases, political donations and more." Customer losses were estimated at "$8 to $11 billion."
+
+Asset Recovery (verbatim from CoinDesk):
+An attorney representing FTX creditors stated: "Sam and his team have been helpful to us" in recovering funds.
+
+IMPLICATIONS FOR E3 CASE CODING:
+- Paradigm: VASP (Centralized Virtual Asset Regulation). FTX was a centralized VASP; charges concern BSA-adjacent obligations (money-laundering conspiracy) and core fraud charges (wire/securities/commodities). The enforcement mechanism is classical intermediary-centric: indictment, jury trial, prison sentence, forfeiture order.
+- Mechanism primary: KYT — the bankruptcy estate, DOJ, and academic analysts (Coquidé 2024) traced multi-token flows from FTX to Alameda. Address/Wallet Screening secondary because Kraken and Binance froze related addresses post-collapse.
+- Lifecycle: Ex-Post (Investigative) — Chapter 11 forensic accounting, criminal prosecution, $11B forfeiture, multi-year asset recovery. No real-time control intercepted the misappropriation; the Ex-Post row's "regulatory reporting, audit trails" fits exactly.

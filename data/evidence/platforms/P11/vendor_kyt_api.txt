@@ -1,0 +1,45 @@
+URL: https://www.chainalysis.com/product/kyt/
+Fetched: 2026-05-24
+Status: ok; fetched with native web tool. Official vendor product page.
+Citation: Chainalysis, "KYT Crypto Transaction Monitoring", section "Integrate with ease".
+
+--- Extracted content ---
+"With a straightforward integration process, teams can quickly integrate the KYT API to monitor transactions."
+Context: Product-page integration section explicitly names the KYT API; it does not document endpoint paths or authentication headers.
+
+URL: https://www.chainalysis.com/blog/bvnk-partnership-powering-compliance-self-hosted-digital-asset-payments/
+Fetched: 2026-05-24
+Status: ok; fetched with native web tool. Official vendor announcement.
+Citation: Chainalysis Team, "Chainalysis and BVNK Extend Partnership to Power Compliance in Self-Hosted Digital Asset Payments", January 13, 2026, opening integration description.
+
+--- Extracted content ---
+"enabling any licensed Chainalysis KYT customer to instantly activate the features by inputting their API key."
+Context: The announcement describes KYT integration into BVNK Layer1 using a Bring Your Own Key model. This supports API-key use, but does not specify the HTTP header.
+
+URL: https://docs.chainalysis.com/api/kyt/
+URL: https://support.chainalysis.com/hc/en-us
+URL: https://developers.chainalysis.com/
+Fetched: 2026-05-24
+Status: blocked. Native web fetch could not access the documentation. Supplemental direct HTTP fetch confirmed the docs URL redirects to support.chainalysis.com/hc/en-us, which returns HTTP 403 with a Cloudflare challenge. Developer portal returned HTTP 403, error code 1010.
+Citation: Chainalysis documentation/support portals; access-status evidence only.
+
+--- Extracted content ---
+"Just a moment..."
+Context: Support-page challenge title, not API documentation. No endpoint or authentication claims are inferred from the blocked pages.
+
+URL: https://archive.li/u5ctv
+Fetched: 2026-05-24
+Status: partial; native web search returned indexed reference text, but direct page fetch timed out. Third-party archival copy, NOT a verified official mirror. No publicly accessible official Postman/OpenAPI reference was verified in this search.
+Citation: "Welcome to the KYT API - Chainalysis KYT API Reference", archive.li search-indexed copy; Authentication, Registration, and Received transfers sections.
+
+--- Extracted content ---
+"The KYT API uses a unique API token to authorize calls."
+"Token: {YOUR_API_KEY}"
+"Registration"
+"POST /v2/users/{userId}/transfers"
+"POST /v2/users/{userId}/withdrawal-attempts"
+"Received transfers"
+"GET /v1/users/{userId}/transfers/received"
+Context: The indexed reference places Token in the example HTTP request header. Registration groups transfer and withdrawal-attempt endpoints; Received transfers is a separate V1 endpoint family. Inline-code formatting is removed; words and paths are unchanged. These excerpts document the indexed historical reference, not independently verified current API behavior.
+
+Evidence limit: Official fetched pages establish the KYT API and API-key use. Endpoint families and the Token header are supported here only by indexed archival text. A fully fetched official API reference is still needed to satisfy the strict official-documentation requirement.

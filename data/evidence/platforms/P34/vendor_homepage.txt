@@ -1,0 +1,14 @@
+URL: https://kilt.io
+Fetched: 2026-05-24
+Status: ok
+
+# Main Text Content from KILT Protocol Homepage
+
+The visible text content on this homepage consists of:
+
+- **Title:** "KILT Protocol"
+- **Headline:** "KILT has evolved"
+- **Call-to-action link:** "primer.systems →"
+- **Associated text:** "Go to Primer Systems"
+
+The page appears to be a minimal landing page that primarily directs visitors to the Primer Systems website (KILT Protocol has rebranded/evolved into Primer Systems), with limited descriptive content about services or capabilities visible in the provided excerpt.

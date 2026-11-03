@@ -1,0 +1,14 @@
+Source: https://dl.acm.org/doi/10.1145/2504730.2504747 (IMC 2013) and https://cseweb.ucsd.edu/~smeiklejohn/files/imc13.pdf
+Fetched: 2026-05-24
+Status: ok (abstract from publisher + author copy)
+Citation: Meiklejohn, S., Pomarole, M., Jordan, G., Levchenko, K., McCoy, D., Voelker, G.M., Savage, S. (2013). "A Fistful of Bitcoins: Characterizing Payments Among Men with No Names." IMC 2013, pages 127-139. (Also Communications of the ACM, Vol. 59 No. 4, 2016.)
+
+ABSTRACT (verbatim from ACM landing page):
+
+"Bitcoin is a purely online virtual currency, unbacked by either physical commodities or sovereign obligation; instead, it relies on a combination of cryptographic protection and a peer-to-peer protocol for witnessing settlements. Consequently, Bitcoin has the unintuitive property that while the ownership of money is implicitly anonymous, its flow is globally visible. In this paper we explore this unique characteristic further, using heuristic clustering to group Bitcoin wallets based on evidence of shared authority, and then using re-identification attacks (i.e., empirical purchasing of goods and services) to classify the operators of those clusters. From this analysis, we characterize longitudinal changes in the Bitcoin market, the stresses these changes have wrought on its participants, and the challenges for those seeking to use Bitcoin for criminal or fraudulent purposes at scale."
+
+NAMED PLATFORMS (named/clustered in the body of the paper):
+- Major exchanges/services clustered: Mt. Gox, Bitstamp, BTC-e, Instawallet, Silk Road, Satoshi Dice, Deepbit (mining pool). These are early Bitcoin services, not modern compliance platforms, but they establish the foundational heuristic-clustering / address-attribution methodology that all modern blockchain analytics vendors (Chainalysis, Elliptic, TRM Labs, CipherTrace, Crystal Intelligence) rely on.
+
+Implications for coding:
+- Provides academic foundation/genealogy for Chainalysis (P01), Elliptic (P02), CipherTrace (P03), TRM Labs (P04), Crystal Intelligence (P08), Merkle Science (P05) on D03 Address Attribution, D04 Multi-Hop Tracing, D10 Behavioral Analytics — every vendor in the "comprehensive" category uses the multi-input heuristic clustering and tagging methodology pioneered here. The IMC Test-of-Time Award (UC San Diego, 2023) explicitly attributes the methodology used by Chainalysis et al. to this paper.

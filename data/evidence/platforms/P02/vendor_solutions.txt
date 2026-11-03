@@ -1,0 +1,34 @@
+URL: https://www.elliptic.co/solutions
+Fetched: 2026-05-24
+Status: ok
+
+--- Extracted content ---
+
+Elliptic Products and Capabilities
+
+Core Solutions:
+Crypto Compliance: "Enterprise-grade risk management solutions for every stage of the compliance lifecycle."
+Investigation & Intelligence: "Mission-critical tools and datasets to thwart complex crypto-enabled crime"
+Stablecoin Risk Management: Solutions to "assess stablecoin issuer risk and token activity"
+
+Key Products:
+- Discovery: VASP screening and entity due diligence
+- Lens: Real-time multi-asset wallet and transaction screening
+- Investigator: Single-click cross-chain investigations
+- Analytics: Visualizations for crypto exposure trend analysis
+
+Data & Intelligence Offerings:
+- Data Fabric: "Integrated blockchain data for every workflow"
+- Blocklists: Real-time crypto blocklists for exchange protection
+- Indirect Risk Reporting: "Detect hidden crypto exposure in fiat transactions"
+- Threat Intelligence: Blockchain intelligence for investigations
+
+Platform Differentiators:
+Elliptic emphasizes five key capabilities:
+1. Efficiency: Automated end-to-end solutions
+2. Scalability: Real-time, multi-asset tracing via Holistic technology
+3. Configurability: Customizable risk analysis tools
+4. Coverage: "The industry's broadest blockchain coverage and highest quality data"
+5. AI: An AI copilot to enhance productivity
+
+The platform serves 700+ customers across 29 countries and covers 99% of global trading volume.

@@ -1,0 +1,35 @@
+Source: https://eur-lex.europa.eu/eli/reg/2023/1114/oj/eng
+Fetched: 2026-05-24
+Status: ok (assembled from EUR-Lex metadata + ESMA/Bundesbank commentary; full text 224 articles is too long to inline)
+Citation: Regulation (EU) 2023/1114 of the European Parliament and of the Council of 31 May 2023 on markets in crypto-assets ("MiCA"), and amending Regulations (EU) No 1093/2010 and (EU) No 1095/2010 and Directives 2013/36/EU and (EU) 2019/1937. Official Journal of the European Union L 150/40, 9 June 2023.
+
+KEY TEXT:
+
+Publication date: 9 June 2023 (OJ L 150/40); Entry into force: 29 June 2023.
+
+Application dates:
+- Provisions on Asset-Referenced Tokens (ARTs) and E-Money Tokens (EMTs): from 30 June 2024.
+- All other provisions (including CASP authorization): from 30 December 2024.
+
+Scope: Establishes uniform EU rules for crypto-assets that are not currently regulated by existing EU financial-services legislation. Covers three categories:
+1. Asset-Referenced Tokens (ARTs): tokens aiming to maintain stable value by referencing one or more fiat currencies, commodities, or crypto-assets.
+2. E-Money Tokens (EMTs): tokens purporting to maintain stable value by referencing one official currency.
+3. Other Crypto-Assets: utility tokens and other crypto-assets not classified as ARTs or EMTs.
+
+Key obligations:
+- Issuers of ARTs and EMTs must publish a crypto-asset white paper notified to competent national authorities.
+- Crypto-Asset Service Providers (CASPs) — including custody, exchange, trading, advice — must be authorized by an EU competent authority. CASPs include any entity offering services to clients in the EU.
+- Market-abuse rules (insider dealing, unlawful disclosure, market manipulation) apply to all crypto-assets admitted to trading.
+- Stablecoin issuers subject to reserve requirements (1:1 backing of EMTs; liquidity/reserve requirements for ARTs).
+- Transparency, disclosure, governance, and prudential safeguards mandated for CASPs.
+
+Cross-references:
+- Travel Rule equivalent: Regulation (EU) 2023/1113 (Transfer of Funds Regulation, revised) — applies FATF Travel Rule to crypto transfers within EU.
+- Anti-Money Laundering: forthcoming AMLA (Anti-Money Laundering Authority Regulation 2024) supplements MiCA.
+
+IMPLICATIONS FOR WEB3 REGTECH CODING:
+- D11 Travel Rule Support: MiCA + TFR 2023/1113 establish Travel Rule in EU — Notabene (P25), Sygna Bridge (P26), TRISA (P27), 21 Analytics (P28), Shyft Network (P29), TransactID (P30).
+- D12 KYC Integration: CASP authorization requires KYC/AML programs — ComplyAdvantage (P35, P41), Refinitiv (P36), LexisNexis (P37), Fenergo (P39).
+- D01 Transaction Monitoring, D02 Real-Time Risk Scoring, D10 Behavioral Analytics: market-abuse rules require detection of wash trading / insider dealing — Solidus Labs (P09), Eventus, Chainalysis (P01).
+- D25 Regulatory Reporting: extensive disclosure requirements drive demand for regulatory-reporting tooling.
+- D14 Verifiable Credentials and D32-D34: identity/credential layer of CASP onboarding — Privado ID (P32), Polygon ID (P33), KILT Protocol (P34).

@@ -1,0 +1,32 @@
+Source: https://www.fincen.gov/news/news-releases/fincen-proposes-new-regulation-enhance-transparency-convertible-virtual-currency ; Federal Register: https://www.federalregister.gov/documents/2023/10/23/2023-23449/proposal-of-special-measure-regarding-convertible-virtual-currency-mixing-as-a-class-of-transactions
+Fetched: 2026-05-24
+Status: partial (substantive content from web search + legal commentary)
+Citation: U.S. Department of the Treasury, Financial Crimes Enforcement Network (FinCEN), "Proposal of Special Measure Regarding Convertible Virtual Currency Mixing, as a Class of Transactions of Primary Money Laundering Concern," Notice of Proposed Rulemaking, October 19, 2023. 88 Fed. Reg. 72701 (Oct. 23, 2023).
+
+KEY TEXT:
+
+Date of action: October 19, 2023 (NPR issued); comment period closed January 22, 2024.
+
+Authority: Section 311 of the USA PATRIOT Act (31 U.S.C. Section 5318A). First-ever FinCEN use of Section 311 to target a "class of transactions" rather than a specific institution.
+
+Designation: Convertible Virtual Currency (CVC) Mixing designated as a "class of transactions of primary money laundering concern" — particularly transactions occurring outside the United States.
+
+Rationale cited: CVC mixing services enable money laundering and terrorist financing for entities including:
+- Hamas
+- Palestinian Islamic Jihad
+- Democratic People's Republic of Korea (DPRK) / Lazarus Group
+- Russia-based ransomware operators
+- Iranian sanctioned entities
+
+Proposed reporting requirements: Covered financial institutions (domestic banks, U.S. branches/agencies of foreign banks, broker-dealers, MSBs, and virtual asset service providers) would be required to:
+- Record and report specified information on transactions involving CVC mixing.
+- Maintain records of CVC mixing transactions including counterparty identifiers, transaction amounts, wallet addresses, and timestamps.
+- Report within 30 days of detecting CVC-mixing-related transactions.
+
+Mixing-service definition (broad): Any service combining or pooling CVC from multiple parties to obscure source/destination/amount; includes both centralized and decentralized mixers, anonymity-enhanced cryptocurrency protocols, and on-chain privacy pools.
+
+IMPLICATIONS FOR WEB3 REGTECH CODING:
+- D16 Mixer Detection: this NPR makes mixer detection a regulatory mandate, not just a best practice — substantiates Chainalysis (P01), Elliptic (P02), TRM Labs (P04), CipherTrace (P03), Crystal (P08), Merkle Science (P05), AnChain.AI (P20).
+- D24 SAR Generation and D25 Regulatory Reporting: mandatory CVC-mixing reporting creates demand for SAR-generation tooling — substantiates NICE Actimize (P38), Fenergo (P39), ComplyAdvantage (P35, P41), Refinitiv (P36), LexisNexis (P37).
+- D15 Privacy Coin Analysis: broad mixer definition includes "anonymity-enhanced cryptocurrency protocols" — supports privacy-coin analytics demand.
+- D01 Transaction Monitoring, D22 Real-Time Alerting: VASPs must detect mixing in real time.

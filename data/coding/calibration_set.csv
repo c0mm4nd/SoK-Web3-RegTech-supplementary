@@ -1,0 +1,26 @@
+platform_id,dim_id,why_chosen
+P01,D01,easy: rich evidence, core capability
+P01,D08,sharp-edged + T_indep paper available (Weber 2019)
+P01,D13,sharp-edged: should be clear None for P01
+P01,D17,vendor markets but no T_indep — tests vendor-only rule
+P01,D21,base-rate-skew test: vendor universally claims API
+P09,D17,worked-example case: vendor+ T_indep paper (Victor 2021)
+P09,D11,negative case: Solidus is not a Travel Rule platform
+P09,D08,GNN claim ambiguous in Solidus docs
+P09,D01,monitoring is core for Solidus — should be Full
+P09,D14,no credential layer — should be None
+P13,D01,thin dossier — tests how rubric handles sparsity
+P13,D06,Lossless is DeFi-adjacent — tests Partial vs None
+P13,D17,DeFi monitoring without explicit MEV
+P13,D21,vendor-only API claim
+P13,D08,no ML claim — should be clear None
+P29,D11,Shyft Veriscope = first-party Travel Rule
+P29,D14,Shyft attestations: W3C-aligned or proprietary?
+P29,D01,Shyft monitoring layer ambiguous
+P29,D21,Shyft API
+P29,D17,no MEV
+P38,D24,NICE Actimize SAR templates well-documented
+P38,D25,NICE jurisdictional reporting
+P38,D01,traditional tx monitoring with crypto extension
+P38,D08,traditional vendor — GNN unlikely
+P38,D11,no Travel Rule

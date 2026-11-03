@@ -1,0 +1,16 @@
+Source: https://arxiv.org/abs/2404.18251 ; ACM DLT: https://dl.acm.org/doi/10.1145/3728474
+Fetched: 2026-05-24
+Status: ok (abstract via arXiv html mirror)
+Citation: Azad, P., Akcora, C.G., and Khan, A. (2025). "Machine Learning for Blockchain Data Analysis: Progress and Opportunities." ACM Distributed Ledger Technologies: Research and Practice, Vol. 5, No. 1, Article 1 (December 10, 2025), pp. 1-27. DOI: 10.1145/3728474.
+
+ABSTRACT (verbatim from arXiv 2404.18251):
+
+"Blockchain technology has rapidly emerged to mainstream attention, while its publicly accessible, heterogeneous, massive-volume, and temporal datasets remain relatively under-explored by sophisticated machine learning methods. Despite the diverse forensic, analytic, and predictive use cases, inadequate data preparation, missing ground-truth labels, and the highly dynamic nature of blockchain data pose significant challenges to machine learning solutions. To address these gaps, we present a comprehensive survey that bridges these methodologies and the broader audience interested in their applications. Specifically, our work serves three primary purposes: (1) to demystify the typical structure of blockchain data; (2) to highlight blockchain data-related machine learning research from 2018 onward, encompassing crime detection, recommendation systems, market analysis, and other use cases; and (3) to discuss future opportunities in this rapidly evolving field. In doing so, we delineate practical questions, identify open research challenges, and propose research directions with the goal of catalyzing further development of machine learning tools tailored to blockchain data."
+
+NAMED PLATFORMS:
+- Elliptic (P02) — referenced as the canonical labeled-Bitcoin-transaction-graph dataset used in graph-based AML research.
+
+Implications for coding:
+- D08 Graph Neural Networks, D09 ML/DL Techniques, D10 Behavioral Analytics: comprehensive survey confirms Elliptic (P02) as the dominant dataset in academic ML-on-blockchain research.
+- D01 Transaction Monitoring, D02 Real-Time Risk Scoring, D03 Address Attribution: survey covers all major ML use cases relevant to comprehensive blockchain analytics vendors.
+- Substantiates broad academic ecosystem support for ML-based monitoring approaches adopted by Chainalysis (P01), Elliptic (P02), TRM Labs (P04), Crystal (P08), Merkle Science (P05).

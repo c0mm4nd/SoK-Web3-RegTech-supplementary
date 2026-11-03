@@ -1,0 +1,36 @@
+URL: https://www.privado.id
+Fetched: 2026-05-24
+Status: ok
+
+# Privado ID: Raw Text Content Summary
+
+## Core Product Description
+Privado ID provides middleware infrastructure for privacy-preserving digital identity. According to the page: "Privado ID enables secure identity data verification everywhere. Any service, any device, any protocol."
+
+## Key Capabilities
+
+**Identity Verification**: The platform allows users to "Prove once, use everywhere" through reusable credentials across applications.
+
+**Zero-Knowledge Technology**: Used for two main purposes—"Preserve privacy" so users can share proofs without revealing credential contents, and "Verification of computation."
+
+**Open Source**: "Privado ID is an open source project under MIT/Apache licenses. We follow the SSI principles and implement W3C and DIF standards."
+
+## Primary Features
+
+- **Web Wallet**: "Your credentials are accessible across multiple devices using just an authenticator. No downloads, no installations."
+- **Ecosystem Scale**: "Choose your trusted providers and accept credentials from all of them."
+- **Privacy First**: "Perform identity verification without requiring the user to disclose personal data."
+
+## Use Cases Offered
+KYC (Know Your Customer), Human & Machine Identity, Age Verification, National ID, Content Authenticity, and customizable implementations.
+
+## Developer Tools Included
+- Wallet SDK
+- Issuer Node
+- Verifier SDK
+- JavaScript SDK (Beta)
+- Schema Builder
+- Query Builder
+
+## Blockchain Integration
+"Privado ID can run on any EVM-compatible chain." Smart contracts currently deployed on Polygon Testnet and Polygon PoS Mainnet.

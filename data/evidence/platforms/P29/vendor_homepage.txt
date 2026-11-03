@@ -1,0 +1,30 @@
+URL: https://www.shyft.network
+Fetched: 2026-05-24
+Status: ok
+
+--- Extracted content ---
+
+Shyft Network's Blockchain Identity Protocol
+
+Core Function:
+"a public protocol designed to validate identity and power compliance directly into blockchain data"
+
+Data Transfer:
+"facilitating the transfer of verifiable data between centralized and decentralized ecosystems"
+
+Identity Solution Architecture:
+"most similarly described as an OAuth2-type interface for Web 2.0 and 3.0 applications with 2FA applications"
+
+Key Enhancement Methods:
+The protocol combines "consent channels giving users control over data" and "incentivized data exchange rails enabling counter-parties to negotiate exchange of information"
+
+Compliance Implementation:
+"certain contracts facilitate KYC/AML checks, satisfying the needs of cross-jurisdictional regulators"
+
+User Control Framework:
+"operates on a strict opt-in user consent framework, offering granular, accessible control over what is shared, with whom, and for what purpose"
+
+These elements collectively describe Shyft's approach to building trust and compliance directly into blockchain data while maintaining user privacy and consent.
+
+About page also describes Shyft as:
+"a public ecosystem for building trust and compliance into blockchain data," drawing inspiration from transparent information exchange between parties without manipulation or misrepresentation. The network employs patented security mechanisms that "identifies malicious intent almost instantly," with protective features that strengthen defenses against escalating attacks. The organization positions itself as a global attestation and governance platform serving the decentralized finance sector, particularly through its Veriscope product for compliant DeFi applications.

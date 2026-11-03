@@ -1,0 +1,5 @@
+URL: https://chainalysis.com/solutions/kyt (and variants)
+Fetched: 2026-05-24
+Status: HTTP 404 on multiple variants. Direct KYT solution page returns 404. KYT capabilities are documented on the main Chainalysis homepage (see P01/homepage.txt). KYT is an enterprise transaction monitoring product per Chainalysis homepage.
+
+Inherited evidence (from P01 homepage): "Monitor transactions in real-time" via KYT product. Real-time screening of crypto transactions with customizable risk settings. Audit suspicious user activity and assess deposits/withdrawals.

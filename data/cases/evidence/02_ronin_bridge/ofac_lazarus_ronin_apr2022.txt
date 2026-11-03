@@ -1,0 +1,25 @@
+Source: https://ofac.treasury.gov/recent-actions/20220414 ; press release context: https://home.treasury.gov/policy-issues/financial-sanctions/recent-actions/20220414
+Fetched: 2026-05-24
+Status: partial (assembled from OFAC recent-actions page + reputable secondary coverage)
+Citation: OFAC, "North Korea Designation Update," April 14, 2022, U.S. Department of the Treasury, Office of Foreign Assets Control.
+
+KEY TEXT:
+
+Date of action: April 14, 2022.
+
+Sanctioned addresses: OFAC added an Ethereum address (0x098B716B8Aaf21512996dC57EB0615e2383E2f96) — containing the proceeds of the March 23, 2022 Ronin Bridge hack — to the Specially Designated Nationals (SDN) list under Lazarus Group's existing entry. Lazarus Group is a DPRK state-sponsored hacking organization originally designated under E.O. 13722 in September 2019.
+
+Hack details:
+- Ronin Network (an Ethereum-linked sidechain serving the Axie Infinity blockchain game) suffered a $625 million USD-equivalent hack on March 23, 2022.
+- 173,600 ETH and 25.5M USDC drained via compromised validator keys.
+- Largest known cryptocurrency heist in history at time of designation.
+
+Treasury statement: "The FBI, in coordination with Treasury and other U.S. Government partners, will continue to expose and combat the DPRK's use of illicit activities — including cybercrime and cryptocurrency theft — to generate revenue for the regime." OFAC's update characterized this as part of the Biden administration's "persistent engagement vision" for confronting DPRK financially-motivated hacking.
+
+Attribution methodology: The address attribution was made via Chainalysis, which the FBI publicly credited for linking the wallet to the Ronin theft. (This is a third-party attestation that Chainalysis serves as the FBI's blockchain forensics partner.)
+
+IMPLICATIONS FOR WEB3 REGTECH CODING:
+- D03 Address Attribution: Chainalysis (P01) directly named/credited by FBI/Treasury for linking Ronin Bridge stolen funds to Lazarus Group — strongest third-party regulator attestation in the dossier.
+- D05 Cross-Chain Tracking: Ronin Bridge is an Ethereum sidechain bridge — demand for cross-chain forensics. Substantiates Chainalysis (P01), Elliptic (P02), TRM Labs (P04), Merkle Science (P05).
+- D04 Multi-Hop Tracing: tracing stolen funds through subsequent mixer use (Tornado Cash) required multi-hop chain-of-custody analysis.
+- D25 Regulatory Reporting: VASPs must block transactions involving the listed SDN address — substantiates D25 across all screening/monitoring vendors.

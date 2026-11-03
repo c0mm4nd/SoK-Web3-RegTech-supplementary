@@ -1,0 +1,30 @@
+Source: https://home.treasury.gov/news/press-releases/jy0916
+Fetched: 2026-05-24
+Status: partial (Treasury.gov returned timeout/403 to retrieval; substantive content assembled from web search with verbatim Treasury quotes)
+Citation: U.S. Department of the Treasury, Press Release JY0916, "U.S. Treasury Sanctions Notorious Virtual Currency Mixer Tornado Cash," August 8, 2022. Under Secretary for Terrorism and Financial Intelligence Brian E. Nelson.
+
+KEY TEXT (verbatim quotes from Treasury press release, as preserved in primary-source reporting):
+
+Date of action: August 8, 2022.
+
+Sanctioning agency: Office of Foreign Assets Control (OFAC), under Executive Order 13694 (as amended).
+
+Sanctioned entity: Tornado Cash — a virtual currency mixer running on the Ethereum blockchain. (Subsequently re-designated November 8, 2022 pursuant to E.O. 13722 for material assistance to the Government of North Korea, and re-designated under E.O. 13694 for facilitating cybercrime-proceeds laundering, replacing the August 8 designation.)
+
+Treasury Under Secretary Brian E. Nelson stated: "Today, Treasury is sanctioning Tornado Cash, a virtual currency mixer that launders the proceeds of cybercrimes, including those committed against victims in the United States. Despite public assurances otherwise, Tornado Cash has repeatedly failed to impose effective controls designed to stop it from laundering funds for malicious cyber actors on a regular basis and without basic measures to address its risks."
+
+Quantified harms cited:
+- Tornado Cash used to launder more than $7 billion worth of virtual currency since 2019 creation.
+- Over $455 million stolen by the Lazarus Group (DPRK state-sponsored, sanctioned 2019) via the Ronin Bridge hack (March 2022).
+- Over $96 million laundered from the Harmony Bridge Heist (June 24, 2022).
+- At least $7.8 million from the Nomad Heist (August 2, 2022).
+
+Mixing-service category: Follows OFAC's May 6, 2022 designation of Blender.io (first virtual-currency mixer ever sanctioned by OFAC).
+
+Subsequent litigation: In November 2024, the U.S. Fifth Circuit Court of Appeals held that OFAC exceeded its statutory authority by sanctioning Tornado Cash smart contracts (Van Loon v. Department of the Treasury). On March 21, 2025, OFAC removed Tornado Cash from the SDN list.
+
+IMPLICATIONS FOR WEB3 REGTECH CODING:
+- D16 Mixer Detection: directly demonstrates regulatory demand for mixer-detection capabilities — substantiates dimension relevance for Chainalysis (P01), Elliptic (P02), TRM Labs (P04), Crystal (P08), Merkle Science (P05), CipherTrace (P03).
+- D15 Privacy Coin / Privacy-Pool Analysis: Tornado Cash demands smart-contract-aware analysis on Ethereum, not just UTXO heuristics.
+- D05 Cross-Chain Tracking: Ronin Bridge heist traversed bridges; demand for bridge-aware tracking.
+- D25 Regulatory Reporting: VASPs must screen against OFAC SDN list including (formerly) Tornado Cash addresses — substantiates D25 for AML Bot (P40), ComplyAdvantage Crypto (P41), Refinitiv (P36), LexisNexis (P37), NICE Actimize (P38), Fenergo (P39).

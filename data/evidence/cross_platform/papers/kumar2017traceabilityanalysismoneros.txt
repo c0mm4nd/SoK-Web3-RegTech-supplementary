@@ -1,0 +1,18 @@
+Source: Bibkey `kumar2017traceabilityanalysismoneros` in references.bib likely refers to Kumar/Fischer/Tople/Saxena 2017 "A Traceability Analysis of Monero's Blockchain" (ESORICS 2017), which precedes the Möser et al. 2018 paper (already stored as moser2018empiricalanalysistraceability.txt).
+URL attempted: https://eprint.iacr.org/2017/338 and https://link.springer.com/chapter/10.1007/978-3-319-66399-9_9
+Fetched: 2026-05-24
+Status: ok (abstract from IACR ePrint)
+
+Citation: Kumar, A., Fischer, C., Tople, S., and Saxena, P. (2017). "A Traceability Analysis of Monero's Blockchain." ESORICS 2017, LNCS vol. 10493, Springer. IACR ePrint 2017/338.
+
+ABSTRACT (verbatim from IACR ePrint):
+
+"The cryptocurrency Monero has emerged as one of the leading representatives of privacy-preserving cryptocurrencies based on the CryptoNote protocol. However, the privacy guarantees provided by Monero have not been studied extensively. In this paper, we report the first systematic study of the linkability and traceability of Monero's transaction blockchain. We empirically evaluate two weaknesses in Monero's mixin sampling strategy. First, about 62% of transaction inputs with one or more mixins are vulnerable to 'chain-reaction' analysis -- that is, the real input can be deduced by elimination. Second, Monero mixins are sampled in such a way that they can be easily distinguished from the real coins by their age distribution; in short, the real input is usually the 'newest' input. We estimate that this heuristic can be used to guess the real input with 80% accuracy over all transactions with 1 or more mixins. Next, we turn our attention to the Monero ecosystem and study the impact of mining pools and the use of unmixable transaction outputs. We find that mining pools and other recurrent payments substantially reduce the effective anonymity set."
+
+NAMED PLATFORMS:
+- Monero (protocol). No commercial compliance vendor named, but the paper's heuristics are exactly those later commercialized by CipherTrace (Monero tracing product, 2020), Chainalysis (Monero module), and TRM Labs.
+
+Implications for coding:
+- D15 Privacy Coin Analysis for CipherTrace (P03) — direct academic prior for CipherTrace's publicly announced Monero tracing capability.
+- D15 Privacy Coin Analysis for Chainalysis (P01), TRM Labs (P04) — vendors that subsequently commercialized similar Monero analytics.
+- Justifies "Partial" rather than "Full" coverage on D15 for vendors who only attack mixin-sampling weaknesses without breaking ring-signature math.

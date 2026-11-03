@@ -1,0 +1,28 @@
+URL: https://www.nansen.ai
+Fetched: 2026-05-24
+Status: ok (/product 404; homepage content used)
+
+--- Extracted content ---
+
+Nansen Analytics & Smart Money Capabilities
+
+Core Analytics:
+"Track 500M+ labeled wallets in real time. See what the best onchain investors are doing before the market does."
+
+Trading Features:
+"Execute directly in Nansen with optimal price routing. No app-switching, no delays. Signal to execution in seconds."
+
+Portfolio Monitoring:
+"Real-time PnL, risk scores, and Smart Money attribution in one dashboard" across multiple chains and protocols.
+
+Data Integration:
+The platform aggregates pricing across "trusted names Jupiter, OKX, and LI.FI simultaneously" for optimized execution.
+
+Smart Money Tracking:
+Users can observe labeled wallet flows to surface early onchain signals before broader market recognition.
+
+Mobile Capabilities:
+"Instant insights and execution from anywhere, 24/7" through their non-custodial mobile application.
+
+Blockchain Coverage:
+Solana onchain data enables wallet tracking and opportunity identification across that ecosystem specifically.

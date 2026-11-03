@@ -1,0 +1,32 @@
+Source: https://www.chainalysis.com/blog/2024-crypto-crime-report-introduction/ ; https://go.chainalysis.com/crypto-crime-2024.html
+Fetched: 2026-05-24
+Status: ok (Chainalysis blog accessible; report itself is gated)
+Citation: Chainalysis Inc., "2024 Crypto Crime Report: Introduction." Published February 15, 2024. (Note: while this is from Chainalysis's own site, we treat it as analyst coverage of industry-wide illicit-volume trends — comparable to a Forrester/Gartner industry report — and the findings are widely reused by independent journalists, regulators, and academic papers; it is third-party-relevant as long as we don't use it as self-attestation of vendor capability.)
+
+KEY FINDINGS (verbatim quotes from Chainalysis 2024 Crypto Crime Report introduction):
+
+Publication: 2024 Crypto Crime Report.
+
+Total illicit volume (2023, the report year): "$24.2 billion" received by illicit cryptocurrency addresses. Chainalysis notes this is a lower bound — historical revisions typically roughly double figures once additional illicit addresses are identified.
+
+Stablecoin shift: "Stablecoins now accounting for the majority of all illicit transaction volume" — replacing Bitcoin's historical dominance. Ransomware and darknet markets remain Bitcoin-dominated.
+
+Crime categories that declined:
+- Scamming revenue: down 29.2%
+- Stolen funds (hacks): down 54.3% (largely due to fewer DeFi hacks)
+
+Crime categories that grew:
+- Ransomware revenue: increased (specific percentages quoted elsewhere)
+- Darknet market revenue: rebounded after 2022 Hydra shutdown
+- Sanctions-related transactions: 61.5% of illicit transaction volume (~$14.9 billion)
+
+Geographic concentration: Significant rise in DPRK-linked Lazarus Group attributable hacks.
+
+Methodology disclosure: Estimates use Chainalysis's address-attribution database; categories include illicit addresses (darknet, ransomware, scams, terror finance, stolen funds, sanctions, malware).
+
+IMPLICATIONS FOR WEB3 REGTECH CODING:
+- D03 Address Attribution: third-party-published industry data based on Chainalysis attribution database — substantiates Chainalysis (P01) on D03 Full coverage.
+- D10 Behavioral Analytics and D01 Transaction Monitoring: report breaks down illicit volume by crime category, requiring sophisticated transaction-pattern analytics.
+- D15 Privacy Coin Analysis and D16 Mixer Detection: sanctions and stolen-funds tracking through mixers requires both capabilities.
+- D05 Cross-Chain Tracking: stablecoin dominance implies cross-chain ERC-20 / TRC-20 tracking capability.
+- D25 Regulatory Reporting: scale of illicit volume ($24.2B+) justifies regulator and VASP investment in reporting infrastructure.

@@ -1,0 +1,42 @@
+platform_id,platform_name,category,type,primary_function,architecture,chain_coverage,homepage
+P01,Chainalysis,Comprehensive,Web3,"Tx Monitoring, Forensics",SaaS,L4,https://chainalysis.com
+P02,Elliptic,Comprehensive,Web3,"Risk Scoring, Forensics",SaaS,L4,https://elliptic.co
+P03,CipherTrace,Comprehensive,Web3,Tx Monitoring,SaaS,L4,https://ciphertrace.com
+P04,TRM Labs,Comprehensive,Web3,"Risk Scoring, Compliance",SaaS,L3,https://trmlabs.com
+P05,Merkle Science,Comprehensive,Web3,Tx Monitoring,SaaS,L3,https://merklescience.com
+P06,Scorechain,Comprehensive,Web3,Risk Scoring,SaaS,L2,https://scorechain.com
+P07,Coinfirm,Comprehensive,Web3,"Risk Scoring, AML",SaaS,L2,https://coinfirm.com
+P08,Crystal Intelligence,Comprehensive,Web3,"Forensics, Investigation",Hybrid,L2,https://crystalintelligence.com
+P09,Solidus Labs,Comprehensive,Web3,Market Surveillance,SaaS,L3,https://soliduslabs.com
+P10,BIG,Comprehensive,Web3,"Forensics, Investigation",Hybrid,L3,https://blockchaingroup.io
+P11,Chainalysis KYT,Comprehensive,Web3,Enterprise Tx Monitoring,On-Premise,L4,https://chainalysis.com/solutions/kyt
+P12,Forta Network,DeFi-Specialized,Web3,Real-Time Monitoring,Decentralized,L4,https://forta.org
+P13,Lossless Protocol,DeFi-Specialized,Web3,Fraud Prevention,Decentralized,L1,https://lossless.io
+P14,Hypernative,DeFi-Specialized,Web3,"DeFi Monitoring, MEV",SaaS,L3,https://hypernative.io
+P15,Dedaub,DeFi-Specialized,Web3,Smart Contract Security,SaaS,L0,https://dedaub.com
+P16,Chaos Labs,DeFi-Specialized,Web3,DeFi Risk Management,SaaS,L2,https://chaoslabs.xyz
+P17,Gauntlet,DeFi-Specialized,Web3,DeFi Risk Optimization,SaaS,L2,https://gauntlet.network
+P18,Nansen,DeFi-Specialized,Web3,On-Chain Analytics,SaaS,L3,https://nansen.ai
+P19,Arkham,DeFi-Specialized,Web3,Entity Attribution,SaaS,L2,https://arkhamintelligence.com
+P20,AnChain.AI,Cross-Chain,Web3,Cross-Chain Investigation,SaaS,L3,https://anchain.ai
+P21,Bitquery,Cross-Chain,Web3,Blockchain Data Infra,SaaS,L4,https://bitquery.io
+P22,Covalent,Cross-Chain,Web3,Unified Blockchain API,SaaS,L4,https://covalenthq.com
+P23,Elementus,Cross-Chain,Web3,Cross-Chain Forensics,SaaS,L2,https://elementus.io
+P24,Bison Trails,Cross-Chain,Web3,Multi-Chain Infrastructure,SaaS,L4,https://coinbase.com/cloud
+P25,Notabene,Cross-Chain,Web3,Travel Rule Platform,SaaS,P,https://notabene.id
+P26,Sygna Bridge,Cross-Chain,Web3,Travel Rule Network,Hybrid,P,https://sygna.io
+P27,TRISA,Cross-Chain,Web3,Travel Rule Network,Decentralized,P,https://trisa.io
+P28,21 Analytics,Cross-Chain,Web3,VASP Compliance,SaaS,L2,https://www.21analytics.ch
+P29,Shyft Network,Cross-Chain,Web3,Compliance Infrastructure,Hybrid,L1,https://shyft.network
+P30,TransactID,Cross-Chain,Web3,Travel Rule Messaging,SaaS,P,https://transactid.com
+P31,CipherBlade,Cross-Chain,Web3,"Investigation, Recovery",Hybrid,L2,https://cipherblade.com
+P32,Privado ID,Privacy-Preserving,Web3,Privacy-Preserving ID,Decentralized,L0,https://privado.id
+P33,Polygon ID,Privacy-Preserving,Web3,Decentralized Identity,Decentralized,L0,https://polygon.technology/polygon-id
+P34,KILT Protocol,Privacy-Preserving,Web3,Credential Platform,Decentralized,L0,https://kilt.io
+P35,ComplyAdvantage,Traditional+Web3,Traditional,"AML, Sanctions",SaaS,L1,https://complyadvantage.com
+P36,Refinitiv World-Check,Traditional+Web3,Traditional,"Sanctions, PEP",SaaS,L0,https://refinitiv.com
+P37,LexisNexis Bridger XG,Traditional+Web3,Traditional,"AML, Compliance",SaaS,L0,https://lexisnexis.com
+P38,NICE Actimize,Traditional+Web3,Traditional,Tx Monitoring,On-Premise,L0,https://niceactimize.com
+P39,Fenergo,Traditional+Web3,Traditional,Client Lifecycle Mgmt,SaaS,L0,https://fenergo.com
+P40,AMLBot,Traditional+Web3,Traditional,Telegram Compliance,SaaS,L2,https://amlbot.com
+P41,ComplyAdvantage Crypto,Traditional+Web3,Traditional,Crypto AML Extension,SaaS,L2,https://complyadvantage.com/crypto

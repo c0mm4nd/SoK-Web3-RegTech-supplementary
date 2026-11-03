@@ -1,0 +1,43 @@
+URL: https://trmlabs.com
+Fetched: 2026-05-24
+
+# TRM Labs Platform Capabilities
+
+## Core Products & Features
+
+Platform Components:
+- Blockchain Intelligence (40+ illicit activity categories across 180+ blockchains)
+- Forensics software with "evidentiary-grade tracing and network analysis"
+- Triage functionality
+- BLOCKINT API
+- Entity Screening
+- Transaction Monitoring
+- Wallet Screening
+- Entity Due Diligence
+- Know-Your-Asset
+- Real-Time Supervision
+
+## AI & Investigation Tools
+
+Orion AI Agent: "The AI investigator built for the world's defenders" - integrated into TRM Forensics, trained by investigators, reasons across blockchain records and threat-actor intelligence to "cluster syndicates, build freeze packages, and triage tipline leads in minutes."
+
+## Compliance & Detection Capabilities
+
+- Sanctions Compliance monitoring
+- Fraud Prevention
+- DeFi Due Diligence
+- NFT Risk Assessments
+- Stablecoin Risk Management
+- Seed Analysis
+
+## Operational Features
+
+- Incident Response services
+- Customer Support/Success
+- Deconflict functionality
+- Case management integration with law enforcement workflows
+- Court-admissible analysis ("Built to hold up in court")
+
+## Coverage & Scale
+
+600+ government agencies and financial institutions across 75 countries; Beacon Network coordinates 70+ financial institutions covering 75% of global crypto volume across 21+ countries.

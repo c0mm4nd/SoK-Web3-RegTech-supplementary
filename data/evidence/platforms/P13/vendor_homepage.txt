@@ -1,0 +1,27 @@
+URL: https://lossless.io
+Fetched: 2026-05-24
+
+# Lossless: Web3 Security
+
+Core Products & Capabilities:
+
+Lossless offers three main solutions:
+
+1. Lossless Aegis - "Proactive Web3 Security" with threat monitoring and smart contract defense to prevent exploits before occurrence.
+
+2. Lossless Protocol - Described as the "industry's first framework for active exploit mitigation," enabling community-driven monitoring of suspicious transactions with automatic freezing capabilities.
+
+3. Token Minter & Vault Protection - Additional security tools for token creators.
+
+Key Features:
+
+- Transaction Freezing: "Automated real-time freezing of suspicious transactions"
+- Fraud Prevention: Community-flagged malicious transactions are frozen pending investigation
+- Multi-Chain Support: Ethereum, Arbitrum, Polygon, Binance Smart Chain, Avalanche, Fantom, Harmony, Elysium, and Arthera
+- Scale: 2,000+ protected contracts and 3+ billion scanned transactions
+- Token Standard: LERC-20 (ERC-20 compatible extension) for enhanced security architecture
+- Recovery: "Timely recovery of stolen funds"
+- Resolution Model: "Efficient and evidence-based resolution mechanism"
+- Pricing: "Fees only charged on prevented financial loss"
+
+The platform emphasizes DeFi protection through stake-based reporting mechanisms and white-hat hacker community participation.

@@ -1,0 +1,19 @@
+Source: https://www.usenix.org/conference/usenixsecurity18/presentation/kappos and https://arxiv.org/abs/1805.03180
+Fetched: 2026-05-24
+Status: ok
+Citation: Kappos, G., Yousaf, H., Maller, M., and Meiklejohn, S. (2018). "An Empirical Analysis of Anonymity in Zcash." 27th USENIX Security Symposium (USENIX Security '18), pp. 463-477.
+
+ABSTRACT (verbatim):
+
+"Among the now numerous alternative cryptocurrencies derived from Bitcoin, Zcash is often touted as the one with the strongest anonymity guarantees, due to its basis in well-regarded cryptographic research. In this paper, we examine the extent to which anonymity is achieved in the deployed version of Zcash. We investigate all facets of anonymity in Zcash's transactions, ranging from its transparent transactions to the interactions with and within its main privacy feature, a shielded pool that acts as the anonymity set for users wishing to spend coins privately. We conclude that while it is possible to use Zcash in a private way, it is also possible to shrink its anonymity set considerably by developing simple heuristics based on identifiable patterns of usage."
+
+NAMED PLATFORMS:
+- Zcash (the protocol, not a vendor); the paper identifies founders' addresses, exchange-side addresses, and the Shadow Brokers' use of shielded pools. No commercial compliance vendor is named by name.
+
+Implications for coding:
+- Provides empirical academic substantiation for the privacy-coin de-anonymization heuristics that platforms claim to support. Directly relevant to D15 (Privacy Coin Analysis) for:
+  - Chainalysis (P01) — Chainalysis publicly markets Zcash tracing built on this kind of heuristic.
+  - Elliptic (P02) — Elliptic supports Zcash transparent-side tracing.
+  - CipherTrace (P03) — historically marketed Zcash analytics.
+  - TRM Labs (P04) — supports Zcash analytics.
+- Cautions that anonymity-set-shrinking heuristics only work where users behave predictably; this implies "Partial (1)" not "Full (2)" privacy-coin coverage is justifiable for vendors who only attack transparent-side flows.

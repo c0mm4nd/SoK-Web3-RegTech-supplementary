@@ -1,0 +1,7 @@
+URL: https://transactid.com
+Fetched: 2026-05-24
+Status: timeout
+
+The original https://transactid.com (and https://www.transactid.com, https://transactid.com/about, https://www.transactid.io) timed out or closed the socket. The original TransactID standalone site is non-responsive.
+
+Alternative successor URL fetched (Netki, vendor of TransactID): https://netki.com/transactid - see netki_transactid.txt

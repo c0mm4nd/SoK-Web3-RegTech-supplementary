@@ -1,0 +1,42 @@
+URL: https://www.21analytics.co
+Fetched: 2026-05-24
+Status: ok (redirected from www.21analytics.ch)
+
+--- Extracted content ---
+
+21 Analytics: Travel Rule Compliance Solution
+
+Company Overview:
+21 Analytics is a Swiss company founded in April 2020 that provides Travel Rule compliance software for Virtual Asset Service Providers (VASPs).
+
+Key Products & Capabilities:
+
+21 Travel Rule:
+- "The only Travel Rule solution that guarantees GDPR-compliance"
+- Supports VASP-to-VASP transactions and self-hosted wallets
+- On-premises deployment with zero telemetry
+
+AOPP (Self-Hosted Wallet Verification):
+- "AOPP eliminates the manual element in self-hosted wallet proofs"
+- Enables wallet ownership verification in one click
+- No manual reviews required, eliminating transaction delays
+
+Travel Rule Automation:
+- Allows users to establish business rules to reduce manual work
+
+AML & Compliance Features:
+- Pre-transaction whitelisting for approval before asset transfers
+- Support for over 2,800 digital assets via ISO 24165
+- Encrypted email options for transactions with non-compliant VASPs
+- User-based audit trails and SSO capabilities
+
+Security & Certifications:
+- ISO 27001:2022 certified
+- DORA and NIS2 ready
+- Built in memory-safe Rust
+- External penetration testing by Swiss auditors
+- "100% On-Premise. Zero telemetry, ensuring you retain absolute data sovereignty"
+
+Business Model:
+- Fixed pricing for unlimited transactions
+- Peer-to-peer solution with no intermediaries

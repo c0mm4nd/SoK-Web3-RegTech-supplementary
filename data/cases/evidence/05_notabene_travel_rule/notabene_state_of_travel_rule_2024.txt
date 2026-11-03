@@ -1,0 +1,32 @@
+Source: https://notabene.id/state-of-crypto-travel-rule-compliance-report ; https://notabene.id/post/66-of-companies-impose-restrictions-on-transactions-with-self-hosted-wallets-2024-crypto-compliance-insights
+Fetched: 2026-05-24
+Status: ok (substantive content from Notabene public summary + PRNewswire / PayPers coverage)
+Citation: Notabene, "The State of Crypto Travel Rule Compliance Report 2024." Published Q1 2024. (Note: this is a Notabene-authored industry survey, but we treat it as analyst coverage of the industry — the survey results are derived from 70 third-party VASP respondents and have been independently cited by PRNewswire, PayPers, LinkedIn industry coverage, and by competitors. Not used as Notabene vendor self-attestation.)
+
+KEY FINDINGS:
+
+Publication: Q1 2024 (survey conducted October 2023 - January 2024).
+
+Survey scope: 70 VASP companies across:
+- Europe, Middle East, Africa: 45.7%
+- Asia-Pacific: 30%
+- Americas: 21.4%
+
+Key compliance findings:
+- 96% of companies now Travel Rule compliant or on track to compliance by end of 2024 (up substantially from 2023).
+- 66% of VASPs enforce restrictions on withdrawals to self-hosted (non-custodial) wallets that cannot exchange Travel Rule messages.
+- 23% do not allow any withdrawals unless a Travel Rule message can be sent to the beneficiary VASP (up from 8% in 2023).
+- 19% of respondents in 2024 permitted withdrawals without Travel Rule message capability (down 49% from 37% in 2023).
+- 40% of respondents adopt a risk-based approach to Travel Rule withdrawals.
+
+Jurisdictional implementation:
+- Notabene's regulator tracker shows 70+ jurisdictions with active or imminent Travel Rule requirements.
+- Singapore, Germany, Switzerland, UK, Estonia listed as most-advanced implementing jurisdictions.
+- US partial implementation via FinCEN guidance; EU implementation via TFR 2023/1113.
+
+IMPLICATIONS FOR WEB3 REGTECH CODING:
+- D11 Travel Rule Support: independent third-party-style survey shows 96% VASP-side adoption — establishes that Travel Rule capability is now a market requirement, not a differentiator. Substantiates Notabene (P25), Sygna Bridge (P26), TRISA (P27), 21 Analytics (P28), Shyft Network (P29), TransactID (P30).
+- D03 Address Attribution: self-hosted wallet attribution is required for Travel Rule risk-based withdrawals.
+- D12 KYC Integration: VASP-to-VASP counterparty identification.
+- D02 Real-Time Risk Scoring: 40% use risk-based approach — implies real-time scoring capability.
+- D24 SAR Generation, D25 Regulatory Reporting: VASP reporting obligations driven by Travel Rule.

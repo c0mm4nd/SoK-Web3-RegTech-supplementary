@@ -1,0 +1,32 @@
+URL: https://www.lseg.com/en/risk-intelligence/screening-solutions/world-check-kyc-screening
+Fetched: 2026-05-24
+Status: ok
+
+Note: Original target URL https://www.lseg.com/en/risk-intelligence/world-check returned 404. Successfully retrieved content from the canonical World-Check KYC Screening landing page under risk-intelligence/screening-solutions/ path.
+
+# LSEG World-Check: Raw Text Content Extract
+
+## Core Product Description
+"Access accurate and structured information to help you meet your KYC screening and third-party due diligence obligations."
+
+## Key Taglines
+- "Real-time risk intelligence. Built for a faster world."
+- "Operating at the Speed of Crime: The Case for Real-Time Risk Intelligence"
+
+## Primary Capabilities
+"World-Check helps you meet your due diligence obligations and identify potential financial criminal activity with information from reputable public domain sources."
+
+## Data Coverage
+The solution includes politically exposed persons (PEPs), close associates, family members, state-owned entities, global sanctions lists, narrative and implicit sanctions, global regulatory and law enforcement lists, adverse media, and sanctioned securities.
+
+## Additional Datasets
+Iran economic interest (IEI), UBO, vessels information, and sanction sets for payment screening.
+
+## Integration Options
+World-Check data is available through APIs, batch screening capabilities, World-Check One platform, World-Check On Demand, and World-Check Verify (AWS partnership).
+
+## Scale
+"Access over 4m records, delivered in a highly structured format."
+
+## Update Frequency
+"World-Check profiles are updated daily by a global research team to reflect the latest sanctions, regulatory actions, and media coverage."

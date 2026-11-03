@@ -1,0 +1,16 @@
+Source: https://dl.acm.org/doi/abs/10.1145/3409073.3409080 ; Bournemouth eprint: http://eprints.bournemouth.ac.uk/34650/
+Fetched: 2026-05-24
+Status: ok (abstract via publisher landing + Bournemouth)
+Citation: Alarab, I., Prakoonwit, S., and Nacer, M.I. (2020). "Competence of Graph Convolutional Networks for Anti-Money Laundering in Bitcoin Blockchain." Proceedings of the 2020 5th International Conference on Machine Learning Technologies (ICMLT '20), ACM. DOI: 10.1145/3409073.3409080.
+
+ABSTRACT (near-verbatim from publisher landing + Bournemouth eprint):
+
+"Graph networks are extensively used as an essential framework to analyse the interconnections between transactions and capture illicit behaviour in Bitcoin blockchain. Due to the complexity of Bitcoin transaction graph, the prediction of illicit transactions has become a challenging problem to unveil illicit services over the network. To address this problem, this work presents a novel approach modelled using the existing Graph Convolutional Network intertwined with linear layers. Briefly, we concatenate node embeddings obtained from graph convolutional layers with a single hidden layer derived from the linear transformation of the node feature matrix and followed by a Multi-layer Perceptron. The proposed approach has been evaluated using Elliptic data, the time series of Bitcoin transaction graph, which outperforms the original work that has been previously evaluated on the same dataset."
+
+NAMED PLATFORMS:
+- Elliptic (P02) — explicitly named as data source (the Elliptic dataset). Third-party academic confirmation of Elliptic's commercial-data-provider role.
+
+Implications for coding:
+- D08 Graph Neural Networks: Elliptic (P02) substantiated as the benchmark dataset enabling GCN-based AML research that vendors translate into products.
+- D03 Address Attribution and D09 ML/DL Techniques: GCN+MLP combo demonstrates state-of-the-art on Elliptic dataset.
+- Confirms Elliptic's commercial moat: proprietary Bitcoin features (166 per-node), released in dataset form, drive academic AML benchmarks.

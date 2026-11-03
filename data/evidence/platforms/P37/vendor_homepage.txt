@@ -1,0 +1,38 @@
+URL: https://risk.lexisnexis.com/products/bridger-insight-xg
+Fetched: 2026-05-24
+Status: ok
+
+# Bridger Insight® XG: Main Content Summary
+
+## Headline & Tagline
+"Powering Confidence Compliance" - "Accelerate onboarding and ongoing monitoring with a trusted end-to-end solution."
+
+## Core Product Description
+Bridger Insight® XG is presented as an all-in-one screening solution that "resolves your risk screening challenges" by combining high-quality data with advanced screening technology to "prioritize genuine risk, reduce false positives and increase operational efficiency."
+
+## Key Capabilities Offered
+
+**Data Resources:**
+- 8M+ risk profiles
+- 1,700 enforcement lists
+- 180 global sanctions lists
+- 3.4 million+ PEP profiles
+- Coverage across 250 countries and territories
+
+**Technical Features:**
+- Single engine for account and payment screening
+- Flexible public/private cloud or on-premise deployments
+- 100s of billions of annual screens capability
+- 60-80% false positive reduction with advanced modules
+
+**Implementation & Support:**
+- Installation in weeks, not months
+- Configurable thresholds across screening types
+- 24/7 technical support
+- Professional services for workflow optimization
+
+## Customer Results Highlighted
+- 92% false positive reduction (one bank)
+- 90% of new customers screened in real-time (mid-sized bank)
+- 66% reduction in remediation times
+- 40% reduction in daily alerts (Global Financial Service Provider)

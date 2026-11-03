@@ -1,0 +1,42 @@
+platform_id,platform_name,category,D01,D02,D03,D04,D05,D06,D07,D08,D09,D10,D11,D12,D13,D14,D15,D16,D17,D18,D19,D20,D21,D22,D23,D24,D25
+P01,Chainalysis,Comprehensive,2,2,2,2,2,1,0,1,2,2,0,1,0,0,1,2,0,0,0,0,1,1,2,1,1
+P02,Elliptic,Comprehensive,2,2,2,2,2,1,0,2,2,2,0,1,0,0,1,0,0,0,0,0,1,1,1,0,1
+P03,CipherTrace,Comprehensive,1,0,1,1,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+P04,TRM Labs,Comprehensive,2,2,2,2,2,1,0,1,2,2,1,1,0,0,1,2,0,0,0,0,1,1,2,1,1
+P05,Merkle Science,Comprehensive,2,2,2,1,2,1,0,1,2,2,0,1,0,0,0,0,0,0,0,0,1,1,1,0,1
+P06,Scorechain,Comprehensive,2,2,1,2,1,0,0,0,1,1,1,1,0,0,0,1,0,0,0,0,2,1,1,1,2
+P07,Coinfirm,Comprehensive,1,1,1,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+P08,Crystal Intelligence,Comprehensive,2,2,2,1,2,0,0,1,1,1,0,1,0,0,0,1,0,0,0,0,1,1,2,0,1
+P09,Solidus Labs,Comprehensive,2,2,0,0,0,0,1,0,1,2,0,1,0,0,0,0,0,0,0,0,1,1,2,0,1
+P10,BIG,Comprehensive,1,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+P11,Chainalysis KYT,Comprehensive,2,2,1,1,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,2,1,1,0,1
+P12,Forta Network,DeFi-Specialized,2,1,0,0,1,0,2,0,1,1,0,0,0,0,0,1,2,0,0,0,1,2,0,0,0
+P13,Lossless Protocol,DeFi-Specialized,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+P14,Hypernative,DeFi-Specialized,2,2,1,0,1,1,2,0,1,1,0,0,0,0,0,1,1,0,0,0,1,2,0,0,0
+P15,Dedaub,DeFi-Specialized,1,1,0,0,1,0,2,0,1,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0
+P16,Chaos Labs,DeFi-Specialized,1,2,0,0,1,2,1,0,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+P17,Gauntlet,DeFi-Specialized,0,0,0,0,1,2,1,0,1,1,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0
+P18,Nansen,DeFi-Specialized,1,1,2,0,1,1,0,0,1,2,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+P19,Arkham,DeFi-Specialized,1,0,2,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0
+P20,AnChain.AI,Cross-Chain,2,2,2,2,2,2,2,1,2,2,0,1,0,0,0,2,0,0,0,0,2,1,2,0,1
+P21,Bitquery,Cross-Chain,1,0,0,1,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,0,0,0
+P22,Covalent,Cross-Chain,1,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0
+P23,Elementus,Cross-Chain,2,1,2,1,1,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,1,1,1,0,1
+P24,Bison Trails,Cross-Chain,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+P25,Notabene,Cross-Chain,0,1,1,0,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,1,0,0,0,1
+P26,Sygna Bridge,Cross-Chain,1,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,2,0,0,0,1
+P27,TRISA,Cross-Chain,0,0,0,0,0,0,0,0,0,0,2,2,0,1,0,0,0,0,0,0,2,0,0,0,1
+P28,21 Analytics,Cross-Chain,1,0,0,0,0,0,0,0,0,0,2,2,0,1,0,0,0,0,0,0,2,0,1,0,2
+P29,Shyft Network,Cross-Chain,0,0,0,0,0,0,0,0,0,0,2,2,0,1,0,0,0,0,0,0,1,0,0,0,1
+P30,TransactID,Cross-Chain,0,0,0,0,0,0,0,0,0,0,2,2,0,1,1,0,0,0,0,0,2,0,0,0,1
+P31,CipherBlade,Cross-Chain,0,0,1,2,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0
+P32,Privado ID,Privacy-Preserving,0,0,0,0,0,0,0,0,0,0,0,1,2,2,0,0,0,0,0,0,2,0,0,0,0
+P33,Polygon ID,Privacy-Preserving,0,0,0,0,0,0,0,0,0,0,0,1,2,2,0,0,0,0,0,0,0,0,0,0,0
+P34,KILT Protocol,Privacy-Preserving,0,0,0,0,0,0,0,0,0,0,0,1,1,2,0,0,0,0,0,0,0,0,0,0,0
+P35,ComplyAdvantage,Traditional+Web3,2,2,0,0,0,0,0,0,2,2,1,2,0,0,0,1,0,0,0,0,1,1,2,0,1
+P36,Refinitiv World-Check,Traditional+Web3,0,1,2,0,0,0,0,0,0,0,0,2,0,0,0,1,0,0,0,0,2,1,0,0,1
+P37,LexisNexis Bridger XG,Traditional+Web3,2,2,2,0,0,0,0,0,1,1,0,2,0,0,0,1,0,0,0,0,2,1,0,0,1
+P38,NICE Actimize,Traditional+Web3,2,2,1,0,0,0,0,0,2,2,0,2,0,0,0,1,0,0,0,0,1,1,2,2,2
+P39,Fenergo,Traditional+Web3,2,1,1,0,0,0,0,0,1,1,0,2,0,0,0,0,0,0,0,0,2,1,1,1,2
+P40,AMLBot,Traditional+Web3,2,1,1,0,0,0,0,0,0,0,0,2,0,0,0,1,0,0,0,0,1,1,1,0,1
+P41,ComplyAdvantage Crypto,Traditional+Web3,1,1,0,0,1,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,2

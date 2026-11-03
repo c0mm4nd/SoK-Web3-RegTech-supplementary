@@ -1,0 +1,34 @@
+Source: https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Guidance-rba-virtual-assets-2021.html ; PDF: https://www.fatf-gafi.org/content/dam/fatf-gafi/guidance/Updated-Guidance-VA-VASP.pdf.coredownload.inline.pdf
+Fetched: 2026-05-24
+Status: partial (FATF site returned 403 to retrieval; substantive content from web search + Notabene + FSB)
+Citation: Financial Action Task Force (FATF), "Updated Guidance for a Risk-Based Approach to Virtual Assets and Virtual Asset Service Providers," October 2021.
+
+KEY TEXT (assembled from FATF official summary / FSB / public commentaries with verbatim FATF language):
+
+Publication date: 28 October 2021.
+
+Publishing body: FATF Secretariat, Paris.
+
+Scope: Updates the FATF June 2019 Guidance to reflect the FATF's June 2021 plenary decisions on virtual assets (VAs) and virtual asset service providers (VASPs).
+
+Six key areas of update (verbatim from FATF summary):
+1. "Clarification of the definitions of virtual assets and VASPs to make clear that these definitions are expansive."
+2. "Guidance on how the FATF Standards apply to so-called stablecoins."
+3. "Additional guidance on the risks and the tools available to countries to address the money laundering and terrorist financing risks for peer-to-peer transactions, which are not explicitly subject to AML/CFT controls under the FATF Standards."
+4. "Updated guidance on the licensing and registration of VASPs."
+5. "Additional guidance for the public and private sectors on the implementation of the 'travel rule'."
+6. "Principles of information-sharing and co-operation amongst VASP Supervisors."
+
+Travel Rule specifics: VASPs must obtain, hold, and securely transmit originator and beneficiary information (name, account number, physical address or government-issued ID) when transferring virtual assets above the de-minimis threshold (USD/EUR 1,000 in most jurisdictions).
+
+Risk-based approach: Countries and VASPs must consider product/service risk, customer risk, geographic risk, business-model risk, and the strength of internal controls.
+
+DeFi treatment: Although DeFi platforms claim no central control, the natural persons or legal persons that exercise control or sufficient influence over the platform can be a VASP.
+
+NFTs: Generally not VAs under FATF definition but may be in scope if used as payment or investment instruments.
+
+IMPLICATIONS FOR WEB3 REGTECH CODING:
+- D11 Travel Rule Support: this is the foundational regulatory document creating the entire Travel Rule product category. Substantiates D11 for Notabene (P25), Sygna Bridge (P26), TRISA (P27), 21 Analytics (P28), Shyft Network (P29), TransactID (P30).
+- D12 KYC Integration and D03 Address Attribution: VASPs must identify counterparty VASPs and unhosted-wallet counterparties.
+- D25 Regulatory Reporting: substantiates the entire reporting capability for compliance vendors.
+- D06 DeFi Semantic Analysis: FATF's "VASP control test" creates demand for tooling to identify controlling parties in DeFi.

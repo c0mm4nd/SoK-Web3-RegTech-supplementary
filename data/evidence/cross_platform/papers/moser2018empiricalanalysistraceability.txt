@@ -1,0 +1,14 @@
+Source: https://arxiv.org/abs/1704.04299
+Citation: Moser et al. 2018, "An Empirical Analysis of Traceability in the Monero Blockchain", arXiv:1704.04299.
+
+ABSTRACT (verbatim):
+
+"Monero is a privacy-centric cryptocurrency that allows users to obscure their transactions by including chaff coins, called 'mixins,' along with the actual coins they spend. In this paper, we empirically evaluate two weaknesses in Monero's mixin sampling strategy. First, about 62% of transaction inputs with one or more mixins are vulnerable to 'chain-reaction' analysis -- that is, the real input can be deduced by elimination. Second, Monero mixins are sampled in such a way that they can be easily distinguished from the real coins by their age distribution; in short, the real input is usually the 'newest' input. We estimate that this heuristic can be used to guess the real input with 80% accuracy over all transactions with 1 or more mixins. Next, we turn to the Monero ecosystem and study the importance of mining pools and the former anonymous marketplace AlphaBay on the transaction volume. We find that after removing mining pool activity, there remains a large amount of potentially privacy-sensitive transactions that are affected by these weaknesses. We propose and evaluate two countermeasures that can improve the privacy of future transactions."
+
+NAMED PLATFORMS:
+- Monero blockchain (privacy coin)
+- AlphaBay darknet marketplace
+
+Implications:
+- Independent academic basis for "privacy coin analysis is feasible" (D15) on Monero. Vendors that claim Monero/privacy-coin tracing leverage exactly these chain-reaction and age-of-coin heuristics.
+- Provides academic underpinning for D15 (Privacy Coin Analysis) when later named alongside vendors (e.g., the SoK Comprehensive column scores Full on D15 because vendors like Chainalysis publicly demonstrate Monero tracing.)

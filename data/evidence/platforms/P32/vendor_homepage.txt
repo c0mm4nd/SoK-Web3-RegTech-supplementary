@@ -1,0 +1,35 @@
+URL: https://privado.id
+Fetched: 2026-05-24
+Status: ok
+
+# Privado ID Homepage Content Extract
+
+**Main Headline:**
+"Building Unified Identity"
+
+**Tagline:**
+"Prove once, use everywhere"
+
+**Core Description:**
+"Privado ID enables secure identity data verification everywhere. Any service, any device, any protocol."
+
+**Key Value Propositions:**
+- "Prove once, use forever" - Users can reuse credentials in different applications
+- "Any device, anywhere" - Web Wallet accessible across devices with authenticator
+- "Open Source" - MIT/Apache licenses following SSI principles and W3C/DIF standards
+- "Instant Global Scale" - Ecosystem of credential providers
+- "All levels of support available" - Developer portal, no-code builders, support channels
+- "Privacy First, Security Always" - Verification without personal data disclosure
+
+**Product Definition:**
+"Privado ID provides middleware infrastructure and tools for applications that implement privacy-preserving digital identity, empowering users to own their data and share it only with their consent."
+
+**Two-Step Process:**
+1. Instant Identity Verification
+2. Reusable Anywhere
+
+**Primary Use Cases Offered:**
+KYC, Human & Machine Identity, Age Verification, National ID, Content Authenticity, Endless use cases
+
+**Core Tools Include:**
+Wallet SDK, Issuer Node, Verifier SDK, JS SDK, Schema Builder, Query Builder

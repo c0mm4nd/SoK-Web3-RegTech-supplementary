@@ -1,0 +1,38 @@
+Source: https://cdn.prod.website-files.com/6082dc5b670562507b3587b4/67f7132b33d3535ca28a54a4_TRM_2025%20Crypto%20Crime%20Report.pdf (TRM Labs 2025 Crypto Crime Report covering 2024 data); https://www.trmlabs.com/resources/reports-and-whitepapers
+Fetched: 2026-05-24
+Status: ok (substantive content via web search + secondary coverage)
+Citation: TRM Labs, "2025 Crypto Crime Report" (covering calendar year 2024). Published April 2025.
+
+KEY FINDINGS (synthesized from TRM Labs report distribution + independent reporting):
+
+Total illicit volume (2024): $45 billion (down 24% YoY from 2023). Represents 0.4% of total crypto volume (vs. 0.9% in 2023).
+
+Composition of illicit activity (TRM categorization):
+- Sanctioned-entity activity: 33% of illicit volume.
+- Blocklisted addresses: 29%.
+- Scams and fraud: 24%.
+- Hacks and exploits, ransomware, darknet: remaining ~14%.
+
+Scams and fraud detail:
+- $10.7 billion sent to fraudulent schemes in 2024.
+- Financial grooming ("pig butchering") scams: $2.5+ billion in 2024.
+- Thousands of new phishing/investment-scam websites appearing monthly.
+
+Ransomware:
+- 5,635 ransomware incidents in 2024 (up from 5,223 in 2023).
+- Largest single ransom payment: $75 million.
+
+Drug sales: $2.4 billion in 2024 (+19% YoY).
+
+Emerging tactics: AI-generated personas, DeFi-platform laundering, cross-chain bridge exploitation, abuse of new privacy protocols beyond Tornado Cash (e.g., Railgun, Aztec).
+
+Sanctions focus: TRM emphasizes Russia/Iran/DPRK-nexus illicit-finance flows; cites Garantex (sanctioned Russian exchange) as a continuing case study.
+
+Methodology: TRM Labs uses its own address-attribution database; consistent with Chainalysis classification but with somewhat different category weighting.
+
+IMPLICATIONS FOR WEB3 REGTECH CODING:
+- D03 Address Attribution: TRM Labs (P04) substantiated on D03 — TRM's blocklisted/sanctioned-address database is the foundation for the report.
+- D10 Behavioral Analytics, D01 Transaction Monitoring, D02 Real-Time Risk Scoring: report demonstrates TRM operationalizes scam/ransomware/sanctions categorization.
+- D05 Cross-Chain Tracking and D16 Mixer Detection: TRM's coverage of bridge exploits and new privacy-pool protocols.
+- D15 Privacy Coin Analysis: extended privacy-pool coverage beyond Tornado Cash (Railgun, Aztec).
+- D04 Multi-Hop Tracing: pig-butchering trace requires multi-hop chain-of-custody back to victim.

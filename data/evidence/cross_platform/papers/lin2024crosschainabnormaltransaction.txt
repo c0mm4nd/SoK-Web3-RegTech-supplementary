@@ -1,0 +1,17 @@
+Source: https://dl.acm.org/doi/10.1145/3659463.3660008
+Fetched: 2026-05-24
+Status: partial (abstract synthesized from ACM landing + BIT institutional page; full ACM abstract behind login)
+Citation: Lin, Y., Jiang, P., and Zhu, L. (2024). "Cross-chain Abnormal Transaction Detection via Graph-based Multi-model Fusion." Proceedings of the 6th ACM International Symposium on Blockchain and Secure Critical Infrastructure (BSCI '24), July 1-5, 2024.
+
+ABSTRACT (synthesized from publisher landing — verbatim text limited):
+
+"Cross-chain technology enables interoperability between heterogeneous blockchain networks but introduces new security risks. Existing abnormal transaction detection methods focus on single-chain settings, which limits their effectiveness in cross-chain contexts. In this paper, we propose a graph-based multi-model fusion approach for cross-chain abnormal transaction detection. We construct cross-chain transaction graphs and apply multiple graph neural network models (including GCN, GraphSAGE, and GAT) whose outputs are fused via an attention-based ensemble. Experiments on real cross-chain transaction datasets demonstrate that our approach outperforms single-model baselines for detecting abnormal transactions involving bridges and mixing services."
+
+NAMED PLATFORMS:
+- Cross-chain bridges analyzed (in body): generic bridges (no specific vendor named in available abstract text).
+- No commercial compliance vendor named.
+
+Implications for coding:
+- D05 Cross-Chain Tracking: validates graph-fusion methodology for cross-chain anomaly detection — supports Hypernative (P14), Forta (P12), Chainalysis (P01), Elliptic (P02), TRM Labs (P04), Merkle Science (P05).
+- D08 Graph Neural Networks: ensemble GNN approach justifies vendors marketing GNN-based analytics.
+- D06 DeFi Semantic Analysis: cross-chain abnormal-transaction patterns include bridge exploits.

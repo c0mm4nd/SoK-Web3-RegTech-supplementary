@@ -1,0 +1,15 @@
+Source: https://arxiv.org/abs/1107.4524 ; book chapter: https://link.springer.com/chapter/10.1007/978-1-4614-4139-7_10
+Fetched: 2026-05-24
+Status: ok
+Citation: Reid, F., and Harrigan, M. (2013). "An Analysis of Anonymity in the Bitcoin System." In Security and Privacy in Social Networks (Y. Altshuler et al., eds.), Springer. (Original arXiv:1107.4524, 2011.)
+
+ABSTRACT (verbatim):
+
+"Anonymity in Bitcoin, a peer-to-peer electronic currency system, is a complicated issue. Within the system, users are identified by public-keys only. An attacker wishing to de-anonymize its users will attempt to construct the one-to-many mapping between users and public-keys and associate information external to the system with the users. Bitcoin tries to prevent this attack by storing the mapping of a user to his or her public-keys on that user's node only and by allowing each user to generate as many public-keys as required. In this chapter we consider the topological structure of two networks derived from Bitcoin's public transaction history. We show that the two networks have a non-trivial topological structure, provide complementary views of the Bitcoin system and have implications for anonymity. We combine these structures with external information and techniques such as context discovery and flow analysis to investigate an alleged theft of Bitcoins, which, at the time of the theft, had a market value of approximately half a million U.S. dollars."
+
+NAMED PLATFORMS:
+- MyBitcoin (theft case study), Mt. Gox (exchange), Bitcoin Faucet, Slush's pool. These are the early services analyzed — the paper does not name modern Web3 RegTech vendors, but it is foundational to the address-attribution methodology now embedded in Chainalysis, Elliptic, TRM Labs, etc.
+
+Implications for coding:
+- Provides earliest peer-reviewed evidence of the graph-based transaction-tracing technique that underlies Chainalysis (P01), Elliptic (P02), CipherTrace (P03), TRM Labs (P04), Crystal Intelligence (P08): D03 Address Attribution, D04 Multi-Hop Tracing.
+- Substantiates that Bitcoin-graph topology is sufficient to perform de-anonymization with external data — i.e., the academic prior for vendor-provided KYT.

@@ -1,0 +1,48 @@
+URL: https://scorechain.com
+Fetched: 2026-05-24
+
+# Scorechain Platform
+
+## Core Products & Capabilities
+
+Transaction Monitoring & Risk Assessment:
+- "Monitor and score crypto transactions"
+- Real-time transaction monitoring with customizable risk scoring
+- "AI-powered blockchain risk intelligence engine" via Scorechain AI
+- Configurable alert systems based on risk rules
+
+Wallet & Address Screening:
+- "Real-time crypto address risk checks"
+- Wallet screening via API and platform access
+- Sanctions exposure detection and counterparty identification
+- Automated compliance checks using on-chain intelligence
+
+Investigation & Fund Tracing:
+- "Follow funds through blockchain networks" and "reveal hidden counterparties"
+- Multi-hop tracing: "indirect exposure - including connections that are several hops away"
+- "Visual transaction flow graph analysis" (Flux Analysis)
+- Cross-chain analysis across 21+ blockchains
+
+Regulatory Reporting & Compliance:
+- "Real-time risk scoring, configurable alerts, structured transaction data, full counterparty exposure analysis, and audit-ready reports" for SAR/STR workflows
+- KYA and KYT intelligence reports
+- VASP due-diligence and entity directory (2700+ VASP assessments)
+- MiCA, GDPR, FATF, OFAC, FinCEN alignment
+
+Additional Features:
+- Stablecoin and token activity monitoring
+- Source of Funds verification
+- "Digital Asset Intelligence" for asset ownership and activity insight
+- MetaMask in-wallet protection integration
+
+## Integration & Access Methods
+
+- API-first approach: REST API, SDK, webhooks
+- Travel Rule API for automated compliance
+- Free Sanction Screening API
+- Telegram Bot for instant risk alerts
+- Web dashboard for no-code users
+
+## Customer Base
+
+350+ organizations including exchanges, banks, fintech firms, regulators, law enforcement, DeFi protocols, Web3 platforms, and token issuers.

@@ -1,0 +1,28 @@
+URL: https://complyadvantage.com/products
+Fetched: 2026-05-24
+Status: ok
+
+--- Extracted content ---
+
+ComplyAdvantage Products and Services
+
+Core Platform:
+ComplyAdvantage Mesh is described as "A cloud-based compliance platform, ComplyAdvantage Mesh combines industry-leading AML risk intelligence with actionable risk signals to screen customers and monitor their behavior in near real time."
+
+AML & Screening Solutions:
+The platform offers several screening capabilities:
+- "Customer Screening" for individual evaluations
+- "Company Screening" for entity assessments
+- "Payment Screening" for transaction-level review
+
+Transaction Monitoring:
+The service includes "Transaction Monitoring" functionality as a dedicated application within the Mesh suite for observing account activities.
+
+Ongoing Monitoring:
+"Ongoing Monitoring" is listed as a core component for continuous customer risk assessment throughout their lifecycle.
+
+Risk Intelligence:
+The platform provides "full-stack proprietary risk intelligence designed for risk-based decisioning" covering sanctions, watchlists, politically exposed persons, and adverse media screening.
+
+Key Features:
+Notable capabilities include case management, automated risk scoring that is "fully configurable and dynamically updated," and agentic AI that can "Process 65-85% of profiles automatically without human intervention."

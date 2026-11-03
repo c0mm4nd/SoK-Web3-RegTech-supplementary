@@ -1,0 +1,17 @@
+Source: https://arxiv.org/abs/1904.05234 ; IEEE: https://ieeexplore.ieee.org/document/9152675
+Fetched: 2026-05-24
+Status: ok (abstract via arXiv)
+Citation: Daian, P., Goldfeder, S., Kell, T., Li, Y., Zhao, X., Bentov, I., Breidenbach, L., Juels, A. (2020). "Flash Boys 2.0: Frontrunning, Transaction Reordering, and Consensus Instability in Decentralized Exchanges." 41st IEEE Symposium on Security and Privacy (S&P 2020).
+
+ABSTRACT (verbatim from arXiv 1904.05234):
+
+"Blockchains, and specifically smart contracts, have promised to create fair and transparent trading ecosystems. Unfortunately, we show that this promise has not been met. We document and quantify the widespread and rising deployment of arbitrage bots in blockchain systems, specifically in decentralized exchanges (or 'DEXes'). Like high-frequency traders on Wall Street, these bots exploit inefficiencies in DEXes, paying high transaction fees and optimizing network latency to frontrun, i.e., anticipate and exploit, ordinary users' DEX trades. We study the breadth of DEX arbitrage bots in a subset of transactions that yield quantifiable revenue to these bots. We also study bots' profit-making strategies, with a focus on Priority Gas Auctions (PGAs), competitive bidding wars among bots that drive up fees in exchange for high-priority orderings. PGAs present an interesting and complex new continuous-time, partial-information, game-theoretic model that we formalize and study. We release an interactive web dashboard of arbitrage bot data at this http URL. The PGAs we observe in DEXes today have arisen organically as a result of design decisions in DEXes such as Bancor and Etherdelta. Smart contract design that anticipates and protects against adversarial attacks of this kind, however, has yet to enjoy a clear conceptual and theoretical foundation. We highlight an emerging phenomenon dubbed by us miner extractable value (MEV), which we believe poses a fundamental threat to Ethereum today."
+
+NAMED PLATFORMS:
+- DEXes: Bancor, EtherDelta (named in abstract); Uniswap, Kyber, Oasis (in body).
+- The term "Miner Extractable Value" (MEV) introduced here is the conceptual basis for MEV-monitoring products: Forta Network (P12), Hypernative (P14), AnChain.AI (P20), Chaos Labs (P16), Gauntlet (P17). No vendor named in abstract.
+
+Implications for coding:
+- D17 MEV Analysis: this is the seminal paper that motivates the entire MEV-monitoring capability category. Substantiates relevance of D17 as a dimension for Forta (P12), Hypernative (P14), Gauntlet (P17), Chaos Labs (P16), Dedaub (P15).
+- D06 DeFi Semantic Analysis: validates the need for transaction-reordering-aware analytics tools.
+- D01 Transaction Monitoring (real-time mempool): supports D22 Real-Time Alerting for vendors that monitor pending transactions.

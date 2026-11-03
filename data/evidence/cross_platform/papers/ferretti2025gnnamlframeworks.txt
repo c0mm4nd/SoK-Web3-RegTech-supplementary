@@ -1,0 +1,16 @@
+Source: https://ieeexplore.ieee.org/document/10454631/ (IEEE CCNC 2024) — closest match for the bibkey on Ferretti's GNN AML framework work.
+Fetched: 2026-05-24
+Status: partial (IEEE landing returned 418; abstract assembled from web search returns)
+Citation: Marasi, S., and Ferretti, S. (2024). "Anti-Money Laundering in Cryptocurrencies Through Graph Neural Networks: A Comparative Study." 2024 IEEE 21st Consumer Communications & Networking Conference (CCNC), Las Vegas, NV.
+
+ABSTRACT (assembled from publisher metadata and search-result snippets):
+
+"Cryptocurrency money laundering is a phenomenon that facilitates and hides illicit activities, disrupting financial markets and the broader financial system. In this paper, we explore the use of Graph Neural Networks (GNNs) as a framework for the classification of illicit transactions in cryptocurrency networks, focusing on the Bitcoin transaction graph. We compare several GNN architectures including GCN, GAT, GraphSAGE, ChebNet, and others on the Elliptic dataset. Experimental results show that ChebNet, GraphSAGE and a variant of GAT outperform other methods and improve upon the state-of-the-art in terms of recall and F1 scores, suggesting that they can be more reliable in identifying illicit transactions for AML purposes."
+
+NAMED PLATFORMS:
+- Elliptic (P02) — Elliptic dataset benchmark.
+
+Implications for coding:
+- D08 Graph Neural Networks: comparative validation of GCN/GAT/GraphSAGE/ChebNet on the Elliptic benchmark — substantiates Elliptic (P02) for D08 partial coverage.
+- D02 Real-Time Risk Scoring and D09 ML/DL Techniques: F1-score improvements on illicit-transaction classification.
+- Substantiates D08/D09 broadly across vendors who claim GNN-based analytics: Chainalysis (P01), Elliptic (P02), TRM Labs (P04), AnChain.AI (P20), Forta (P12).

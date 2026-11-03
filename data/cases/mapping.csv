@@ -1,0 +1,9 @@
+case_id,case_name,year,paradigm,mechanism_primary,mechanism_secondary,lifecycle_primary,lifecycle_secondary,confidence,overlap_flag
+01,Tornado Cash OFAC designation,2022,Web3,Screening,KYT,Ex-Ante,None,High,false
+02,Ronin Bridge exploit,2022,Web3,KYT,Screening,Ex-Post,In-Medias-Res,High,true
+03,FTX/Alameda asset tracing,2022,VASP,KYT,Screening,Ex-Post,None,High,false
+04,Circle USDC freezing workflow,2022,VASP,Screening,KYT,Ex-Ante,None,High,false
+05,Notabene Travel Rule deployment,2024,VASP,KYC,KYB,In-Medias-Res,Ex-Ante,Medium,true
+06,Polygon ID credential issuance,2022,Web3,KYA,KYC,Ex-Ante,None,Medium,false
+07,DOJ Binance settlement,2023,VASP,KYC,KYT,Ex-Post,None,High,false
+08,Chainalysis Reactor multi-hop investigation,2024,Web3,KYT,Screening,Ex-Post,None,High,false

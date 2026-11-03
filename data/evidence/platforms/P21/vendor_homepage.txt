@@ -1,0 +1,41 @@
+URL: https://bitquery.io
+Fetched: 2026-05-24
+
+# Bitquery: Blockchain Data APIs & Real-Time Crypto Streams
+
+## Core Offerings
+
+Bitquery provides "Real-Time Blockchain & Crypto Market Data Streams" with "Zero Infrastructure" required. The platform delivers indexed data across 20+ blockchains through multiple interfaces.
+
+## Key Products & Capabilities
+
+Data Access Methods:
+- GraphQL APIs (V1 and V2)
+- WebSocket subscriptions (~1s latency)
+- Kafka streams (<500ms latency)
+- Cloud providers (AWS S3, Snowflake, Google BigQuery, Azure, Databricks)
+- SQL and custom formats (JSON, Protobuf, Parquet)
+
+Data Coverage:
+- Real-time OHLCV and Price Index data
+- DEX trades across 300+ decentralized exchanges
+- Token launch tracking (Pump.fun, Four.meme, Raydium)
+- Polymarket trades and outcomes
+- Smart contract instructions, transfers, balances, and events
+- 10M+ tokens indexed with millions of daily data points
+
+## Supported Features
+
+- TradingView-ready candle data
+- Limit order and DEX price feeds
+- Copy trading and wallet tracking
+- NFT trades
+- "Production-ready data for seamless integration"
+
+## Pricing Tiers
+
+Developer Plan (Free): 1K trial points, 10 rows per request, 10 requests/minute, 2 simultaneous test streams
+
+Commercial Plan: Custom pricing with 24/7 engineering support, scalable calls, no throttling, dedicated onboarding
+
+Datashares & Exports: Available on major cloud platforms with historical and real-time data

@@ -1,0 +1,28 @@
+URL: https://bitquery.io
+Fetched: 2026-05-24
+Status: ok (/products page redirected to homepage)
+
+--- Extracted content ---
+
+Bitquery Products and Blockchain Data APIs
+
+Core Offerings:
+
+Real-Time Data Streams:
+Bitquery provides "Real-Time Kafka Streams, WebSocket APIs & DEX Data for Solana, Tron, Base, BNB & 40+ chains" with latency under 500ms.
+
+Data Access Methods:
+The platform offers "historical and real-time indexed data for 40+ blockchains through GraphQL APIs, WebSockets, SQL, and cloud providers such as AWS, Snowflake, Google, Azure, and Kafka."
+
+Specific API Products:
+- Price Feeds: Real-time OHLCV and price index data via Kafka and WebSocket
+- DEX Trading Data: Coverage of "Raydium, PancakeSwap, Uniswap & 100+ DEXs"
+- Polymarket Data: Real-time streams of trades, markets, and outcomes
+- Token Launch Tracking: Data from "Pump.fun, Four.meme, Raydium & PumpSwap"
+- Blockchain Operations: "Instructions, Transfers, Balances, Liquidity & Events — 15+ Chains"
+
+Scale & Coverage:
+The platform tracks 20+ supported chains, 300+ decentralized exchanges, and over 10 million indexed tokens with millions of daily data points.
+
+Data Formats:
+Information is "Delivered in JSON, Protobuf, or Parquet — or request a custom format" across multiple cloud platforms.

@@ -1,0 +1,52 @@
+URL: https://elliptic.co
+Fetched: 2026-05-24
+
+# Elliptic Blockchain Analytics Platform
+
+## Core Products & Solutions
+
+Primary Products:
+- Discovery (VASP screening & entity due diligence)
+- Lens (real-time multi-asset wallet & transaction screening)
+- Investigator (single-click cross-chain investigations)
+- Analytics (crypto exposure trend analysis visualizations)
+
+## Key Capabilities
+
+Transaction & Risk Analysis:
+- "Wallet & transaction screening to meet AML regulatory requirements"
+- Real-time multi-asset screening
+- "Automatic rescreening & monitoring to understand changes in risk"
+- Risk scoring through "fully configurable risk rules to surface the activity you care about"
+
+Investigation & Attribution:
+- "Cross-chain forensics to surface leads and analyze criminal activity"
+- "Single-click cross-chain investigations for escalations"
+- Multi-hop tracing across blockchains
+- "Bulk analyze wallets of interest and prioritize for investigation"
+
+AI/ML Technology:
+- AI copilot feature for compliance efficiency (mentioned as enabling "efficiency improvements of around 50%")
+- "Increase efficiency and productivity with Elliptic's copilot"
+
+Regulatory & Reporting:
+- AML compliance support
+- "Custom data solutions to enhance internal compliance decisioning"
+- Indirect risk reporting to "Detect hidden crypto exposure in fiat transactions"
+
+## Blockchain Coverage
+
+- "99% of global trading volume covered"
+- "1B crypto addresses labeled"
+- Multi-chain support including DeFi protocols
+
+## Data & Intelligence
+
+- Data Fabric (integrated blockchain data)
+- Real-time blocklists for exchange protection
+- Threat intelligence datasets
+- Stablecoin issuer due diligence
+
+## Notable Absences
+
+The page does not mention: Travel Rule, KYC-specific modules, privacy coins/Monero/Zcash detection, mixer detection, MEV analysis, account abstraction, ZKP, verifiable credentials, SAR generation, or detailed API/webhook documentation.

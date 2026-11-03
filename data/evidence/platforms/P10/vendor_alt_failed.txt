@@ -1,0 +1,15 @@
+URL: multiple attempted
+Fetched: 2026-05-24
+Status: ALL ALTERNATIVES FAILED
+
+Alternative URLs attempted for BIG (Blockchain Intelligence Group):
+1. https://blockchaingroup.io -> HTTP 403 Forbidden (bot blocking)
+2. https://www.blockchaingroup.io/about -> HTTP 403 Forbidden
+3. https://blockchaingroup.io/qlue -> HTTP 403 Forbidden
+4. https://blockchaingroup.io/products -> HTTP 403 Forbidden
+5. https://big.one -> resolves to BigONE crypto exchange (unrelated)
+6. https://www.biggroup.io -> 302 redirects to biq.group (an IT consulting firm — not BIG)
+7. https://www.biq.group/ -> IT consulting firm, not blockchain intelligence
+8. https://web.archive.org/web/2024/https://blockchaingroup.io -> archive.org blocked by retrieval
+
+No usable BIG vendor content reachable through retrieval. The product QLUE (Qualitative Law Enforcement Unified Edge) and BitRank Verified, which are BIG's known offerings, cannot be substantiated from vendor primary sources here. C2 secondary sources will be the only path.

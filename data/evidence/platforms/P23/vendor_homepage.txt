@@ -1,0 +1,30 @@
+URL: https://elementus.io
+Fetched: 2026-05-24
+Status: ok
+
+# Elementus Homepage Content Extract
+
+**Main Headline:**
+"Unmask the blockchain, unlock intelligence"
+
+**Tagline:**
+"Elementus is a pioneering blockchain intelligence platform focused on the flow of digital assets across an evolving Web3 ecosystem."
+
+**Key Descriptor:**
+"With over 650 million addresses attributed to entities and identities across multiple chains, Elementus offers the transparency & intelligence needed for actionable insights on the blockchain."
+
+**Three Core Services:**
+
+1. **Risk mitigation** - "Elementus leverages best-in-class attributions to provide KYT, sanctions detection, risk reporting, and 24/7 monitoring with alerts."
+
+2. **Market analysis** - "Capitalize on investment opportunities with a holistic view of the digital asset economy. Identify key players, analyze trading behaviors, conduct in-depth market research, and develop robust risk models."
+
+3. **Investigation enablement** - "Patented algorithms drive forensic on-chain investigations, from mapping intricate transactional patterns to revealing nested services and beneficial ownership with near real-time risk insights."
+
+**Platform Features:**
+- Elevated API delivery
+- Enhanced Block Explorer with clustering and custom tagging
+- SourceFlow visualization tool for transforming complex data into graphical representations
+
+**Company Mission:**
+"We believe that the key to unlocking the true potential of digital assets lies in robust, reliable on-chain data."

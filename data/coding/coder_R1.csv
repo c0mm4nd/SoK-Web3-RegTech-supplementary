@@ -1,0 +1,1026 @@
+platform_id,dim_id,score,evidence_citation,rationale_short
+P01,D01,2,platforms/P01/vendor_solutions.txt;cross_platform/analyst/chainalysis_2025_crypto_crime_report.txt,"Vendor names KYT to ""Monitor transactions in real-time"" with continuous screening; 2025 Crypto Crime Report (analyst) cites FBI use of Chainalysis tracing on DMM heist (T_indep)."
+P01,D02,2,platforms/P01/vendor_homepage.txt;cross_platform/analyst/chainalysis_2025_crypto_crime_report.txt,"Vendor names Sentinel and Address Screening for ""risk profile"" assessment; analyst 2025 report cites Chainalysis's address-attribution database driving illicit-volume scoring (T_indep)."
+P01,D03,2,platforms/P01/vendor_solutions.txt;cross_platform/papers/wu2023tracerscalablegraphbased.txt;cross_platform/regulator/ofac_lazarus_ronin_apr2022.txt,"Wu 2023 TRacer names ""forensics services like Chainalysis"" performing attribution; OFAC Ronin designation publicly credits Chainalysis for Lazarus address linkage (T_indep paper+regulator)."
+P01,D04,2,platforms/P01/vendor_solutions.txt;cross_platform/papers/wu2023tracerscalablegraphbased.txt,"Vendor names Reactor for ""trace funds across blockchains""; Wu 2023 TRacer paper explicitly names Chainalysis as a forensics service performing multi-hop transaction tracing (T_indep)."
+P01,D05,2,platforms/P01/vendor_solutions.txt;cross_platform/analyst/chainalysis_2025_crypto_crime_report.txt,"Reactor markets ""cross-chain tracing"" through ""bridges, mixers, DEX swaps""; 2025 Crime Report documents DPRK laundering via mixers and bridges traced by Chainalysis (T_indep)."
+P01,D06,1,platforms/P01/vendor_solutions.txt,"Vendor mentions tracing through ""DEX swaps"" but does not name specific decoded DeFi protocols (Uniswap/Aave/Curve) with semantic labels (T_vendor) (vendor-only evidence)."
+P01,D07,0,no evidence in shared dossier,Chainalysis dossier describes transaction tracing and attribution but does not document contract-bytecode analysis or vulnerability detectors as a named product capability.
+P01,D08,1,platforms/P01/narrative.md,"SoK catalog tags Chainalysis technical approach as ""Graph, Attribution"" but no peer-reviewed paper benchmarks a Chainalysis GNN architecture (T_indep narrative tag, Partial-grade per addendum G.1)."
+P01,D09,2,platforms/P01/vendor_homepage.txt;cross_platform/analyst/chainalysis_2025_crypto_crime_report.txt,"Vendor describes ""Sophisticated machine learning with hundreds of clustering heuristics"" and ""AI-powered fraud prevention"" via Alterya; analyst Crime Reports rely on these ML categorizations (T_indep)."
+P01,D10,2,platforms/P01/vendor_solutions.txt;cross_platform/analyst/chainalysis_2025_crypto_crime_report.txt,"2025 report breaks illicit volume into ransomware/scams/sanctions categories built on Chainalysis behavior typology; vendor names Reactor for analyzing activities across multiple chains (T_indep analyst)."
+P01,D11,0,no evidence in shared dossier,No Travel Rule product or counterparty network is documented in Chainalysis vendor pages or third-party sources covering P01.
+P01,D12,1,platforms/P01/vendor_solutions.txt,"Vendor describes ""VASP Risking"" for due-diligence but no first-party KYC pipeline or named KYC partner integration is documented (T_vendor) (vendor-only evidence)."
+P01,D13,0,no evidence in shared dossier,No mention of zero-knowledge proofs in any Chainalysis vendor pages or cross-platform sources covering P01.
+P01,D14,0,no evidence in shared dossier,Chainalysis dossier contains no W3C VC/DID/SD-JWT or proprietary attestation credential layer.
+P01,D15,1,cross_platform/papers/kappos2018empiricalanalysisanonymity.txt;cross_platform/papers/kumar2017traceabilityanalysismoneros.txt,"Academic papers (Kappos 2018 Zcash; Kumar 2017 Monero) establish privacy-coin heuristics commercialized by vendors but do not name Chainalysis Monero/Zcash coverage explicitly in the source text (T_indep partial; named only by inference)."
+P01,D16,2,platforms/P01/vendor_solutions.txt;cross_platform/regulator/ofac_tornado_cash_aug2022.txt,"Vendor names tracing through ""mixers""; OFAC Tornado Cash designation context relies on attribution tools where Chainalysis is the named tracing partner (T_indep regulator)."
+P01,D17,0,no evidence in shared dossier,No MEV detection product or named MEV strategy categories (sandwich/JIT/arbitrage) appear in Chainalysis vendor pages or third-party sources.
+P01,D18,0,no evidence in shared dossier,No intent-protocol (UniswapX/CowSwap/Across) recognition is documented in Chainalysis materials.
+P01,D19,0,no evidence in shared dossier,No ERC-4337 or account-abstraction handling is documented in any Chainalysis source.
+P01,D20,0,no evidence in shared dossier,No solver-monitoring or intent-auction analytics documented for Chainalysis.
+P01,D21,1,platforms/P01/vendor_solutions.txt,"Vendor names KYT and Reactor with API-style integration implied for ""continuous screening"" but no REST/GraphQL endpoint family or authentication scheme is detailed (T_vendor) (vendor-only evidence)."
+P01,D22,1,platforms/P01/vendor_homepage.txt,"Vendor markets ""Proactive threat intelligence and alerting via Data Solutions"" but no webhook/streaming delivery channel or named alert category is detailed (T_vendor) (vendor-only evidence)."
+P01,D23,2,platforms/P01/vendor_solutions.txt;cross_platform/analyst/chainalysis_2025_crypto_crime_report.txt,"Reactor described as full investigation tool for ""discover leads, analyze activities, and pursue threats""; analyst 2025 report describes FBI/regulator workflow use (T_indep)."
+P01,D24,1,platforms/P01/vendor_homepage.txt,"Vendor mentions ""Court-admissible data for evidence"" supporting filings but no named SAR template or FinCEN-format export is documented (T_vendor) (vendor-only evidence)."
+P01,D25,2,platforms/P01/vendor_homepage.txt;cross_platform/regulator/fincen_cvc_mixing_npr_oct2023.txt,"Vendor cites use by ""45+ regulators worldwide""; FinCEN CVC mixing NPR creates jurisdiction-specific reporting demand that Chainalysis's ""court-admissible"" outputs fulfill (T_indep regulator)."
+P02,D01,2,platforms/P02/vendor_homepage.txt;platforms/P02/narrative.md,"Vendor names Lens for ""real-time multi-asset wallet & transaction screening"" with ""Automatic rescreening & monitoring""; SoK narrative catalog tags Primary function: Risk Scoring, Forensics (T_indep narrative)."
+P02,D02,2,platforms/P02/vendor_homepage.txt;platforms/P02/narrative.md,"Vendor names Lens with ""fully configurable risk rules to surface the activity you care about""; narrative catalog tags Primary function as Risk Scoring (T_indep narrative tag)."
+P02,D03,2,platforms/P02/vendor_homepage.txt;cross_platform/papers/weber2019antimoneylaunderingbitcoin.txt,"Vendor cites ""1B crypto addresses labeled""; Weber 2019 peer-reviewed paper benchmarks the Elliptic Data Set with 200K+ labelled Bitcoin transactions and 166 features (T_indep)."
+P02,D04,2,platforms/P02/vendor_homepage.txt;cross_platform/papers/wu2023tracerscalablegraphbased.txt,"Vendor names Investigator for ""single-click cross-chain investigations"" with multi-hop tracing; Wu 2023 names ""Elliptic"" as a forensics service performing tracing (T_indep)."
+P02,D05,2,platforms/P02/vendor_homepage.txt;cross_platform/papers/yousaf2019tracingtransactionscryptocurrency.txt,"Vendor markets ""Cross-chain forensics to surface leads"" with multi-asset Holistic technology; Yousaf 2019 USENIX paper academically substantiates cross-chain tracing methodology (T_indep)."
+P02,D06,1,platforms/P02/vendor_homepage.txt,"Vendor mentions ""Multi-chain support including DeFi protocols"" but does not name specific decoded DeFi protocols with activity-type semantics (T_vendor) (vendor-only evidence)."
+P02,D07,0,no evidence in shared dossier,Elliptic vendor pages do not document smart-contract code analysis or named detector families.
+P02,D08,2,platforms/P02/narrative.md;cross_platform/papers/weber2019antimoneylaunderingbitcoin.txt;cross_platform/analyst/elliptic_ibm_mit_elliptic2_may2024.txt,"Weber 2019 explicitly uses Elliptic Data Set to benchmark GCN; analyst coverage of 2024 Elliptic/MIT-IBM GNN-subgraph research with 200M Bitcoin transactions confirms production GNN R&D (T_indep)."
+P02,D09,2,platforms/P02/vendor_homepage.txt;cross_platform/papers/weber2019antimoneylaunderingbitcoin.txt,"Weber 2019 paper benchmarks Logistic Regression, Random Forest, MLP, GCN on Elliptic dataset; vendor cites AI copilot with ""efficiency improvements of around 50%"" (T_indep)."
+P02,D10,2,platforms/P02/narrative.md;cross_platform/analyst/elliptic_ibm_mit_elliptic2_may2024.txt,"SoK narrative classifies Elliptic technical approach as ""ML/DL, Graph""; Elliptic2 analyst coverage describes 122K labeled subgraphs detecting money-laundering ""shapes"" (T_indep)."
+P02,D11,0,no evidence in shared dossier,Elliptic vendor pages explicitly list ""Notable Absences"" including Travel Rule; no Travel Rule capability attributed to Elliptic in cross-platform sources.
+P02,D12,1,platforms/P02/vendor_homepage.txt,"Vendor describes Discovery for ""VASP screening & entity due diligence"" but vendor explicitly notes ""Notable Absences"" include KYC-specific modules (T_vendor) (vendor-only evidence)."
+P02,D13,0,no evidence in shared dossier,No ZKP scheme or zero-knowledge usage documented in any Elliptic source.
+P02,D14,0,no evidence in shared dossier,No W3C VC/DID layer documented in Elliptic dossier; not a credential platform.
+P02,D15,1,cross_platform/papers/kappos2018empiricalanalysisanonymity.txt,"Vendor notes ""Notable Absences"" include privacy coins/Monero/Zcash detection; Kappos 2018 establishes Zcash heuristics but does not name Elliptic explicitly (T_indep but no platform-naming) (vendor-only evidence)."
+P02,D16,1,platforms/P02/vendor_homepage.txt;cross_platform/regulator/ofac_tornado_cash_aug2022.txt,"Vendor lists ""Notable Absences"" including mixer detection but markets ""Threat intelligence datasets""; OFAC Tornado Cash designation drives screening demand that Lens addresses (T_indep regulator inference; not explicit platform name) (vendor-only evidence)."
+P02,D17,0,no evidence in shared dossier,Vendor explicitly notes ""MEV analysis"" as a notable absence in Elliptic capabilities.
+P02,D18,0,no evidence in shared dossier,No intent-recognition capability documented in Elliptic materials.
+P02,D19,0,no evidence in shared dossier,Vendor lists ""account abstraction"" as a notable absence.
+P02,D20,0,no evidence in shared dossier,No solver-monitoring documented for Elliptic.
+P02,D21,1,platforms/P02/vendor_homepage.txt,"Vendor describes Data Fabric and ""Custom data solutions"" with notable absence noted for ""detailed API/webhook documentation"" (T_vendor) (vendor-only evidence)."
+P02,D22,1,platforms/P02/vendor_homepage.txt,"Vendor mentions ""Real-time blocklists for exchange protection"" but explicitly notes no detailed webhook documentation (T_vendor) (vendor-only evidence)."
+P02,D23,1,platforms/P02/vendor_homepage.txt,"Vendor describes Investigator for cross-chain investigations and ""Bulk analyze wallets of interest and prioritize for investigation"" but no named workflow states/audit trail (T_vendor) (vendor-only evidence)."
+P02,D24,0,no evidence in shared dossier,Vendor explicitly lists SAR generation as a notable absence.
+P02,D25,1,platforms/P02/vendor_homepage.txt,"Vendor markets ""AML compliance support"" and ""Indirect risk reporting to detect hidden crypto exposure"" but no jurisdiction-specific report format named (T_vendor) (vendor-only evidence)."
+P03,D01,1,platforms/P03/narrative.md,"SoK narrative catalog tags Primary function as ""Tx Monitoring"" and Compliance protocols include KYT, but vendor pages are inaccessible (Mastercard acquisition); narrative tag alone is Partial-grade T_indep."
+P03,D02,0,no evidence in shared dossier,CipherTrace vendor pages are inaccessible post-Mastercard acquisition and no third-party source names a specific CipherTrace risk-scoring product.
+P03,D03,1,platforms/P03/narrative.md,"SoK narrative groups ""Chainalysis, Elliptic, and CipherTrace"" as having ""extensive entity attribution databases built over years"" (T_indep narrative)."
+P03,D04,1,platforms/P03/narrative.md,"Narrative associates CipherTrace with forensics/investigation alongside Chainalysis and Elliptic, implying multi-hop tracing capability but vendor specifics are inaccessible (T_indep narrative)."
+P03,D05,0,no evidence in shared dossier,No cross-chain product or named bridge tracking documented for CipherTrace in accessible dossier.
+P03,D06,0,no evidence in shared dossier,No DeFi protocol decoding documented for CipherTrace.
+P03,D07,0,no evidence in shared dossier,No smart-contract analysis capability documented for CipherTrace.
+P03,D08,0,no evidence in shared dossier,"No GNN architecture named for CipherTrace; narrative tags ""Heuristic, ML"" but no graph-NN specifics."
+P03,D09,1,platforms/P03/narrative.md,"SoK narrative catalog tags technical approach as ""Heuristic, ML"" (T_indep narrative)."
+P03,D10,1,platforms/P03/narrative.md,"Narrative groups CipherTrace with comprehensive analytics vendors having ""entity attribution databases"" but no behavior-profile product is named (T_indep narrative)."
+P03,D11,0,no evidence in shared dossier,No Travel Rule capability accessible for CipherTrace in dossier (CipherTrace TRISA bridge predates Mastercard acquisition but is not documented in shared sources).
+P03,D12,0,no evidence in shared dossier,No KYC integration documented for CipherTrace.
+P03,D13,0,no evidence in shared dossier,No ZKP capability documented for CipherTrace.
+P03,D14,0,no evidence in shared dossier,No credential layer documented for CipherTrace.
+P03,D15,1,cross_platform/papers/kumar2017traceabilityanalysismoneros.txt;cross_platform/papers/kappos2018empiricalanalysisanonymity.txt,"Kumar 2017 Monero and Kappos 2018 Zcash establish privacy-coin heuristics; CipherTrace historically marketed Monero analytics but no source names CipherTrace's coverage explicitly (T_indep) (vendor-only evidence)."
+P03,D16,1,cross_platform/papers/wu2021detectingmixingservices.txt,"Wu 2021 mixer-detection paper covers heuristics commercialized by major analytics vendors including CipherTrace; paper does not name CipherTrace explicitly (T_indep) (vendor-only evidence)."
+P03,D17,0,no evidence in shared dossier,No MEV detection documented for CipherTrace.
+P03,D18,0,no evidence in shared dossier,No intent-recognition documented for CipherTrace.
+P03,D19,0,no evidence in shared dossier,No AA/ERC-4337 support documented for CipherTrace.
+P03,D20,0,no evidence in shared dossier,No solver-monitoring documented for CipherTrace.
+P03,D21,0,no evidence in shared dossier,CipherTrace vendor pages are inaccessible; no API capability documented in accessible sources.
+P03,D22,0,no evidence in shared dossier,No alerting capability accessible for CipherTrace.
+P03,D23,0,no evidence in shared dossier,No case-management UI documented in accessible CipherTrace sources.
+P03,D24,0,no evidence in shared dossier,No SAR-generation capability documented for CipherTrace.
+P03,D25,0,no evidence in shared dossier,No jurisdiction-specific reporting capability documented for CipherTrace.
+P04,D01,2,platforms/P04/vendor_homepage.txt;cross_platform/analyst/forbes_trm_unicorn_2026.txt,"Vendor names Transaction Monitoring with ""40+ illicit activity categories across 180+ blockchains""; Fortune/Forbes TRM unicorn coverage confirms ""transaction monitoring"" as a core product (T_indep)."
+P04,D02,2,platforms/P04/vendor_homepage.txt;cross_platform/analyst/forbes_trm_unicorn_2026.txt,"Vendor names Wallet Screening for ""Pre-screen wallet addresses for risk exposure""; analyst Fortune coverage confirms wallet screening product (T_indep)."
+P04,D03,2,platforms/P04/vendor_products.txt;cross_platform/analyst/trm_labs_2024_crypto_crime_report.txt,"Vendor cites ""3.1B+ attributed addresses"" via Behavioral Signatures across 193+ chains; 2025 TRM Crypto Crime Report (analyst) builds illicit-volume estimates on TRM attribution database (T_indep)."
+P04,D04,2,platforms/P04/vendor_homepage.txt;cross_platform/analyst/forbes_trm_unicorn_2026.txt,"Vendor names Forensics for ""evidentiary-grade tracing and network analysis""; Fortune coverage names ""forensics suite"" used by FBI/DOJ (T_indep)."
+P04,D05,2,platforms/P04/vendor_homepage.txt;cross_platform/analyst/trm_labs_2024_crypto_crime_report.txt,"Vendor describes coverage of 180+ blockchains; 2025 TRM report covers cross-chain bridge exploitation by DPRK (T_indep)."
+P04,D06,1,platforms/P04/vendor_homepage.txt,"Vendor lists ""DeFi Due Diligence"" as a capability but does not name specific decoded DeFi protocols with semantic labels (T_vendor) (vendor-only evidence)."
+P04,D07,0,no evidence in shared dossier,No smart-contract code-analysis product documented for TRM Labs.
+P04,D08,1,platforms/P04/narrative.md,"SoK narrative catalog tags technical approach as ""Graph, ML"" but no peer-reviewed paper benchmarks TRM's GNN architecture (T_indep narrative tag, Partial-grade per addendum G.1)."
+P04,D09,2,platforms/P04/vendor_products.txt;cross_platform/analyst/forbes_trm_unicorn_2026.txt,"Vendor names ""proprietary Behavioral Signatures"" pattern-detection across 193+ chains; analyst Forbes coverage describes Orion AI Agent ""trained by investigators"" (T_indep)."
+P04,D10,2,platforms/P04/vendor_products.txt;cross_platform/analyst/trm_labs_2024_crypto_crime_report.txt,"Vendor names Behavioral Signatures detecting ""patterns across transactions""; 2025 TRM report breaks behavior into named categories (sanctions, blocklist, scams, ransomware) (T_indep)."
+P04,D11,1,platforms/P04/vendor_homepage.txt,"Vendor describes Beacon Network coordinating 70+ FIs but no Travel Rule protocol integration is named (T_vendor) (vendor-only evidence)."
+P04,D12,1,platforms/P04/vendor_homepage.txt;cross_platform/analyst/forbes_trm_unicorn_2026.txt,"Vendor names Entity Due Diligence for ""Screen, assess, and continuously monitor entities""; Forbes coverage cites customer base of US federal agencies but no specific KYC partner named (T_indep but partial-match)."
+P04,D13,0,no evidence in shared dossier,No ZKP capability documented for TRM Labs.
+P04,D14,0,no evidence in shared dossier,No W3C VC/credential layer documented for TRM Labs.
+P04,D15,1,cross_platform/analyst/trm_labs_2024_crypto_crime_report.txt,"2025 TRM report mentions ""new privacy protocols beyond Tornado Cash (Railgun, Aztec)"" but does not name Monero/Zcash heuristic coverage explicitly (T_indep but partial)."
+P04,D16,2,cross_platform/analyst/trm_labs_2024_crypto_crime_report.txt;cross_platform/regulator/ofac_tornado_cash_aug2022.txt,"2025 TRM report covers ""abuse of new privacy protocols beyond Tornado Cash (e.g., Railgun, Aztec)""; OFAC Tornado Cash designation drives mixer-detection demand (T_indep)."
+P04,D17,0,no evidence in shared dossier,No MEV-strategy detection documented in TRM Labs sources.
+P04,D18,0,no evidence in shared dossier,No intent-recognition documented for TRM Labs.
+P04,D19,0,no evidence in shared dossier,No ERC-4337 support documented for TRM Labs.
+P04,D20,0,no evidence in shared dossier,No solver-monitoring documented for TRM Labs.
+P04,D21,1,platforms/P04/vendor_homepage.txt,"Vendor names BLOCKINT API as a product but no endpoint family or authentication scheme detail (T_vendor) (vendor-only evidence)."
+P04,D22,1,platforms/P04/vendor_homepage.txt,"Vendor names ""Real-Time Supervision"" and ""Incident Response services"" but no webhook/streaming channel detail (T_vendor) (vendor-only evidence)."
+P04,D23,2,platforms/P04/vendor_homepage.txt;cross_platform/analyst/forbes_trm_unicorn_2026.txt,"Vendor describes Case management integration with law enforcement workflows and Orion AI for ""freeze packages""; Forbes notes used by FBI/DOJ workflows (T_indep)."
+P04,D24,1,platforms/P04/vendor_products.txt,"Vendor describes Compliance360 to ""mitigate risk before it becomes a regulatory problem"" but no named SAR template or filing format (T_vendor) (vendor-only evidence)."
+P04,D25,2,platforms/P04/vendor_homepage.txt;cross_platform/analyst/forbes_trm_unicorn_2026.txt,"Vendor names regulator customer base across 75 countries; Forbes coverage names regulators UK FCA, Singapore MAS as TRM customers (T_indep)."
+P05,D01,2,platforms/P05/vendor_homepage.txt;cross_platform/analyst/merkle_science_series_a_aug2022.txt,"Vendor names Compass product for transaction/wallet monitoring with ""predictive risk monitoring""; CoinDesk analyst coverage describes Compass as real-time monitoring product (T_indep)."
+P05,D02,2,platforms/P05/vendor_homepage.txt;cross_platform/analyst/merkle_science_series_a_aug2022.txt,"Vendor names ""Predictive risk scoring"" and ""risk scores for tokens""; CoinDesk coverage names Compass risk scoring (T_indep analyst)."
+P05,D03,2,platforms/P05/vendor_homepage.txt;cross_platform/analyst/merkle_science_series_a_aug2022.txt,"Vendor markets ""best sanctions attribution for Russian and Iranian exchanges""; analyst CoinDesk coverage cites attribution capabilities at scale (T_indep)."
+P05,D04,1,platforms/P05/vendor_homepage.txt,"Vendor names Tracker for ""Detect and trace illicit cryptocurrency activity"" with ""crosschain capabilities"" but no multi-hop UI specifics named (T_vendor) (vendor-only evidence)."
+P05,D05,2,platforms/P05/vendor_homepage.txt;cross_platform/analyst/merkle_science_series_a_aug2022.txt,"Vendor names Tracker covering ""10,000+ assets and 200 bridges""; CoinDesk reports CEO statement on bridge-exploit forensics as R&D focus (T_indep)."
+P05,D06,1,platforms/P05/vendor_homepage.txt,"Vendor markets coverage of ""dApps, wallets, and protocols"" but does not name specific DeFi protocols with decoded semantics (T_vendor) (vendor-only evidence)."
+P05,D07,0,no evidence in shared dossier,No smart-contract code-analysis product documented for Merkle Science.
+P05,D08,1,platforms/P05/narrative.md,"SoK narrative tags technical approach as ""Graph Analysis""; no peer-reviewed paper benchmarks Merkle Science GNN architecture (T_indep narrative, Partial-grade per addendum G.1)."
+P05,D09,2,platforms/P05/vendor_homepage.txt;cross_platform/analyst/merkle_science_series_a_aug2022.txt,"Vendor describes ""AI-powered analytics"" via KYBB Data Platform; analyst coverage describes ""Behavior-based ML for suspicious wallet monitoring"" (T_indep)."
+P05,D10,2,platforms/P05/vendor_homepage.txt;cross_platform/analyst/merkle_science_series_a_aug2022.txt,"Vendor names ""Behavioral rule engine for detecting suspicious wallets""; analyst CoinDesk coverage describes behavior-based ML detection (T_indep)."
+P05,D11,0,no evidence in shared dossier,No Travel Rule capability documented for Merkle Science.
+P05,D12,1,platforms/P05/vendor_homepage.txt,"Vendor mentions compliance with ""AML, KYC, and CFT regulations"" but no named KYC pipeline or partner integration (T_vendor) (vendor-only evidence)."
+P05,D13,0,no evidence in shared dossier,No ZKP capability documented for Merkle Science.
+P05,D14,0,no evidence in shared dossier,No credential layer documented for Merkle Science.
+P05,D15,0,no evidence in shared dossier,No privacy-coin coverage named in Merkle Science vendor pages or cross-platform sources.
+P05,D16,1,cross_platform/papers/wu2021detectingmixingservices.txt,"Wu 2021 mixer-detection paper covers heuristics commercialized by analytics vendors including Merkle Science; paper does not name Merkle Science explicitly in source text (T_indep) (vendor-only evidence)."
+P05,D17,0,no evidence in shared dossier,No MEV detection documented for Merkle Science.
+P05,D18,0,no evidence in shared dossier,No intent-recognition documented for Merkle Science.
+P05,D19,0,no evidence in shared dossier,No ERC-4337 support documented for Merkle Science.
+P05,D20,0,no evidence in shared dossier,No solver-monitoring documented for Merkle Science.
+P05,D21,1,platforms/P05/vendor_homepage.txt,"Vendor describes integrations with new chains and tokens but no specific REST/GraphQL endpoint family or authentication scheme is named (T_vendor) (vendor-only evidence)."
+P05,D22,1,platforms/P05/vendor_homepage.txt,"Vendor markets ""Real-time onchain analytics and threat detection"" via Onchain Pulse but no specific webhook/streaming channel named (T_vendor) (vendor-only evidence)."
+P05,D23,1,platforms/P05/vendor_homepage.txt,"Vendor describes ""custom queries and access key data for large scale investigations"" but no case-management UI states or audit trail named (T_vendor) (vendor-only evidence)."
+P05,D24,0,no evidence in shared dossier,No SAR-generation product documented for Merkle Science.
+P05,D25,1,platforms/P05/vendor_homepage.txt,"Vendor lists MiCAR compliance and ""advanced crypto compliance with AML/CFT focus"" certifications but no jurisdiction-specific report format named (T_vendor) (vendor-only evidence)."
+P06,D01,1,platforms/P06/vendor_homepage.txt,"Vendor names ""Real-time transaction monitoring with customizable risk scoring"" and ""Configurable alert systems"" but no T_indep source corroborates the monitoring pipeline (T_vendor) (vendor-only evidence)."
+P06,D02,2,platforms/P06/vendor_homepage.txt,"Vendor names ""AI-powered blockchain risk intelligence engine"" via Scorechain AI, ""Real-time crypto address risk checks"" and ""Real-time risk scoring, configurable alerts"" - multi-element specifics on product, scoring inputs, and alerts (T_vendor) (vendor-specific Full)."
+P06,D03,1,platforms/P06/vendor_homepage.txt,"Vendor mentions ""counterparty identification"" and 2700+ VASP assessments but no specific attribution-database scale metric or clustering technique named (T_vendor) (vendor-only evidence)."
+P06,D04,2,platforms/P06/vendor_homepage.txt,"Vendor names Flux Analysis with explicit ""Multi-hop tracing: indirect exposure - including connections that are several hops away"" plus ""Visual transaction flow graph analysis"" - multi-element vendor specifics (T_vendor) (vendor-specific Full)."
+P06,D05,1,platforms/P06/vendor_homepage.txt,"Vendor states ""Cross-chain analysis across 21+ blockchains"" but no bridge-event correlation or wrapped-asset tracking named (T_vendor) (vendor-only evidence)."
+P06,D06,0,no evidence in shared dossier,Scorechain vendor mentions ""DeFi protocols"" customer base but does not name specific decoded DeFi protocols with activity-type semantics.
+P06,D07,0,no evidence in shared dossier,No smart-contract code analysis documented for Scorechain.
+P06,D08,0,no evidence in shared dossier,"Narrative tags ""Heuristic, ML"" but no graph-NN evidence; no GNN named in vendor or third-party sources."
+P06,D09,1,platforms/P06/vendor_homepage.txt;platforms/P06/narrative.md,"Vendor names ""AI-powered blockchain risk intelligence engine""; narrative tags technical approach as ""Heuristic, ML"" (T_indep narrative)."
+P06,D10,1,platforms/P06/vendor_homepage.txt,"Vendor mentions ""counterparty exposure analysis"" and ""Digital Asset Intelligence"" but no named behavior segments/clusters (T_vendor) (vendor-only evidence)."
+P06,D11,1,platforms/P06/vendor_homepage.txt,"Vendor names ""Travel Rule API for automated compliance"" but no specific counterparty network or jurisdictional integration list (T_vendor) (vendor-only evidence)."
+P06,D12,1,platforms/P06/vendor_homepage.txt,"Vendor lists VASP due-diligence and ""KYA and KYT intelligence reports"" but no first-party KYC pipeline or named KYC partner integration (T_vendor) (vendor-only evidence)."
+P06,D13,0,no evidence in shared dossier,No ZKP capability documented for Scorechain.
+P06,D14,0,no evidence in shared dossier,No credential layer documented for Scorechain.
+P06,D15,0,no evidence in shared dossier,No privacy-coin coverage documented for Scorechain.
+P06,D16,1,platforms/P06/vendor_homepage.txt,"Vendor mentions ""sanctions exposure detection"" and OFAC alignment but no specific mixer-detection methodology named (T_vendor) (vendor-only evidence)."
+P06,D17,0,no evidence in shared dossier,No MEV detection documented for Scorechain.
+P06,D18,0,no evidence in shared dossier,No intent-recognition documented for Scorechain.
+P06,D19,0,no evidence in shared dossier,No ERC-4337 support documented for Scorechain.
+P06,D20,0,no evidence in shared dossier,No solver-monitoring documented for Scorechain.
+P06,D21,2,platforms/P06/vendor_homepage.txt,"Vendor explicitly names ""API-first approach: REST API, SDK, webhooks"" plus Telegram Bot and Free Sanction Screening API - multi-element specifics on API types, channels, and free tier (T_vendor) (vendor-specific Full)."
+P06,D22,1,platforms/P06/vendor_homepage.txt,"Vendor names ""Telegram Bot for instant risk alerts"" and ""configurable alerts"" but no streaming/webhook delivery framework detailed (T_vendor) (vendor-only evidence)."
+P06,D23,1,platforms/P06/vendor_homepage.txt,"Vendor lists ""audit-ready reports"" and ""SAR/STR workflows"" but no case-management UI workflow states/audit trail (T_vendor) (vendor-only evidence)."
+P06,D24,1,platforms/P06/vendor_homepage.txt,"Vendor mentions ""SAR/STR workflows"" but no named template or specific regulator format (T_vendor) (vendor-only evidence)."
+P06,D25,2,platforms/P06/vendor_homepage.txt,"Vendor names ""MiCA, GDPR, FATF, OFAC, FinCEN alignment"" with audit-ready reports - multi-element evidence naming jurisdictional frameworks and report types (T_vendor) (vendor-specific Full)."
+P07,D01,1,platforms/P07/vendor_alt_lukka_blockchain_analytics.txt;platforms/P07/narrative.md,"Lukka successor page describes ""Transaction, wallet and clustering risk monitoring for crypto-assets""; SoK narrative tags Primary function as ""Risk Scoring, AML"" but Coinfirm site is defunct (T_indep narrative)."
+P07,D02,1,platforms/P07/narrative.md,"SoK narrative tags Primary function ""Risk Scoring, AML""; Lukka successor page mentions risk-monitoring SaaS but no specific scoring product or banding named (T_indep narrative)."
+P07,D03,1,platforms/P07/vendor_alt_lukka_blockchain_analytics.txt,"Lukka successor cites ""46,000+ Blockchain entities"" and ""100+ Blockchain Protocols"" but Coinfirm-branded attribution database is not documented (T_vendor) (vendor-only evidence)."
+P07,D04,1,platforms/P07/vendor_alt_lukka_blockchain_analytics.txt,"Lukka describes Blockchain Investigator SaaS for ""Forensic investigations and asset tracking"" but no multi-hop UI specifics (T_vendor) (vendor-only evidence)."
+P07,D05,0,no evidence in shared dossier,No bridge tracking or named cross-chain product documented for Coinfirm/Lukka successor.
+P07,D06,0,no evidence in shared dossier,No DeFi protocol decoding documented for Coinfirm/Lukka.
+P07,D07,0,no evidence in shared dossier,No smart-contract analysis documented for Coinfirm/Lukka.
+P07,D08,0,no evidence in shared dossier,No GNN architecture named for Coinfirm.
+P07,D09,1,platforms/P07/narrative.md,"SoK narrative tags technical approach as ""Rule-Based, Heuristic"" (T_indep narrative)."
+P07,D10,1,platforms/P07/narrative.md,"SoK narrative associates Coinfirm with KYT and Address/Wallet Screening but no behavioral-segment product is named (T_indep narrative)."
+P07,D11,0,no evidence in shared dossier,No Travel Rule capability documented for Coinfirm/Lukka.
+P07,D12,1,platforms/P07/narrative.md,"SoK narrative lists Compliance protocols as Address/Wallet Screening and KYT but no first-party KYC pipeline documented (T_indep narrative)."
+P07,D13,0,no evidence in shared dossier,No ZKP capability documented for Coinfirm.
+P07,D14,0,no evidence in shared dossier,No credential layer documented for Coinfirm.
+P07,D15,0,no evidence in shared dossier,No privacy-coin coverage documented for Coinfirm.
+P07,D16,0,no evidence in shared dossier,No mixer-detection capability documented for Coinfirm.
+P07,D17,0,no evidence in shared dossier,No MEV detection documented for Coinfirm.
+P07,D18,0,no evidence in shared dossier,No intent-recognition documented for Coinfirm.
+P07,D19,0,no evidence in shared dossier,No ERC-4337 support documented for Coinfirm.
+P07,D20,0,no evidence in shared dossier,No solver-monitoring documented for Coinfirm.
+P07,D21,1,platforms/P07/vendor_alt_lukka_main.txt,"Lukka successor describes ""Reference Data Products"" and SaaS offerings but no specific named API endpoint family (T_vendor) (vendor-only evidence)."
+P07,D22,0,no evidence in shared dossier,No real-time alerting capability documented for Coinfirm/Lukka.
+P07,D23,1,platforms/P07/vendor_alt_lukka_blockchain_analytics.txt,"Lukka describes ""Blockchain Investigator SaaS"" for forensics but no case-management workflow specifics (T_vendor) (vendor-only evidence)."
+P07,D24,0,no evidence in shared dossier,No SAR-generation capability documented for Coinfirm/Lukka.
+P07,D25,1,platforms/P07/vendor_alt_lukka_blockchain_analytics.txt,"Lukka cites SOC 1 Type II / SOC 2 Type II infrastructure but no jurisdiction-specific regulatory report format named (T_vendor) (vendor-only evidence)."
+P08,D01,2,platforms/P08/vendor_homepage.txt;platforms/P08/narrative.md,"Vendor names Crystal Expert for ""real-time transaction monitoring across 330+ blockchains"" with ""automated address screening, and sanctions and blocklist checks""; SoK narrative tags Primary function as Forensics/Investigation with KYT (T_indep narrative)."
+P08,D02,2,platforms/P08/vendor_homepage.txt;platforms/P08/vendor_products.txt,"Vendor names ""360-degree risk profiles"" and ""Real-Time Monitoring: Instant alerts on suspicious activity""; vendor product page describes risk-analysis with named entity-coverage scale (118K+ entities) - multi-element evidence (T_vendor) (vendor-specific Full)."
+P08,D03,2,platforms/P08/vendor_products.txt,"Vendor names ""118K+ verified entities"" and ""verified data on 118,000+ entities with 360-degree risk profiles"" plus 210M+ verified transfers - multi-element specific attribution database (T_vendor) (vendor-specific Full)."
+P08,D04,1,platforms/P08/vendor_homepage.txt,"Vendor names Crystal for Investigators with ""Trace funds and suspects, build cases"" and ""Visual Investigation: Trace wallets across chains"" but no specific multi-hop UI or API (T_vendor) (vendor-only evidence)."
+P08,D05,2,platforms/P08/vendor_homepage.txt,"Vendor names ""Multi-Chain Coverage: Analyzes Bitcoin, Ethereum, Tron, Solana, and 326+ additional blockchains"" with cross-chain visualization plus interactive network maps - multi-element specifics on chain coverage (T_vendor) (vendor-specific Full)."
+P08,D06,0,no evidence in shared dossier,No DeFi protocol decoding named in Crystal Intelligence vendor pages.
+P08,D07,0,no evidence in shared dossier,No smart-contract analysis capability documented for Crystal Intelligence.
+P08,D08,1,platforms/P08/narrative.md,"SoK narrative tags technical approach as ""Graph Analysis"" but no peer-reviewed paper benchmarks Crystal's GNN (T_indep narrative, Partial-grade per addendum G.1)."
+P08,D09,1,platforms/P08/vendor_homepage.txt,"Vendor describes ""AI-powered analytics"" implicitly but no specific ML model family named (T_vendor) (vendor-only evidence)."
+P08,D10,1,platforms/P08/vendor_homepage.txt,"Vendor cites ""30M+ flagged transfers"" supporting pattern detection but no named behavior-of-interest product (T_vendor) (vendor-only evidence)."
+P08,D11,0,no evidence in shared dossier,No Travel Rule capability documented for Crystal Intelligence.
+P08,D12,1,platforms/P08/vendor_homepage.txt,"Vendor describes Crystal for Compliance enabling ""AML/KYC integration"" but no specific KYC partner named (T_vendor) (vendor-only evidence)."
+P08,D13,0,no evidence in shared dossier,No ZKP capability documented for Crystal Intelligence.
+P08,D14,0,no evidence in shared dossier,No credential layer documented for Crystal Intelligence.
+P08,D15,0,no evidence in shared dossier,No privacy-coin coverage explicitly named in Crystal Intelligence dossier.
+P08,D16,1,platforms/P08/vendor_homepage.txt,"Vendor mentions ""sanctions and blocklist checks"" but no specific mixer-detection methodology named (T_vendor) (vendor-only evidence)."
+P08,D17,0,no evidence in shared dossier,No MEV detection documented for Crystal Intelligence.
+P08,D18,0,no evidence in shared dossier,No intent-recognition documented for Crystal Intelligence.
+P08,D19,0,no evidence in shared dossier,No ERC-4337 support documented for Crystal Intelligence.
+P08,D20,0,no evidence in shared dossier,No solver-monitoring documented for Crystal Intelligence.
+P08,D21,1,platforms/P08/vendor_homepage.txt,"Vendor describes platform access for ""compliance and risk teams"" but no specific REST/GraphQL endpoint family or authentication scheme named (T_vendor) (vendor-only evidence)."
+P08,D22,1,platforms/P08/vendor_homepage.txt,"Vendor markets ""Instant alerts on suspicious activity with live transaction tracking"" but no webhook/streaming channel documented (T_vendor) (vendor-only evidence)."
+P08,D23,2,platforms/P08/vendor_homepage.txt;platforms/P08/vendor_products.txt,"Vendor names Crystal for Investigators with ""smart case mapping"" and ""build cases""; product page describes investigation flow for law enforcement plus visualization - multi-element specifics on case workflow (T_vendor) (vendor-specific Full)."
+P08,D24,0,no evidence in shared dossier,No SAR-generation capability documented for Crystal Intelligence.
+P08,D25,1,platforms/P08/vendor_homepage.txt,"Vendor describes serving ""Banks, payment providers... governments"" with compliance automation but no jurisdiction-specific report format named (T_vendor) (vendor-only evidence)."
+P09,D01,2,platforms/P09/vendor_platform.txt;cross_platform/analyst/solidus_labs_wash_trading_sep2023.txt,"Vendor describes HALO ""transaction monitoring"" detecting ""spoofing, layering/quote stuffing"" via real-time detection; Solidus 2023 wash-trade report quantifies $2B detected on Ethereum DEXes (T_indep analyst)."
+P09,D02,2,platforms/P09/vendor_platform.txt;cross_platform/analyst/solidus_labs_wash_trading_sep2023.txt,"Vendor names ""Universal Client Risk View synthesizing cross-market data"" with ""behavior-based profiles""; analyst Solidus 2023 report attests real-time wash-trade alerting (T_indep)."
+P09,D03,0,no evidence in shared dossier,Solidus is market-surveillance focused; no attribution database is documented in vendor pages or third-party sources.
+P09,D04,0,no evidence in shared dossier,No multi-hop tracing capability documented for Solidus Labs.
+P09,D05,0,no evidence in shared dossier,No cross-chain bridge tracking documented for Solidus Labs.
+P09,D06,1,cross_platform/analyst/solidus_labs_wash_trading_sep2023.txt,"Analyst report explains Solidus methodology requires AMM-style DEX-aware analytics to detect wash trades but vendor does not name specific DeFi protocols decoded (T_indep) (vendor-only evidence)."
+P09,D07,1,platforms/P09/vendor_homepage.txt,"Vendor names ""Token Monitoring: Smart contract scam and liquidity analysis"" but no specific contract-analysis methodology or detector families (T_vendor) (vendor-only evidence)."
+P09,D08,0,no evidence in shared dossier,No GNN architecture named in Solidus vendor pages or third-party sources.
+P09,D09,1,platforms/P09/narrative.md,"SoK narrative tags technical approach as ""ML, Anomaly""; no specific model family named in vendor (T_indep narrative)."
+P09,D10,2,platforms/P09/vendor_platform.txt;cross_platform/analyst/solidus_labs_wash_trading_sep2023.txt,"Vendor names ""holistic, behavior-based profiles"" and ""Universal Client Risk View""; Solidus 2023 report describes behavioral wash-trader categories (token deployers/airdrop gamers/exchange ops) (T_indep)."
+P09,D11,0,no evidence in shared dossier,Solidus is market-surveillance focused with no Travel Rule capability documented in any source.
+P09,D12,1,platforms/P09/vendor_homepage.txt,"Vendor mentions ""KYC intelligence"" as one of HALO's unified components but no specific KYC pipeline or partner named (T_vendor) (vendor-only evidence)."
+P09,D13,0,no evidence in shared dossier,No ZKP capability documented for Solidus Labs.
+P09,D14,0,no evidence in shared dossier,No W3C VC/credential layer documented for Solidus Labs.
+P09,D15,0,no evidence in shared dossier,No privacy-coin coverage documented for Solidus Labs.
+P09,D16,0,no evidence in shared dossier,No mixer-detection capability named in Solidus Labs sources.
+P09,D17,0,no evidence in shared dossier,"Solidus vendor materials describe wash-trade and market-abuse detection but do not name MEV strategies (sandwich, JIT, arbitrage), and no T_indep paper attributes MEV analysis to Solidus."
+P09,D18,0,no evidence in shared dossier,No intent-recognition documented for Solidus Labs.
+P09,D19,0,no evidence in shared dossier,No ERC-4337 support documented for Solidus Labs.
+P09,D20,0,no evidence in shared dossier,No solver-monitoring documented for Solidus Labs.
+P09,D21,1,platforms/P09/vendor_platform.txt,"Vendor describes ""zero-code interface"" and HALO platform for compliance teams but no REST/GraphQL endpoint family named (T_vendor) (vendor-only evidence)."
+P09,D22,1,platforms/P09/vendor_platform.txt,"Vendor describes ""real-time detection"" with ""preview alert impact"" but no specific webhook/streaming channel detailed (T_vendor) (vendor-only evidence)."
+P09,D23,2,platforms/P09/vendor_homepage.txt;platforms/P09/vendor_platform.txt,"Vendor names ""Case Management: Unified investigation hub integrating multiple alert types"" plus HALO's ""trade surveillance, transaction monitoring, and investigation management"" with ""full audit trails"" - multi-element case-mgmt specifics (T_vendor) (vendor-specific Full)."
+P09,D24,0,no evidence in shared dossier,No named SAR template or filing integration documented for Solidus Labs.
+P09,D25,1,platforms/P09/vendor_platform.txt,"Vendor describes ""institutional-grade defensibility"" across ""global jurisdictions"" but no jurisdiction-specific report format named (T_vendor) (vendor-only evidence)."
+P10,D01,1,platforms/P10/narrative.md,"SoK narrative tags Primary function as Forensics/Investigation with KYT but no vendor pages are accessible; narrative tag is Partial-grade T_indep."
+P10,D02,0,no evidence in shared dossier,BIG vendor pages return HTTP 403; no accessible source documents a risk-scoring product.
+P10,D03,1,platforms/P10/narrative.md,"SoK narrative tags BIG technical approach as ""Graph, Manual"" with Address/Wallet Screening but specific attribution-database scale or technique not documented (T_indep narrative)."
+P10,D04,1,platforms/P10/narrative.md,"SoK narrative tags Primary function as ""Forensics, Investigation"" implying tracing capability; vendor specifics inaccessible (T_indep narrative)."
+P10,D05,0,no evidence in shared dossier,No cross-chain capability documented for BIG.
+P10,D06,0,no evidence in shared dossier,No DeFi protocol decoding documented for BIG.
+P10,D07,0,no evidence in shared dossier,No smart-contract analysis documented for BIG.
+P10,D08,0,no evidence in shared dossier,No GNN evidence for BIG.
+P10,D09,0,no evidence in shared dossier,"Narrative tags ""Graph, Manual"" - manual is opposed to ML/DL; no learned-component evidence."
+P10,D10,1,platforms/P10/narrative.md,"SoK narrative associates BIG with Forensics/Investigation but no behavioral-segment product is named (T_indep narrative)."
+P10,D11,0,no evidence in shared dossier,No Travel Rule capability documented for BIG.
+P10,D12,0,no evidence in shared dossier,No KYC integration documented for BIG.
+P10,D13,0,no evidence in shared dossier,No ZKP capability documented for BIG.
+P10,D14,0,no evidence in shared dossier,No credential layer documented for BIG.
+P10,D15,0,no evidence in shared dossier,No privacy-coin coverage documented for BIG.
+P10,D16,0,no evidence in shared dossier,No mixer-detection capability documented for BIG.
+P10,D17,0,no evidence in shared dossier,No MEV detection documented for BIG.
+P10,D18,0,no evidence in shared dossier,No intent-recognition documented for BIG.
+P10,D19,0,no evidence in shared dossier,No ERC-4337 support documented for BIG.
+P10,D20,0,no evidence in shared dossier,No solver-monitoring documented for BIG.
+P10,D21,0,no evidence in shared dossier,BIG vendor pages inaccessible; no API capability documented.
+P10,D22,0,no evidence in shared dossier,No alerting capability accessible for BIG.
+P10,D23,0,no evidence in shared dossier,No case-management UI documented in accessible BIG sources.
+P10,D24,0,no evidence in shared dossier,No SAR-generation capability documented for BIG.
+P10,D25,0,no evidence in shared dossier,No jurisdiction-specific reporting capability documented for BIG.
+P11,D01,2,platforms/P11/vendor_kyt.txt;cross_platform/analyst/chainalysis_2025_crypto_crime_report.txt,"Vendor describes KYT as ""Monitor transactions in real-time"" with continuous screening of crypto transactions and customizable risk settings; 2025 Crypto Crime Report attests FBI use of Chainalysis tracing (T_indep)."
+P11,D02,2,platforms/P11/vendor_kyt.txt,"Vendor names KYT for ""real-time screening of crypto transactions"" with ""Tailor your risk settings, assess deposits and withdrawals, and audit suspicious user activity"" - multi-element specific evidence on product, scoring inputs, and risk customization (T_vendor) (vendor-specific Full)."
+P11,D03,2,cross_platform/papers/wu2023tracerscalablegraphbased.txt;cross_platform/regulator/ofac_lazarus_ronin_apr2022.txt,"Wu 2023 TRacer names Chainalysis (the parent platform) performing attribution; OFAC Ronin designation publicly credits Chainalysis for Lazarus wallet linkage (T_indep)."
+P11,D04,1,platforms/P11/vendor_kyt.txt,"KYT positioned within Chainalysis Compliance suite ""alongside Reactor"" but KYT itself is real-time screening rather than multi-hop tracing (T_vendor) (vendor-only evidence)."
+P11,D05,1,platforms/P11/vendor_kyt.txt,"KYT is described as the enterprise transaction-monitoring product; cross-chain tracing is attributed to Reactor rather than KYT specifically (T_vendor) (vendor-only evidence)."
+P11,D06,0,no evidence in shared dossier,No specific DeFi protocol decoding documented for KYT product.
+P11,D07,0,no evidence in shared dossier,No smart-contract analysis documented for Chainalysis KYT.
+P11,D08,1,platforms/P11/narrative.md,"SoK narrative tags KYT technical approach as ""Graph, Real-Time"" but no GNN-specific architecture named (T_indep narrative, Partial-grade per addendum G.1)."
+P11,D09,1,platforms/P11/vendor_kyt.txt,"KYT positioned within Chainalysis suite leveraging ML/heuristics inherited from parent platform but no specific ML model family named for KYT itself (T_vendor) (vendor-only evidence)."
+P11,D10,1,platforms/P11/vendor_kyt.txt,"KYT enables ""audit suspicious user activity"" but no named behavioral-segment product specific to KYT (T_vendor) (vendor-only evidence)."
+P11,D11,0,no evidence in shared dossier,No Travel Rule capability documented for Chainalysis KYT specifically.
+P11,D12,0,no evidence in shared dossier,No KYC integration documented for Chainalysis KYT.
+P11,D13,0,no evidence in shared dossier,No ZKP capability documented for Chainalysis KYT.
+P11,D14,0,no evidence in shared dossier,No credential layer documented for Chainalysis KYT.
+P11,D15,0,no evidence in shared dossier,No privacy-coin coverage specific to KYT documented.
+P11,D16,0,no evidence in shared dossier,No mixer-detection methodology specific to KYT documented.
+P11,D17,0,no evidence in shared dossier,No MEV detection documented for Chainalysis KYT.
+P11,D18,0,no evidence in shared dossier,No intent-recognition documented for Chainalysis KYT.
+P11,D19,0,no evidence in shared dossier,No ERC-4337 support documented for Chainalysis KYT.
+P11,D20,0,no evidence in shared dossier,No solver-monitoring documented for Chainalysis KYT.
+P11,D21,1,platforms/P11/vendor_kyt.txt,"KYT is described as a product enabling continuous screening but no specific API endpoint family/SDK named in the dossier (T_vendor) (vendor-only evidence)."
+P11,D22,1,platforms/P11/vendor_kyt.txt,"Vendor names KYT for real-time screening but no webhook/streaming-alert channel specifics for KYT itself (T_vendor) (vendor-only evidence)."
+P11,D23,1,platforms/P11/vendor_kyt.txt,"KYT positioned alongside Reactor in Chainalysis compliance suite but KYT itself is screening rather than investigation workflow (T_vendor) (vendor-only evidence)."
+P11,D24,0,no evidence in shared dossier,No SAR-generation capability documented for Chainalysis KYT.
+P11,D25,1,platforms/P11/vendor_kyt.txt,"KYT supports ""regulatory adherence"" generally but no jurisdiction-specific report format named for KYT (T_vendor) (vendor-only evidence)."
+P12,D01,2,platforms/P12/vendor_docs.txt;platforms/P12/vendor_homepage.txt,"Vendor names ""Forta detection bots"" with explicit categories - ""flash loan attacks, sandwich attacks, oracle returning bad values"" plus alert categories ""asset depegs, anomalous transactions, oracle malfunctions"" - multi-element specifics (T_vendor) (vendor-specific Full)."
+P12,D02,1,platforms/P12/vendor_homepage.txt,"Vendor states ""<10ms Latency"" and ""Screen against sanctions lists"" but no banded/numeric risk-score product named (T_vendor) (vendor-only evidence)."
+P12,D03,0,no evidence in shared dossier,Forta is on-chain monitoring; no curated address-attribution database is documented.
+P12,D04,0,no evidence in shared dossier,No multi-hop tracing documented for Forta Network.
+P12,D05,0,no evidence in shared dossier,Forta supports multi-chain bots but no cross-chain asset-tracking product documented.
+P12,D06,1,platforms/P12/vendor_docs.txt,"Vendor lists ""flash loan attacks"" and ""sandwich attacks"" detection but does not name specific DeFi protocols decoded with activity labels (T_vendor) (vendor-only evidence)."
+P12,D07,2,platforms/P12/vendor_docs.txt;platforms/P12/vendor_homepage.txt,"Vendor names detection bots for contract events: ""Detect admin functions"", ""Detect ownership transfers of contracts"", ""flash loan attacks"" - multi-element specifics on contract-level analytics (T_vendor) (vendor-specific Full)."
+P12,D08,0,no evidence in shared dossier,No GNN architecture documented for Forta Network.
+P12,D09,1,platforms/P12/vendor_homepage.txt,"Vendor states ""Uses AI and simulations to identify malicious transactions"" but no specific ML model family named (T_vendor) (vendor-only evidence)."
+P12,D10,1,platforms/P12/vendor_homepage.txt,"Vendor uses ""anomalous transactions"" as an alert category but no named behavior-profile product (T_vendor) (vendor-only evidence)."
+P12,D11,0,no evidence in shared dossier,Forta is DeFi monitoring; no Travel Rule capability documented.
+P12,D12,0,no evidence in shared dossier,No KYC integration documented for Forta Network.
+P12,D13,0,no evidence in shared dossier,No ZKP capability documented for Forta Network.
+P12,D14,0,no evidence in shared dossier,No credential layer documented for Forta Network.
+P12,D15,0,no evidence in shared dossier,No privacy-coin coverage documented for Forta Network.
+P12,D16,0,no evidence in shared dossier,No mixer-detection methodology named in Forta sources.
+P12,D17,1,platforms/P12/vendor_docs.txt;cross_platform/papers/daian2020flashboys20.txt,"Vendor names ""sandwich attacks"" as detectable; Daian 2020 Flash Boys 2.0 is the canonical MEV academic anchor (T_indep paper but does not name Forta explicitly)."
+P12,D18,0,no evidence in shared dossier,No intent-protocol recognition documented for Forta Network.
+P12,D19,0,no evidence in shared dossier,No ERC-4337 support documented for Forta Network.
+P12,D20,0,no evidence in shared dossier,No solver-monitoring documented for Forta Network.
+P12,D21,0,platforms/P12/narrative.md,"Forta is a Decentralized architecture per SoK narrative - detection bots run on-chain rather than via REST API; rationale (on-chain architecture; D21 not applicable)."
+P12,D22,2,platforms/P12/vendor_docs.txt;platforms/P12/vendor_homepage.txt,"Vendor describes bots emitting alerts on Detection Bot framework with ""<10ms Latency"" and named alert categories ""asset depegs, anomalous transactions, oracle malfunctions"" - multi-element specific alerting (T_vendor) (vendor-specific Full)."
+P12,D23,0,no evidence in shared dossier,No case-management UI documented for Forta Network.
+P12,D24,0,no evidence in shared dossier,No SAR-generation capability documented for Forta Network.
+P12,D25,0,no evidence in shared dossier,No jurisdiction-specific reporting documented for Forta Network.
+P13,D01,0,no evidence in shared dossier,"Vendor Lossless Aegis markets ""threat monitoring"" but provides no named alert categories or rule families - marketing-only language insufficient for D01 per addendum F."
+P13,D02,0,no evidence in shared dossier,No risk-scoring product documented for Lossless Protocol.
+P13,D03,0,no evidence in shared dossier,No attribution database documented for Lossless Protocol.
+P13,D04,0,no evidence in shared dossier,No multi-hop tracing capability documented for Lossless Protocol.
+P13,D05,1,platforms/P13/vendor_homepage.txt,"Vendor lists multi-chain support (Ethereum, Arbitrum, Polygon, BSC, Avalanche, Fantom, Harmony, Elysium, Arthera) but no bridge tracking or wrapped-asset correlation (T_vendor) (vendor-only evidence)."
+P13,D06,0,no evidence in shared dossier,"Vendor lists chains supported but does not name specific DeFi protocols decoded; per addendum B, chain list ≠ DeFi protocol list."
+P13,D07,1,platforms/P13/vendor_homepage.txt,"Vendor names LERC-20 token standard for ""enhanced security architecture"" but no static/dynamic contract analysis methodology named (T_vendor) (vendor-only evidence)."
+P13,D08,0,no evidence in shared dossier,No GNN architecture documented for Lossless Protocol.
+P13,D09,0,no evidence in shared dossier,Lossless uses ""community-flagging"" and ""stake-based reporting"" with no ML/DL claim documented.
+P13,D10,0,no evidence in shared dossier,No behavioral-segment product documented for Lossless Protocol.
+P13,D11,0,no evidence in shared dossier,No Travel Rule capability documented for Lossless Protocol.
+P13,D12,0,no evidence in shared dossier,No KYC integration documented for Lossless Protocol.
+P13,D13,0,no evidence in shared dossier,No ZKP capability documented for Lossless Protocol.
+P13,D14,0,no evidence in shared dossier,No credential layer documented for Lossless Protocol.
+P13,D15,0,no evidence in shared dossier,No privacy-coin coverage documented for Lossless Protocol.
+P13,D16,0,no evidence in shared dossier,No mixer-detection capability documented for Lossless Protocol.
+P13,D17,0,no evidence in shared dossier,No MEV strategy detection documented in Lossless materials.
+P13,D18,0,no evidence in shared dossier,No intent-recognition documented for Lossless Protocol.
+P13,D19,0,no evidence in shared dossier,No ERC-4337 support documented for Lossless Protocol.
+P13,D20,0,no evidence in shared dossier,No solver-monitoring documented for Lossless Protocol.
+P13,D21,0,platforms/P13/narrative.md,"Lossless is Decentralized architecture per SoK; LERC-20 token-standard and community freezing operate on-chain; rationale (on-chain architecture; D21 not applicable)."
+P13,D22,1,platforms/P13/vendor_homepage.txt,"Vendor names ""Automated real-time freezing of suspicious transactions"" - a specific real-time action but no webhook/streaming alert delivery (T_vendor) (vendor-only evidence)."
+P13,D23,0,no evidence in shared dossier,No case-management UI documented for Lossless Protocol.
+P13,D24,0,no evidence in shared dossier,No SAR-generation capability documented for Lossless Protocol.
+P13,D25,0,no evidence in shared dossier,No jurisdiction-specific reporting documented for Lossless Protocol.
+P14,D01,2,platforms/P14/vendor_homepage.txt;platforms/P14/vendor_platform.txt,"Vendor names Hypernative Platform with real-time monitoring across ""70+ chains"" with ""99.5% accuracy"" and detection ""approximately two minutes before the first hack transaction"" plus Guardian/Firewall products - multi-element specifics (T_vendor) (vendor-specific Full)."
+P14,D02,2,platforms/P14/vendor_homepage.txt,"Vendor names Screener for ""real-time address reputation across multiple chains"" for pre-transaction risk identification plus Platform and Wallet Protect - multi-element specifics on scoring product, scope and accuracy (T_vendor) (vendor-specific Full)."
+P14,D03,1,platforms/P14/vendor_homepage.txt,"Vendor names Screener for ""real-time address reputation"" but no specific attribution-database scale or clustering technique documented (T_vendor) (vendor-only evidence)."
+P14,D04,0,no evidence in shared dossier,No multi-hop tracing capability documented for Hypernative.
+P14,D05,1,platforms/P14/vendor_homepage.txt,"Vendor markets ""70+ Chains"" coverage but no specific bridge correlation or wrapped-asset tracking named (T_vendor) (vendor-only evidence)."
+P14,D06,1,platforms/P14/vendor_homepage.txt,"Vendor describes monitoring across protocols/L1/L2 chains but no specific decoded DeFi protocols named with activity-type semantics (T_vendor) (vendor-only evidence)."
+P14,D07,2,platforms/P14/vendor_homepage.txt;platforms/P14/vendor_platform.txt,"Vendor names Firewall for ""transaction-level policy enforcement"" plus Guardian for ""real-time transaction simulation, analysis, and enforcement"" plus Sequencer/RPC integration intercepting transactions before block inclusion - multi-element contract-analysis specifics (T_vendor) (vendor-specific Full)."
+P14,D08,0,no evidence in shared dossier,No GNN architecture documented for Hypernative.
+P14,D09,2,platforms/P14/vendor_homepage.txt;platforms/P14/vendor_platform.txt,"Vendor describes ""AI and simulations to identify malicious transactions"" with ""automated detection"" performance metrics (99.5% recall, <0.001% FP rate) - multi-element ML specifics (T_vendor) (vendor-specific Full)."
+P14,D10,1,platforms/P14/vendor_homepage.txt,"Vendor names Wallet Protect alerting users to ""malicious or risky behaviors in real time"" but no named behavior-segment product (T_vendor) (vendor-only evidence)."
+P14,D11,0,no evidence in shared dossier,No Travel Rule capability documented for Hypernative.
+P14,D12,0,no evidence in shared dossier,No KYC integration documented for Hypernative.
+P14,D13,0,no evidence in shared dossier,No ZKP capability documented for Hypernative.
+P14,D14,0,no evidence in shared dossier,No credential layer documented for Hypernative.
+P14,D15,0,no evidence in shared dossier,No privacy-coin coverage documented for Hypernative.
+P14,D16,1,platforms/P14/narrative.md,"SoK narrative tags Compliance protocols KYT, Contract; vendor describes monitoring exploits broadly but mixer-detection methodology not named (T_indep narrative) (vendor-only evidence)."
+P14,D17,1,platforms/P14/narrative.md;cross_platform/papers/daian2020flashboys20.txt,"SoK catalog tags Hypernative Primary function as ""DeFi Monitoring, MEV""; Daian 2020 Flash Boys 2.0 establishes MEV strategy categories but vendor does not name specific MEV-detect product or strategy categories (T_indep narrative naming MEV)."
+P14,D18,0,no evidence in shared dossier,No intent-protocol recognition documented for Hypernative.
+P14,D19,0,no evidence in shared dossier,No ERC-4337 support documented for Hypernative.
+P14,D20,0,no evidence in shared dossier,No solver-monitoring documented for Hypernative.
+P14,D21,1,platforms/P14/vendor_homepage.txt,"Vendor describes RaaS-provider integrations (Gelato, Conduit, Quicknode) but no specific REST/GraphQL endpoint or auth scheme named (T_vendor) (vendor-only evidence)."
+P14,D22,2,platforms/P14/vendor_homepage.txt,"Vendor names Sequencer/RPC Integration intercepting transactions before block inclusion plus Wallet Protect alerts plus performance metrics (<10ms latency context) - multi-element specifics on alerting channel and timing (T_vendor) (vendor-specific Full)."
+P14,D23,0,no evidence in shared dossier,No case-management UI documented for Hypernative.
+P14,D24,0,no evidence in shared dossier,No SAR-generation capability documented for Hypernative.
+P14,D25,0,no evidence in shared dossier,No jurisdiction-specific reporting documented for Hypernative.
+P15,D01,1,platforms/P15/vendor_homepage.txt,"Vendor describes Tok{In} for ""Real-time token risk detection"" and Custom Monitoring for ""contract activity, state changes, and transaction flows"" but no named alert categories (T_vendor) (vendor-only evidence)."
+P15,D02,1,platforms/P15/vendor_homepage.txt,"Vendor describes Tok{In} risk detection but no specific scoring banding or inputs named (T_vendor) (vendor-only evidence)."
+P15,D03,0,no evidence in shared dossier,Dedaub is contract-security focused; no curated address-attribution database documented.
+P15,D04,0,no evidence in shared dossier,No multi-hop tracing capability documented for Dedaub.
+P15,D05,1,platforms/P15/vendor_homepage.txt,"Vendor cites ""8+ fully supported chains"" but no bridge correlation or wrapped-asset tracking documented (T_vendor) (vendor-only evidence)."
+P15,D06,0,no evidence in shared dossier,No DeFi protocol decoding documented for Dedaub.
+P15,D07,2,platforms/P15/vendor_homepage.txt;platforms/P15/narrative.md,"Vendor names Decompiler (~29M contracts decompiled), Vulnerability Detection (~16M threats via formal verification, statistical learning, static analysis), Transaction Analysis (25B+ tx analyzed); SoK narrative tags technical approach as ""Semantic, Formal"" (T_indep narrative)."
+P15,D08,0,no evidence in shared dossier,No GNN architecture documented for Dedaub.
+P15,D09,1,platforms/P15/vendor_homepage.txt,"Vendor names ""statistical learning"" alongside formal verification but no specific model family named (T_vendor) (vendor-only evidence)."
+P15,D10,0,no evidence in shared dossier,No behavioral-segment product documented for Dedaub.
+P15,D11,0,no evidence in shared dossier,No Travel Rule capability documented for Dedaub.
+P15,D12,0,no evidence in shared dossier,No KYC integration documented for Dedaub.
+P15,D13,0,no evidence in shared dossier,No ZKP capability documented for Dedaub.
+P15,D14,0,no evidence in shared dossier,No credential layer documented for Dedaub.
+P15,D15,0,no evidence in shared dossier,No privacy-coin coverage documented for Dedaub.
+P15,D16,0,no evidence in shared dossier,No mixer-detection capability documented for Dedaub.
+P15,D17,1,platforms/P15/vendor_homepage.txt,"Vendor names ""risk mitigation (MEV, oracle dependencies)"" as advisory expertise but no MEV-detect product or named strategy categories (T_vendor) (vendor-only evidence)."
+P15,D18,0,no evidence in shared dossier,No intent-recognition documented for Dedaub.
+P15,D19,0,no evidence in shared dossier,No ERC-4337 support documented for Dedaub.
+P15,D20,0,no evidence in shared dossier,No solver-monitoring documented for Dedaub.
+P15,D21,1,platforms/P15/vendor_homepage.txt,"Vendor describes ""onchain technology stack"" and SaaS products but no specific REST/GraphQL endpoint family named (T_vendor) (vendor-only evidence)."
+P15,D22,2,platforms/P15/vendor_homepage.txt,"Vendor names Firewall for ""Transaction-level protection driven by contract and behavioral analysis"" plus Custom Monitoring with ""real-time"" alerting plus Tok{In} real-time detection - multi-element real-time alerting specifics (T_vendor) (vendor-specific Full)."
+P15,D23,0,no evidence in shared dossier,No case-management UI documented for Dedaub.
+P15,D24,0,no evidence in shared dossier,No SAR-generation capability documented for Dedaub.
+P15,D25,0,no evidence in shared dossier,No jurisdiction-specific reporting documented for Dedaub.
+P16,D01,1,platforms/P16/vendor_homepage.txt,"Vendor names ""Live health monitoring with custom alerting capabilities"" but no specific alert categories or named monitoring product (T_vendor) (vendor-only evidence)."
+P16,D02,2,platforms/P16/vendor_homepage.txt,"Vendor names Chaos AI for ""Real-time risk assessment models"" used by named protocols (Jupiter, Aave, GMX) with ""$5 trillion in transactions"" processed - multi-element specifics on product, named integrations, and scale (T_vendor) (vendor-specific Full)."
+P16,D03,0,no evidence in shared dossier,Chaos Labs is DeFi risk-management focused; no curated address-attribution database documented.
+P16,D04,0,no evidence in shared dossier,No multi-hop tracing capability documented for Chaos Labs.
+P16,D05,1,platforms/P16/vendor_homepage.txt,"Vendor cites coverage across ""multiple blockchain layers"" but no bridge correlation documented (T_vendor) (vendor-only evidence)."
+P16,D06,2,platforms/P16/vendor_homepage.txt,"Vendor names specific DeFi protocols decoded - ""Jupiter, Aave, GMX"" with risk-assessment models plus customers Circle, PayPal, Kalshi, Aave, Uniswap - multi-element specifics naming DeFi protocols and integrations (T_vendor) (vendor-specific Full)."
+P16,D07,1,platforms/P16/vendor_homepage.txt,"Vendor mentions ""anomaly detection"" and ""manipulation"" detection in Oracles product but no specific contract-analysis methodology named (T_vendor) (vendor-only evidence)."
+P16,D08,0,no evidence in shared dossier,No GNN architecture documented for Chaos Labs.
+P16,D09,2,platforms/P16/vendor_homepage.txt,"Vendor names ""Model-based parameter tuning, backed by agent-based and Monte Carlo simulations"" plus ""machine learning risk systems"" - multi-element specifics (T_vendor) (vendor-specific Full)."
+P16,D10,1,platforms/P16/vendor_homepage.txt,"Vendor names ""Personalized portfolio intelligence and recommendations"" but no named behavior-segment product (T_vendor) (vendor-only evidence)."
+P16,D11,0,no evidence in shared dossier,No Travel Rule capability documented for Chaos Labs.
+P16,D12,0,no evidence in shared dossier,No KYC integration documented for Chaos Labs.
+P16,D13,0,no evidence in shared dossier,No ZKP capability documented for Chaos Labs.
+P16,D14,0,no evidence in shared dossier,No credential layer documented for Chaos Labs.
+P16,D15,0,no evidence in shared dossier,No privacy-coin coverage documented for Chaos Labs.
+P16,D16,0,no evidence in shared dossier,No mixer-detection capability documented for Chaos Labs.
+P16,D17,0,no evidence in shared dossier,No MEV-strategy detection product documented for Chaos Labs.
+P16,D18,0,no evidence in shared dossier,No intent-recognition documented for Chaos Labs.
+P16,D19,0,no evidence in shared dossier,No ERC-4337 support documented for Chaos Labs.
+P16,D20,0,no evidence in shared dossier,No solver-monitoring documented for Chaos Labs.
+P16,D21,1,platforms/P16/vendor_homepage.txt,"Vendor describes ""institutional-grade financial intelligence"" but no specific REST/GraphQL endpoint family or auth named (T_vendor) (vendor-only evidence)."
+P16,D22,1,platforms/P16/vendor_homepage.txt,"Vendor names ""custom alerting capabilities"" and ""triggering circuit breakers"" for oracles but no webhook/streaming channel specifics (T_vendor) (vendor-only evidence)."
+P16,D23,0,no evidence in shared dossier,No case-management UI documented for Chaos Labs.
+P16,D24,0,no evidence in shared dossier,No SAR-generation capability documented for Chaos Labs.
+P16,D25,0,no evidence in shared dossier,No jurisdiction-specific reporting documented for Chaos Labs.
+P17,D01,0,no evidence in shared dossier,Gauntlet focuses on DeFi risk-optimization vaults; no transaction-monitoring product with named alert categories.
+P17,D02,1,platforms/P17/vendor_alt_gauntlet_about.txt,"Vendor describes ""quantitative optimization analysis and simulation"" and ""quantitative optimization to validate conclusions"" but no banded risk-score API named (T_vendor) (vendor-only evidence)."
+P17,D03,0,no evidence in shared dossier,No address-attribution database documented for Gauntlet.
+P17,D04,0,no evidence in shared dossier,No multi-hop tracing capability documented for Gauntlet.
+P17,D05,1,platforms/P17/vendor_alt_gauntlet_xyz.txt,"Vendor cites vaults that ""rebalance across 100s of markets, protocols, and chains"" but no bridge tracking documented (T_vendor) (vendor-only evidence)."
+P17,D06,2,platforms/P17/vendor_alt_gauntlet_about.txt;cross_platform/analyst/forbes_fintech_50_2024_crypto.txt,"Forbes 2024 Fintech 50 names Gauntlet for ""simulation-based DeFi risk modeling for major protocols (Aave, Compound, MakerDAO, Uniswap)""; vendor cites ""robust models for virtually every primitive in DeFi"" (T_indep)."
+P17,D07,1,platforms/P17/vendor_alt_gauntlet_about.txt,"Vendor describes ""risk management and pattern-matching"" using DeFi protocol models but no contract-bytecode analysis methodology named (T_vendor) (vendor-only evidence)."
+P17,D08,0,no evidence in shared dossier,No GNN architecture documented for Gauntlet.
+P17,D09,2,platforms/P17/vendor_alt_gauntlet_about.txt;cross_platform/analyst/forbes_fintech_50_2024_crypto.txt,"Vendor names ""quantitative optimization"" simulation with ""400 million data points daily""; Forbes confirms simulation-based DeFi risk modeling (T_indep)."
+P17,D10,1,platforms/P17/vendor_alt_gauntlet_about.txt,"Vendor cites ""risk management and pattern-matching"" on protocol data but no named behavior-segment product (T_vendor) (vendor-only evidence)."
+P17,D11,0,no evidence in shared dossier,No Travel Rule capability documented for Gauntlet.
+P17,D12,0,no evidence in shared dossier,No KYC integration documented for Gauntlet.
+P17,D13,0,no evidence in shared dossier,No ZKP capability documented for Gauntlet.
+P17,D14,0,no evidence in shared dossier,No credential layer documented for Gauntlet.
+P17,D15,0,no evidence in shared dossier,No privacy-coin coverage documented for Gauntlet.
+P17,D16,0,no evidence in shared dossier,No mixer-detection capability documented for Gauntlet.
+P17,D17,1,cross_platform/analyst/forbes_fintech_50_2024_crypto.txt,"Forbes 2024 Fintech 50 acknowledges Gauntlet's DeFi simulation modeling; MEV is contextually relevant in Forbes Gauntlet profile but vendor does not name a specific MEV-detect product (T_indep partial)."
+P17,D18,0,no evidence in shared dossier,No intent-recognition documented for Gauntlet.
+P17,D19,0,no evidence in shared dossier,No ERC-4337 support documented for Gauntlet.
+P17,D20,0,no evidence in shared dossier,No solver-monitoring documented for Gauntlet.
+P17,D21,1,platforms/P17/vendor_alt_gauntlet_xyz.txt,"Vendor cites ""150+ Integrations with fintechs & institutions"" but no specific API endpoint family or auth scheme named (T_vendor) (vendor-only evidence)."
+P17,D22,0,no evidence in shared dossier,No real-time alerting/webhook capability documented for Gauntlet.
+P17,D23,0,no evidence in shared dossier,No case-management UI documented for Gauntlet.
+P17,D24,0,no evidence in shared dossier,No SAR-generation capability documented for Gauntlet.
+P17,D25,0,no evidence in shared dossier,No jurisdiction-specific reporting documented for Gauntlet.
+P18,D01,1,platforms/P18/vendor_homepage.txt,"Vendor describes ""real-time monitoring of labeled wallets"" but no specific transaction-monitoring product with alert categories (T_vendor) (vendor-only evidence)."
+P18,D02,1,platforms/P18/vendor_homepage.txt,"Vendor describes ""Real-time PnL, risk scores"" in portfolio dashboard but no specific scoring banding/inputs named (T_vendor) (vendor-only evidence)."
+P18,D03,2,platforms/P18/vendor_homepage.txt;platforms/P18/narrative.md,"Vendor cites ""500M+ labelled addresses"" with Smart Money attribution; SoK narrative tags technical approach as ""Entity Labeling, Behavioral"" (T_indep narrative)."
+P18,D04,0,no evidence in shared dossier,No multi-hop tracing capability documented for Nansen.
+P18,D05,1,platforms/P18/vendor_homepage.txt,"Vendor mentions ""multiple chains and protocols"" and ""cross-chain position monitoring"" but no specific bridge correlation documented (T_vendor) (vendor-only evidence)."
+P18,D06,1,platforms/P18/vendor_homepage.txt,"Vendor mentions Jupiter/OKX/LI.FI aggregation but does not name DeFi protocols with decoded activity types/labels (T_vendor) (vendor-only evidence)."
+P18,D07,0,no evidence in shared dossier,No smart-contract code-analysis documented for Nansen.
+P18,D08,0,no evidence in shared dossier,No GNN architecture documented for Nansen.
+P18,D09,1,platforms/P18/vendor_homepage.txt,"Vendor markets ""agentic trading with onchain intelligence"" but no specific ML model family named (T_vendor) (vendor-only evidence)."
+P18,D10,2,platforms/P18/narrative.md;platforms/P18/vendor_homepage.txt,"SoK catalog tags technical approach as ""Entity Labeling, Behavioral""; vendor names Smart Money tracking ""500M+ labeled wallets in real time"" with behavior-based segmentation (T_indep narrative)."
+P18,D11,0,no evidence in shared dossier,No Travel Rule capability documented for Nansen.
+P18,D12,0,no evidence in shared dossier,No KYC integration documented for Nansen.
+P18,D13,0,no evidence in shared dossier,No ZKP capability documented for Nansen.
+P18,D14,0,no evidence in shared dossier,No credential layer documented for Nansen.
+P18,D15,0,no evidence in shared dossier,Vendor explicitly notes privacy coins absent.
+P18,D16,0,no evidence in shared dossier,Vendor explicitly notes mixer detection absent.
+P18,D17,0,no evidence in shared dossier,No MEV detection documented for Nansen.
+P18,D18,0,no evidence in shared dossier,No intent-recognition documented for Nansen.
+P18,D19,0,no evidence in shared dossier,No ERC-4337 support documented for Nansen.
+P18,D20,0,no evidence in shared dossier,No solver-monitoring documented for Nansen.
+P18,D21,1,platforms/P18/vendor_homepage.txt,"Vendor describes ""execute directly in-app"" and aggregator integrations but no specific REST/GraphQL endpoint family or auth named (T_vendor) (vendor-only evidence)."
+P18,D22,1,platforms/P18/vendor_homepage.txt,"Vendor describes real-time wallet alerts but ""webhooks"" explicitly noted as absent in vendor page (T_vendor) (vendor-only evidence)."
+P18,D23,0,no evidence in shared dossier,No case-management UI documented for Nansen.
+P18,D24,0,no evidence in shared dossier,No SAR-generation capability documented for Nansen.
+P18,D25,0,no evidence in shared dossier,No jurisdiction-specific reporting documented for Nansen.
+P19,D01,1,platforms/P19/vendor_alt_arkm_info.txt,"Vendor describes ""customize alerts for on chain activity"" and monitor targeted address activity but no specific transaction-monitoring product with named alert categories (T_vendor) (vendor-only evidence)."
+P19,D02,0,no evidence in shared dossier,No risk-scoring product documented for Arkham.
+P19,D03,2,platforms/P19/vendor_alt_arkm_info.txt;platforms/P19/narrative.md,"Vendor describes ""Deanonymizing The Blockchain"" with ""searchable database of crypto users"" linking activity to real-world entities; SoK narrative tags Primary function ""Entity Attribution"" with technical approach ""Attribution, Community"" (T_indep narrative)."
+P19,D04,1,platforms/P19/vendor_alt_arkm_info.txt,"Vendor describes ""translate raw blockchain transactions into clear network maps"" but no specific multi-hop tracing UI/API documented (T_vendor) (vendor-only evidence)."
+P19,D05,1,platforms/P19/vendor_alt_arkm_info.txt,"Vendor partners with Ethereum, Polygon, Arbitrum, BNB Chain, Base, Sui, Chainlink but no specific bridge correlation documented (T_vendor) (vendor-only evidence)."
+P19,D06,0,no evidence in shared dossier,No DeFi protocol decoding documented for Arkham.
+P19,D07,0,no evidence in shared dossier,No smart-contract code analysis documented for Arkham.
+P19,D08,0,no evidence in shared dossier,No GNN architecture documented for Arkham.
+P19,D09,0,no evidence in shared dossier,No specific ML model family named for Arkham.
+P19,D10,1,platforms/P19/vendor_alt_arkm_info.txt,"Vendor enables ""monitor targeted address activity"" but no named behavior-segment product (T_vendor) (vendor-only evidence)."
+P19,D11,0,no evidence in shared dossier,No Travel Rule capability documented for Arkham.
+P19,D12,0,no evidence in shared dossier,No KYC integration documented for Arkham.
+P19,D13,0,no evidence in shared dossier,No ZKP capability documented for Arkham.
+P19,D14,0,no evidence in shared dossier,No credential layer documented for Arkham.
+P19,D15,0,no evidence in shared dossier,No privacy-coin coverage documented for Arkham.
+P19,D16,0,no evidence in shared dossier,No mixer-detection capability documented for Arkham.
+P19,D17,0,no evidence in shared dossier,No MEV detection documented for Arkham.
+P19,D18,0,no evidence in shared dossier,No intent-recognition documented for Arkham.
+P19,D19,0,no evidence in shared dossier,No ERC-4337 support documented for Arkham.
+P19,D20,0,no evidence in shared dossier,No solver-monitoring documented for Arkham.
+P19,D21,1,platforms/P19/vendor_alt_arkm_info.txt,"Vendor describes ""platform.arkhamintelligence.com"" and database access but no specific REST/GraphQL endpoint family named (T_vendor) (vendor-only evidence)."
+P19,D22,1,platforms/P19/vendor_alt_arkm_info.txt,"Vendor names ""Alert System"" with custom alerts for on-chain activity but no webhook/streaming delivery channel detailed (T_vendor) (vendor-only evidence)."
+P19,D23,0,no evidence in shared dossier,No case-management UI documented for Arkham.
+P19,D24,0,no evidence in shared dossier,No SAR-generation capability documented for Arkham.
+P19,D25,0,no evidence in shared dossier,No jurisdiction-specific reporting documented for Arkham.
+P20,D01,2,platforms/P20/vendor_homepage.txt;platforms/P20/vendor_products.txt,"Vendor names CISO with Auto-Trace and Data API/MCP for ""Real-time transaction screening""; SoK narrative tags Primary function as ""Cross-Chain Investigation"" (T_indep narrative; multi-element vendor specifics) (vendor-specific Full)."
+P20,D02,2,platforms/P20/vendor_homepage.txt,"Vendor names ""Risk scoring regression models"" within 16+ ML models plus ""Real-time transaction screening"" - multi-element specifics on scoring model and product (T_vendor) (vendor-specific Full)."
+P20,D03,2,platforms/P20/vendor_homepage.txt,"Vendor names ""Wallet clustering via cryptographic/behavioral patterns"" plus ""Patented Auto-Trace heuristic search"" plus claimed ""$870 Million"" asset seizures - multi-element specifics on attribution methodology and impact (T_vendor) (vendor-specific Full)."
+P20,D04,2,platforms/P20/vendor_homepage.txt;platforms/P20/narrative.md,"Vendor names ""Patented Auto-Trace heuristic search (UTXO and EVM)"" to ""quickly assess cryptocurrency transactions from point of origin/wallet to endpoints""; SoK narrative tags technical approach as ""AI/ML, Graph"" (T_indep narrative)."
+P20,D05,2,platforms/P20/vendor_homepage.txt,"Vendor names ""Cross-chain bridge transaction demixing"" and ""Cross-chain analytics"" across UTXO and EVM chains - multi-element specifics on bridge demixing and chain coverage (T_vendor) (vendor-specific Full)."
+P20,D06,2,platforms/P20/vendor_homepage.txt,"Vendor names ""DeFi behavior classification"" within 16+ ML models plus ""Peel chain and passthrough behavior analysis"" and ""NFT wash trading identification"" - multi-element specifics (T_vendor) (vendor-specific Full)."
+P20,D07,2,platforms/P20/vendor_homepage.txt,"Vendor names SCREEN product for ""Smart contract monitoring"" with ""Vulnerability detection"" plus ""Smart contract bytecode analysis"" within 16+ ML models - multi-element specifics (T_vendor) (vendor-specific Full)."
+P20,D08,1,platforms/P20/narrative.md,"SoK catalog tags technical approach as ""AI/ML, Graph""; vendor describes 16+ ML models but no specific GNN architecture named (T_indep narrative, Partial-grade per addendum G.1)."
+P20,D09,2,platforms/P20/vendor_homepage.txt,"Vendor names ""16+ machine learning models"" with specifics: ""Risk scoring regression models"", ""Smart contract bytecode analysis"", ""Bot behavior detection"" - multi-element ML model specifics (T_vendor) (vendor-specific Full)."
+P20,D10,2,platforms/P20/vendor_homepage.txt,"Vendor names ""Peel chain and passthrough behavior analysis"" and ""Bot behavior detection"" plus ""Mixer/Tornado Cash demixing detection"" as distinct behavioral categories - multi-element specifics (T_vendor) (vendor-specific Full)."
+P20,D11,0,no evidence in shared dossier,No Travel Rule capability documented for AnChain.AI.
+P20,D12,1,platforms/P20/vendor_homepage.txt,"Vendor describes ""AML/CFT and sanctions compliance"" via Data API/MCP but no specific KYC partner integration named (T_vendor) (vendor-only evidence)."
+P20,D13,0,no evidence in shared dossier,No ZKP capability documented for AnChain.AI.
+P20,D14,0,no evidence in shared dossier,No credential layer documented for AnChain.AI.
+P20,D15,0,no evidence in shared dossier,No privacy-coin coverage documented for AnChain.AI.
+P20,D16,2,platforms/P20/vendor_homepage.txt;cross_platform/regulator/ofac_tornado_cash_aug2022.txt,"Vendor names ""Mixer/Tornado Cash demixing detection"" as a discrete ML model; OFAC Tornado Cash designation drives mixer-detection demand (T_indep regulator naming Tornado Cash)."
+P20,D17,0,no evidence in shared dossier,No MEV-strategy detection product or named MEV strategy categories documented for AnChain.AI.
+P20,D18,0,no evidence in shared dossier,No intent-recognition documented for AnChain.AI.
+P20,D19,0,no evidence in shared dossier,No ERC-4337 support documented for AnChain.AI.
+P20,D20,0,no evidence in shared dossier,No solver-monitoring documented for AnChain.AI.
+P20,D21,2,platforms/P20/vendor_homepage.txt,"Vendor names ""Data API & MCP"" delivering ""institution-grade APIs combined with LLM-powered intelligence"" plus ""MetaMask Snap"" integration plus ""AWS GovCloud compatible"" - multi-element specifics on API products and integrations (T_vendor) (vendor-specific Full)."
+P20,D22,1,platforms/P20/vendor_homepage.txt,"Vendor describes ""real-time AML, fraud detection, sanctions screening"" via Data API but no specific webhook/streaming-alert channel named (T_vendor) (vendor-only evidence)."
+P20,D23,2,platforms/P20/vendor_homepage.txt,"Vendor names CISO for ""AI-powered blockchain forensics, analysis, and case management"" plus customer reducing analysis time ""15 minutes to 30 seconds"" - multi-element specifics on case workflow product (T_vendor) (vendor-specific Full)."
+P20,D24,0,no evidence in shared dossier,No SAR-generation capability documented for AnChain.AI.
+P20,D25,1,platforms/P20/vendor_homepage.txt,"Vendor mentions ""supporting GENIUS ACT and MICA regulatory frameworks"" but no specific report format named (T_vendor) (vendor-only evidence)."
+P21,D01,1,platforms/P21/vendor_homepage.txt,"Vendor focused on data infrastructure with ""Real-Time Blockchain & Crypto Market Data Streams"" but no specific transaction-monitoring product with alert categories (T_vendor) (vendor-only evidence)."
+P21,D02,0,no evidence in shared dossier,No banded risk-score product documented for Bitquery.
+P21,D03,0,no evidence in shared dossier,Bitquery is data infrastructure; no curated address-attribution database documented.
+P21,D04,1,platforms/P21/vendor_homepage.txt,"Vendor provides ""Smart contract instructions, transfers, balances, and events"" data but no specific multi-hop tracing UI (T_vendor) (vendor-only evidence)."
+P21,D05,1,platforms/P21/vendor_homepage.txt,"Vendor indexes ""20+ blockchains"" (and 40+ chains in latest) but no specific bridge correlation product documented (T_vendor) (vendor-only evidence)."
+P21,D06,1,platforms/P21/vendor_homepage.txt,"Vendor covers ""DEX trades across 300+ decentralized exchanges"" and ""Raydium, PancakeSwap, Uniswap & 100+ DEXs"" but provides raw data rather than decoded semantic labels (T_vendor) (vendor-only evidence)."
+P21,D07,0,no evidence in shared dossier,No smart-contract code-analysis capability documented for Bitquery.
+P21,D08,0,no evidence in shared dossier,No GNN architecture documented for Bitquery.
+P21,D09,0,no evidence in shared dossier,No ML/DL model family named for Bitquery.
+P21,D10,0,no evidence in shared dossier,No behavioral-analytics product documented for Bitquery.
+P21,D11,0,no evidence in shared dossier,No Travel Rule capability documented for Bitquery.
+P21,D12,0,no evidence in shared dossier,No KYC integration documented for Bitquery.
+P21,D13,0,no evidence in shared dossier,No ZKP capability documented for Bitquery.
+P21,D14,0,no evidence in shared dossier,No credential layer documented for Bitquery.
+P21,D15,0,no evidence in shared dossier,No privacy-coin coverage documented for Bitquery.
+P21,D16,0,no evidence in shared dossier,No mixer-detection capability documented for Bitquery.
+P21,D17,0,no evidence in shared dossier,No MEV detection documented for Bitquery.
+P21,D18,0,no evidence in shared dossier,No intent-recognition documented for Bitquery.
+P21,D19,0,no evidence in shared dossier,No ERC-4337 support documented for Bitquery.
+P21,D20,0,no evidence in shared dossier,No solver-monitoring documented for Bitquery.
+P21,D21,2,platforms/P21/vendor_homepage.txt,"Vendor names ""GraphQL APIs (V1 and V2), WebSocket subscriptions (~1s latency), Kafka streams (<500ms latency), Cloud providers (AWS S3, Snowflake, Google BigQuery, Azure, Databricks)"" - multi-element specifics on API types, latency, integrations (T_vendor) (vendor-specific Full)."
+P21,D22,2,platforms/P21/vendor_homepage.txt,"Vendor names ""WebSocket subscriptions (~1s latency)"" and ""Kafka streams (<500ms latency)"" with ""Real-time notifications for new DEX pair creations via the Streaming API"" - multi-element streaming alert specifics (T_vendor) (vendor-specific Full)."
+P21,D23,0,no evidence in shared dossier,Bitquery is data infrastructure; no case-management workflow tooling documented.
+P21,D24,0,no evidence in shared dossier,No SAR-generation capability documented for Bitquery.
+P21,D25,0,no evidence in shared dossier,No jurisdiction-specific reporting capability documented for Bitquery.
+P22,D01,1,platforms/P22/vendor_goldrush.txt,"Vendor describes Activity Feed for ""Stream real-time wallet activity and transaction history"" but no named alert categories or rule families (T_vendor) (vendor-only evidence)."
+P22,D02,0,no evidence in shared dossier,No risk-scoring product documented for Covalent/GoldRush.
+P22,D03,0,no evidence in shared dossier,No curated address-attribution database documented for Covalent.
+P22,D04,0,no evidence in shared dossier,No multi-hop tracing capability documented for Covalent.
+P22,D05,1,platforms/P22/vendor_goldrush.txt,"Vendor markets ""Onchain data from 100+ chains"" with ""token balances and holdings across 100+ chains"" but no specific bridge correlation documented (T_vendor) (vendor-only evidence)."
+P22,D06,1,platforms/P22/vendor_goldrush.txt,"Vendor describes ""New DEX Pairs"" notifications but provides raw data rather than decoded DeFi protocol semantics (T_vendor) (vendor-only evidence)."
+P22,D07,0,no evidence in shared dossier,No smart-contract code-analysis documented for Covalent.
+P22,D08,0,no evidence in shared dossier,No GNN architecture documented for Covalent.
+P22,D09,0,no evidence in shared dossier,No ML/DL model family named for Covalent.
+P22,D10,0,no evidence in shared dossier,No behavioral-analytics product documented for Covalent.
+P22,D11,0,no evidence in shared dossier,No Travel Rule capability documented for Covalent.
+P22,D12,0,no evidence in shared dossier,No KYC integration documented for Covalent.
+P22,D13,0,no evidence in shared dossier,No ZKP capability documented for Covalent.
+P22,D14,0,no evidence in shared dossier,No credential layer documented for Covalent.
+P22,D15,0,no evidence in shared dossier,No privacy-coin coverage documented for Covalent.
+P22,D16,0,no evidence in shared dossier,No mixer-detection capability documented for Covalent.
+P22,D17,0,no evidence in shared dossier,No MEV detection documented for Covalent.
+P22,D18,0,no evidence in shared dossier,No intent-recognition documented for Covalent.
+P22,D19,0,no evidence in shared dossier,No ERC-4337 support documented for Covalent.
+P22,D20,0,no evidence in shared dossier,No solver-monitoring documented for Covalent.
+P22,D21,2,platforms/P22/vendor_goldrush.txt,"Vendor names ""Multichain Data APIs"" with ""100+ chains supported out of the box"" plus ""MCP support for Claude and AI agents"" plus ""SOC 2 compliant"" - multi-element specifics on API product, scale, and certifications (T_vendor) (vendor-specific Full)."
+P22,D22,2,platforms/P22/vendor_goldrush.txt,"Vendor names Activity Feed for ""Stream real-time wallet activity"" plus ""Real-time notifications for new DEX pair creations via the Streaming API"" - multi-element streaming-alert specifics (T_vendor) (vendor-specific Full)."
+P22,D23,0,no evidence in shared dossier,Covalent is data infrastructure; no case-management workflow tooling documented.
+P22,D24,0,no evidence in shared dossier,No SAR-generation capability documented for Covalent.
+P22,D25,0,no evidence in shared dossier,No jurisdiction-specific reporting documented for Covalent.
+P23,D01,1,platforms/P23/vendor_homepage.txt,"Vendor describes ""24/7 monitoring with alerts"" via Risk mitigation service but no specific monitoring product with named alert categories (T_vendor) (vendor-only evidence)."
+P23,D02,1,platforms/P23/vendor_solutions.txt,"Vendor names ""Real-time risk scoring"" under Digital Asset Risk and Compliance solution but no specific banding/inputs documented (T_vendor) (vendor-only evidence)."
+P23,D03,2,platforms/P23/vendor_homepage.txt,"Vendor names ""over 650 million addresses attributed to entities and identities across multiple chains"" - specific scale metric for attribution database (T_vendor) (vendor-specific Full)."
+P23,D04,1,platforms/P23/vendor_solutions.txt,"Vendor names ""Comprehensive asset tracing powered by SourceFlow"" but no specific multi-hop UI/API documented (T_vendor) (vendor-only evidence)."
+P23,D05,1,platforms/P23/vendor_homepage.txt,"Vendor cites ""multi-chain"" address attribution but no specific bridge correlation documented (T_vendor) (vendor-only evidence)."
+P23,D06,0,no evidence in shared dossier,No DeFi protocol decoding documented for Elementus.
+P23,D07,0,no evidence in shared dossier,No smart-contract code-analysis documented for Elementus.
+P23,D08,1,platforms/P23/narrative.md,"SoK narrative tags technical approach as ""Graph, Attribution""; no peer-reviewed paper benchmarks Elementus GNN (T_indep narrative, Partial-grade per addendum G.1)."
+P23,D09,1,platforms/P23/vendor_homepage.txt,"Vendor names ""Patented algorithms"" for forensic investigations but no specific ML model family named (T_vendor) (vendor-only evidence)."
+P23,D10,1,platforms/P23/vendor_homepage.txt,"Vendor mentions ""analyze trading behaviors"" and ""mapping intricate transactional patterns"" but no named behavior-segment product (T_vendor) (vendor-only evidence)."
+P23,D11,0,no evidence in shared dossier,No Travel Rule capability documented for Elementus.
+P23,D12,0,no evidence in shared dossier,No KYC integration documented for Elementus.
+P23,D13,0,no evidence in shared dossier,No ZKP capability documented for Elementus.
+P23,D14,0,no evidence in shared dossier,No credential layer documented for Elementus.
+P23,D15,0,no evidence in shared dossier,No privacy-coin coverage explicitly named for Elementus.
+P23,D16,0,no evidence in shared dossier,No mixer-detection capability documented for Elementus.
+P23,D17,0,no evidence in shared dossier,No MEV detection documented for Elementus.
+P23,D18,0,no evidence in shared dossier,No intent-recognition documented for Elementus.
+P23,D19,0,no evidence in shared dossier,No ERC-4337 support documented for Elementus.
+P23,D20,0,no evidence in shared dossier,No solver-monitoring documented for Elementus.
+P23,D21,1,platforms/P23/vendor_homepage.txt;platforms/P23/vendor_solutions.txt,"Vendor describes ""Elevated API delivery"" and ""API-first integration approach"" but no specific REST/GraphQL endpoint family or auth scheme named (T_vendor) (vendor-only evidence)."
+P23,D22,1,platforms/P23/vendor_homepage.txt,"Vendor names ""24/7 monitoring with alerts"" but no webhook/streaming delivery channel detailed (T_vendor) (vendor-only evidence)."
+P23,D23,1,platforms/P23/vendor_solutions.txt,"Vendor describes ""Crypto Investigations"" capability but no specific case-management UI workflow states documented (T_vendor) (vendor-only evidence)."
+P23,D24,0,no evidence in shared dossier,No SAR-generation capability documented for Elementus.
+P23,D25,1,platforms/P23/vendor_solutions.txt,"Vendor mentions ""Regulatory compliance"" with ""U.S. standards"" but no specific jurisdictional report format named (T_vendor) (vendor-only evidence)."
+P24,D01,1,platforms/P24/narrative.md,"SoK narrative tags Compliance protocols as ""KYT"" and Primary function as Multi-Chain Infrastructure but vendor pages are inaccessible (Coinbase Cloud); narrative tag alone is Partial-grade T_indep."
+P24,D02,0,no evidence in shared dossier,No risk-scoring product documented for Bison Trails; vendor pages return 403.
+P24,D03,0,no evidence in shared dossier,No attribution database documented for Bison Trails.
+P24,D04,0,no evidence in shared dossier,No multi-hop tracing capability documented for Bison Trails.
+P24,D05,1,platforms/P24/narrative.md,"SoK narrative tags Primary function as Multi-Chain Infrastructure with chain coverage L4 but no specific bridge tracking documented in accessible sources (T_indep narrative)."
+P24,D06,0,no evidence in shared dossier,No DeFi protocol decoding documented for Bison Trails.
+P24,D07,0,no evidence in shared dossier,No smart-contract code-analysis documented for Bison Trails.
+P24,D08,0,no evidence in shared dossier,No GNN architecture documented for Bison Trails.
+P24,D09,0,no evidence in shared dossier,No ML/DL model family named for Bison Trails.
+P24,D10,0,no evidence in shared dossier,No behavioral-analytics product documented for Bison Trails.
+P24,D11,0,no evidence in shared dossier,No Travel Rule capability documented for Bison Trails.
+P24,D12,0,no evidence in shared dossier,No KYC integration documented for Bison Trails.
+P24,D13,0,no evidence in shared dossier,No ZKP capability documented for Bison Trails.
+P24,D14,0,no evidence in shared dossier,No credential layer documented for Bison Trails.
+P24,D15,0,no evidence in shared dossier,No privacy-coin coverage documented for Bison Trails.
+P24,D16,0,no evidence in shared dossier,No mixer-detection capability documented for Bison Trails.
+P24,D17,0,no evidence in shared dossier,No MEV detection documented for Bison Trails.
+P24,D18,0,no evidence in shared dossier,No intent-recognition documented for Bison Trails.
+P24,D19,0,no evidence in shared dossier,No ERC-4337 support documented for Bison Trails.
+P24,D20,0,no evidence in shared dossier,No solver-monitoring documented for Bison Trails.
+P24,D21,0,no evidence in shared dossier,Bison Trails vendor pages return 403; no API capability documented in accessible sources.
+P24,D22,0,no evidence in shared dossier,No alerting capability accessible for Bison Trails.
+P24,D23,0,no evidence in shared dossier,No case-management UI documented for Bison Trails.
+P24,D24,0,no evidence in shared dossier,No SAR-generation capability documented for Bison Trails.
+P24,D25,0,no evidence in shared dossier,No jurisdiction-specific reporting documented for Bison Trails.
+P25,D01,0,no evidence in shared dossier,Notabene is Travel Rule platform; no transaction-monitoring product with named alert categories documented.
+P25,D02,1,cross_platform/analyst/notabene_state_of_travel_rule_2024.txt,"Notabene 2024 Travel Rule report describes ""risk-based approach to Travel Rule withdrawals"" (used by 40% of respondents) implying risk-scoring at withdrawal time but no specific Notabene scoring product named (T_indep) (vendor-only evidence)."
+P25,D03,1,cross_platform/analyst/notabene_state_of_travel_rule_2024.txt,"Notabene tracker shows 70+ jurisdictions with active Travel Rule, requiring counterparty VASP identification but no specific attribution database scale named (T_indep) (vendor-only evidence)."
+P25,D04,0,no evidence in shared dossier,No multi-hop tracing capability documented for Notabene.
+P25,D05,0,no evidence in shared dossier,No cross-chain bridge tracking documented for Notabene.
+P25,D06,0,no evidence in shared dossier,No DeFi protocol decoding documented for Notabene.
+P25,D07,0,no evidence in shared dossier,No smart-contract code-analysis documented for Notabene.
+P25,D08,0,no evidence in shared dossier,No GNN architecture documented for Notabene.
+P25,D09,0,no evidence in shared dossier,No ML/DL model family named for Notabene.
+P25,D10,0,no evidence in shared dossier,No behavioral-analytics product documented for Notabene.
+P25,D11,2,cross_platform/analyst/notabene_state_of_travel_rule_2024.txt;cross_platform/regulator/fatf_targeted_update_vasp_jun2023.txt;platforms/P25/narrative.md,"SoK narrative explicitly names Notabene among Travel Rule networks ""TRUST, Sygna Bridge, Notabene, TRISA, and Inter-VASP IVMS101""; Notabene 2024 report covers 70 VASP respondents across 70+ jurisdictions; FATF June 2023 names Travel Rule implementation (T_indep)."
+P25,D12,2,platforms/P25/narrative.md;cross_platform/analyst/notabene_state_of_travel_rule_2024.txt,"SoK narrative names Notabene Compliance protocols as ""KYC, KYB""; analyst 2024 report describes VASP-to-VASP counterparty identification at scale (T_indep narrative)."
+P25,D13,0,no evidence in shared dossier,No ZKP capability documented for Notabene.
+P25,D14,0,no evidence in shared dossier,No W3C VC layer documented for Notabene.
+P25,D15,0,no evidence in shared dossier,No privacy-coin coverage documented for Notabene.
+P25,D16,0,no evidence in shared dossier,No mixer-detection capability documented for Notabene.
+P25,D17,0,no evidence in shared dossier,No MEV detection documented for Notabene.
+P25,D18,0,no evidence in shared dossier,No intent-recognition documented for Notabene.
+P25,D19,0,no evidence in shared dossier,No ERC-4337 support documented for Notabene.
+P25,D20,0,no evidence in shared dossier,No solver-monitoring documented for Notabene.
+P25,D21,1,cross_platform/analyst/notabene_state_of_travel_rule_2024.txt,"Notabene operates as a SaaS Travel Rule network requiring API integration but no specific REST/GraphQL endpoint family/auth named in accessible sources (T_indep) (vendor-only evidence)."
+P25,D22,0,no evidence in shared dossier,No real-time alerting/webhook capability documented for Notabene.
+P25,D23,0,no evidence in shared dossier,No case-management UI documented for Notabene.
+P25,D24,1,cross_platform/analyst/notabene_state_of_travel_rule_2024.txt,"Notabene 2024 report covers VASP SAR/reporting context but no Notabene-specific SAR template named (T_indep) (vendor-only evidence)."
+P25,D25,2,cross_platform/regulator/fatf_targeted_update_vasp_jun2023.txt;cross_platform/regulator/fatf_updated_guidance_vasp_oct2021.txt,"FATF 2021/2023 guidance names Travel Rule reporting requirements for VASPs covering 70+ jurisdictions; Notabene is explicitly named as Travel Rule platform in narrative (T_indep regulator)."
+P26,D01,1,platforms/P26/vendor_homepage.txt,"Vendor names Hub as ""comprehensive integrated AML compliance platform"" with ""industry's best 3rd party AML tools"" but no specific monitoring product with named alert categories (T_vendor) (vendor-only evidence)."
+P26,D02,1,platforms/P26/vendor_homepage.txt,"Vendor names ""integrated blockchain analytics and sanction screening"" but no specific risk-scoring banding/inputs (T_vendor) (vendor-only evidence)."
+P26,D03,0,no evidence in shared dossier,No curated attribution database documented for Sygna Bridge.
+P26,D04,0,no evidence in shared dossier,No multi-hop tracing capability documented for Sygna Bridge.
+P26,D05,0,no evidence in shared dossier,No cross-chain bridge tracking documented for Sygna Bridge.
+P26,D06,0,no evidence in shared dossier,No DeFi protocol decoding documented for Sygna Bridge.
+P26,D07,0,no evidence in shared dossier,No smart-contract code-analysis documented for Sygna Bridge.
+P26,D08,0,no evidence in shared dossier,No GNN architecture documented for Sygna Bridge.
+P26,D09,0,no evidence in shared dossier,No ML/DL model family named for Sygna Bridge.
+P26,D10,0,no evidence in shared dossier,No behavioral-analytics product documented for Sygna Bridge.
+P26,D11,2,platforms/P26/vendor_homepage.txt;platforms/P26/narrative.md,"Vendor names Bridge as ""standalone API-based Travel Rule protocol for VASPs"" supporting ""over 3,000 virtual assets""; SoK narrative explicitly names ""Sygna Bridge"" among Travel Rule networks (T_indep narrative)."
+P26,D12,2,platforms/P26/narrative.md,"SoK narrative tags Compliance protocols as ""KYC, KYB"" with Travel Rule architecture (T_indep narrative)."
+P26,D13,0,no evidence in shared dossier,No ZKP capability documented for Sygna Bridge.
+P26,D14,0,no evidence in shared dossier,No W3C VC layer documented for Sygna Bridge.
+P26,D15,0,no evidence in shared dossier,No privacy-coin coverage documented for Sygna Bridge.
+P26,D16,0,no evidence in shared dossier,No mixer-detection capability documented for Sygna Bridge.
+P26,D17,0,no evidence in shared dossier,No MEV detection documented for Sygna Bridge.
+P26,D18,0,no evidence in shared dossier,No intent-recognition documented for Sygna Bridge.
+P26,D19,0,no evidence in shared dossier,No ERC-4337 support documented for Sygna Bridge.
+P26,D20,0,no evidence in shared dossier,No solver-monitoring documented for Sygna Bridge.
+P26,D21,2,platforms/P26/vendor_homepage.txt,"Vendor names Bridge as ""standalone API-based Travel Rule protocol"" plus Hub and Gate distinct integration modes plus ""ISO/IEC 27001 certified"" - multi-element specifics on API integration products (T_vendor) (vendor-specific Full)."
+P26,D22,0,no evidence in shared dossier,No real-time alerting/webhook capability documented for Sygna Bridge.
+P26,D23,0,no evidence in shared dossier,No case-management UI documented for Sygna Bridge.
+P26,D24,0,no evidence in shared dossier,No SAR-generation capability documented for Sygna Bridge.
+P26,D25,2,platforms/P26/vendor_homepage.txt;cross_platform/regulator/fatf_updated_guidance_vasp_oct2021.txt,"Vendor cites compliance with FATF Recommendation 16 ""AML-required Recommendation 16 transaction information""; FATF Oct 2021 guidance establishes regulatory reporting requirements (T_indep regulator)."
+P27,D01,0,no evidence in shared dossier,TRISA is a Travel Rule protocol; no transaction-monitoring product documented.
+P27,D02,0,no evidence in shared dossier,No risk-scoring product documented for TRISA.
+P27,D03,0,no evidence in shared dossier,No attribution database documented for TRISA.
+P27,D04,0,no evidence in shared dossier,No multi-hop tracing capability documented for TRISA.
+P27,D05,0,no evidence in shared dossier,No cross-chain tracking documented for TRISA.
+P27,D06,0,no evidence in shared dossier,No DeFi protocol decoding documented for TRISA.
+P27,D07,0,no evidence in shared dossier,No smart-contract code-analysis documented for TRISA.
+P27,D08,0,no evidence in shared dossier,No GNN architecture documented for TRISA.
+P27,D09,0,no evidence in shared dossier,No ML/DL model family named for TRISA.
+P27,D10,0,no evidence in shared dossier,No behavioral-analytics product documented for TRISA.
+P27,D11,2,platforms/P27/vendor_homepage.txt;platforms/P27/vendor_github.txt;platforms/P27/narrative.md,"Vendor names TRISA as ""Travel Rule Information Sharing Architecture"" using ""IVMS Messaging Standard"" with ""Global Directory Service""; SoK narrative explicitly names TRISA among Travel Rule networks (T_indep narrative)."
+P27,D12,2,platforms/P27/vendor_github.txt;platforms/P27/narrative.md,"Vendor describes IVMS Messaging for ""names, locations, and government identifiers"" of counterparty VASPs; narrative tags Compliance protocols as ""KYC, KYB"" (T_indep narrative)."
+P27,D13,0,no evidence in shared dossier,No ZKP capability documented for TRISA.
+P27,D14,1,platforms/P27/vendor_github.txt,"Vendor describes ""key exchanges between peers"" and ""secure envelopes"" but no explicit W3C VC/DID alignment (T_vendor) (vendor-only evidence)."
+P27,D15,0,no evidence in shared dossier,No privacy-coin coverage documented for TRISA.
+P27,D16,0,no evidence in shared dossier,No mixer-detection capability documented for TRISA.
+P27,D17,0,no evidence in shared dossier,No MEV detection documented for TRISA.
+P27,D18,0,no evidence in shared dossier,No intent-recognition documented for TRISA.
+P27,D19,0,no evidence in shared dossier,No ERC-4337 support documented for TRISA.
+P27,D20,0,no evidence in shared dossier,No solver-monitoring documented for TRISA.
+P27,D21,2,platforms/P27/vendor_github.txt;platforms/P27/vendor_homepage.txt,"Vendor names TRISA as ""a gRPC implementation protocol"" with ""protocol buffers and is built in Golang"" plus Global Directory Service and reference implementations in Go - multi-element API specifics (T_vendor) (vendor-specific Full)."
+P27,D22,0,no evidence in shared dossier,No real-time alerting/webhook capability documented for TRISA.
+P27,D23,0,no evidence in shared dossier,No case-management UI documented for TRISA.
+P27,D24,0,no evidence in shared dossier,No SAR-generation capability documented for TRISA.
+P27,D25,2,platforms/P27/vendor_homepage.txt;cross_platform/regulator/fatf_updated_guidance_vasp_oct2021.txt,"Vendor states purpose is to ""enable compliance with the FATF and FinCEN Travel Rules""; FATF Oct 2021 guidance establishes regulatory reporting framework (T_indep regulator)."
+P28,D01,1,platforms/P28/vendor_homepage.txt,"Vendor describes ""Pre-transaction whitelisting for approval before asset transfers"" but no specific real-time transaction-monitoring product with named alert categories (T_vendor) (vendor-only evidence)."
+P28,D02,0,no evidence in shared dossier,No risk-scoring product documented for 21 Analytics.
+P28,D03,0,no evidence in shared dossier,No attribution database documented for 21 Analytics.
+P28,D04,0,no evidence in shared dossier,No multi-hop tracing capability documented for 21 Analytics.
+P28,D05,0,no evidence in shared dossier,No cross-chain bridge tracking documented for 21 Analytics.
+P28,D06,0,no evidence in shared dossier,No DeFi protocol decoding documented for 21 Analytics.
+P28,D07,0,no evidence in shared dossier,No smart-contract code-analysis documented for 21 Analytics.
+P28,D08,0,no evidence in shared dossier,No GNN architecture documented for 21 Analytics.
+P28,D09,0,no evidence in shared dossier,No ML/DL model family named for 21 Analytics.
+P28,D10,0,no evidence in shared dossier,No behavioral-analytics product documented for 21 Analytics.
+P28,D11,2,platforms/P28/vendor_homepage.txt;platforms/P28/narrative.md,"Vendor names 21 Travel Rule as ""The only Travel Rule solution that guarantees GDPR-compliance"" supporting ""VASP-to-VASP transactions and self-hosted wallets"" plus ""Travel Rule Automation""; narrative tags Compliance protocols as KYC plus Travel Rule (T_indep narrative)."
+P28,D12,2,platforms/P28/vendor_homepage.txt;platforms/P28/narrative.md,"Vendor names AOPP for ""Self-Hosted Wallet Verification""; SoK narrative tags Compliance protocols as ""KYC, Address/Wallet Screening, KYT"" (T_indep narrative)."
+P28,D13,0,no evidence in shared dossier,No ZKP capability documented for 21 Analytics.
+P28,D14,0,no evidence in shared dossier,No W3C VC layer documented for 21 Analytics.
+P28,D15,0,no evidence in shared dossier,No privacy-coin coverage documented for 21 Analytics.
+P28,D16,0,no evidence in shared dossier,No mixer-detection capability documented for 21 Analytics.
+P28,D17,0,no evidence in shared dossier,No MEV detection documented for 21 Analytics.
+P28,D18,0,no evidence in shared dossier,No intent-recognition documented for 21 Analytics.
+P28,D19,0,no evidence in shared dossier,No ERC-4337 support documented for 21 Analytics.
+P28,D20,0,no evidence in shared dossier,No solver-monitoring documented for 21 Analytics.
+P28,D21,2,platforms/P28/vendor_homepage.txt,"Vendor names ""ISO 24165"" support, ""SSO capabilities"", ""On-premises deployment with zero telemetry"", and ""peer-to-peer solution with no intermediaries"" - multi-element API/integration specifics (T_vendor) (vendor-specific Full)."
+P28,D22,1,platforms/P28/vendor_homepage.txt,"Vendor describes ""User-based audit trails"" but no webhook/streaming alert channel detailed (T_vendor) (vendor-only evidence)."
+P28,D23,1,platforms/P28/vendor_homepage.txt,"Vendor describes ""User-based audit trails"" but no specific case-management UI workflow states (T_vendor) (vendor-only evidence)."
+P28,D24,0,no evidence in shared dossier,No SAR-generation capability documented for 21 Analytics.
+P28,D25,2,platforms/P28/vendor_homepage.txt;cross_platform/regulator/eu_mica_regulation_2023.txt,"Vendor cites ""DORA and NIS2 ready"" plus ""ISO 27001:2022 certified""; MiCA regulatory framework drives EU jurisdictional reporting demand that 21 Analytics fulfills (T_indep regulator)."
+P29,D01,0,no evidence in shared dossier,"Shyft vendor pages focus on identity attestations and Travel Rule messaging; ""identifies malicious intent almost instantly"" is marketing-only language insufficient for D01 per addendum F."
+P29,D02,0,no evidence in shared dossier,No risk-scoring product documented for Shyft Network.
+P29,D03,0,no evidence in shared dossier,No attribution database documented for Shyft Network.
+P29,D04,0,no evidence in shared dossier,No multi-hop tracing capability documented for Shyft Network.
+P29,D05,0,no evidence in shared dossier,No cross-chain bridge tracking documented for Shyft Network.
+P29,D06,0,no evidence in shared dossier,No DeFi protocol decoding documented for Shyft Network.
+P29,D07,0,no evidence in shared dossier,No smart-contract code-analysis documented for Shyft Network.
+P29,D08,0,no evidence in shared dossier,No GNN architecture documented for Shyft Network.
+P29,D09,0,no evidence in shared dossier,No ML/DL model family named for Shyft Network.
+P29,D10,0,no evidence in shared dossier,No behavioral-analytics product documented for Shyft Network.
+P29,D11,2,platforms/P29/vendor_veriscope.txt;cross_platform/analyst/notabene_state_of_travel_rule_2024.txt,"Vendor names Veriscope as ""The only frictionless Crypto Travel Rule compliance solution"" with VASP discovery and PII transfer; Notabene 2024 Travel Rule report lists Shyft among Travel Rule platforms operating across 70+ jurisdictions (T_indep analyst)."
+P29,D12,2,platforms/P29/vendor_homepage.txt;platforms/P29/narrative.md,"Vendor describes ""certain contracts facilitate KYC/AML checks""; SoK narrative tags Compliance protocols as ""KYC, KYB, Travel"" (T_indep narrative)."
+P29,D13,0,no evidence in shared dossier,No ZKP capability documented for Shyft Network.
+P29,D14,1,platforms/P29/vendor_homepage.txt;platforms/P29/vendor_veriscope.txt,"Vendor describes Shyft as ""global attestation and governance platform"" with ""patented security mechanisms"" but no W3C VC or DID schema explicitly named (T_vendor) (vendor-only evidence)."
+P29,D15,0,no evidence in shared dossier,No privacy-coin coverage documented for Shyft Network.
+P29,D16,0,no evidence in shared dossier,No mixer-detection capability documented for Shyft Network.
+P29,D17,0,no evidence in shared dossier,No MEV detection documented for Shyft Network.
+P29,D18,0,no evidence in shared dossier,No intent-recognition documented for Shyft Network.
+P29,D19,0,no evidence in shared dossier,No ERC-4337 support documented for Shyft Network.
+P29,D20,0,no evidence in shared dossier,No solver-monitoring documented for Shyft Network.
+P29,D21,1,platforms/P29/vendor_homepage.txt;platforms/P29/vendor_veriscope.txt,"Vendor describes ""OAuth2-type interface for Web 2.0 and 3.0 applications"" enabling VASP-to-VASP data transfer but no REST/GraphQL endpoint family or authentication scheme named (T_vendor) (vendor-only evidence)."
+P29,D22,0,no evidence in shared dossier,No real-time alerting/webhook capability documented for Shyft Network.
+P29,D23,0,no evidence in shared dossier,No case-management UI documented for Shyft Network.
+P29,D24,0,no evidence in shared dossier,No SAR-generation capability documented for Shyft Network.
+P29,D25,1,platforms/P29/vendor_veriscope.txt,"Vendor cites FATF Travel Rule compliance and ""immutable records"" but no specific jurisdictional report format named (T_vendor) (vendor-only evidence)."
+P30,D01,0,no evidence in shared dossier,TransactID is Travel Rule messaging protocol; no transaction-monitoring product documented.
+P30,D02,0,no evidence in shared dossier,No risk-scoring product documented for TransactID.
+P30,D03,0,no evidence in shared dossier,No attribution database documented for TransactID.
+P30,D04,0,no evidence in shared dossier,No multi-hop tracing capability documented for TransactID.
+P30,D05,0,no evidence in shared dossier,No cross-chain bridge tracking documented for TransactID.
+P30,D06,0,no evidence in shared dossier,No DeFi protocol decoding documented for TransactID.
+P30,D07,0,no evidence in shared dossier,No smart-contract code-analysis documented for TransactID.
+P30,D08,0,no evidence in shared dossier,No GNN architecture documented for TransactID.
+P30,D09,0,no evidence in shared dossier,No ML/DL model family named for TransactID.
+P30,D10,0,no evidence in shared dossier,No behavioral-analytics product documented for TransactID.
+P30,D11,2,platforms/P30/vendor_netki_transactid.txt;platforms/P30/narrative.md,"Vendor names TransactID as ""the only travel rule solution for blockchain that's been in production since 2016"" with VASP discovery; SoK narrative explicitly names TransactID among Travel Rule networks ""TRUST, Sygna Bridge, Notabene, TRISA, and Inter-VASP IVMS101"" (T_indep narrative)."
+P30,D12,2,platforms/P30/narrative.md;platforms/P30/vendor_netki_transactid.txt,"SoK narrative tags Compliance protocols as ""KYC, KYB""; vendor describes IVMS 101 compliance for counterparty identification (T_indep narrative)."
+P30,D13,0,no evidence in shared dossier,No ZKP capability documented for TransactID.
+P30,D14,1,platforms/P30/vendor_netki_transactid.txt,"Vendor describes BIP 75 and IVMS 101 standards but no explicit W3C VC/DID/SD-JWT alignment (T_vendor) (vendor-only evidence)."
+P30,D15,1,platforms/P30/vendor_netki_transactid.txt,"Vendor names ""Privacy coin support"" as a capability but no specific privacy-chain heuristic or coverage detail (T_vendor) (vendor-only evidence)."
+P30,D16,0,no evidence in shared dossier,No mixer-detection capability documented for TransactID.
+P30,D17,0,no evidence in shared dossier,No MEV detection documented for TransactID.
+P30,D18,0,no evidence in shared dossier,No intent-recognition documented for TransactID.
+P30,D19,0,no evidence in shared dossier,No ERC-4337 support documented for TransactID.
+P30,D20,0,no evidence in shared dossier,No solver-monitoring documented for TransactID.
+P30,D21,2,platforms/P30/vendor_netki_transactid.txt,"Vendor names TransactID based on ""BIP 75 and IVMS 101"" with ""Universal wallet support"" and ""Universal blockchain support"" plus ""peer-to-peer network"" - multi-element API/protocol specifics (T_vendor) (vendor-specific Full)."
+P30,D22,0,no evidence in shared dossier,No real-time alerting/webhook capability documented for TransactID.
+P30,D23,0,no evidence in shared dossier,No case-management UI documented for TransactID.
+P30,D24,0,no evidence in shared dossier,No SAR-generation capability documented for TransactID.
+P30,D25,2,platforms/P30/vendor_netki_transactid.txt;cross_platform/regulator/fatf_updated_guidance_vasp_oct2021.txt,"Vendor names compliance with ""GDPR, IVMS 101, BIP75, and CCPA standards""; FATF Oct 2021 guidance establishes regulatory reporting framework (T_indep regulator)."
+P31,D01,0,no evidence in shared dossier,CipherBlade is investigation/recovery services; no automated transaction-monitoring product documented.
+P31,D02,0,no evidence in shared dossier,No risk-scoring product documented for CipherBlade.
+P31,D03,1,platforms/P31/narrative.md,"SoK narrative tags Compliance protocols as ""KYA"" and Primary function as ""Investigation, Recovery"" implying attribution but no specific database scale documented (T_indep narrative)."
+P31,D04,2,platforms/P31/vendor_homepage.txt;platforms/P31/vendor_services.txt,"Vendor describes ""Blockchain Forensics"" with ""traced cryptocurrencies in hundreds of cybercrime cases"" and ""Cryptocurrency Recovery"" for tracing stolen funds plus client base of law firms and law enforcement - multi-element specifics on tracing product/scale/clients (T_vendor) (vendor-specific Full)."
+P31,D05,1,platforms/P31/vendor_homepage.txt,"Vendor mentions ""Bitcoin, Ethereum, and other blockchains"" for analysis but no specific bridge correlation documented (T_vendor) (vendor-only evidence)."
+P31,D06,0,no evidence in shared dossier,No DeFi protocol decoding documented for CipherBlade.
+P31,D07,0,no evidence in shared dossier,No smart-contract code-analysis documented for CipherBlade.
+P31,D08,0,no evidence in shared dossier,No GNN architecture documented for CipherBlade; narrative tags ""Manual Investigation"" approach.
+P31,D09,0,no evidence in shared dossier,CipherBlade is manual-investigation focused per SoK narrative; no ML/DL documented.
+P31,D10,1,platforms/P31/narrative.md,"SoK narrative tags Primary function as Investigation/Recovery implying behavioral analysis but no named segment product (T_indep narrative)."
+P31,D11,0,no evidence in shared dossier,No Travel Rule capability documented for CipherBlade.
+P31,D12,0,no evidence in shared dossier,No KYC integration documented for CipherBlade.
+P31,D13,0,no evidence in shared dossier,No ZKP capability documented for CipherBlade.
+P31,D14,0,no evidence in shared dossier,No credential layer documented for CipherBlade.
+P31,D15,0,no evidence in shared dossier,No privacy-coin coverage documented for CipherBlade.
+P31,D16,0,no evidence in shared dossier,No mixer-detection capability documented for CipherBlade.
+P31,D17,0,no evidence in shared dossier,No MEV detection documented for CipherBlade.
+P31,D18,0,no evidence in shared dossier,No intent-recognition documented for CipherBlade.
+P31,D19,0,no evidence in shared dossier,No ERC-4337 support documented for CipherBlade.
+P31,D20,0,no evidence in shared dossier,No solver-monitoring documented for CipherBlade.
+P31,D21,0,no evidence in shared dossier,CipherBlade is a bespoke services firm; no programmatic API documented.
+P31,D22,0,no evidence in shared dossier,No real-time alerting capability documented for CipherBlade.
+P31,D23,1,platforms/P31/vendor_homepage.txt,"Vendor describes case-by-case ""Bespoke Services"" and case execution methodologies but no specific case-management UI/API (T_vendor) (vendor-only evidence)."
+P31,D24,0,no evidence in shared dossier,No SAR-generation capability documented for CipherBlade.
+P31,D25,1,platforms/P31/vendor_homepage.txt,"Vendor provides ""Expert Testimony"" before courts but no jurisdiction-specific regulatory report format named (T_vendor) (vendor-only evidence)."
+P32,D01,0,no evidence in shared dossier,Privado ID is identity middleware; no transaction-monitoring product documented.
+P32,D02,0,no evidence in shared dossier,No risk-scoring product documented for Privado ID.
+P32,D03,0,no evidence in shared dossier,No attribution database documented for Privado ID.
+P32,D04,0,no evidence in shared dossier,No multi-hop tracing capability documented for Privado ID.
+P32,D05,0,no evidence in shared dossier,No cross-chain bridge tracking documented for Privado ID.
+P32,D06,0,no evidence in shared dossier,No DeFi protocol decoding documented for Privado ID.
+P32,D07,0,no evidence in shared dossier,No smart-contract code-analysis documented for Privado ID.
+P32,D08,0,no evidence in shared dossier,No GNN architecture documented for Privado ID.
+P32,D09,0,no evidence in shared dossier,No ML/DL model family named for Privado ID.
+P32,D10,0,no evidence in shared dossier,No behavioral-analytics product documented for Privado ID.
+P32,D11,0,no evidence in shared dossier,No Travel Rule capability documented for Privado ID.
+P32,D12,1,platforms/P32/vendor_homepage.txt,"Vendor lists ""KYC"" among primary use cases plus ""Instant Identity Verification"" but as identity middleware no integrated compliance workflow named (T_vendor) (vendor-only evidence)."
+P32,D13,2,platforms/P32/vendor_product.txt;platforms/P32/narrative.md,"Vendor names Zero-Knowledge Technology for ""the user can send a proof of any information inside a credential to the Verifier without revealing the information""; SoK narrative tags technical approach as ""ZKP, SSI"" (T_indep narrative)."
+P32,D14,2,platforms/P32/vendor_homepage.txt;platforms/P32/vendor_product.txt;platforms/P32/narrative.md,"Vendor names ""W3C and DIF standards"" with ""SSI principles"" plus Issuer Node, Verifier SDK, Schema Builder; narrative tags Compliance protocols as ""Credentials"" (T_indep narrative)."
+P32,D15,0,no evidence in shared dossier,No privacy-coin coverage documented for Privado ID.
+P32,D16,0,no evidence in shared dossier,No mixer-detection capability documented for Privado ID.
+P32,D17,0,no evidence in shared dossier,No MEV detection documented for Privado ID.
+P32,D18,0,no evidence in shared dossier,No intent-recognition documented for Privado ID.
+P32,D19,0,no evidence in shared dossier,No ERC-4337 support documented for Privado ID.
+P32,D20,0,no evidence in shared dossier,No solver-monitoring documented for Privado ID.
+P32,D21,2,platforms/P32/vendor_homepage.txt;platforms/P32/vendor_product.txt,"Vendor names Wallet SDK, Issuer Node, Verifier SDK, JavaScript SDK (Beta), Schema Builder, Query Builder plus EVM-compatible smart contract deployments on Polygon - multi-element specifics on developer tools and integrations (T_vendor) (vendor-specific Full)."
+P32,D22,0,no evidence in shared dossier,No real-time alerting capability documented for Privado ID.
+P32,D23,0,no evidence in shared dossier,No case-management UI documented for Privado ID.
+P32,D24,0,no evidence in shared dossier,No SAR-generation capability documented for Privado ID.
+P32,D25,0,no evidence in shared dossier,No jurisdiction-specific reporting documented for Privado ID.
+P33,D01,0,no evidence in shared dossier,Polygon ID/Privado ID is identity protocol; no transaction-monitoring product documented.
+P33,D02,0,no evidence in shared dossier,No risk-scoring product documented for Polygon ID.
+P33,D03,0,no evidence in shared dossier,No attribution database documented for Polygon ID.
+P33,D04,0,no evidence in shared dossier,No multi-hop tracing capability documented for Polygon ID.
+P33,D05,0,no evidence in shared dossier,No cross-chain bridge tracking documented for Polygon ID.
+P33,D06,0,no evidence in shared dossier,No DeFi protocol decoding documented for Polygon ID.
+P33,D07,0,no evidence in shared dossier,No smart-contract code-analysis documented for Polygon ID.
+P33,D08,0,no evidence in shared dossier,No GNN architecture documented for Polygon ID.
+P33,D09,0,no evidence in shared dossier,No ML/DL model family named for Polygon ID.
+P33,D10,0,no evidence in shared dossier,No behavioral-analytics product documented for Polygon ID.
+P33,D11,0,no evidence in shared dossier,No Travel Rule capability documented for Polygon ID.
+P33,D12,1,platforms/P33/vendor_homepage.txt,"Vendor describes identity middleware enabling KYC use case but no integrated compliance workflow documented (T_vendor) (vendor-only evidence)."
+P33,D13,2,platforms/P33/vendor_homepage.txt;platforms/P33/narrative.md,"Vendor names ""Zero-Knowledge Proofs"" with ""proof of any information inside a credential to the Verifier without revealing the information""; SoK narrative tags technical approach as ""ZKP, DID"" (T_indep narrative)."
+P33,D14,2,platforms/P33/vendor_homepage.txt;platforms/P33/narrative.md,"Vendor names ""W3C and DIF standards"" with ""SSI principles"" for credentials; narrative tags Compliance protocols as ""Credentials"" with technical approach ""ZKP, DID"" (T_indep narrative)."
+P33,D15,0,no evidence in shared dossier,No privacy-coin coverage documented for Polygon ID.
+P33,D16,0,no evidence in shared dossier,No mixer-detection capability documented for Polygon ID.
+P33,D17,0,no evidence in shared dossier,No MEV detection documented for Polygon ID.
+P33,D18,0,no evidence in shared dossier,No intent-recognition documented for Polygon ID.
+P33,D19,0,no evidence in shared dossier,No ERC-4337 support documented for Polygon ID.
+P33,D20,0,no evidence in shared dossier,No solver-monitoring documented for Polygon ID.
+P33,D21,0,platforms/P33/narrative.md,"Polygon ID is Decentralized architecture per SoK; credentials operate via smart contracts on Polygon testnet/mainnet; rationale (on-chain architecture; D21 not applicable)."
+P33,D22,0,no evidence in shared dossier,No real-time alerting capability documented for Polygon ID.
+P33,D23,0,no evidence in shared dossier,No case-management UI documented for Polygon ID.
+P33,D24,0,no evidence in shared dossier,No SAR-generation capability documented for Polygon ID.
+P33,D25,0,no evidence in shared dossier,No jurisdiction-specific reporting documented for Polygon ID.
+P34,D01,0,no evidence in shared dossier,KILT Protocol is credential platform; no transaction-monitoring product documented (and platform pivoted to Primer Systems).
+P34,D02,0,no evidence in shared dossier,No risk-scoring product documented for KILT Protocol.
+P34,D03,0,no evidence in shared dossier,No attribution database documented for KILT Protocol.
+P34,D04,0,no evidence in shared dossier,No multi-hop tracing capability documented for KILT Protocol.
+P34,D05,0,no evidence in shared dossier,No cross-chain bridge tracking documented for KILT Protocol.
+P34,D06,0,no evidence in shared dossier,No DeFi protocol decoding documented for KILT Protocol.
+P34,D07,0,no evidence in shared dossier,No smart-contract code-analysis documented for KILT Protocol.
+P34,D08,0,no evidence in shared dossier,No GNN architecture documented for KILT Protocol.
+P34,D09,0,no evidence in shared dossier,No ML/DL model family named for KILT Protocol.
+P34,D10,0,no evidence in shared dossier,No behavioral-analytics product documented for KILT Protocol.
+P34,D11,0,no evidence in shared dossier,No Travel Rule capability documented for KILT Protocol.
+P34,D12,1,platforms/P34/narrative.md,"SoK narrative tags Compliance protocols as ""KYC, KYB, Attestation"" but KILT is identity-credential infrastructure rather than first-party KYC pipeline (T_indep narrative)."
+P34,D13,1,platforms/P34/narrative.md,"SoK narrative associates KILT Protocol with privacy-preserving credentials but does not name a specific ZK scheme; vendor pivoted to Primer Systems (T_indep narrative; not specific scheme) (vendor-only evidence)."
+P34,D14,2,platforms/P34/narrative.md,"SoK narrative tags KILT Protocol technical approach as ""Credentials, Anchoring"" with Compliance protocols including ""KYC, KYB, Attestation"" - third-party named credential platform (T_indep narrative)."
+P34,D15,0,no evidence in shared dossier,No privacy-coin coverage documented for KILT Protocol.
+P34,D16,0,no evidence in shared dossier,No mixer-detection capability documented for KILT Protocol.
+P34,D17,0,no evidence in shared dossier,No MEV detection documented for KILT Protocol.
+P34,D18,0,no evidence in shared dossier,No intent-recognition documented for KILT Protocol.
+P34,D19,0,no evidence in shared dossier,No ERC-4337 support documented for KILT Protocol.
+P34,D20,0,no evidence in shared dossier,No solver-monitoring documented for KILT Protocol.
+P34,D21,0,platforms/P34/narrative.md,"KILT is Decentralized architecture per SoK; vendor pivoted to Primer Systems with on-chain x402/ERC-8004 identity; rationale (on-chain architecture; D21 not applicable)."
+P34,D22,0,no evidence in shared dossier,No real-time alerting capability documented for KILT Protocol.
+P34,D23,0,no evidence in shared dossier,No case-management UI documented for KILT Protocol.
+P34,D24,0,no evidence in shared dossier,No SAR-generation capability documented for KILT Protocol.
+P34,D25,0,no evidence in shared dossier,No jurisdiction-specific reporting documented for KILT Protocol.
+P35,D01,2,platforms/P35/vendor_homepage.txt;platforms/P35/vendor_products.txt,"Vendor names ""Transaction Monitoring"" as named product within Mesh suite plus ""Ongoing Monitoring"" plus Customer/Company/Payment Screening - multi-element specifics on product, alert types, and ongoing pipeline (T_vendor) (vendor-specific Full)."
+P35,D02,2,platforms/P35/vendor_products.txt,"Vendor names ""automated risk scoring that is fully configurable and dynamically updated"" plus agentic AI processing ""65-85% of profiles automatically"" - multi-element specifics on scoring system (T_vendor) (vendor-specific Full)."
+P35,D03,2,platforms/P35/vendor_homepage.txt;platforms/P35/vendor_products.txt,"Vendor names ""Sanctions & Watchlists screening"", ""PEPs & RCAs"", and ""Adverse Media screening"" within full-stack proprietary risk intelligence - multi-element specifics on entity database categories (T_vendor) (vendor-specific Full)."
+P35,D04,0,no evidence in shared dossier,Vendor focuses on customer/payment screening rather than on-chain tracing; no multi-hop tracing capability documented.
+P35,D05,0,no evidence in shared dossier,Vendor is traditional AML; no cross-chain crypto-asset tracking documented in P35 sources.
+P35,D06,0,no evidence in shared dossier,No DeFi protocol decoding documented for ComplyAdvantage.
+P35,D07,0,no evidence in shared dossier,No smart-contract code-analysis documented for ComplyAdvantage.
+P35,D08,0,no evidence in shared dossier,No GNN architecture documented for ComplyAdvantage.
+P35,D09,2,platforms/P35/vendor_homepage.txt;platforms/P35/narrative.md;cross_platform/papers/pocher2023detectinganomalouscryptocurrency.txt,"Vendor describes ""AI powers every stage of the financial crime risk management lifecycle""; Pocher 2023 paper benchmarks anomaly detection methods akin to ComplyAdvantage; SoK narrative tags ""ML, Risk Scoring"" (T_indep narrative+paper)."
+P35,D10,2,platforms/P35/vendor_products.txt;platforms/P35/narrative.md,"Vendor describes ""monitor their behavior in near real time"" with agentic AI for profile-level resolution; SoK narrative tags technical approach as ""ML, Risk Scoring"" (T_indep narrative)."
+P35,D11,1,platforms/P35/narrative.md,"SoK narrative tags Compliance protocols as ""KYC, KYB, KYT""; no specific Travel Rule integration documented (T_indep narrative partial)."
+P35,D12,2,platforms/P35/vendor_homepage.txt;platforms/P35/narrative.md,"Vendor names Customer Screening for ""individual evaluations"" plus Company Screening; SoK narrative tags Compliance protocols as ""KYC, KYB, KYT"" (T_indep narrative)."
+P35,D13,0,no evidence in shared dossier,No ZKP capability documented for ComplyAdvantage.
+P35,D14,0,no evidence in shared dossier,No credential layer documented for ComplyAdvantage.
+P35,D15,0,no evidence in shared dossier,No privacy-coin coverage documented for ComplyAdvantage.
+P35,D16,1,platforms/P35/vendor_homepage.txt,"Vendor names Sanctions & Watchlists screening which catches OFAC mixer entries but no active mixer-detection methodology documented (T_vendor) (vendor-only evidence)."
+P35,D17,0,no evidence in shared dossier,No MEV detection documented for ComplyAdvantage.
+P35,D18,0,no evidence in shared dossier,No intent-recognition documented for ComplyAdvantage.
+P35,D19,0,no evidence in shared dossier,No ERC-4337 support documented for ComplyAdvantage.
+P35,D20,0,no evidence in shared dossier,No solver-monitoring documented for ComplyAdvantage.
+P35,D21,1,platforms/P35/vendor_homepage.txt,"Vendor describes Mesh as cloud-based SaaS platform but no specific REST/GraphQL endpoint family or authentication scheme named (T_vendor) (vendor-only evidence)."
+P35,D22,1,platforms/P35/vendor_homepage.txt,"Vendor names ""Ongoing Monitoring"" and ""near real time"" customer monitoring but no specific webhook/streaming channel detailed (T_vendor) (vendor-only evidence)."
+P35,D23,2,platforms/P35/vendor_products.txt,"Vendor names ""case management"" as a named capability within Mesh plus agentic AI processing alerts ""autonomously"" - multi-element case workflow specifics (T_vendor) (vendor-specific Full)."
+P35,D24,2,platforms/P35/vendor_homepage.txt;cross_platform/regulator/doj_binance_settlement_nov2023.txt,"Vendor markets ""financial crime risk management lifecycle, from onboarding and ongoing monitoring to remediation and reporting""; DOJ Binance settlement establishes mandatory SAR filing under 31 U.S.C. 5318(h) (T_indep regulator)."
+P35,D25,2,platforms/P35/vendor_homepage.txt;cross_platform/regulator/uk_fca_crypto_registration_2024.txt,"Vendor describes ""regulatory defensibility"" across customer lifecycle; UK FCA crypto regime drives jurisdictional reporting demand met by ComplyAdvantage Mesh (T_indep regulator)."
+P36,D01,0,no evidence in shared dossier,"Refinitiv World-Check is sanctions/PEP screening reference data; no continuous transaction-monitoring product documented."
+P36,D02,1,platforms/P36/vendor_homepage.txt,"Vendor markets ""Real-time risk intelligence"" but no specific risk-scoring banding/inputs product named (T_vendor) (vendor-only evidence)."
+P36,D03,2,platforms/P36/vendor_homepage.txt,"Vendor names ""Access over 4m records"" of structured data plus categories including PEPs, sanctions, regulatory and law enforcement lists, adverse media, sanctioned securities, vessels - multi-element specifics on entity database categories and scale (T_vendor) (vendor-specific Full)."
+P36,D04,0,no evidence in shared dossier,Refinitiv is screening reference data; no multi-hop tracing capability documented.
+P36,D05,0,no evidence in shared dossier,No cross-chain crypto-asset tracking documented for Refinitiv.
+P36,D06,0,no evidence in shared dossier,No DeFi protocol decoding documented for Refinitiv.
+P36,D07,0,no evidence in shared dossier,No smart-contract code-analysis documented for Refinitiv.
+P36,D08,0,no evidence in shared dossier,No GNN architecture documented for Refinitiv.
+P36,D09,0,no evidence in shared dossier,No specific ML model family named for Refinitiv.
+P36,D10,0,no evidence in shared dossier,No behavioral-analytics product documented for Refinitiv (database-only).
+P36,D11,0,no evidence in shared dossier,No Travel Rule capability documented for Refinitiv.
+P36,D12,2,platforms/P36/vendor_homepage.txt;platforms/P36/narrative.md,"Vendor markets KYC screening for ""due diligence obligations"" with structured PEPs/sanctions data; SoK narrative tags Compliance protocols as ""KYC, KYB"" (T_indep narrative)."
+P36,D13,0,no evidence in shared dossier,No ZKP capability documented for Refinitiv.
+P36,D14,0,no evidence in shared dossier,No credential layer documented for Refinitiv.
+P36,D15,0,no evidence in shared dossier,No privacy-coin coverage documented for Refinitiv.
+P36,D16,1,platforms/P36/vendor_homepage.txt,"Vendor names sanctions list coverage which catches OFAC mixer entries but no active mixer-detection methodology documented (T_vendor) (vendor-only evidence)."
+P36,D17,0,no evidence in shared dossier,No MEV detection documented for Refinitiv.
+P36,D18,0,no evidence in shared dossier,No intent-recognition documented for Refinitiv.
+P36,D19,0,no evidence in shared dossier,No ERC-4337 support documented for Refinitiv.
+P36,D20,0,no evidence in shared dossier,No solver-monitoring documented for Refinitiv.
+P36,D21,2,platforms/P36/vendor_homepage.txt,"Vendor names World-Check data delivery ""through APIs, batch screening capabilities, World-Check One platform, World-Check On Demand, and World-Check Verify (AWS partnership)"" - multi-element specifics on API/integration types (T_vendor) (vendor-specific Full)."
+P36,D22,1,platforms/P36/vendor_homepage.txt,"Vendor markets ""Real-time risk intelligence"" with daily profile updates but no specific webhook/streaming channel named (T_vendor) (vendor-only evidence)."
+P36,D23,0,no evidence in shared dossier,No case-management UI documented for Refinitiv (data-delivery only).
+P36,D24,0,no evidence in shared dossier,No SAR-generation capability documented for Refinitiv.
+P36,D25,1,platforms/P36/vendor_homepage.txt,"Vendor names ""global regulatory and law enforcement lists"" but no specific jurisdictional report format named (T_vendor) (vendor-only evidence)."
+P37,D01,2,platforms/P37/vendor_financial_crime.txt;platforms/P37/vendor_homepage.txt,"Vendor names AML Transaction Monitoring as ""Proactive Monitoring Solutions"" with ""Safeguard your organization with ongoing monitoring and financial crime risk management"" plus Bridger Insight XG for ""real-time insights"" - multi-element specifics on product, monitoring scope, and risk management (T_vendor) (vendor-specific Full)."
+P37,D02,2,platforms/P37/vendor_financial_crime.txt;platforms/P37/vendor_homepage.txt,"Vendor names Bridger Insight XG for ""real-time insights into AML, ABC and CFT risks"" with ""60-80% false positive reduction"" and ""90% of new customers screened in real-time"" - multi-element specifics on scoring product and performance (T_vendor) (vendor-specific Full)."
+P37,D03,2,platforms/P37/vendor_homepage.txt,"Vendor names ""8M+ risk profiles"", ""1,700 enforcement lists"", ""180 global sanctions lists"", ""3.4 million+ PEP profiles"" with coverage of ""250 countries and territories"" - multi-element specifics on attribution database scale (T_vendor) (vendor-specific Full)."
+P37,D04,0,no evidence in shared dossier,LexisNexis is screening/database focused; no multi-hop tracing capability documented.
+P37,D05,0,no evidence in shared dossier,No cross-chain crypto-asset tracking documented for LexisNexis.
+P37,D06,0,no evidence in shared dossier,No DeFi protocol decoding documented for LexisNexis.
+P37,D07,0,no evidence in shared dossier,No smart-contract code-analysis documented for LexisNexis.
+P37,D08,0,no evidence in shared dossier,No GNN architecture documented for LexisNexis.
+P37,D09,1,platforms/P37/narrative.md,"SoK narrative tags technical approach as ""Database, Network""; vendor describes ""advanced modules"" reducing false positives but no specific ML model family named (T_indep narrative)."
+P37,D10,1,platforms/P37/narrative.md,"SoK narrative tags Primary function ""AML, Compliance"" with ""60 risk categories"" but no specific behavior-segment product named (T_indep narrative)."
+P37,D11,0,no evidence in shared dossier,No Travel Rule capability documented for LexisNexis.
+P37,D12,2,platforms/P37/vendor_financial_crime.txt;platforms/P37/narrative.md,"Vendor names Customer Due Diligence supporting ""Know Your Customer (KYC) processes""; SoK narrative tags Compliance protocols as ""KYC, KYB"" (T_indep narrative)."
+P37,D13,0,no evidence in shared dossier,No ZKP capability documented for LexisNexis.
+P37,D14,0,no evidence in shared dossier,No credential layer documented for LexisNexis.
+P37,D15,0,no evidence in shared dossier,No privacy-coin coverage documented for LexisNexis.
+P37,D16,1,platforms/P37/vendor_homepage.txt,"Vendor names sanctions/watchlist screening covering ""60 risk categories"" but no specific active mixer-detection methodology documented (T_vendor) (vendor-only evidence)."
+P37,D17,0,no evidence in shared dossier,No MEV detection documented for LexisNexis.
+P37,D18,0,no evidence in shared dossier,No intent-recognition documented for LexisNexis.
+P37,D19,0,no evidence in shared dossier,No ERC-4337 support documented for LexisNexis.
+P37,D20,0,no evidence in shared dossier,No solver-monitoring documented for LexisNexis.
+P37,D21,2,platforms/P37/vendor_homepage.txt,"Vendor names Bridger Insight XG with ""Single engine for account and payment screening"" plus ""Flexible public/private cloud or on-premise deployments"" plus 100s of billions of screens capability - multi-element specifics on deployment and integrations (T_vendor) (vendor-specific Full)."
+P37,D22,1,platforms/P37/vendor_homepage.txt,"Vendor describes real-time screening but no specific webhook/streaming alert channel detailed (T_vendor) (vendor-only evidence)."
+P37,D23,1,platforms/P37/vendor_homepage.txt,"Vendor describes alert remediation with ""66% reduction in remediation times"" but no specific case-management UI workflow states named (T_vendor) (vendor-only evidence)."
+P37,D24,0,no evidence in shared dossier,No SAR-generation capability documented for LexisNexis.
+P37,D25,1,platforms/P37/vendor_homepage.txt,"Vendor names ""180 global sanctions lists"" covering 250 countries but no specific jurisdictional regulatory report format named (T_vendor) (vendor-only evidence)."
+P38,D01,2,platforms/P38/vendor_aml.txt;platforms/P38/vendor_homepage.txt,"Vendor names ""Suspicious Activity Monitoring (SAM)"" as a named product plus homepage cites ""5 billion+ transactions monitored daily"" with ML+rule-based methodology - multi-element specifics on product, alert types and scale (T_vendor) (vendor-specific Full)."
+P38,D02,2,platforms/P38/vendor_aml.txt,"Vendor names ""X-Sight Entity Risk"" as a discrete risk product plus ""entity-centric AML"" with ""AI and machine learning"" - multi-element specifics on scoring product (T_vendor) (vendor-specific Full)."
+P38,D03,1,platforms/P38/vendor_aml.txt,"Vendor names ""X-Sight Entity Risk"" but no specific entity-database scale metric documented (T_vendor) (vendor-only evidence)."
+P38,D04,0,no evidence in shared dossier,NICE Actimize is traditional AML; no on-chain multi-hop tracing capability documented.
+P38,D05,0,no evidence in shared dossier,NICE Actimize is L0 chain coverage per SoK; no cross-chain crypto tracking documented.
+P38,D06,0,no evidence in shared dossier,No DeFi protocol decoding documented for NICE Actimize.
+P38,D07,0,no evidence in shared dossier,No smart-contract code-analysis documented for NICE Actimize.
+P38,D08,0,no evidence in shared dossier,No GNN architecture documented for NICE Actimize.
+P38,D09,2,platforms/P38/vendor_aml.txt;platforms/P38/narrative.md,"Vendor names ""machine learning and domain expertise"" plus ""AI and machine learning"" infused into AML; SoK narrative tags technical approach as ""Rule-Based, ML"" (T_indep narrative)."
+P38,D10,2,platforms/P38/vendor_aml.txt;platforms/P38/narrative.md,"Vendor names ""entity-centric AML solutions"" with ""putting the entity at the heart of all anti-money laundering"" approach; SoK narrative tags technical approach as ""Rule-Based, ML"" (T_indep narrative)."
+P38,D11,0,no evidence in shared dossier,"NICE Actimize is a traditional-AML platform with chain coverage L0; no Travel Rule capability is documented in any vendor or cross-platform source."
+P38,D12,2,platforms/P38/vendor_aml.txt;platforms/P38/narrative.md,"Vendor names KYC as a discrete product alongside SAM, Sanctions Screening, STAR, CTR; SoK narrative tags Compliance protocols as ""KYT"" with type Traditional+Web3 (T_indep narrative)."
+P38,D13,0,no evidence in shared dossier,No ZKP capability documented for NICE Actimize.
+P38,D14,0,no evidence in shared dossier,No credential layer documented for NICE Actimize.
+P38,D15,0,no evidence in shared dossier,No privacy-coin coverage documented for NICE Actimize.
+P38,D16,1,platforms/P38/vendor_aml.txt,"Vendor names Sanctions Screening as a discrete product catching OFAC mixer entries but no active mixer-detection methodology documented (T_vendor) (vendor-only evidence)."
+P38,D17,0,no evidence in shared dossier,No MEV detection documented for NICE Actimize.
+P38,D18,0,no evidence in shared dossier,No intent-recognition documented for NICE Actimize.
+P38,D19,0,no evidence in shared dossier,No ERC-4337 support documented for NICE Actimize.
+P38,D20,0,no evidence in shared dossier,No solver-monitoring documented for NICE Actimize.
+P38,D21,1,platforms/P38/vendor_homepage.txt,"Vendor describes integrated products but no specific REST/GraphQL endpoint family or authentication scheme detailed (T_vendor) (vendor-only evidence)."
+P38,D22,1,platforms/P38/vendor_homepage.txt,"Vendor markets ""adaptable, connected and contextual technology"" with monitoring but no specific webhook/streaming channel named (T_vendor) (vendor-only evidence)."
+P38,D23,2,platforms/P38/vendor_homepage.txt;platforms/P38/vendor_aml.txt,"Vendor names ""Investigation and Case Management"" as one of five solution areas plus ""Xceed: Integrated FRAML"" - multi-element specifics on case workflow products (T_vendor) (vendor-specific Full)."
+P38,D24,2,platforms/P38/vendor_aml.txt;cross_platform/regulator/doj_binance_settlement_nov2023.txt,"Vendor names ""Suspicious Transaction Activity Reporting (STAR)"" and ""Suspicious Activity Monitoring (SAM)"" as discrete AML products plus multi-element scale (5B+ tx daily); DOJ Binance settlement establishes SAR-filing obligations under 31 U.S.C. 5318(h) (T_indep regulator) (vendor-specific Full)."
+P38,D25,2,platforms/P38/vendor_aml.txt;cross_platform/regulator/fincen_cvc_mixing_npr_oct2023.txt,"Vendor names ""Currency Transaction Reporting (CTR)"" as a specific jurisdictional report product plus AML Essentials; FinCEN CVC-mixing NPR substantiates U.S. CTR/SAR reporting demand (T_indep regulator)."
+P39,D01,2,platforms/P39/vendor_homepage.txt;platforms/P39/vendor_platform.txt,"Vendor names ""Transaction Monitoring"" as a discrete product with ""real-time detection engine"" plus FinCrime Operating System - multi-element specifics on product, latency and alert focus (T_vendor) (vendor-specific Full)."
+P39,D02,1,platforms/P39/vendor_homepage.txt,"Vendor describes ""client risk assessment"" but no specific banded scoring product or named inputs (T_vendor) (vendor-only evidence)."
+P39,D03,1,platforms/P39/vendor_homepage.txt,"Vendor describes ""PEP & sanctions screening"" but no specific attribution database scale named (T_vendor) (vendor-only evidence)."
+P39,D04,0,no evidence in shared dossier,Fenergo is CLM-focused; no multi-hop tracing capability documented.
+P39,D05,0,no evidence in shared dossier,No cross-chain crypto tracking documented for Fenergo (chain coverage L0 per narrative).
+P39,D06,0,no evidence in shared dossier,No DeFi protocol decoding documented for Fenergo.
+P39,D07,0,no evidence in shared dossier,No smart-contract code-analysis documented for Fenergo.
+P39,D08,0,no evidence in shared dossier,No GNN architecture documented for Fenergo.
+P39,D09,1,platforms/P39/vendor_platform.txt;platforms/P39/narrative.md,"Vendor mentions ""Agentic AI Agents"" and ""AI-driven solution"" but no specific ML model family named; SoK narrative tags technical approach as ""Workflow Automation"" (T_indep narrative)."
+P39,D10,1,platforms/P39/vendor_homepage.txt,"Vendor describes ""client risk assessment"" but no named behavior-segment product (T_vendor) (vendor-only evidence)."
+P39,D11,0,no evidence in shared dossier,No Travel Rule capability documented for Fenergo.
+P39,D12,2,platforms/P39/vendor_homepage.txt;platforms/P39/vendor_platform.txt;platforms/P39/narrative.md,"Vendor names ""Know Your Customer (KYC)"" as a specific solution plus ""Identity Verification (ID&V)""; SoK narrative tags Compliance protocols as ""KYC, KYB"" (T_indep narrative)."
+P39,D13,0,no evidence in shared dossier,No ZKP capability documented for Fenergo.
+P39,D14,0,no evidence in shared dossier,No credential layer documented for Fenergo.
+P39,D15,0,no evidence in shared dossier,No privacy-coin coverage documented for Fenergo.
+P39,D16,0,no evidence in shared dossier,No mixer-detection capability documented for Fenergo.
+P39,D17,0,no evidence in shared dossier,No MEV detection documented for Fenergo.
+P39,D18,0,no evidence in shared dossier,No intent-recognition documented for Fenergo.
+P39,D19,0,no evidence in shared dossier,No ERC-4337 support documented for Fenergo.
+P39,D20,0,no evidence in shared dossier,No solver-monitoring documented for Fenergo.
+P39,D21,2,platforms/P39/vendor_platform.txt,"Vendor names ""Event-Driven, API-First Architecture"" using ""serverless API layers, containerized services, and cloud native data storage services"" plus Integration Hub & Flows - multi-element specifics on API architecture (T_vendor) (vendor-specific Full)."
+P39,D22,1,platforms/P39/vendor_homepage.txt,"Vendor describes ""real-time detection engine"" but no specific webhook/streaming alert channel detailed (T_vendor) (vendor-only evidence)."
+P39,D23,2,platforms/P39/vendor_homepage.txt;platforms/P39/vendor_platform.txt,"Vendor names CLM for Salesforce providing ""real-time visibility over client onboarding"" plus Client Lifecycle Management suite with workflow automation - multi-element case workflow specifics (T_vendor) (vendor-specific Full)."
+P39,D24,1,platforms/P39/vendor_homepage.txt,"Vendor describes financial-crime compliance ""across KYC/AML"" but no specific SAR template or filing format named (T_vendor) (vendor-only evidence)."
+P39,D25,2,platforms/P39/vendor_homepage.txt;platforms/P39/vendor_platform.txt,"Vendor names ""Regulatory Compliance: Simplify compliance with global regulations including ESG, Tax, Investor Protection"" plus ""Accelerate client & counterparty classifications"" - multi-element jurisdictional specifics (T_vendor) (vendor-specific Full)."
+P40,D01,1,platforms/P40/vendor_homepage.txt,"Vendor names ""AML/KYT screening"" with ""Real-time transaction monitoring"" but no named alert categories or rule families (T_vendor) (vendor-only evidence)."
+P40,D02,1,platforms/P40/vendor_homepage.txt,"Vendor describes ""wallet screening with API integration"" and ""Assess risk exposure"" but no specific banded scoring or named inputs (T_vendor) (vendor-only evidence)."
+P40,D03,1,platforms/P40/vendor_homepage.txt,"Vendor cites ""$100M+ in risky funds detected"" and ""60,000+ service providers checked"" but no specific clustering technique or named entity-database scale (T_vendor) (vendor-only evidence)."
+P40,D04,0,no evidence in shared dossier,No multi-hop tracing capability documented for AMLBot.
+P40,D05,0,no evidence in shared dossier,No cross-chain bridge tracking documented for AMLBot.
+P40,D06,0,no evidence in shared dossier,No DeFi protocol decoding documented for AMLBot.
+P40,D07,0,no evidence in shared dossier,No smart-contract code-analysis documented for AMLBot.
+P40,D08,0,no evidence in shared dossier,No GNN architecture documented for AMLBot.
+P40,D09,0,no evidence in shared dossier,No specific ML/DL model family named for AMLBot.
+P40,D10,0,no evidence in shared dossier,No behavioral-segment product documented for AMLBot.
+P40,D11,0,no evidence in shared dossier,No Travel Rule capability documented for AMLBot.
+P40,D12,2,platforms/P40/vendor_homepage.txt,"Vendor names ""KYC for business"" with ""Verify users through document and biometric checks, sanctions and PEP screening, source-of-funds verification, and ongoing monitoring, including KYB"" - multi-element specifics on KYC pipeline (T_vendor) (vendor-specific Full)."
+P40,D13,0,no evidence in shared dossier,No ZKP capability documented for AMLBot.
+P40,D14,0,no evidence in shared dossier,No credential layer documented for AMLBot.
+P40,D15,0,no evidence in shared dossier,No privacy-coin coverage documented for AMLBot.
+P40,D16,1,platforms/P40/vendor_homepage.txt;cross_platform/regulator/ofac_tornado_cash_aug2022.txt,"Vendor describes AML/KYT screening aligned with FATF requirements which catches OFAC Tornado Cash entries but no active mixer-detection methodology named (T_vendor) (vendor-only evidence)."
+P40,D17,0,no evidence in shared dossier,No MEV detection documented for AMLBot.
+P40,D18,0,no evidence in shared dossier,No intent-recognition documented for AMLBot.
+P40,D19,0,no evidence in shared dossier,No ERC-4337 support documented for AMLBot.
+P40,D20,0,no evidence in shared dossier,No solver-monitoring documented for AMLBot.
+P40,D21,1,platforms/P40/vendor_homepage.txt,"Vendor describes ""API integration"" for transaction monitoring/screening but no specific endpoint family or authentication scheme named (T_vendor) (vendor-only evidence)."
+P40,D22,1,platforms/P40/vendor_homepage.txt,"Vendor describes ""Real-time transaction monitoring"" but no specific webhook/streaming alert channel detailed (T_vendor) (vendor-only evidence)."
+P40,D23,1,platforms/P40/vendor_homepage.txt,"Vendor describes ""Crypto investigations and recovery"" but no specific case-management UI workflow detailed (T_vendor) (vendor-only evidence)."
+P40,D24,0,no evidence in shared dossier,No SAR-generation capability documented for AMLBot.
+P40,D25,1,platforms/P40/vendor_homepage.txt,"Vendor markets compliance with FATF requirements but no specific jurisdictional report format named (T_vendor) (vendor-only evidence)."
+P41,D01,1,platforms/P41/vendor_homepage.txt,"ComplyAdvantage Crypto extension page covers 6AMLD context and ""ransomware attacks"" risks but does not name a specific crypto monitoring product with alert categories (T_vendor) (vendor-only evidence)."
+P41,D02,1,platforms/P41/narrative.md,"SoK narrative tags Compliance protocols as ""KYT"" with Primary function ""Crypto AML Extension"" but no specific scoring product or banding documented (T_indep narrative)."
+P41,D03,1,platforms/P41/narrative.md,"SoK narrative tags technical approach as ""Risk Database""; no specific attribution-database scale metric for crypto extension documented (T_indep narrative)."
+P41,D04,0,no evidence in shared dossier,No multi-hop tracing capability documented for ComplyAdvantage Crypto extension.
+P41,D05,1,platforms/P41/narrative.md,"SoK narrative tags chain coverage as L2 but no specific bridge tracking documented (T_indep narrative)."
+P41,D06,0,no evidence in shared dossier,No DeFi protocol decoding documented for ComplyAdvantage Crypto.
+P41,D07,0,no evidence in shared dossier,No smart-contract code-analysis documented for ComplyAdvantage Crypto.
+P41,D08,0,no evidence in shared dossier,No GNN architecture documented for ComplyAdvantage Crypto.
+P41,D09,1,platforms/P41/narrative.md,"SoK narrative tags technical approach as ""Risk Database""; parent ComplyAdvantage AI capabilities inherit but no specific crypto-ML named (T_indep narrative)."
+P41,D10,0,no evidence in shared dossier,No behavioral-segment product documented for ComplyAdvantage Crypto extension.
+P41,D11,0,no evidence in shared dossier,No Travel Rule capability documented for ComplyAdvantage Crypto.
+P41,D12,1,platforms/P41/vendor_homepage.txt,"Vendor crypto extension covers 6AMLD and 5AMLD KYC implications but no first-party KYC pipeline named (T_vendor) (vendor-only evidence)."
+P41,D13,0,no evidence in shared dossier,No ZKP capability documented for ComplyAdvantage Crypto.
+P41,D14,0,no evidence in shared dossier,No credential layer documented for ComplyAdvantage Crypto.
+P41,D15,0,no evidence in shared dossier,No privacy-coin coverage documented for ComplyAdvantage Crypto.
+P41,D16,1,platforms/P41/vendor_homepage.txt,"Vendor cites ""crypto-cleansing"" sanctions evasion risks but no specific mixer-detection methodology named (T_vendor) (vendor-only evidence)."
+P41,D17,0,no evidence in shared dossier,No MEV detection documented for ComplyAdvantage Crypto.
+P41,D18,0,no evidence in shared dossier,No intent-recognition documented for ComplyAdvantage Crypto.
+P41,D19,0,no evidence in shared dossier,No ERC-4337 support documented for ComplyAdvantage Crypto.
+P41,D20,0,no evidence in shared dossier,No solver-monitoring documented for ComplyAdvantage Crypto.
+P41,D21,0,no evidence in shared dossier,ComplyAdvantage Crypto extension page is a knowledge/training article rather than product documentation; no API capability documented.
+P41,D22,0,no evidence in shared dossier,No real-time alerting documented for ComplyAdvantage Crypto extension.
+P41,D23,0,no evidence in shared dossier,No case-management UI documented for ComplyAdvantage Crypto.
+P41,D24,0,no evidence in shared dossier,No SAR-generation capability documented for ComplyAdvantage Crypto.
+P41,D25,2,platforms/P41/vendor_homepage.txt;cross_platform/regulator/eu_mica_regulation_2023.txt,"Vendor analyzes 5AMLD/6AMLD impact on crypto businesses with named EU regulatory regimes; MiCA Regulation 2023 codifies jurisdiction-specific reporting requirements (T_indep regulator)."

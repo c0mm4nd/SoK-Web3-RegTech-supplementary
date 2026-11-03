@@ -1,0 +1,32 @@
+URL: https://netki.com/transactid
+Fetched: 2026-05-24
+Status: ok
+
+# Netki TransactID - Raw Text Content
+
+**Main Headline:**
+"Ensure compliance while maintaining privacy with TransactID"
+
+**Key Tagline:**
+"The only solution where you don't need to know the other side of a transaction."
+
+**Core Value Proposition:**
+"As the world becomes more privacy and data ownership oriented, end users will expect to be able to transact confidently knowing their identifying data won't be at risk. With TransactID, you don't have to know the other side – and they don't have to know you – in order to transact securely."
+
+**Key Benefits:**
+- Support for unhosted wallets
+- VASP discovery can be done inside the protocol, reducing the need to implement yet another solution for Travel Rule Compliance
+
+**Why Use TransactID:**
+- Universal wallet support (custodial or non-custodial)
+- Universal blockchain support (any blockchain or distributed ledger)
+- Privacy coin support
+- Lightning fast transaction speeds (peer-to-peer network)
+- Open standards (based on BIP 75 and IVMS 101)
+- Industry-leading privacy measures
+
+**Compliance Standards:**
+As of 2022, Netki meets GDPR, IVMS 101, BIP75, and CCPA standards with active pursuit of SOC-2 certification by end of Q3 2022.
+
+**Historical Claim:**
+"TransactID is the only travel rule solution for blockchain that's been in production since 2016"

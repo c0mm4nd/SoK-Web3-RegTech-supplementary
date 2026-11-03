@@ -1,0 +1,25 @@
+URL: https://www.sygna.io
+Fetched: 2026-05-24
+Status: ok
+
+--- Extracted content ---
+
+Sygna Products and Travel Rule Capabilities
+
+Hub:
+"The comprehensive integrated AML compliance platform for VASPs. Get the industry's best 3rd party AML tools and services on one easy-to-use dashboard."
+
+Features integrated blockchain analytics and sanction screening from multiple providers, plus Sygna Bridge Travel Rule protocol with interoperability support.
+
+Bridge:
+"The standalone API-based Travel Rule protocol for VASPs. Share AML-required Recommendation 16 transaction information with ease."
+
+The solution supports over 3,000 virtual assets and has received independent assessment from Singapore's ACCESS association.
+
+Gate:
+"The browser-only integrated AML compliance gateway for VASPs. A manual version of Hub, requires no technical integration."
+
+Offers the same integrated analytics and sanction screening as Hub, plus includes Sygna Bridge Travel Rule protocol with protocol interoperability features.
+
+Key Credentials:
+All Sygna products maintain "ISO/IEC 27001 certified" status, ensuring information security management system compliance and GDPR adherence for personal data protection.

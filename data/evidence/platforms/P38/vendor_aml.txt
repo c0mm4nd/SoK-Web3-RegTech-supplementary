@@ -1,0 +1,28 @@
+URL: https://www.niceactimize.com/anti-money-laundering/
+Fetched: 2026-05-24
+Status: ok
+
+# NICE Actimize Anti-Money Laundering Solutions - Content Summary
+
+## Main Description
+The platform is described as modernizing "KYC-AML programs by bringing together machine learning and domain expertise to help you better combat money laundering and terrorist financing."
+
+## Core Solutions Offered
+The page lists these specific AML capabilities:
+
+- Suspicious Activity Monitoring (SAM)
+- KYC (Know Your Customer)
+- Sanctions Screening
+- X-Sight Entity Risk
+- Suspicious Transaction Activity Reporting (STAR)
+- Currency Transaction Reporting (CTR)
+- AML Essentials
+- Xceed: Integrated FRAML
+
+## Key Positioning
+NICE Actimize emphasizes "entity-centric AML solutions, infused with AI and machine learning" that "optimize efficacy and accuracy" while providing "full AML compliance coverage and auditability."
+
+The platform promotes an approach focused on "putting the entity at the heart of all anti-money laundering (AML) risk management processes."
+
+## Resources Available
+The page features extensive downloadable materials including white papers, case studies, brochures, eBooks, infographics, and reports covering topics like money mules, correspondent banking, capital markets AML, and regulatory compliance.

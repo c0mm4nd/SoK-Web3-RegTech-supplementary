@@ -1,0 +1,25 @@
+URL: https://www.merklescience.com
+Fetched: 2026-05-24
+Status: ok (homepage content used since /products and /platform returned 404)
+
+--- Extracted content ---
+
+Merkle Science Products & Capabilities
+
+Compass:
+"Stay compliant with AML, KYC, and CFT regulations (predictive risk monitoring)."
+
+Tracker:
+"Detect and trace illicit cryptocurrency activity and respond to hacks, scams, exploits, and financial risks."
+
+Data Platform (KYBB):
+"Unlock AI-powered analytics for smarter decisions and deeper research."
+
+Onchain Pulse:
+"Cutting-edge, proactive risk intelligence to strengthen compliance, mitigate threats, and drive stablecoin adoption."
+
+Core Strengths:
+The platform emphasizes three differentiators: rapid integration of new blockchain assets, superior cross-chain data accuracy with specialized sanctions attribution, and customizable workflow tools for risk management strategies.
+
+Target Markets:
+Merkle Science serves exchanges, financial institutions, law enforcement, regulators, decentralized applications, wallet providers, and blockchain protocols across the Web3 ecosystem.

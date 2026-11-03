@@ -1,0 +1,32 @@
+URL: https://www.hypernative.io
+Fetched: 2026-05-24
+Status: ok (/platform returned 404; homepage content used)
+
+--- Extracted content ---
+
+Hypernative Platform Overview
+
+Core Capabilities:
+
+Real-Time Monitoring & Detection:
+"Mitigate the threat before the first hack transaction with Hypernative's automated detection" represents the platform's foundational approach to proactive security.
+
+Early Warning System:
+The platform achieved remarkable results: "98% of exploits detected 2 minutes before the first hack transaction," enabling teams to respond before damage occurs.
+
+Key Features:
+
+Detection Accuracy:
+- "99.5% of hacks detected"
+- "<0.001% False positive rate"
+
+Scope:
+The system covers extensive infrastructure, supporting "70+ Chains" and protecting "$100B+ of assets."
+
+Threat Prevention:
+
+Operational Impact:
+According to the company's analysis, "100% of all exploits in 2023 were detected by Hypernative," though the platform notes that "$1.6B could have been saved in 2023 with our monitoring solutions."
+
+Product Suite:
+Beyond the core Platform, Hypernative offers specialized tools: Guardian for transaction simulation and policy enforcement, Screener for address reputation analysis, and Firewall for transaction-level policy implementation across the Web3 ecosystem.

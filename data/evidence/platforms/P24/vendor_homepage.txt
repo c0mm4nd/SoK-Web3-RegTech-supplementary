@@ -1,0 +1,12 @@
+URL: https://coinbase.com/cloud
+Fetched: 2026-05-24
+Status: 403
+
+The server returned HTTP 403 Forbidden for https://coinbase.com/cloud (homepage), https://www.coinbase.com/cloud, https://www.coinbase.com/developer-platform/products/cloud, and https://www.coinbase.com/blog/bison-trails-joins-coinbase. Cloudflare/bot blocking applies across the coinbase.com domain.
+
+Alternative attempts:
+- https://web.archive.org/web/2021/https://bisontrails.co/ - retrieval blocked from web.archive.org
+- https://en.wikipedia.org/wiki/Bison_Trails - 404
+- https://blog.coinbase.com/... - 301 redirect to https://www.coinbase.com/blog which is also 403
+
+Note: Bison Trails (acquired by Coinbase in January 2021) operated as "Coinbase Cloud" until its product offering was reorganized; the legacy bisontrails.co domain is defunct. No vendor evidence text accessible via retrieval.

@@ -1,0 +1,31 @@
+Source: https://www.chainalysis.com/blog/tornado-cash-sanctions-challenges/
+Fetched: 2026-05-25
+Status: ok (Chainalysis public blog post)
+Citation: Chainalysis Team, "Tornado Cash: Mixer Mechanics, OFAC Designation, and Compliance Implications," Chainalysis blog (post-August 2022; updated reference noting 2025 Treasury removal of sanctions).
+
+KEY TEXT (verbatim or near-verbatim quotes from the Chainalysis blog post):
+
+Mixer Mechanics — Tornado Cash operates through three steps:
+1. Deposit Phase: "The user generates a 'deposit note' on their local device and shares a cryptographic hash of it in a transaction with their chosen Tornado Cash pool contract."
+2. Pooling: "The user's funds are sent to the contract, which pools this deposit alongside the deposits of other users" in specified denominations (0.1, 1, 10, or 100 ETH).
+3. Withdrawal: Users "generate a transaction that proves they have the right to withdraw the deposited value" using "zero-knowledge cryptography," with optional relayer processing for a 0.05%-0.2% fee that severs deposit-withdrawal connections.
+
+The service is "a decentralized, non-custodial smart contract" — meaning it is open-source code running on public blockchains where "most of its smart contracts are designed in such a way that they cannot be changed or destroyed by anyone."
+
+OFAC August 2022 Designation — Treasury sanctioned Tornado Cash on August 8, 2022, citing its role in laundering "over $455 million worth of cryptocurrency stolen by the North Korean-linked hacking organization Lazarus Group." The designation noted that "almost 30% of the funds sent through it have been tied to illicit actors" since 2019.
+
+(Subsequent note: On March 21, 2025, Treasury removed these sanctions, making the compliance implications below historically applicable only.)
+
+Compliance Challenges (downstream of the designation):
+- Centralized Exchanges: Prohibited from interacting with the 44 OFAC-designated addresses.
+- DeFi Platforms: Front-end applications can block addresses, but "regulation has not yet stipulated whether such a block is needed at the protocol level or if such a block is even possible."
+- Infrastructure Providers: Infura and Alchemy now "block Ethereum API access for Tornado Cash," though protocol-level blocking remains unclear.
+- Stablecoin Issuers: Circle "froze all USDC held in OFAC-designated Tornado Cash addresses," but Tether argued "it is not yet certain whether stablecoin issuers are obligated to freeze the assets."
+
+Downstream Effects:
+- Users could not refuse "dusting attacks" — malicious senders deposited an estimated $52,000 in Tornado Cash payments to celebrities and industry figures, giving recipients unwanted exposure to sanctioned addresses.
+
+IMPLICATIONS FOR E3 CASE CODING:
+- Paradigm: Web3 — target is immutable smart contracts and an address list; enforcement propagates through stablecoin issuers (Circle USDC blacklist), RPC infrastructure (Infura/Alchemy), and CEXes. The mechanism that the regulator can reach is *not* a corporate VASP; it is a smart-contract-level address blacklist that downstream regulated parties must screen against.
+- Mechanism: Address/Wallet Screening primary; the 44 designated addresses are the screening input. KYT secondary because the screen actually fires on inbound/outbound transactions that touch the cluster.
+- Lifecycle: Ex-Ante — sanctions screening before transactions execute (compliant-stablecoin freeze functions, RPC blocks). Same row of tab:regtech_lifecycle.

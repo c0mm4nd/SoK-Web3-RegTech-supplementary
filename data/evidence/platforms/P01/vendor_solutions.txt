@@ -1,0 +1,27 @@
+URL: https://www.chainalysis.com/solutions/
+Fetched: 2026-05-24
+Status: ok
+
+--- Extracted content ---
+
+Chainalysis Products & Capabilities
+
+Reactor:
+"Investigate and trace funds across blockchains" with the ability to understand "the entire flow of funds from source to destination." Users can discover leads, analyze activities, and pursue threats across multiple chains while visualizing illicit networks.
+
+KYT:
+"Monitor transactions in real-time" to ensure compliance and prevent illicit activity. The platform enables continuous screening of crypto transactions, allowing users to tailor risk settings and assess deposits, withdrawals, and suspicious user activity.
+
+Compliance Capabilities:
+Chainalysis offers several compliance-focused tools:
+- Address Screening: "Assess a wallet's risk exposure" by screening wallet addresses to identify potential risks
+- VASP Risking: "Understand the risk profile of a VASP"
+- Sentinel: "Understand a stablecoin's risk profile"
+
+Investigation & Risk Monitoring:
+The platform provides capabilities for tracing illicit activity through "bridges, mixers, DEX swaps, and more." Additional tools include:
+- Wallet Scan: "Check recovery seeds for seizable crypto"
+- Rapid: "Instant crypto triage with AI-powered insights"
+
+Core Strengths:
+Chainalysis emphasizes "cross-chain tracing" and maintains "the most comprehensive blockchain coverage in the industry" with data that is "court admissible."

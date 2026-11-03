@@ -1,0 +1,33 @@
+URL: https://www.anchain.ai
+Fetched: 2026-05-24
+Status: ok (/products 404; homepage content used)
+
+--- Extracted content ---
+
+AnChain.AI Products and Capabilities
+
+Core Products:
+
+CISO(TM):
+"AI-powered blockchain forensics, analysis, and case management" with an Auto-Trace feature that enables investigators to "quickly assess cryptocurrency transactions from point of origin/wallet to endpoints on the blockchain."
+
+Data API & MCP:
+Described as "AI native crypto intelligence data" delivering institution-grade APIs combined with LLM-powered intelligence for real-time AML, fraud detection, sanctions screening, and cross-chain analytics.
+
+SCREEN(TM):
+Provides "Smart contract due diligence and risk monitoring" capabilities.
+
+Key Capabilities:
+The platform leverages 16+ machine learning models including:
+- Patented Auto Trace heuristic search for UTXO and EVM chains
+- Risk scoring regression models for transactions
+- Smart contract vulnerability assessment
+- Wallet clustering based on cryptographic patterns
+- NFT wash trading detection
+- Bot behavior detection
+- Cross-chain bridge transaction analysis
+
+Performance Claims:
+"$870 Million Asset Seizures & Recoveries," "1 Trillion Fiat & Blockchain Transactions Analyzed," and "10x Faster on AML & Fraud Detection."
+
+One customer reported reducing analysis time from 15 minutes to 30 seconds across over 1 million transactions.

@@ -1,0 +1,26 @@
+dim_id,dimension,definition,operational_test,boundary_partial
+D01,Transaction Monitoring,Continuous surveillance of on-chain transactions emitting alerts.,Public API/SDK/product page documents alert types and a real-time or near-real-time pipeline.,Batch-only reporting with no streaming output = partial
+D02,Real-Time Risk Scoring,Sub-minute scoring of address or transaction returning numeric/banded score via API.,API endpoint returns score within minutes for a single tx/address.,Reports-only with no API access = partial
+D03,Address Attribution,Curated mapping of addresses to real-world entities.,Documented attribution database with named coverage or coverage figure.,Self-attested attribution without third-party citation = partial
+D04,Multi-Hop Tracing,Follows funds through arbitrary transaction chains.,Product documents multi-hop tracing UI or API.,Single-hop only = partial
+D05,Cross-Chain Tracking,Tracks assets across heterogeneous blockchains via bridges/wrapped assets.,Documented bridge or wrapped-asset support with named chains.,Single chain or wrapped-asset only = partial
+D06,DeFi Semantic Analysis,Decodes contract calls into human-readable activities (swap/lend/etc).,Documented support for DeFi protocols with semantic labels.,Generic contract decoding without protocol labels = partial
+D07,Smart Contract Analysis,Analyzes contract code for vulnerabilities/risks.,Documented static/dynamic analysis output for compliance use.,General audit firm content only = partial
+D08,Graph Neural Networks,Uses GNN models in production analytics.,Vendor whitepaper/blog states GNN usage.,Graph features only without GNN = partial
+D09,ML/DL Techniques,Uses ML/DL models for detection/scoring.,Documented ML usage in product or whitepaper.,Rule-based only = partial
+D10,Behavioral Analytics,Profiles addresses/users by behavioral patterns.,Documented behavioral profiles/clusters in product.,Generic anomaly detection only = partial
+D11,Travel Rule Support,Implements FATF Recommendation 16 originator/beneficiary exchange.,Documented Travel Rule protocol integration (TRUST/TRISA/Notabene/etc).,Partial integration to one network only = partial
+D12,KYC Integration,Identity verification integrated into compliance workflow.,Documented KYC vendor integration or own KYC pipeline.,Pure address-only platforms = no
+D13,Zero-Knowledge Proofs,Uses ZKPs for compliance verification.,Documented ZKP scheme for identity/credentials.,Research mention without product = partial
+D14,Verifiable Credentials,Uses W3C VCs / DIDs for credential issuance.,Documented DID/VC support.,Generic attestations without W3C alignment = partial
+D15,Privacy Coin Analysis,Analyzes Monero/Zcash/etc.,Documented support for privacy coins.,Tagging-only without graph analysis = partial
+D16,Mixer Detection,Detects interactions with mixing services.,Documented mixer detection rules or models.,General sanctions-list match only = partial
+D17,MEV Analysis,Detects/monitors MEV extraction patterns.,Documented MEV detection in product.,General DeFi monitoring without MEV labels = partial
+D18,Intent Recognition,Recognizes user-stated intents in intent-centric architectures.,Documented intent-protocol support.,General contract decoding without intent layer = partial
+D19,Account Abstraction Support,Handles ERC-4337 / AA wallets.,Documented AA wallet support.,EOA-only = no
+D20,Solver Monitoring,Monitors solver behavior in intent-centric systems.,Documented solver monitoring.,General DEX monitoring = partial
+D21,API Integration,Exposes a public/partner API.,Documented public/partner API.,Web UI only = no
+D22,Real-Time Alerting,Pushes alerts within seconds-to-minutes.,Documented webhook/streaming alert API.,Email-only daily digest = partial
+D23,Case Management,Workflow tooling for investigators.,Documented case-management UI/API.,Spreadsheet export only = partial
+D24,SAR Generation,Generates Suspicious Activity Reports.,Documented SAR templating/integration.,Generic report export = partial
+D25,Regulatory Reporting,Generates jurisdiction-specific regulatory reports.,Documented regulator-format export (FinCEN/MiCA/etc).,Generic CSV export only = partial

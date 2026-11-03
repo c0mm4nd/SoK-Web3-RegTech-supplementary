@@ -1,0 +1,35 @@
+URL: https://hypernative.io
+Fetched: 2026-05-24
+
+# Hypernative: Real-Time Web3 Security Platform
+
+## Core Capabilities
+
+Hypernative offers "real-time monitoring, detection, and response" for blockchain threats across 70+ chains, protecting over $100 billion in onchain assets for 250+ customers.
+
+## Key Products
+
+Platform: Detects exploits with 99.5% accuracy, identifying threats approximately two minutes before the first hack transaction occurs.
+
+Guardian: Provides "real-time transaction simulation, analysis, and enforcement" to eliminate phishing and fraud risks through proactive asset protection.
+
+Screener: Delivers "real-time address reputation across multiple chains" for pre-transaction risk identification.
+
+Wallet Protect: Alerts wallet users to malicious or risky behaviors in real time.
+
+Firewall: Implements "transaction-level policy enforcement" to block specific malicious interactions without pausing entire protocols.
+
+Sequencer/RPC Integration: Intercepts transactions before block inclusion.
+
+## Target Markets
+
+Solutions tailored for protocols, L1/L2 chains, asset managers, exchanges, financial institutions, payment providers, and wallet providers.
+
+## Performance Metrics
+
+- 100% of 2023 exploits detected by Hypernative
+- 98% of exploits detected before first hack transaction
+- <0.001% false positive rate
+- $2B+ saved to date
+
+The platform emphasizes that audits alone are insufficient - "100% of companies hacked were audited" in 2023, highlighting the necessity for continuous real-time monitoring alongside traditional security measures.

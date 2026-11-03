@@ -1,0 +1,27 @@
+URL: https://github.com/trisacrypto/trisa
+Fetched: 2026-05-24
+Status: ok
+
+--- Extracted content ---
+
+TRISA Overview (from GitHub repo README)
+
+Definition:
+"Travel Rule Information Sharing Architecture (TRISA) for Virtual Asset Service Providers"
+
+Core Purpose:
+TRISA is a gRPC implementation protocol that enables virtual asset service providers (VASPs) to exchange compliance information. The system uses protocol buffers and is built in Golang.
+
+Key Components:
+
+1. IVMS Messaging Standard - Allows VASPs to mutually describe entities involved in cryptographic transfers, including names, locations, and government identifiers.
+
+2. Protocol Features - The system handles key exchanges between peers and transfers of "secure envelopes" (encrypted protocol buffer messages).
+
+3. Global Directory Service - A companion lookup tool helping TRISA members identify peers for information exchange.
+
+Repository Structure:
+The project includes protocol definitions in the `proto` folder, reference implementations in the `pkg` folder (primarily Go), and utilities in the `lib` folder for other programming languages.
+
+Resources:
+More information is available at trisa.dev and the TRISA website (travelrule.io), with developer documentation at the testnet directory.

@@ -1,0 +1,30 @@
+Source: https://www.halborn.com/blog/post/explained-the-ronin-hack-march-2022
+Fetched: 2026-05-25
+Status: ok (Halborn security firm public blog)
+Citation: Halborn, "Explained: The Ronin Hack (March 2022)," 2022.
+
+KEY TEXT (synthesis of verbatim and near-verbatim passages from the Halborn write-up):
+
+Attack Timeline:
+- The hack occurred in March 2022 but "wasn't noticed until six days after it occurred."
+- Detection came via user report of withdrawal failure.
+
+Stolen Assets:
+- 173,600 ETH and 25.5 million USDC.
+- Total value: approximately $624 million.
+
+Validator Compromise Mechanism:
+The attack exploited the network's 5/9 multisig requirement. The attacker gained control of five validators through these means:
+- Four validators directly controlled by Sky Mavis (compromised via system breach).
+- One third-party Axie DAO validator (accessed through an expired but unrevoked allowlist).
+
+Critical Vulnerability:
+A temporary delegation granted Sky Mavis signing authority for the Axie DAO validator in November 2021 to manage transaction loads. This authorization "expired the following month, the allowlist was never revoked," enabling signature forgery.
+
+Notable Gaps:
+The analysis identifies three main failures: lack of decentralization, excessive permissions that persisted after intended termination, and absent monitoring systems.
+
+IMPLICATIONS FOR E3 CASE CODING:
+- Reinforces that no real-time monitoring intercepted the bridge drain — the six-day detection lag is canonical evidence of an Ex-Post forensic case rather than In-Medias-Res prevention.
+- Validator-key compromise on a bridge sits squarely in the Web3 paradigm row "Smart contract restrictions, protocol-level compliance, limited retroactive control."
+- Lazarus attribution and Tornado Cash laundering are not in this specific Halborn page (cross-reference ofac_lazarus_ronin_apr2022.txt and merkle_science_ronin_analysis.txt for those facts).

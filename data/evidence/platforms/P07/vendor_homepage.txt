@@ -1,0 +1,3 @@
+URL: https://coinfirm.com
+Fetched: 2026-05-24
+Status: REDIRECT - 301 to https://lukka.tech/ (Coinfirm was acquired by Lukka). Original Coinfirm site no longer serves content. Lukka now focused on crypto data/accounting rather than AML platform.

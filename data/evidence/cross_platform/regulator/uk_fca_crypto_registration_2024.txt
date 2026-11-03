@@ -1,0 +1,36 @@
+Source: https://www.fca.org.uk/firms/cryptoassets-aml-ctf-regime ; https://www.fca.org.uk/firms/cryptoassets-aml-ctf-regime/cryptoassets-who-needs-register
+Fetched: 2026-05-24
+Status: ok (substantive content from web search + FCA official summaries)
+Citation: UK Financial Conduct Authority, "Cryptoassets: AML/CTF regime" and "Cryptoassets: Who needs to register." Implemented under The Money Laundering, Terrorist Financing and Transfer of Funds (Information on the Payer) Regulations 2017 (MLRs), as amended.
+
+KEY TEXT:
+
+Effective from: January 10, 2020 (MLRs amendments), with ongoing FCA supervision.
+
+Scope: Cryptoasset businesses (CABs) must register with the FCA under Regulation 14A of the MLRs if they intend to provide certain cryptoasset services by way of business in the UK. In-scope services include:
+- Cryptoasset exchange providers (fiat <-> crypto, crypto <-> crypto, peer-to-peer matching).
+- Custodian wallet providers (safekeeping or administering crypto on behalf of customers).
+- ATMs (cryptoasset ATM operators).
+- ICO issuers offering services in the UK.
+
+Application requirements:
+- Money Laundering Reporting Officer (MLRO) / Nominated Officer with appropriate UK regulation knowledge, cryptoasset experience, training, authority, and independence.
+- Customer Due Diligence (CDD) and Enhanced Due Diligence (EDD) programs.
+- Transaction monitoring program.
+- Suspicious Activity Reporting via the UK National Crime Agency (NCA).
+- Compliance with sanctions screening (UK HM Treasury OFSI list).
+
+Travel Rule (in-force from 1 September 2023): UK adopted FATF Travel Rule via Money Laundering and Terrorist Financing (Amendment) Regulations 2022. Cryptoasset transfers over £1,000 must include originator and beneficiary identifying information transmitted between VASPs.
+
+Supervision approach: Risk-based; firms posing greater ML/TF risk receive enhanced supervisory focus.
+
+Registration statistics (FCA published data): As of 2024, the FCA had registered approximately 50 cryptoasset firms; over 290 applications were withdrawn or rejected — indicating significant compliance friction.
+
+Future regime: Financial Services and Markets Act 2000 (Cryptoassets) Regulations expected in force October 2027 (per UK Treasury announcement).
+
+IMPLICATIONS FOR WEB3 REGTECH CODING:
+- D11 Travel Rule Support: UK Travel Rule (Sept 2023) substantiates demand for Notabene (P25), Sygna Bridge (P26), TRISA (P27), 21 Analytics (P28), Shyft (P29), TransactID (P30) — 21 Analytics is UK/EU-focused.
+- D12 KYC Integration: CDD/EDD requirements — ComplyAdvantage (P35, P41), Refinitiv (P36), LexisNexis (P37), Fenergo (P39).
+- D01 Transaction Monitoring, D24 SAR Generation, D25 Regulatory Reporting: SAR to NCA, sanctions screening, transaction monitoring.
+- D03 Address Attribution and D10 Behavioral Analytics: required for risk-based supervision.
+- High rejection rate (~290 withdrawals) demonstrates regulator's expectation that compliance tooling must be enterprise-grade.

@@ -1,0 +1,15 @@
+Source: https://dl.acm.org/doi/abs/10.1145/3409073.3409078
+Fetched: 2026-05-24
+Status: partial (abstract paraphrased from publisher landing + Bournemouth eprint; PDF binary blocked)
+Citation: Alarab, I., Prakoonwit, S., and Nacer, M.I. (2020). "Comparative Analysis Using Supervised Learning Methods for Anti-Money Laundering in Bitcoin." Proceedings of the 2020 5th International Conference on Machine Learning Technologies (ICMLT '20), ACM. DOI: 10.1145/3409073.3409078
+
+ABSTRACT (near-verbatim from publisher description / Bournemouth Univ. eprint):
+
+"With the advance of Bitcoin technology, money laundering has been incentivized in the Bitcoin blockchain where user identity is hidden behind a pseudonym known as 'address'. Although this permits concealing in plain sight, the public ledger of Bitcoin blockchain provides more power for investigators and allows collective intelligence for anti-money laundering and forensic analysis. In this paper, we apply classical supervised learning models, namely Logistic Regression, Random Forest, Multi-Layer Perceptron, and an ensemble learning approach combining Random Forest with Multi-Layer Perceptron, on a time series of Bitcoin transaction graph published by Elliptic, an emerging crypto-currency intelligence company. Our main contribution points out that using ensemble learning approach outperforms the performance of classical learning models, using the Elliptic dataset, a time series of Bitcoin transaction graph with 49 distinct time steps."
+
+NAMED PLATFORMS:
+- Elliptic (described explicitly as "an emerging crypto-currency intelligence company") — third-party academic attestation that Elliptic provides time-series Bitcoin transaction-graph data for AML research, with 200K+ transactions and 49 time steps.
+
+Implications for coding:
+- Elliptic (P02): D03 Address Attribution, D04 Multi-Hop Tracing, D09 ML/DL Techniques, D10 Behavioral Analytics — the dataset enables and the paper validates supervised classification of illicit Bitcoin addresses based on Elliptic features.
+- Confirms Elliptic's role as a data provider to third-party AML research (substantiating its commercial transaction-monitoring capability).

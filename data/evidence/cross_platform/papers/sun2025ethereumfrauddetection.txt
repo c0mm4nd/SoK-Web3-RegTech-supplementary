@@ -1,0 +1,16 @@
+Source: https://arxiv.org/abs/2409.07494 ; published Information Fusion 2025.
+Fetched: 2026-05-24
+Status: ok (abstract via arXiv)
+Citation: Sun, J., Jia, Y., Wang, Y., Liu, Y., Sheng, Z., Tian, Y. (2025). "Ethereum Fraud Detection via Joint Transaction Language Model and Graph Representation Learning." Information Fusion, Vol. 120 (Aug 2025).
+
+ABSTRACT (verbatim from arXiv 2409.07494):
+
+"Ethereum faces growing fraud threats. Current fraud detection methods, whether employing graph neural networks or sequence models, fail to consider the semantic information and similarity patterns within transactions. Moreover, these approaches do not leverage the potential synergistic benefits of combining both types of models. To address these challenges, we propose TLMG4Eth that combines a transaction language model with graph-based methods to capture semantic, similarity, and structural features of transaction data in Ethereum. We first propose a transaction language model that converts numerical transaction data into meaningful transaction sentences, enabling the model to learn explicit transaction semantics. Then, we propose a transaction attribute similarity graph to learn transaction similarity information, a function call graph to learn account interaction information. We employ a multi-head attention network for fusing the above embeddings, and finally, we use a joint training method for the multi-graph representation learning method and the transaction language model to obtain the final node embeddings."
+
+NAMED PLATFORMS:
+- No commercial compliance vendor named explicitly in abstract.
+
+Implications for coding:
+- D07 Smart Contract Analysis: function-call-graph analysis substantiates D07 for Ethereum analytics — relevant to Dedaub (P15), AnChain.AI (P20), Forta (P12), Hypernative (P14), Bitquery (P21), Covalent (P22), Elementus (P23).
+- D08 Graph Neural Networks and D09 ML/DL Techniques: joint LLM+graph methodology — represents the leading edge of fraud detection methods that vendors are operationalizing.
+- D03 Address Attribution: account-interaction-graph approach for entity identification on Ethereum — supports Arkham (P19), Nansen (P18), Elementus (P23).

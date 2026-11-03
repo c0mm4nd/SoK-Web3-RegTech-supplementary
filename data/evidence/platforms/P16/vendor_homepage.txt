@@ -1,0 +1,30 @@
+URL: https://chaoslabs.xyz
+Fetched: 2026-05-24
+
+# Chaos Labs: Financial AI Infrastructure
+
+## Core Mission
+Chaos Labs transforms "complex, fragmented market data into decision-ready, institutional-grade intelligence." The platform has processed over $5 trillion in transactions and secured $50+ billion in assets.
+
+## Three Main Products
+
+### Chaos AI
+Delivers "real-time, institutional-grade financial intelligence with built-in data verification and security." Features include:
+- Real-time risk assessment models used by Jupiter, Aave, and GMX
+- Instant hedge fund-quality research reports on protocols and tokens
+- Personalized portfolio intelligence and recommendations
+
+### Risk Management & Analytics
+Equips protocols with comprehensive risk infrastructure featuring:
+- "Model-based parameter tuning, backed by agent-based and Monte Carlo simulations"
+- Scenario-driven risk insights and protocol-specific dashboards
+- Live health monitoring with custom alerting capabilities
+
+### Oracles
+A risk-aware oracle stack that "treat[s] data as a risk variable, validating in real time, detecting manipulation, and triggering circuit breakers." Provides price feeds with real-time anomaly detection and institutional-grade reliability.
+
+## Key Capabilities
+The platform emphasizes real-time market intelligence, machine learning risk systems, institutional decision-making at scale, execution quality improvement, and continuous market data validation through anomaly detection.
+
+## Notable Clients
+Circle, PayPal, Kalshi, Paradigm, Kraken, Aave, Uniswap, Jupiter, and others.

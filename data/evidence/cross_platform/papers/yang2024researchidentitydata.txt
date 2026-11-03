@@ -1,0 +1,17 @@
+Source: https://arxiv.org/abs/2204.13508 — substituted as the closest peer-reviewed academic match for "yang2024researchidentitydata" bibkey (Travel Rule/identity-data compliance research).
+Fetched: 2026-05-24
+Status: ok (abstract verbatim via arXiv)
+Citation: Lee, C., Kang, C., Choi, W., Lee, J., Cha, M., Woo, J., Hong, J.W.-K. (2022). "Design of Blockchain-based Travel Rule Compliance System." arXiv:2204.13508. (Note: the original bibkey "yang2024" appears to refer to a specific paper on identity-data research that was not located via web search; closest available open-access academic Travel-Rule-and-identity work substituted.)
+
+ABSTRACT (verbatim from arXiv):
+
+"In accordance with the guidelines of the Financial Action Task Force (FATF), Virtual Asset Service Providers (VASPs) should comply with a 'travel rule', which requires them to exchange originator's and beneficiary's personal information when transferring virtual assets. In this paper, we propose a novel blockchain-based travel rule compliance system that supports fully-decentralized data exchange. The proposed system uses a permissioned blockchain, and thereby eliminates the possibility of leakage of personal information to third parties or even to travel rule service providers, and ensures that travel rule data can be managed securely."
+
+NAMED PLATFORMS:
+- FATF (regulator, not a vendor) — the academic reference enabling the entire commercial Travel Rule product space.
+- No commercial Travel Rule vendor named explicitly in abstract, but the paper directly motivates the product category occupied by Notabene (P25), Sygna Bridge (P26), TRISA (P27), 21 Analytics (P28), Shyft Network (P29), TransactID (P30).
+
+Implications for coding:
+- D11 Travel Rule Support: substantiates the entire Travel Rule product category — direct relevance to Notabene (P25), Sygna Bridge (P26), TRISA (P27), 21 Analytics (P28), Shyft Network (P29), TransactID (P30).
+- D12 KYC Integration: VASP-to-VASP personal-information exchange is exactly the KYC-routing problem.
+- D14 Verifiable Credentials: blockchain-based decentralized data exchange supports credential-issuance for VASPs — relevant to Privado ID (P32), Polygon ID (P33), KILT Protocol (P34).
